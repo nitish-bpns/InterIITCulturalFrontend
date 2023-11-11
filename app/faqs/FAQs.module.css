@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+.faq-section {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.faq-heading {
+	font-size: 4rem;
+	font-family: "Cookie", cursive;
+	padding: 30px 0;
+	color: #000;
+}
+
+.faq-wrapper {
+	width: 80%;
+	list-style: none;
+}
+
+.ques-wrapper {
+	padding: 25px;
+	margin-bottom: 40px;
+	background-color: #f0d8c0c9;
+	border-radius: 10px;
+}
+
+.ques {
+	font-size: 2.5rem;
+	color: #000;
+	cursor: pointer;
+}
+
+.ans {
+	font-size: 1.8rem;
+	margin: 5px 0;
+	color: #000;
+}
