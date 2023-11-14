@@ -26,6 +26,8 @@ const data = {
       { name: "Head 1", image: profile },
       { name: "Head 1", image: profile },
       { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
     ],
   },
   tech: {
@@ -44,6 +46,8 @@ const data = {
       { name: "Head 1", image: profile },
       { name: "Head 1", image: profile },
       { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
     ],
   },
   "media-publicity": {
@@ -53,8 +57,11 @@ const data = {
       { name: "Coordinator 3", image: profile },
       { name: "Coordinator 3", image: profile },
       { name: "Coordinator 3", image: profile },
+      
     ],
     heads: [
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
       { name: "Head 1", image: profile },
       { name: "Head 1", image: profile },
       { name: "Head 1", image: profile },
@@ -73,6 +80,8 @@ const data = {
       { name: "Coordinator 4", image: profile },
     ],
     heads: [
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
       { name: "Head 1", image: profile },
       { name: "Head 1", image: profile },
       { name: "Head 1", image: profile },

@@ -1,51 +1,38 @@
+/* team.module.css */
+
 .organising-team-container {
-    text-align: center;
-  }
-  
-  .organising-team-heading {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .team-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
-  
+  text-align: center;
+  padding: 20px;
+  font-size: 1em;
+}
+
+.organising-team-heading {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.team-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s; /* Add transition for smooth hover effect */
+  flex: 0 0 calc(50% - 10px); /* Two items per row with 10px gap */
+}
+
+.team-item:hover {
+  transform: scale(1.1); /* Enlarge on hover */
+}
+
+/* Responsive layout for small screens (mobile) */
+@media only screen and (max-width: 767px) {
   .team-item {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-    transition: transform 0.3s; /* Add transition for smooth hover effect */
+    flex: 0 0 calc(100% - 10px); /* One item per row with 10px gap on mobile */
   }
-  
-  .team-item:hover {
-    transform: scale(1.1); /* Enlarge on hover */
-  }
-  
-  /* Responsive layout for small screens (mobile) */
-  @media only screen and (max-width: 767px) {
-    .team-container {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  
-  @media only screen and (max-width: 767px) {
-    .imageGrid {
-      grid-template-columns: repeat(2, 1fr); /* 2 images in each row for mobile */
-    }
-  
-    .headImage {
-      width: 50%; /* Make head images smaller on mobile */
-    }
-  
-    /* Display 3 heads in each row for mobile */
-    @media only screen and (max-width: 479px) {
-      .imageGrid {
-        grid-template-columns: repeat(3, 1fr);
-      }
-    }
-  }
+}
