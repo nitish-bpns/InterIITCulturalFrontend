@@ -3,13 +3,11 @@ import { Satisfy } from "next/font/google";
 
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
-export default function Events() {
+export default function Sercices() {
   return (
     <main className={satisfy.className}>
       <section className={Styles["main"]}>
-        <div>
-          <h1 className={Styles["heading"]}>Events</h1>
-        </div>
+        <h1 className={Styles["heading"]}>Sercices</h1>
       </section>
     </main>
   );

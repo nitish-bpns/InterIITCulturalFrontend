@@ -3,13 +3,11 @@ import { Satisfy } from "next/font/google";
 
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
-export default function CampusMap() {
+export default function SignIn() {
   return (
     <main className={satisfy.className}>
       <section className={Styles["main"]}>
-        <div>
-          <h1 className={Styles["heading"]}>Campus Map</h1>
-        </div>
+        <h1 className={Styles["heading"]}>Sign In</h1>
       </section>
     </main>
   );

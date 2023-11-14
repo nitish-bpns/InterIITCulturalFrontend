@@ -8,11 +8,9 @@ export default function Home() {
   return (
     <main className={satisfy.className}>
       <section className={Styles["main"]}>
-        <div>
-          <h1 className={Styles["heading"]}>
-            Welcome to Inter IIT Cultural Meet 6.0 Website
-          </h1>
-        </div>
+        <h1 className={Styles["heading"]}>
+          Welcome to Inter IIT Cultural Meet 6.0 Website
+        </h1>
         <Link href="/events">Events</Link>
         <Link href="/campus-map">Campus Map</Link>
         <Link href="/leaderboard">Leaderboard</Link>
