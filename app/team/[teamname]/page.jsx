@@ -3,39 +3,95 @@ import React from "react";
 import Image from "next/image";
 import localFont from "next/font/local";
 import styles from "./core.module.css"; // Import your module CSS file for styling
-import logoInterIIT from "../../../public/assets/images/logoblack.png";
-import logoIITKGP from "../../../public/assets/images/IIT_KGPLogo.png";
 import profile from "../../../public/assets/images/profile.png";
 
 const myFont = localFont({
   src: "../../../public/assets/fonts/Dreaming.woff2",
 });
 
-const TeamName = ({params}) => {
-  // Dummy data for coordinators and heads
-  const coordinators = [
-    { name: "Coordinator 1", image: profile },
-    { name: "Coordinator 2", image: profile },
-    { name: "Coordinator 3", image: profile },
-    { name: "Coordinator 4", image: profile },
-    // Add more coordinators as needed
-  ];
+const data = {
+  "core-ops": {
+    title: "Core Operations",
+    coordinators: [
+      { name: "Coordinator 1", image: profile },
+      { name: "Coordinator 1", image: profile },
+      { name: "Coordinator 1", image: profile },
+      { name: "Coordinator 1", image: profile },
+    ],
+    heads: [
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+    ],
+  },
+  tech: {
+    title: "Tech Team",
+    coordinators: [
+      { name: "Coordinator 2", image: profile },
+      { name: "Coordinator 2", image: profile },
+      { name: "Coordinator 2", image: profile },
+      { name: "Coordinator 2", image: profile },
+    ],
+    heads: [
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+    ],
+  },
+  "media-publicity": {
+    title: "Media and Publicity",
+    coordinators: [
+      { name: "Coordinator 3", image: profile },
+      { name: "Coordinator 3", image: profile },
+      { name: "Coordinator 3", image: profile },
+      { name: "Coordinator 3", image: profile },
+    ],
+    heads: [
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+    ],
+  },
+  events: {
+    title: "Events",
+    coordinators: [
+      { name: "Coordinator 4", image: profile },
+      { name: "Coordinator 4", image: profile },
+      { name: "Coordinator 4", image: profile },
+      { name: "Coordinator 4", image: profile },
+    ],
+    heads: [
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile },
+    ],
+  },
+};
 
-  const heads = [
-    { name: "Head 1", image: profile },
-    { name: "Head 2", image: profile },
-    { name: "Head 3", image: profile },
-    { name: "Head 3", image: profile },
-    { name: "Head 3", image: profile },
-    { name: "Head 3", image: profile },
-    { name: "Head 3", image: profile },
-    { name: "Head 3", image: profile },
-    { name: "Head 3", image: profile },
-    { name: "Head 3", image: profile },
-    { name: "Head 3", image: profile },
-    { name: "Head 3", image: profile },
-    // Add more heads as needed
-  ];
+const TeamName = ({ params }) => {
+  const teamname = params.teamname;
+  if (!data[teamname]) {
+    return <h1>404</h1>;
+  }
+
+  const coordinators = data[teamname].coordinators;
+  const heads = data[teamname].heads;
 
   return (
     <div className={styles.coreOperationsPage}>
@@ -52,7 +108,9 @@ const TeamName = ({params}) => {
 
       {/* Heading */}
       <h1 className={myFont.className}>
-        <div className={styles.heading}>Core Operations Coordinators</div>
+        <div className={styles.heading}>
+          {data[teamname].title} Coordinators
+        </div>
       </h1>
 
       {/* Grid of coordinator images */}
@@ -69,7 +127,7 @@ const TeamName = ({params}) => {
 
       {/* Heading for Heads */}
       <h2 className={myFont.className}>
-        <div className={styles.heading}>Core Operations Heads</div>
+        <div className={styles.heading}>{data[teamname].title} Heads</div>
       </h2>
 
       {/* Grid of head images */}

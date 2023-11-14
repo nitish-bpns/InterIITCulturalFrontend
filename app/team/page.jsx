@@ -1,15 +1,18 @@
 // Import necessary React components
-import React from 'react';
-import Styles from './team.module.css'; // Import your CSS file for styling
+import React from "react";
+import Styles from "./team.module.css"; // Import your CSS file for styling
 
 // OrganisingTeam component
 const OrganisingTeam = () => {
   // Dummy data for teams
   const teams = [
-    { name: 'Core Operations', link: './team/core-ops' },
-    { name: 'Events', link: 'https://example.com/events' },
-    { name: 'Media and Publicity', link: 'https://example.com/media-publicity' },
-    { name: 'Tech Team', link: './team/tech' },
+    { name: "Core Operations", link: "./team/core-ops" },
+    { name: "Events", link: "./team/events" },
+    {
+      name: "Media and Publicity",
+      link: "./team/media-publicity",
+    },
+    { name: "Tech Team", link: "./team/tech" },
   ];
 
   return (
@@ -18,7 +21,7 @@ const OrganisingTeam = () => {
       {/* Display on computers */}
       <div className={Styles["team-container"]}>
         {teams.map((team, index) => (
-          <a key={index} href={team.link} target="_blank" rel="noopener noreferrer" className={Styles["team-item"]}>
+          <a key={index} href={team.link} className={Styles["team-item"]}>
             <h2>{team.name}</h2>
           </a>
         ))}
@@ -29,7 +32,7 @@ const OrganisingTeam = () => {
 
 // App component
 const App = () => {
-  return (  
+  return (
     <div>
       {/* Render OrganisingTeam component */}
       <OrganisingTeam />
