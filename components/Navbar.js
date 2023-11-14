@@ -1,10 +1,7 @@
-"use client";
-
-import Styles from "../styles/Navbar.module.css";
 import Link from "next/link";
 import localFont from "next/font/local";
-import { useState, useEffect } from "react";
 import Image from "next/image";
+import Styles from "./Navbar.module.css";
 import logoInterIIT from "../public/assets/images/logoblack.png";
 import logoIITKGP from "../public/assets/images/IIT_KGPLogo.png";
 
