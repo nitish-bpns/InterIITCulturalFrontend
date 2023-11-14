@@ -6,10 +6,10 @@ import Styles from './team.module.css'; // Import your CSS file for styling
 const OrganisingTeam = () => {
   // Dummy data for teams
   const teams = [
-    { name: 'Core Operations', link: 'https://example.com/core-operations' },
+    { name: 'Core Operations', link: './team/core-ops' },
     { name: 'Events', link: 'https://example.com/events' },
     { name: 'Media and Publicity', link: 'https://example.com/media-publicity' },
-    { name: 'Tech Team', link: 'https://example.com/tech-team' },
+    { name: 'Tech Team', link: './team/tech' },
   ];
 
   return (

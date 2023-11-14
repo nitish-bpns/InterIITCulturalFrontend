@@ -1,0 +1,105 @@
+/* styles/core.module.css */
+.coreOperationsPage {
+  text-align: center;
+  padding: 20px;
+}
+
+.topLeftIcons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.topLeftIcons img {
+  width: 40px; /* Fixed width for the top icons */
+  height: 40px; /* Fixed height for the top icons */
+  border-radius: 50%; /* Make top icons rounded */
+}
+
+.topRightIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.topRightIcon img {
+  width: 40px; /* Fixed width for the top icon */
+  height: 40px; /* Fixed height for the top icon */
+  border-radius: 50%; /* Make top icon rounded */
+}
+
+.imageGrid,
+.imageGridHeads {
+  margin: auto;
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr); /* 4 images in each row for computer */
+  gap: 20px; /* Adjust the gap between images */
+  margin-top: 40px; /* Increase the top margin */
+  margin-bottom: 40px;
+  justify-items: center; /* Align images to the center with space around them */
+}
+
+.coordinatorImage,
+.headImage {
+  width: 100px; /* Fixed width for both coordinator and head images */
+  height: 100px; /* Fixed height for both coordinator and head images */
+  border-radius: 50%; /* Display images in a circle */
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center;
+  margin-left: 60px; */
+}
+
+/* Larger size for coordinator images */
+.coordinatorImage {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px; /* Add margin-bottom for space between coordinators and heads */
+  /* align-items: center; */
+}
+
+/* Heading styles */
+.heading {
+  margin: 20px;
+  size: 2em;
+}
+
+.headingHeads {
+  margin-top: 40px;
+  size: 2em;
+}
+
+/* Responsive layout for small screens (mobile) */
+@media only screen and (max-width: 767px) {
+  .imageGrid {
+    grid-template-columns: repeat(2, 1fr); /* 2 images in each row for mobile */
+    gap: 20px; /* Adjust the gap between images */
+  }
+
+  /* Smaller size for head images on mobile */
+  .headImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .imageGridHeads{
+    grid-template-columns: repeat(3, 1fr); /* 2 images in each row for mobile */
+    gap: 20px; /* Adjust the gap between images */
+  }
+
+  /* Display 3 heads in each row for mobile */
+  @media only screen and (max-width: 479px) {
+    .imageGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+.heading {
+  margin-bottom: 10px; /* Add margin at the bottom of h1 */
+  font-size: 2em; /* Increase the font size for h1 */
+}
