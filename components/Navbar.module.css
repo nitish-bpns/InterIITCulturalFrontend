@@ -28,3 +28,11 @@
   width: auto;
   margin: 20px 14px;
 }
+
+@media (max-width: 1000px) {
+  .navbar-logos img {
+    height: 30px;
+    width: auto;
+    margin: 7px;
+  }
+}

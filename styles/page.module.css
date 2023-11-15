@@ -16,3 +16,9 @@
   word-wrap: break-word;
   margin: 20px;
 }
+
+@media (max-width: 1000px) {
+  .heading {
+    font-size: 60px;
+  }
+}
