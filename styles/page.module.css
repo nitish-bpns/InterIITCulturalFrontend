@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
 .main {
   display: flex;
   flex-direction: column;
@@ -7,7 +9,10 @@
 }
 
 .heading {
-  font-size: 3rem;
-  font-weight: 700;
-  text-align: center;
+  color: #603d30;
+  font-size: 100px;
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin: 20px;
 }

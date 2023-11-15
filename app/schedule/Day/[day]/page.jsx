@@ -13,6 +13,14 @@ export default function Page({ params }) {
       <section className={Styles["main"]}>
         <BackButton href={`/schedule`} />
         <h1 className={Styles["heading"]}>Day {day}</h1>
+        <div
+          style={{
+            width: "90%",
+            minHeight: "80vh",
+            borderRadius: 15,
+            background: "rgba(0, 0, 0, 0.55)",
+          }}
+        ></div>
       </section>
     </main>
   );

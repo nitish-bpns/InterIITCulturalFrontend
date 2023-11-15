@@ -1,0 +1,17 @@
+.outer-box {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+}
+
+.inner-box {
+  border: 1px solid #000000;
+  padding: 10px;
+  min-width: 600px;
+  font-size: 2rem;
+  text-align: center;
+}
