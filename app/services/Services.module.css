@@ -1,0 +1,45 @@
+.plank-container {
+	position: relative;
+}
+
+.plank-container img {
+	position: relative;
+	left: 50%;
+	width: 60%;
+	top: -30px;
+	height: auto;
+	transform: translate(-50%, 0%);
+}
+
+.services {
+	position: absolute;
+	display: inline;
+	font-size: 6rem;
+	font-weight: 300;
+	color: #fff;
+	top: 24.5%;
+	left: 44%;
+	/* transform: translate(-51%, -26.5%); */
+}
+
+.food {
+	position: absolute;
+	display: inline;
+	font-size: 4.7rem;
+	font-weight: 300;
+	color: #fff;
+	top: 73%;
+	left: 29%;
+	/* transform: translate(-50%, 0%); */
+}
+
+.cycles {
+	position: absolute;
+	display: inline;
+	font-size: 4.7rem;
+	font-weight: 300;
+	color: #fff;
+	top: 73%;
+	left: 64%;
+	/* transform: translate(-50%, 0%); */
+}

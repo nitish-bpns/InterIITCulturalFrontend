@@ -1,14 +1,21 @@
-import Styles from "../../styles/page.module.css";
-import { Satisfy } from "next/font/google";
+import Styles from "./Services.module.css";
+import { Cookie } from "next/font/google";
+import Image from "next/image";
+import Plank from "../../public/assets/images/plank_services.png";
 
-const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
+const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
 export default function Sercices() {
-  return (
-    <main className={satisfy.className}>
-      <section className={Styles["main"]}>
-        <h1 className={Styles["heading"]}>Sercices</h1>
-      </section>
-    </main>
-  );
+	return (
+		<main className={cookie.className}>
+			<section className={Styles["main"]}>
+				<div className={Styles["plank-container"]}>
+					<Image src={Plank} alt="Services" />
+					<h1 className={Styles["services"]}>Services</h1>
+					<h2 className={Styles["food"]}>Food</h2>
+					<h2 className={Styles["cycles"]}>Cycles</h2>
+				</div>
+			</section>
+		</main>
+	);
 }
