@@ -1,12 +1,9 @@
 import Styles from "../../styles/page.module.css";
 import { Satisfy } from "next/font/google";
 import PageStyles from "./Leaderboard.module.css";
-import localFont from "next/font/local";
+import LeaderboardTable from "@/components/LeaderboardTable";
 
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
-const myFont = localFont({ src: "../../public/assets/fonts/Dreaming.woff2" });
-
-const colWidth = [27, 53, 20];
 
 const data = [
   {
@@ -36,72 +33,49 @@ const data = [
   },
 ];
 
+const events = [
+  {
+    name: "Event 1",
+    value: 1,
+  },
+  {
+    name: "Event 2",
+    value: 2,
+  },
+  {
+    name: "Event 3",
+    value: 3,
+  },
+  {
+    name: "Event 4",
+    value: 4,
+  },
+  {
+    name: "Event 5",
+    value: 5,
+  },
+];
+
 export default function Leaderboard() {
   return (
     <main className={satisfy.className}>
       <section className={Styles["main"]}>
         <h1 className={Styles["heading"]}>Leaderboard</h1>
-        <div className={PageStyles["table"]}>
-          <div
-            className={PageStyles["tr"]}
-            style={{
-              background: "#FCDDBB",
-            }}
-          >
-            <div
-              style={{
-                width: colWidth[0] + "%",
-              }}
-              className={PageStyles["th"] + " " + myFont.className}
+        <select className={PageStyles["select"]}>
+          <option value="overall" className={PageStyles["option"]}>
+            Overall
+          </option>
+          {events.map((value, index) => (
+            <option
+              value={value.value}
+              className={PageStyles["option"]}
+              key={index}
             >
-              Position
-            </div>
-            <div
-              style={{
-                width: colWidth[1] + "%",
-              }}
-              className={PageStyles["th"] + " " + myFont.className}
-            >
-              College Name
-            </div>
-            <div
-              style={{
-                width: colWidth[2] + "%",
-              }}
-              className={PageStyles["th"] + " " + myFont.className}
-            >
-              Points
-            </div>
-          </div>
-          {data.map((value, index) => (
-            <div className={PageStyles["tr"]} key={index}>
-              <div
-                style={{
-                  width: colWidth[0] + "%",
-                }}
-                className={PageStyles["td"]}
-              >
-                {value.position}
-              </div>
-              <div
-                style={{
-                  width: colWidth[1] + "%",
-                }}
-                className={PageStyles["td"]}
-              >
-                {value.collegeName}
-              </div>
-              <div
-                style={{
-                  width: colWidth[2] + "%",
-                }}
-                className={PageStyles["td"]}
-              >
-                {value.points}
-              </div>
-            </div>
+              {value.name}
+            </option>
           ))}
-        </div>
+        </select>
+        <LeaderboardTable data={data} />
       </section>
     </main>
   );
