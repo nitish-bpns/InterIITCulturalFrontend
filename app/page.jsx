@@ -96,7 +96,15 @@ export default function Home() {
               <hr className={PageStyles["hr"]}></hr>
             </div>
           </div>
-          See more...
+          <Link
+            href="/events"
+            style={{
+              color: "black",
+              textDecoration: "none",
+            }}
+          >
+            See more...
+          </Link>
         </div>
         <h1 className={Styles["heading"]}>360 Degrees View of Campus</h1>
         <div
@@ -107,17 +115,8 @@ export default function Home() {
             background: "rgba(0, 0, 0, 0.55)",
           }}
         ></div>
-        <h1 className={Styles["heading"]}>Leaderboard</h1>
+        <h1 className={Styles["heading"]}>Overall Leaderboard</h1>
         <LeaderboardTable data={data} />
-        <Link href="/events">Events</Link>
-        <Link href="/campus-map">Campus Map</Link>
-        <Link href="/leaderboard">Leaderboard</Link>
-        <Link href="/schedule">Schedule</Link>
-        <Link href="/signin">Sign In</Link>
-        <Link href="/faqs">FAQs</Link>
-        <Link href="/team">Team</Link>
-        <Link href="/services">Services</Link>
-        <a href="#">Sponsors</a>
       </section>
     </main>
   );

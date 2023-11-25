@@ -1,0 +1,41 @@
+.footer {
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 150px;
+  width: auto;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.5rem;
+  margin: 0px 25px;
+  text-align: center;
+}
+
+.footer-socials a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.5rem;
+  margin: 0px 20px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .navbar-logos img {
+    height: 30px;
+  }
+}
