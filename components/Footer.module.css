@@ -35,7 +35,21 @@
 }
 
 @media (max-width: 1000px) {
-  .navbar-logos img {
-    height: 30px;
+  .footer-logo {
+    height: 100px;
+    width: auto;
+  }
+  .footer-nav {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0px;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+    margin: 0px 10px;
+  }
+  .footer-socials a {
+    font-size: 1.5rem;
+    margin: 0px 10px;
   }
 }
