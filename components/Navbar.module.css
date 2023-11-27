@@ -34,8 +34,7 @@
 
 @media (max-width: 1000px) {
   .navbar-logo {
-    height: 30px;
-    width: auto;
+    height: 50px;
     margin: 7px;
   }
 }

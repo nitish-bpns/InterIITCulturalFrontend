@@ -3,9 +3,9 @@ import Styles from "../styles/page.module.css";
 import { Satisfy } from "next/font/google";
 import LeaderboardTable from "@/components/LeaderboardTable";
 
-import DancePic from "../public/assets/images/dance.jpeg";
-import MusicPic from "../public/assets/images/music.png";
-import SpeakingArtsPic from "../public/assets/images/sp.png";
+import DancePic from "../public/assets/images/home/dance.jpeg";
+import MusicPic from "../public/assets/images/home/music.png";
+import SpeakingArtsPic from "../public/assets/images/home/sp.png";
 import localFont from "next/font/local";
 import PageStyles from "./Home.module.css";
 
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
             <div
               style={{
-                background: `url(${SpeakingArtsPic.src}) 0% / auto 100%`,
+                background: `url(${SpeakingArtsPic.src}) 5% / auto 100%`,
               }}
               className={myFont.className + " " + PageStyles["Event-Card"]}
             >
