@@ -1,17 +1,91 @@
-.outer-box {
-  width: 90%;
+.plank-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+  margin: 0 auto;
 }
 
-.inner-box {
-  border: 1px solid #000000;
-  padding: 10px;
-  min-width: 600px;
-  font-size: 2rem;
-  text-align: center;
+.main,
+.column1,
+.column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* text-align: center; */
+/* transition: all 0.3s ease-in-out; */
+
+.services img,
+.food img,
+.cycles img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main {
+  font-size: 3vw;
+  transform: translate(0%, -15%);
+  width: 40%;
+}
+
+.column1,
+.column2 {
+  width: 30%;
+  z-index: 2;
+}
+
+.column1 {
+  font-size: 2.5vw;
+  transform: translate(30%, -5%);
+}
+
+.column2 {
+  font-size: 2.5vw;
+  transform: translate(-30%, -5%);
+}
+
+.column1 > *:not(:first-child),
+.column2 > *:not(:first-child) {
+  transform: translate(0%, -40%);
+}
+
+.column1 > a,
+.column2 > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.column1 > a:hover,
+.column2 > a:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.column1 > *:not(:first-child):hover,
+.column2 > *:not(:first-child):hover {
+  transform: scale(1.05) translate(0%, -40%);
+}
+
+.main > img,
+.column1 > a > img,
+.column2 > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main h1,
+.column1 > a > h1,
+.column2 > a > h1 {
+  transform: translate(0%, -140%);
+  font-weight: 300;
+  color: #fff;
 }
