@@ -1,0 +1,36 @@
+.spons-wrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100vh;
+	padding: 0px 15px 30px 15px;
+}
+
+.spons-wrapper h1 {
+	font-size: 6vw;
+	font-weight: 300;
+	margin: 40px 0;
+}
+
+@media (max-width: 1000px) {
+	.spons-wrapper h1 {
+		font-size: 7.5vw;
+	}
+}
+
+.spons-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 150px;
+	max-width: 90vw;
+	margin: 0px auto;
+	place-items: center;
+}
+
+.spons-grid img {
+	width: 190px;
+	height: 190px;
+	object-fit: cover;
+	border-radius: 50%;
+}
