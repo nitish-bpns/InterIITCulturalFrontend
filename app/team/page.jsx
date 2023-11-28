@@ -1,45 +1,49 @@
-// Import necessary React components
-import React from "react";
-import Styles from "./team.module.css"; // Import your updated CSS file for styling
-import localFont from "next/font/local";
-const myFont = localFont({ src: "../../public/assets/fonts/Dreaming.woff2" });
+import Link from "next/link";
+import Image from "next/image";
+import { Satisfy } from "next/font/google";
+import Styles from "../../styles/page.module.css";
+import PageStyles from "../schedule/Schedule.module.css";
+import PageStyles2 from "./Team.module.css";
 
-// OrganisingTeam component
-const OrganisingTeam = () => {
-  // Dummy data for teams
-  const teams = [
-    { name: "Core Operations", link: "./team/core-ops" },
-    { name: "Events", link: "./team/events" },
-    {
-      name: "Media and Publicity",
-      link: "./team/media-publicity",
-    },
-    { name: "Tech Team", link: "./team/tech" },
-  ];
+import MainPlank from "../../public/assets/images/schedule_team/main.png";
+import Day0Plank from "../../public/assets/images/schedule_team/Day0.png";
+import Day1Plank from "../../public/assets/images/schedule_team/Day1.png";
+import Day2Plank from "../../public/assets/images/schedule_team/Day2.png";
+import Day3Plank from "../../public/assets/images/schedule_team/Day3.png";
 
+const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
+
+export default function Team() {
   return (
-    <div className={Styles["organising-team-container"]}>
-      <h1 className={myFont.className}> <div className={Styles["organising-team-heading"]}>Organising Team</div></h1>
-      {/* Display on computers */}
-      <div className={Styles["team-container"]}>
-        {teams.map((team, index) => (
-          <a key={index} href={team.link} className={Styles["team-item"]}>
-            <h2 className={myFont.className}>{team.name}</h2>
-          </a>
-        ))}
-      </div>
-    </div>
+    <main className={satisfy.className}>
+      <section className={Styles["main"]}>
+        <div className={PageStyles["plank-container"]}>
+          <div className={PageStyles["column1"] + " " + PageStyles2["column1"]}>
+            <Link href="/team/core-ops">
+              <Image src={Day0Plank} alt="Core Operations Team" />
+              <h1>Core Operations Team</h1>
+            </Link>
+            <Link href="/team/media-publicity">
+              <Image src={Day2Plank} alt="Media & Publicity Team" />
+              <h1>Media & Publicity Team</h1>
+            </Link>
+          </div>
+          <div className={PageStyles["main"] + " " + PageStyles2["main"]}>
+            <Image src={MainPlank} alt="Organizing Team" />
+            <h1>Organizing Team</h1>
+          </div>
+          <div className={PageStyles["column2"] + " " + PageStyles2["column2"]}>
+            <Link href="/team/events">
+              <Image src={Day1Plank} alt="Events Team" />
+              <h1>Events Team</h1>
+            </Link>
+            <Link href="/team/tech">
+              <Image src={Day3Plank} alt="Tech Team" />
+              <h1>Tech Team</h1>
+            </Link>
+          </div>
+        </div>
+      </section>
+    </main>
   );
-};
-
-// App component
-const App = () => {
-  return (
-    <div>
-      {/* Render OrganisingTeam component */}
-      <OrganisingTeam />
-    </div>
-  );
-};
-
-export default App;
+}

@@ -1,38 +1,20 @@
-/* team.module.css */
-
-.organising-team-container {
+.main {
+  font-size: 1.8vw !important;
+}
+.column1,
+.column2 {
+  font-size: 1.3vw !important;
+}
+.main h1 {
+  transform: translate(0%, -190%) !important;
+}
+.column2 > a > h1 {
+  transform: translate(0%, -210%) !important;
+  width: 90%;
   text-align: center;
-  padding: 20px;
-  font-size: 1em;
 }
-
-.organising-team-heading {
-  font-size: 2em;
-  margin-bottom: 40px;
-}
-
-.team-container {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.team-item {
-  border: 1px solid #ccc;
-  padding: 10px;
+.column1 > a > h1 {
+  transform: translate(0%, -125%) !important;
+  width: 60%;
   text-align: center;
-  transition: transform 0.3s; /* Add transition for smooth hover effect */
-  flex: 0 0 calc(50% - 20px); /* Two items per row with 10px gap */
-}
-
-.team-item:hover {
-  transform: scale(1.05); /* Enlarge on hover */
-}
-
-/* Responsive layout for small screens (mobile) */
-@media only screen and (max-width: 767px) {
-  .team-item {
-    flex: 0 0 calc(100% - 20px); /* One item per row with 10px gap on mobile */
-  }
 }
