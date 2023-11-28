@@ -19,6 +19,7 @@
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 .services img,
@@ -33,11 +34,6 @@
   font-size: 5vw;
   transform: translate(0%, -2%);
   width: 40%;
-}
-
-.services:hover {
-  transform: scale(1.05);
-  cursor: pointer;
 }
 
 .food {
