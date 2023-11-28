@@ -50,7 +50,7 @@ export default function Schedule() {
         </div>
         <div className={PageStyles["plank-container-mob"]}>
           <a className={PageStyles["main-mob"]}>
-            <Image src={MainPlank} alt="Schedule" />
+            <Image src={MainPlankMob} alt="Schedule" />
             <h1>Schedule</h1>
           </a>
           <Link href="/schedule/Day/0">

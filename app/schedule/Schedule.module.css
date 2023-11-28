@@ -90,6 +90,12 @@
   color: #fff;
 }
 
+@media screen and (max-width: 1000px) {
+  .plank-container {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .plank-container {
     display: none;

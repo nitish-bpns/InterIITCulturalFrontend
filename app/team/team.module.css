@@ -18,3 +18,29 @@
   width: 60%;
   text-align: center;
 }
+
+@media screen and (max-width: 1000px) {
+  .main h1 {
+    transform: translate(0%, -230%) !important;
+  }
+  .column2 > a > h1 {
+    transform: translate(0%, -250%) !important;
+    width: 90%;
+    text-align: center;
+  }
+  .column1 > a > h1 {
+    transform: translate(0%, -155%) !important;
+    width: 60%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .plank-container-mob > *:not(:first-child) {
+    max-height: 24vw;
+  }
+  .plank-container-mob > *:not(:first-child) > h1 {
+    transform: translate(-50%, 60%);
+    width: 100%;
+  }
+}
