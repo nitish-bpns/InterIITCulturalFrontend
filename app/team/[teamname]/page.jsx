@@ -1,95 +1,108 @@
 // pages/core-operations.js
+
 import React from "react";
 import Image from "next/image";
-import localFont from "next/font/local";
+import { FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Import the required icons
 import styles from "./core.module.css"; // Import your module CSS file for styling
 import profile from "../../../public/assets/images/profile.png";
-
+import localFont from "next/font/local";
 const myFont = localFont({
   src: "../../../public/assets/fonts/Dreaming.woff2",
 });
+
 
 const data = {
   "core-ops": {
     title: "Core Operations",
     coordinators: [
-      { name: "Coordinator 1", image: profile },
-      { name: "Coordinator 1", image: profile },
-      { name: "Coordinator 1", image: profile },
-      { name: "Coordinator 1", image: profile },
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
     ],
     heads: [
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
     ],
   },
   tech: {
     title: "Tech Team",
     coordinators: [
-      { name: "Coordinator 2", image: profile },
-      { name: "Coordinator 2", image: profile },
-      { name: "Coordinator 2", image: profile },
-      { name: "Coordinator 2", image: profile },
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
     ],
     heads: [
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
     ],
   },
   "media-publicity": {
     title: "Media and Publicity",
     coordinators: [
-      { name: "Coordinator 3", image: profile },
-      { name: "Coordinator 3", image: profile },
-      { name: "Coordinator 3", image: profile },
-      { name: "Coordinator 3", image: profile },
-      
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
     ],
     heads: [
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
     ],
-  },
-  events: {
-    title: "Events",
-    coordinators: [
-      { name: "Coordinator 4", image: profile },
-      { name: "Coordinator 4", image: profile },
-      { name: "Coordinator 4", image: profile },
-      { name: "Coordinator 4", image: profile },
-    ],
-    heads: [
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-      { name: "Head 1", image: profile },
-    ],
+    "events": {
+      title: "Media and Publicity",
+      coordinators: [
+        { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Coordinator 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      ],
+      heads: [
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+        { name: "Head 1", image: profile, fblink: "https://www.facebook.com", mail: "https://www.gmail.com", linkedin: "https://www.linkedin.com" },
+      ],
+    }
   },
 };
 
@@ -104,18 +117,6 @@ const TeamName = ({ params }) => {
 
   return (
     <div className={styles.coreOperationsPage}>
-      {/* Top left icons */}
-      {/* <div className={styles.topLeftIcons}>
-          <Image src={logoIITKGP} alt="Icon 1" />
-          <Image src={logoInterIIT} alt="Icon 2" />
-        </div> */}
-
-      {/* Top right icon */}
-      {/* <div className={styles.topRightIcon}>
-          <Image src={profile} alt="Icon 3" />
-        </div> */}
-
-      {/* Heading */}
       <h1 className={myFont.className}>
         <div className={styles.heading}>
           {data[teamname].title} Coordinators
@@ -125,12 +126,24 @@ const TeamName = ({ params }) => {
       {/* Grid of coordinator images */}
       <div className={styles.imageGrid}>
         {coordinators.map((coordinator, index) => (
-          <Image
-            key={index}
-            src={coordinator.image}
-            alt={coordinator.name}
-            className={styles.coordinatorImage}
-          />
+          <div key={index} className={styles.memberContainer}>
+            <Image
+              src={coordinator.image}
+              alt={coordinator.name}
+              className={styles.coordinatorImage}
+            />
+            <div className={styles.socialIcons}>
+              <a href={coordinator.fblink} target="_blank" rel="noopener noreferrer">
+                <FaFacebook className={styles.icon} size={30} />
+              </a>
+              <a href={coordinator.linkedin} target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className={styles.icon} size={30} />
+              </a>
+              <a href={coordinator.mail} target="_blank" rel="noopener noreferrer">
+                <FaEnvelope className={styles.icon} size={30} />
+              </a>
+            </div>
+          </div>
         ))}
       </div>
 
@@ -142,12 +155,24 @@ const TeamName = ({ params }) => {
       {/* Grid of head images */}
       <div className={styles.imageGridHeads}>
         {heads.map((head, index) => (
-          <Image
-            key={index}
-            src={head.image}
-            alt={head.name}
-            className={styles.headImage}
-          />
+          <div key={index} className={styles.memberContainer}>
+            <Image
+              src={head.image}
+              alt={head.name}
+              className={styles.headImage}
+            />
+            <div className={styles.socialIcons}>
+              <a href={head.fblink} target="_blank" rel="noopener noreferrer">
+                <FaFacebook className={styles.icon} size={25} />
+              </a>
+              <a href={head.linkedin} target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className={styles.icon} size={25} />
+              </a>
+              <a href={head.mail} target="_blank" rel="noopener noreferrer">
+                <FaEnvelope className={styles.icon} size={25} />
+              </a>
+            </div>
+          </div>
         ))}
       </div>
     </div>
