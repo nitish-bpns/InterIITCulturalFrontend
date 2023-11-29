@@ -24,6 +24,7 @@ export default function Navbar() {
           onClick={() => {
             setDropdownVisible(!dropdownVisible);
           }}
+          alt="menu button"
         />
       </div>
       <div

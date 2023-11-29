@@ -7,6 +7,7 @@ export default function BackButton({ href }) {
   return (
     <Link href={href}>
       <Image
+        alt="back button"
         src={back}
         width={50}
         height={50}
