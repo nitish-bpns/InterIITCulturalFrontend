@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Satisfy } from "next/font/google";
 import Styles from "../../styles/page.module.css";
 import PageStyles from "../schedule/Schedule.module.css";
-import PageStyles2 from "./Team.module.css";
+import PageStyles2 from "./team.module.css";
 
 import MainPlank from "../../public/assets/images/schedule_team/main.png";
 import Day0Plank from "../../public/assets/images/schedule_team/Day0.png";
