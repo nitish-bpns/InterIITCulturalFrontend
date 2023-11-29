@@ -1,7 +1,12 @@
 import Styles from "@/styles/page.module.css";
 import { Satisfy } from "next/font/google";
 import BackButton from "@/components/BackButton";
+import localFont from "next/font/local";
 import data from "../../data.json";
+
+const myFont = localFont({
+  src: "../../../../public/assets/fonts/Dreaming.woff2",
+});
 
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
@@ -27,7 +32,33 @@ export default function Event({ params }) {
     >
       <section className={Styles["main"]}>
         <BackButton href={"/events/" + genre} />
-        <h1>{data[genre].events[event]}</h1>
+        <div
+          style={{
+            position: "absolute",
+            right: "100px",
+            borderRadius: 10,
+            background: "rgba(0, 0, 0, 0.55)",
+            fontSize: "4rem",
+            padding: "1rem 2rem",
+            color: "#FCDDBB",
+          }}
+          className={myFont.className}
+        >
+          Rulebook
+        </div>
+        <div
+          style={{
+            width: "90%",
+            minHeight: "80vh",
+            borderRadius: 15,
+            background: "rgba(0, 0, 0, 0.55)",
+            marginTop: "130px",
+            color: "#FCDDBB",
+            padding: "1rem 2rem",
+          }}
+        >
+          {data[genre].events[event]}
+        </div>
       </section>
     </main>
   );
