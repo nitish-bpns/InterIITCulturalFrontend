@@ -1,0 +1,234 @@
+.heading {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.frame{
+    display: flex;
+    text-align: center;
+}
+
+.left_frame{
+    flex: 1;
+}
+
+.right_frame{
+    flex:1;
+}
+
+.culinary{
+    /* Culinary */
+
+    position: absolute;
+    width: 164px;
+    height: 52px;
+    left: 342px;
+    top: 255px;
+
+    /* font-family: 'Dreaming'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.dance{
+    /* Dance */
+
+    position: absolute;
+    width: 106px;
+    height: 52px;
+    left: 350px;
+    top: 430px;
+
+    /* font-family: 'Dreaming'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dramatics{
+    /* Dramatics */
+
+    position: absolute;
+    width: 186px;
+    height: 52px;
+    left: 324px;
+    top: 600px;
+
+    /* font-family: 'Dreaming'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.fashion{
+    /* Fashion */
+
+    position: absolute;
+    width: 142px;
+    height: 52px;
+    left: 333px;
+    top: 755px;
+
+    /* font-family: 'Dreaming'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.filmmaking{
+    /* Filmmaking */
+
+    position: absolute;
+    width: 223px;
+    height: 52px;
+    left: 310px;
+    top: 900px;
+
+    /* font-family: 'Dreaming'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.digital_arts{
+    /* Digital Arts */
+
+    position: absolute;
+    width: 217px;
+    height: 52px;
+    left: 311px;
+    top: 1058.5px;
+
+    /* font-family: 'Dreaming'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.fine_arts{
+    /* Fine Arts */
+
+    position: absolute;
+    width: 176px;
+    height: 52px;
+    left: 1000px;
+    top: 275px;
+
+    /* font-family: 'Dreaming'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.literary_arts{
+    /* Literary Arts */
+
+    position: absolute;
+    width: 246px;
+    height: 52px;
+    left: 965px;
+    top: 465px;
+
+    /* font-family: 'Dreaming'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.music{
+    /* Music */
+
+    position: absolute;
+    width: 112px;
+    height: 52px;
+    left: 1015px;
+    top: 670px;
+
+    /* font-family: 'Dreaming'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.speaking_arts{
+    /* Speaking Arts */
+
+    position: absolute;
+    width: 310px;
+    height: 52px;
+    left: 945px;
+    top: 845px;
+
+    /* font-family: 'Dreaming'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.quiz{
+    /* Quiz */
+
+    position: absolute;
+    width: 80px;
+    height: 52px;
+    left: 1018px;
+    top: 1020px;
+
+    /* font-family: 'Dreaming'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.left_image{
+    position: absolute;
+    left: 200px;
+}
