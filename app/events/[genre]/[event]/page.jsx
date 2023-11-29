@@ -1,18 +1,19 @@
 import Styles from "@/styles/page.module.css";
 import { Satisfy } from "next/font/google";
 import BackButton from "@/components/BackButton";
-import data from "../data.json";
-import Link from "next/link";
+import data from "../../data.json";
 
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
-export default function Genre({ params }) {
+export default function Event({ params }) {
   const genre = params.genre;
   if (!data[genre]) {
     return <h1>404</h1>;
   }
-
-  const events = data[genre].events;
+  const event = params.event;
+  if (!data[genre].events[event]) {
+    return <h1>404</h1>;
+  }
 
   return (
     <main
@@ -25,13 +26,8 @@ export default function Genre({ params }) {
       }}
     >
       <section className={Styles["main"]}>
-        <BackButton href={`/events`} />
-        <h1>{data[genre].properName}</h1>
-        {Object.keys(events).map((event, id) => (
-          <Link key={id} href={"/events/" + genre + "/" + event}>
-            <h2>{events[event]}</h2>
-          </Link>
-        ))}
+        <BackButton href={"/events/" + genre} />
+        <h1>{data[genre].events[event]}</h1>
       </section>
     </main>
   );

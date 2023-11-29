@@ -2,56 +2,65 @@
   "culinary": {
     "properName": "Culinary",
     "bg": "/assets/images/events/culinary.png",
-    "events": ["culinary event 1", "culinary event 2"]
+    "events": { "event1": "culinary event 1", "event2": "culinary event 2" }
   },
   "dance": {
     "properName": "Dance",
     "bg": "/assets/images/events/dance.png",
-    "events": ["dance event 1", "dance event 2"]
+    "events": { "event1": "dance event 1", "event2": "dance event 2" }
   },
   "dramatics": {
     "properName": "Dramatics",
     "bg": "/assets/images/events/dramatics.png",
-    "events": ["dramatics event 1", "dramatics event 2"]
+    "events": { "event1": "dramatics event 1", "event2": "dramatics event 2" }
   },
   "fashion": {
     "properName": "Fashion",
     "bg": "/assets/images/events/fashion.png",
-    "events": ["fashion event 1", "fashion event 2"]
+    "events": { "event1": "fashion event 1", "event2": "fashion event 2" }
   },
   "filmmaking": {
     "properName": "Filmmaking",
     "bg": "/assets/images/events/filmmaking.png",
-    "events": ["filmmaking event 1", "filmmaking event 2"]
+    "events": { "event1": "filmmaking event 1", "event2": "filmmaking event 2" }
   },
   "digital_arts": {
     "properName": "Digital Arts",
     "bg": "/assets/images/events/digital_arts.png",
-    "events": ["digital_arts event 1", "digital_arts event 2"]
+    "events": {
+      "event1": "digital_arts event 1",
+      "event2": "digital_arts event 2"
+    }
   },
   "fine_arts": {
     "properName": "Fine Arts",
     "bg": "/assets/images/events/fine_arts.png",
-    "events": ["fine_arts event 1", "fine_arts event 2"]
+    "events": { "event1": "fine_arts event 1", "event2": "fine_arts event 2" }
   },
   "literary_arts": {
     "properName": "Literary Arts",
     "bg": "/assets/images/events/literary.png",
-    "events": ["literary_arts event 1", "literary_arts event 2"]
+    "events": {
+      "event1": "literary_arts event 1",
+      "event2": "literary_arts event 2"
+    }
   },
   "music": {
     "properName": "Music",
     "bg": "/assets/images/events/music.png",
-    "events": ["music event 1", "music event 2"]
+    "events": { "event1": "music event 1", "event2": "music event 2" }
   },
   "speaking_arts": {
     "properName": "Speaking Arts",
     "bg": "/assets/images/events/speaking_arts.png",
-    "events": ["speaking_arts event 1", "speaking_arts event 2"]
+    "events": {
+      "event1": "speaking_arts event 1",
+      "event2": "speaking_arts event 2"
+    }
   },
   "quiz": {
     "properName": "Quiz",
     "bg": "/assets/images/events/quiz.png",
-    "events": ["quiz event 1", "quiz event 2"]
+    "events": { "event1": "quiz event 1", "event2": "quiz event 2" }
   }
 }
