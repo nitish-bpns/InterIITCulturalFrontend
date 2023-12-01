@@ -1,234 +1,192 @@
-.heading {
-    font-size: 3rem;
-    font-weight: 700;
-    text-align: center;
+.events-frame {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 90%;
 }
 
-.frame{
-    display: flex;
-    text-align: center;
+.left-frame {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
 }
 
-.left_frame{
-    flex: 1;
+.right-frame {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
 }
 
-.right_frame{
-    flex:1;
+.culinary,
+.dance,
+.dramatics,
+.fashion,
+.filmmaking,
+.digital-arts,
+.fine-arts,
+.literary-arts,
+.music,
+.speaking-arts,
+.quiz {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none;
+	font-size: 3vw;
 }
 
-.culinary{
-    /* Culinary */
-
-    position: absolute;
-    width: 164px;
-    height: 52px;
-    left: 342px;
-    top: 255px;
-
-    /* font-family: 'Dreaming'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 52px;
-    /* identical to box height */
-
-    color: #FFFFFF;
+.culinary img,
+.dance img,
+.dramatics img,
+.fashion img,
+.filmmaking img,
+.digital-arts img,
+.fine-arts img,
+.literary-arts img,
+.music img,
+.speaking-arts img,
+.quiz img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
 }
 
-.dance{
-    /* Dance */
-
-    position: absolute;
-    width: 106px;
-    height: 52px;
-    left: 350px;
-    top: 430px;
-
-    /* font-family: 'Dreaming'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 52px;
-    /* identical to box height */
-
-    color: #FFFFFF;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.culinary h1,
+.dance h1,
+.dramatics h1,
+.fashion h1,
+.filmmaking h1,
+.digital-arts h1,
+.fine-arts h1,
+.literary-arts h1,
+.music h1,
+.speaking-arts h1,
+.quiz h1 {
+	transform: translate(0%, -155%);
+	font-weight: 300;
+	color: #fff;
 }
 
-.dramatics{
-    /* Dramatics */
-
-    position: absolute;
-    width: 186px;
-    height: 52px;
-    left: 324px;
-    top: 600px;
-
-    /* font-family: 'Dreaming'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 52px;
-    /* identical to box height */
-
-    color: #FFFFFF;
+.culinary {
+	transform: translate(0%, -10%);
+	width: 60%;
 }
 
-.fashion{
-    /* Fashion */
-
-    position: absolute;
-    width: 142px;
-    height: 52px;
-    left: 333px;
-    top: 755px;
-
-    /* font-family: 'Dreaming'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 52px;
-    /* identical to box height */
-
-    color: #FFFFFF;
+.culinary:hover {
+	transform: scale(1.05) translate(0%, -10%);
+	cursor: pointer;
 }
 
-.filmmaking{
-    /* Filmmaking */
-
-    position: absolute;
-    width: 223px;
-    height: 52px;
-    left: 310px;
-    top: 900px;
-
-    /* font-family: 'Dreaming'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 52px;
-    /* identical to box height */
-
-    color: #FFFFFF;
+.dance {
+	transform: translate(0%, -58%);
+	z-index: 2;
+	width: 60%;
 }
 
-.digital_arts{
-    /* Digital Arts */
-
-    position: absolute;
-    width: 217px;
-    height: 52px;
-    left: 311px;
-    top: 1058.5px;
-
-    /* font-family: 'Dreaming'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 52px;
-    /* identical to box height */
-
-    color: #FFFFFF;
+.dance:hover {
+	transform: scale(1.05) translate(0%, -58%);
+	cursor: pointer;
 }
 
-.fine_arts{
-    /* Fine Arts */
-
-    position: absolute;
-    width: 176px;
-    height: 52px;
-    left: 1000px;
-    top: 275px;
-
-    /* font-family: 'Dreaming'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 52px;
-    /* identical to box height */
-
-    color: #FFFFFF;
+.dramatics {
+	transform: translate(0%, -110%);
+	z-index: 2;
+	width: 60%;
 }
 
-.literary_arts{
-    /* Literary Arts */
-
-    position: absolute;
-    width: 246px;
-    height: 52px;
-    left: 965px;
-    top: 465px;
-
-    /* font-family: 'Dreaming'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 52px;
-    /* identical to box height */
-
-    color: #FFFFFF;
+.dramatics:hover {
+	transform: scale(1.05) translate(0%, -110%);
+	cursor: pointer;
 }
 
-.music{
-    /* Music */
-
-    position: absolute;
-    width: 112px;
-    height: 52px;
-    left: 1015px;
-    top: 670px;
-
-    /* font-family: 'Dreaming'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 52px;
-    /* identical to box height */
-
-    color: #FFFFFF;
+.fashion {
+	transform: translate(0%, -160%);
+	z-index: 2;
+	width: 60%;
 }
 
-.speaking_arts{
-    /* Speaking Arts */
-
-    position: absolute;
-    width: 310px;
-    height: 52px;
-    left: 945px;
-    top: 845px;
-
-    /* font-family: 'Dreaming'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 52px;
-    /* identical to box height */
-
-    color: #FFFFFF;
+.fashion:hover {
+	transform: scale(1.05) translate(0%, -160%);
+	cursor: pointer;
 }
 
-.quiz{
-    /* Quiz */
-
-    position: absolute;
-    width: 80px;
-    height: 52px;
-    left: 1018px;
-    top: 1020px;
-
-    /* font-family: 'Dreaming'; */
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 52px;
-    /* identical to box height */
-
-    color: #FFFFFF;
+.filmmaking {
+	transform: translate(0%, -215%);
+	z-index: 2;
+	width: 60%;
 }
 
-.left_image{
-    position: absolute;
-    left: 200px;
+.filmmaking:hover {
+	transform: scale(1.05) translate(0%, -215%);
+	cursor: pointer;
+}
+
+.digital-arts {
+	transform: translate(0%, -265%);
+	z-index: 2;
+	width: 60%;
+}
+
+.digital-arts:hover {
+	transform: scale(1.05) translate(0%, -265%);
+	cursor: pointer;
+}
+
+.fine-arts {
+	transform: translate(0%, -10%);
+	width: 60%;
+}
+
+.fine-arts:hover {
+	transform: scale(1.05) translate(0%, -10%);
+	cursor: pointer;
+}
+
+.literary-arts {
+	transform: translate(0%, -55%);
+	z-index: 2;
+	width: 60%;
+}
+
+.literary-arts:hover {
+	transform: scale(1.05) translate(0%, -55%);
+	cursor: pointer;
+}
+
+.music {
+	transform: translate(0%, -103%);
+	z-index: 2;
+	width: 60%;
+}
+
+.music:hover {
+	transform: scale(1.05) translate(0%, -103%);
+	cursor: pointer;
+}
+
+.speaking-arts {
+	transform: translate(0%, -145%);
+	z-index: 2;
+	width: 60%;
+}
+
+.speaking-arts:hover {
+	transform: scale(1.05) translate(0%, -145%);
+	cursor: pointer;
+}
+
+.quiz {
+	transform: translate(0%, -205%);
+	z-index: 2;
+	width: 60%;
+}
+
+.quiz:hover {
+	transform: scale(1.05) translate(0%, -205%);
+	cursor: pointer;
 }
