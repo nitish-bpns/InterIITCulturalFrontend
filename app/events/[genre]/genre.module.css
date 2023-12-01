@@ -1,0 +1,36 @@
+.events-frame {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.event{
+    text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none;
+	font-size: 3vw;
+    transform: translate(0%, -10%);
+	width: 60%;
+}
+
+.event:hover{
+    transform: scale(1.05) translate(0%, -10%);
+	cursor: pointer;
+}
+
+.plank{
+    width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.event-name{
+    transform: translate(0%, -155%);
+	font-weight: 300;
+	color: #fff;
+}
