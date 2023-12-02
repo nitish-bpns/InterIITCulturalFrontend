@@ -46,7 +46,7 @@ export default function Genre({ params }) {
               href={"/events/" + genre + "/" + event} 
               className={Styles["event"]}
             >
-              <Image src={left1} alt="event" className={Styles["plank"]}/>
+              <Image src={right1} alt="event" className={Styles["plank"]}/>
               <h2 className={Styles["event-name"]}>{events[event]}</h2>
             </Link>
           ))}

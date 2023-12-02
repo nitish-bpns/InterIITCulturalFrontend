@@ -5,6 +5,20 @@
 	width: 90%;
 }
 
+.left-frame {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+
+.right-frame {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 40%;
+}
+
 .event{
     text-align: center;
 	display: flex;
@@ -14,8 +28,8 @@
 	transition: all 0.3s ease-in-out;
 	text-decoration: none;
 	font-size: 3vw;
-    transform: translate(0%, -10%);
-	width: 60%;
+    /* transform: translate(0%, -10%); */
+	width: 45%;
 }
 
 .event:hover{
@@ -24,13 +38,14 @@
 }
 
 .plank{
-    width: 100%;
+    width: 50%;
 	height: auto;
 	object-fit: cover;
 }
 
 .event-name{
-    transform: translate(0%, -155%);
-	font-weight: 300;
+    transform: translate(0%, -140%);
+	font-size: 50px;
+	font-weight: 150;
 	color: #fff;
 }
