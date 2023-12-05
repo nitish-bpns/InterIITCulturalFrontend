@@ -3,8 +3,10 @@
 import Styles from "./FAQs.module.css";
 import { useState } from "react";
 import { Montserrat } from "next/font/google";
+import { Cookie } from "next/font/google";
 
-const montserrat = Montserrat({ weight: "400", subsets: ["latin"] });
+const montserrat = Montserrat({ weight: "300", subsets: ["latin"] });
+const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
 const FAQs = () => {
 	const [expandedQuestion, setExpandedQuestion] = useState(null);
@@ -37,34 +39,42 @@ const FAQs = () => {
 	};
 
 	return (
-		<section className={`${Styles["faq-section"]} ${montserrat.className}`}>
-			<h1 className={Styles["faq-heading"]}>FAQs</h1>
-			<ul className={Styles["faq-wrapper"]}>
-				{faqs.map((faq, index) => (
-					<li
-						key={index}
-						className={Styles["ques-wrapper"]}
-						onClick={() => toggleQuestion(index)}
-					>
-						<h2 className={Styles["ques"]}>
-							<span>Q{index + 1}. </span>
-							{faq.question}
-						</h2>
-						<p
-							className={Styles["ans"]}
-							style={{
-								maxHeight:
-									expandedQuestion === index
-										? "200px"
-										: "0px",
-							}}
+		<main className={cookie.className}>
+			<section className={Styles["faq-section"]}>
+				<h1 className={Styles["faq-heading"]}>FAQs</h1>
+				<ul
+					className={`${Styles["faq-wrapper"]} ${montserrat.className}`}
+				>
+					{faqs.map((faq, index) => (
+						<li
+							key={index}
+							className={Styles["ques-wrapper"]}
+							onClick={() => toggleQuestion(index)}
 						>
-							{faq.answer}
-						</p>
-					</li>
-				))}
-			</ul>
-		</section>
+							<p className={Styles["ques"]}>
+								<span>Q{index + 1}. </span>
+								{faq.question}
+							</p>
+							<p
+								className={Styles["ans"]}
+								style={{
+									maxHeight:
+										expandedQuestion === index
+											? "200px"
+											: "0px",
+									margin:
+										expandedQuestion === index
+											? "15px 0 5px 0"
+											: "0",
+								}}
+							>
+								{faq.answer}
+							</p>
+						</li>
+					))}
+				</ul>
+			</section>
+		</main>
 	);
 };
 
