@@ -1,7 +1,7 @@
 import Styles from "./genre.module.css";
 import { Satisfy } from "next/font/google";
 import BackButton from "@/components/BackButton";
-import data from "../data.json";
+import data from "@/data/events.json";
 import Link from "next/link";
 import Image from "next/image";
 import left1 from "../../../public/assets/images/events/genre/left_01.png";
@@ -38,16 +38,16 @@ export default function Genre({ params }) {
     >
       <section className={Styles["main"]}>
         <BackButton href={`/events`} />
-        {/* <h1>{data[genre].properName}</h1> */}
+        <h1>{data[genre].properName}</h1>
         <div className={Styles["events-frame"]}>
           {Object.keys(events).map((event, id) => (
-            <Link 
-              key={id} 
-              href={"/events/" + genre + "/" + event} 
+            <Link
+              key={id}
+              href={"/events/" + genre + "/" + event}
               className={Styles["event"]}
             >
-              <Image src={right1} alt="event" className={Styles["plank"]}/>
-              <h2 className={Styles["event-name"]}>{events[event]}</h2>
+              <Image src={right1} alt="event" className={Styles["plank"]} />
+              <h2 className={Styles["event-name"]}>{events[event].name}</h2>
             </Link>
           ))}
         </div>

@@ -33,7 +33,7 @@ export default function Events() {
               <Image src={DancePlank} alt="Dance" />
               <h1>Dance</h1>
             </Link>
-            <Link href="/events/dramatics/" className={Styles["dramatics"]}>
+            <Link href="/events/theatre/" className={Styles["dramatics"]}>
               <Image src={DramaticsPlank} alt="Dramatics" />
               <h1>Dramatics</h1>
             </Link>

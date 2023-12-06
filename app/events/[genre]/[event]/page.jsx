@@ -2,7 +2,7 @@ import Styles from "@/styles/page.module.css";
 import { Satisfy } from "next/font/google";
 import BackButton from "@/components/BackButton";
 import localFont from "next/font/local";
-import data from "../../data.json";
+import data from "@/data/events.json";
 
 const myFont = localFont({
   src: "../../../../public/assets/fonts/Dreaming.woff2",
@@ -15,10 +15,14 @@ export default function Event({ params }) {
   if (!data[genre]) {
     return <h1>404</h1>;
   }
-  const event = params.event;
+
+  let event = params.event;
+
   if (!data[genre].events[event]) {
     return <h1>404</h1>;
   }
+
+  event = data[genre].events[event];
 
   return (
     <main
@@ -57,7 +61,9 @@ export default function Event({ params }) {
             padding: "1rem 2rem",
           }}
         >
-          {data[genre].events[event]}
+          Evet Code : {event.code}
+          <br />
+          <h1>{event.name}</h1>
         </div>
       </section>
     </main>
