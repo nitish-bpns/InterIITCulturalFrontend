@@ -1,11 +1,9 @@
-// pages/core-operations.js
-
-import React from "react";
 import Image from "next/image";
 import { FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Import the required icons
 import styles from "./core.module.css"; // Import your module CSS file for styling
 import profile from "../../../public/assets/images/profile.png";
 import localFont from "next/font/local";
+
 const myFont = localFont({
   src: "../../../public/assets/fonts/Dreaming.woff2",
 });

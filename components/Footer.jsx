@@ -2,8 +2,6 @@ import Link from "next/link";
 import localFont from "next/font/local";
 import Image from "next/image";
 import Styles from "./Footer.module.css";
-// import logoInterIIT from "../public/assets/images/logoblack.png";
-// import logoIITKGP from "../public/assets/images/IIT_KGPLogo.png";
 import ILU from "../public/assets/images/logowhite.png";
 
 const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
