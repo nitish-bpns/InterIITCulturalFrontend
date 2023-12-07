@@ -1,16 +1,18 @@
 "use client";
 
+import { useState } from "react";
+import { useSession } from "next-auth/react";
 import Link from "next/link";
 import localFont from "next/font/local";
 import Image from "next/image";
 import Styles from "./Navbar.module.css";
 import ILU from "../public/assets/images/ILU.png";
 import hamburger from "../public/assets/images/hamburger.png";
-import { useState } from "react";
 
 const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
 
 export default function Navbar() {
+  const { data: session } = useSession();
   const [dropdownVisible, setDropdownVisible] = useState(false);
 
   return (
@@ -80,7 +82,7 @@ export default function Navbar() {
             setDropdownVisible(false);
           }}
         >
-          Sign In
+          {session ? "Profile" : "Sign In"}
         </Link>
       </div>
     </nav>

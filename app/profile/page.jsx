@@ -1,49 +1,61 @@
 "use client";
 
 import { signOut, useSession } from "next-auth/react";
+import { useState, useEffect } from "react";
+import { toast, toastDict } from "@/lib/toastify";
+import data from "@/data/institutes.json";
 
 export default function Profile() {
   const { data: session } = useSession();
+  const [user, setUser] = useState(null);
 
-  // useEffect(() => {
-  //   const loadData = async () => {
-  //     try {
-  //       const res = await fetch("api/user", {
-  //         method: "POST",
-  //         headers: {
-  //           "Content-Type": "application/json",
-  //         },
-  //         body: JSON.stringify({ email: "saharshagrawal@gmail.com" }),
-  //       });
-  //       const { user } = await res.json();
-  //       if (!user) {
-  //         toast.error("User not found.", toastDict);
-  //         return;
-  //       }
-  //       setUser(user);
-  //     } catch (error) {
-  //       toast.error("Something went wrong! Please try again.", toastDict);
-  //     }
-  //   };
-  //   loadData();
-  // }, []);
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const res = await fetch("api/user", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email: session?.user?.email }),
+        });
+        const { user } = await res.json();
+        if (!user) {
+          toast.error("User not found.", toastDict);
+          return;
+        }
+        setUser(user);
+      } catch (error) {
+        toast.error("Something went wrong! Please try again.", toastDict);
+      }
+    };
+    if (session?.user?.email) loadData();
+  }, [session?.user?.email]);
 
   return (
     <div>
       <h1>Profile Page</h1>
-      Name : {session?.user?.name}
-      <br />
-      Email : {session?.user?.email}
-      <br />
-      Age : 20
-      <br />
-      College : IIT Kharagpur
-      <br />
-      Branch : Industrial and Systems Engineering
-      <br />
-      Year : 3rd
-      <br />
-      <button onClick={() => signOut()}>Sign Out</button>
+      {user ? (
+        <>
+          PID : {user.pid}
+          <br />
+          Name : {user.name}
+          <br />
+          Email : {user.email}
+          <br />
+          Gender : {user.gender}
+          <br />
+          Institute : {data[user.instituteID]}
+          <br />
+          Hall Allotted : {user.hall}
+          <br />
+          Mess Allotted : {user.mess}
+          <br />
+          <button onClick={() => signOut()}>Sign Out</button>
+        </>
+      ) : (
+        "Loading..."
+      )}
     </div>
   );
 }
