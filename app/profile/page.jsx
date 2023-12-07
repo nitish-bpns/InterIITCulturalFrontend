@@ -1,32 +1,6 @@
 "use client";
 
 import { signOut, useSession } from "next-auth/react";
-import { toast, toastDict } from "@/lib/toastify";
-
-const handleSumbit = async () => {
-  const data = {
-    name: "Saharsh Agrawal",
-    email: "saharshagrawal@gmail.com",
-    password: "saharsh123",
-  };
-
-  try {
-    const res = await fetch("api/user/register", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-    if (res.ok) {
-      toast.success("Registered Successfully!", toastDict);
-    } else {
-      toast.error("Error in registering.", toastDict);
-    }
-  } catch (error) {
-    toast.error("Something went wrong! Please try again.", toastDict);
-  }
-};
 
 export default function Profile() {
   const { data: session } = useSession();
@@ -69,7 +43,6 @@ export default function Profile() {
       <br />
       Year : 3rd
       <br />
-      <button onClick={handleSumbit}>Register</button>
       <button onClick={() => signOut()}>Sign Out</button>
     </div>
   );

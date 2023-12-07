@@ -5,15 +5,22 @@ import bcrypt from "bcryptjs";
 
 export async function POST(req) {
   try {
-    let { name, email, password } = await req.json();
+    let { pid, name, email, password, phone, gender, instituteID, hall, mess } =
+      await req.json();
 
     password = await bcrypt.hash(password, 10);
 
     await connectToDatabase();
     await User.create({
+      pid,
       name,
       email,
       password,
+      phone,
+      gender,
+      instituteID,
+      hall,
+      mess,
     });
 
     return NextResponse.json(

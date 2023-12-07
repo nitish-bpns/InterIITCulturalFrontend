@@ -1,9 +1,7 @@
-import Footer from "@/components/Footer.jsx";
-import Navbar from "../components/Navbar.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../styles/globals.css";
-import { AuthProvider } from "@/lib/Providers.js";
+import LayoutProvider from "./LayoutProvider";
 
 export const metadata = {
   title: "Inter IIT Cultural Meet 6.0",
@@ -42,11 +40,7 @@ export default function RootLayout({ children }) {
           pauseOnHover
           theme="dark"
         />
-        <AuthProvider>
-          <Navbar />
-          {children}
-        </AuthProvider>
-        <Footer />
+        <LayoutProvider>{children}</LayoutProvider>
         <script
           src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
           integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="

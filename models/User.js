@@ -2,6 +2,7 @@ import { Schema, model, models } from "mongoose";
 
 // User model
 const userObject = {
+  pid: "",
   name: "",
   email: "",
   password: "",
@@ -13,6 +14,11 @@ const userObject = {
 };
 
 const userSchema = new Schema({
+  pid: {
+    type: String,
+    required: [true, "Please provide a pid"],
+    unique: true,
+  },
   name: {
     type: String,
     required: [true, "Please provide a name"],
@@ -34,9 +40,9 @@ const userSchema = new Schema({
     type: String,
     required: [true, "Please provide a gender"],
   },
-  institute: {
+  instituteID: {
     type: String,
-    required: [true, "Please provide an institute"],
+    required: [true, "Please provide an Institute ID"],
   },
   hall: {
     type: String,

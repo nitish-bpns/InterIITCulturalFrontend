@@ -4,7 +4,7 @@ import { Schema, model, models } from "mongoose";
 const eventRegObject = {
   eventID: "",
   instituteID: "",
-  team: ["", "", "", "", "", ""],
+  pids: ["", "", "", "", "", ""],
 };
 
 const eventRegSchema = new Schema({
@@ -14,9 +14,9 @@ const eventRegSchema = new Schema({
   },
   instituteID: {
     type: String,
-    required: [true, "Please provide an instituteID"],
+    required: [true, "Please provide an Institute ID"],
   },
-  team: {
+  pids: {
     type: Array,
     required: [true, "Please provide a team"],
   },
