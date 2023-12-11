@@ -63,6 +63,7 @@
   overflow: hidden;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 2vh;
   /* align-items: center;
   margin-left: 60px; */
 }
@@ -130,7 +131,7 @@
   /* Adjust the gap value as needed */
   justify-content: space-around;
 }
-  
+
 .socialIcons a {
   text-decoration: none;
   /* Remove text decoration */
