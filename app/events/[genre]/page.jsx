@@ -1,10 +1,19 @@
-import Styles from "./genre.module.css";
 import { Satisfy } from "next/font/google";
 import BackButton from "@/components/BackButton";
 import data from "@/data/events.json";
 import Link from "next/link";
 import Image from "next/image";
-import right1 from "../../../public/assets/images/events/genre/1.png";
+
+import Styles from "@/styles/page.module.css";
+import PageStyles from "./genre.module.css";
+
+import mainPlank from "../../../public/assets/images/events/genre/main.png";
+import plank1 from "../../../public/assets/images/events/genre/1.png";
+import plank2 from "../../../public/assets/images/events/genre/2.png";
+import plank3 from "../../../public/assets/images/events/genre/3.png";
+import plank4 from "../../../public/assets/images/events/genre/4.png";
+import plank5 from "../../../public/assets/images/events/genre/5.png";
+import plank6 from "../../../public/assets/images/events/genre/6.png";
 
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
@@ -26,18 +35,27 @@ export default function Genre({ params }) {
         backgroundPosition: "center",
       }}
     >
+      <BackButton href={`/events`} />
       <section className={Styles["main"]}>
-        <BackButton href={`/events`} />
-        <h1>{data[genre].properName}</h1>
-        <div className={Styles["events-frame"]}>
+        <div className={PageStyles["events-frame"]}>
+          <Image
+            src={mainPlank}
+            alt={data[genre].properName}
+            className={PageStyles["plank"]}
+          />
+          <h1 className={PageStyles["event-name"]}>{data[genre].properName}</h1>
           {Object.keys(events).map((event, id) => (
             <Link
               key={id}
               href={"/events/" + genre + "/" + event}
-              className={Styles["event"]}
+              className={PageStyles["event"]}
             >
-              <Image src={right1} alt="event" className={Styles["plank"]} />
-              <h2 className={Styles["event-name"]}>{events[event].name}</h2>
+              <Image
+                src={plank1}
+                alt={events[event].name}
+                className={PageStyles["plank"]}
+              />
+              <h2 className={PageStyles["event-name"]}>{events[event].name}</h2>
             </Link>
           ))}
         </div>

@@ -10,8 +10,8 @@ export default function Page({ params }) {
 
   return (
     <main className={satisfy.className}>
+      <BackButton href={`/schedule`} />
       <section className={Styles["main"]}>
-        <BackButton href={`/schedule`} />
         <h1 className={Styles["heading"]}>Day {day}</h1>
         <div
           style={{

@@ -1,9 +1,3 @@
-/* styles/core.module.css */
-.coreOperationsPage {
-  text-align: center;
-  padding: 20px;
-}
-
 .topLeftIcons {
   position: absolute;
   top: 0;
@@ -40,16 +34,11 @@
 .imageGridHeads {
   margin: auto;
   display: grid;
+  width: 100%;
 
   grid-template-columns: repeat(4, 1fr);
-  /* 4 images in each row for computer */
   gap: 20px;
-  /* Adjust the gap between images */
-  margin-top: 40px;
-  /* Increase the top margin */
-  margin-bottom: 40px;
   justify-items: center;
-  /* Align images to the center with space around them */
 }
 
 .coordinatorImage,
@@ -75,12 +64,6 @@
   margin-bottom: 20px;
   /* Add margin-bottom for space between coordinators and heads */
   /* align-items: center; */
-}
-
-/* Heading styles */
-.heading {
-  margin: 20px;
-  size: 2em;
 }
 
 .headingHeads {
@@ -116,13 +99,6 @@
       grid-template-columns: repeat(2, 1fr);
     }
   }
-}
-
-.heading {
-  margin-bottom: 10px;
-  /* Add margin at the bottom of h1 */
-  font-size: 2em;
-  /* Increase the font size for h1 */
 }
 
 .socialIcons {

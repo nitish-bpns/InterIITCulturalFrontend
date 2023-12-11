@@ -1,4 +1,14 @@
 .back-button {
   position: absolute;
-  left: 100px;
+  margin: 30px;
+  width: 50x;
+  height: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .back-button {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+  }
 }

@@ -1,0 +1,478 @@
+{
+  "core-ops": {
+    "title": "Core Operations",
+    "coordinators": [
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      }
+    ],
+    "heads": [
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      }
+    ]
+  },
+  "tech": {
+    "title": "Tech Team",
+    "coordinators": [
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      }
+    ],
+    "heads": [
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      }
+    ]
+  },
+  "media-publicity": {
+    "title": "Media and Publicity",
+    "coordinators": [
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      }
+    ],
+    "heads": [
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      }
+    ]
+  },
+  "events": {
+    "title": "Events",
+    "coordinators": [
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Coordinator 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      }
+    ],
+    "heads": [
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Head 1",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      }
+    ]
+  }
+}
