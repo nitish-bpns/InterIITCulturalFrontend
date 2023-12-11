@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+.main {
+	min-height: 100vh;
+	padding: 20px;
+}
+
+.heading {
+	color: #603d30;
+	font-size: 100px;
+	font-family: "Cookie", cursive;
+	font-weight: 400;
+	word-wrap: break-word;
+	margin: 30px 0 50px 0;
+	text-align: center;
+}
+
+.description {
+	color: #603d30;
+	font-size: 2vw;
+	font-weight: 300;
+	margin: 30px 0 50px 0;
+	text-align: center;
+}
+
+.description a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.restaurant-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	list-style: none;
+}
+
+.restaurant {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
+	padding: 20px;
+	margin-bottom: 50px;
+	background-color: #e6c79f;
+	border-radius: 15px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-wrapper img {
+	width: 30%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 15px;
+}
+
+.restaurant-info {
+	width: 70%;
+	padding: 0 30px;
+	border-radius: 15px;
+}
+
+.restaurant-info h2 {
+	color: #603d30;
+	font-size: 3vw;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.restaurant-info p {
+	color: #603d30;
+	font-size: 2vw;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+/* .restaurant-info a {
+	color: #603d30;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.restaurant-info a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+	.restaurant {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.restaurant-wrapper img {
+		width: 100%;
+	}
+	.restaurant-info {
+		width: 100%;
+	}
+} */
