@@ -4,17 +4,7 @@ import BackButton from "@/components/BackButton";
 import data from "@/data/events.json";
 import Link from "next/link";
 import Image from "next/image";
-import left1 from "../../../public/assets/images/events/genre/left_01.png";
-import left2 from "../../../public/assets/images/events/genre/left_02.png";
-import left3 from "../../../public/assets/images/events/genre/left_03.png";
-import left4 from "../../../public/assets/images/events/genre/left_04.png";
-import left5 from "../../../public/assets/images/events/genre/left_05.png";
-import left6 from "../../../public/assets/images/events/genre/left_06.png";
-import right1 from "../../../public/assets/images/events/genre/right_01.png";
-import right2 from "../../../public/assets/images/events/genre/right_02.png";
-import right3 from "../../../public/assets/images/events/genre/right_03.png";
-import right4 from "../../../public/assets/images/events/genre/right_04.png";
-import right5 from "../../../public/assets/images/events/genre/right_05.png";
+import right1 from "../../../public/assets/images/events/genre/1.png";
 
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 

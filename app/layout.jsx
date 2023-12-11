@@ -1,7 +1,8 @@
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "../styles/globals.css";
+
 import LayoutProvider from "./LayoutProvider";
+import "../styles/globals.css";
 
 export const metadata = {
   title: "Inter IIT Cultural Meet 6.0",

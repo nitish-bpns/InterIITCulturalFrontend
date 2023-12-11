@@ -63,7 +63,7 @@
       }
     }
   },
-  "speaking": {
+  "speaking-arts": {
     "properName": "Speaking Arts",
     "bg": "/assets/images/events/speaking_arts.png",
     "events": {
@@ -111,7 +111,7 @@
       }
     }
   },
-  "theatre": {
+  "theatre-arts": {
     "properName": "Theatre Arts",
     "bg": "/assets/images/events/dramatics.png",
     "events": {
@@ -169,7 +169,7 @@
       }
     }
   },
-  "fine_arts": {
+  "fine-arts": {
     "properName": "Fine Arts",
     "bg": "/assets/images/events/fine_arts.png",
     "events": {
@@ -191,7 +191,7 @@
       }
     }
   },
-  "digital": {
+  "digital-arts": {
     "properName": "Digital Arts",
     "bg": "/assets/images/events/digital_arts.png",
     "events": {

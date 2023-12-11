@@ -72,7 +72,8 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <div
+            <Link
+              href="/events/dance"
               style={{
                 background: `url(${DancePic.src}) -115% / auto 100%`,
               }}
@@ -80,8 +81,9 @@ export default function Home() {
             >
               Dance
               <hr className={PageStyles["hr"]}></hr>
-            </div>
-            <div
+            </Link>
+            <Link
+              href="/events/music"
               style={{
                 background: `url(${MusicPic.src}) -80% / auto 100%`,
               }}
@@ -89,8 +91,9 @@ export default function Home() {
             >
               Music
               <hr className={PageStyles["hr"]}></hr>
-            </div>
-            <div
+            </Link>
+            <Link
+              href="/events/speaking-arts"
               style={{
                 background: `url(${SpeakingArtsPic.src}) 5% / auto 100%`,
               }}
@@ -98,7 +101,7 @@ export default function Home() {
             >
               Speaking Arts
               <hr className={PageStyles["hr"]}></hr>
-            </div>
+            </Link>
           </div>
           <Link
             href="/events"
