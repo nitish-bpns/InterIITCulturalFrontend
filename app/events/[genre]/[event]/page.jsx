@@ -23,6 +23,7 @@ export default function Event({ params }) {
   }
 
   event = data[genre].events[event];
+  const rules = require("@/data/rules.json")[event.code];
 
   return (
     <main
@@ -34,8 +35,8 @@ export default function Event({ params }) {
         backgroundPosition: "center",
       }}
     >
+      <BackButton href={"/events/" + genre} />
       <section className={Styles["main"]}>
-        <BackButton href={"/events/" + genre} />
         <div
           style={{
             position: "absolute",
@@ -53,7 +54,6 @@ export default function Event({ params }) {
         <div
           style={{
             width: "90%",
-            minHeight: "80vh",
             borderRadius: 15,
             background: "rgba(0, 0, 0, 0.55)",
             marginTop: "130px",
@@ -61,9 +61,44 @@ export default function Event({ params }) {
             padding: "1rem 2rem",
           }}
         >
-          Evet Code : {event.code}
-          <br />
-          <h1>{event.name}</h1>
+          <h1>
+            {event.name} {rules && "(" + rules.points + ")"}
+          </h1>
+          <h2>Genre : {data[genre].properName}</h2>
+          {rules && (
+            <>
+              <h2>Description</h2>
+              {rules.description}
+
+              <h2>No. of {rules.isTeam ? "teams" : "participants"} per IIT</h2>
+              {rules.isTeam ? rules.teams : rules.participants}
+
+              {rules.isTeam && (
+                <>
+                  <h2>No of participants per team</h2>
+                  {rules.perteam}
+                </>
+              )}
+              {rules.time && (
+                <>
+                  <h2>Time Limit</h2>
+                  {rules.time}
+                </>
+              )}
+              <h1>Rules</h1>
+              <ol>
+                {rules.rules.map((rule, idx) => (
+                  <li key={idx}>{rule}</li>
+                ))}
+              </ol>
+              {rules.criteria && (
+                <>
+                  <h2>Judging Criteria</h2>
+                  {rules.criteria}
+                </>
+              )}
+            </>
+          )}
         </div>
       </section>
     </main>

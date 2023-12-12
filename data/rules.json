@@ -1,0 +1,118 @@
+{
+  "Q1": {
+    "points": 30,
+    "isTeam": true,
+    "teams": "max of 6 teams in prelims, max of 3 teams in final",
+    "perteam": "3 or less",
+    "description": "Quiz that spans the vast spectrum of knowledge, encompassing anything and everything under the sun. With questions that traverse diverse topics, this quiz promises to challenge your wits and test your breadth of understanding.",
+    "rules": [
+      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
+      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
+      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+      "More than three teams from the same IIT will not make it to the finals.",
+      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+    ]
+  },
+  "Q2": {
+    "points": 30,
+    "isTeam": true,
+    "teams": "max of 6 teams in prelims, max of 3 teams in final",
+    "perteam": "3 or less",
+    "description": "Spanning the entire sporting universe, from legendary athletes like Ashe to iconic events like the Ashes, this challenge covers all things sports-related.",
+    "rules": [
+      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
+      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
+      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+      "More than three teams from the same IIT will not make it to the finals.",
+      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+    ]
+  },
+  "Q3": {
+    "points": 30,
+    "isTeam": true,
+    "teams": "max of 6 teams in prelims, max of 3 teams in final",
+    "perteam": "3 or less",
+    "description": "An exploration of the ever-evolving realms of science and technology in this engaging quiz. From cutting-edge innovations to fundamental scientific principles, this quiz covers all facets of the fascinating world of Sci-tech.",
+    "rules": [
+      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
+      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
+      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+      "More than three teams from the same IIT will not make it to the finals.",
+      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+    ]
+  },
+  "Q4": {
+    "points": 30,
+    "isTeam": true,
+    "teams": "max of 6 teams in prelims, max of 3 teams in final",
+    "perteam": "3 or less",
+    "description": "The dynamic world of business that navigates the ever-evolving landscape of commerce and entrepreneurship. Test your acumen on everything from corporate giants to start up success stories.",
+    "rules": [
+      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
+      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
+      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+      "More than three teams from the same IIT will not make it to the finals.",
+      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+    ]
+  },
+  "Q5": {
+    "points": 30,
+    "isTeam": true,
+    "teams": "max of 6 teams in prelims, max of 3 teams in final",
+    "perteam": "3 or less",
+    "description": "The MELA Quiz, encompassing the fields of Music, Entertainment, Literature and Art is one of the most anticipated events in the Inter IIT line-up! If you think you have what it takes to navigate your way through these exhilarating fields.",
+    "rules": [
+      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
+      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
+      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+      "More than three teams from the same IIT will not make it to the finals.",
+      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+    ]
+  },
+  "Q6": {
+    "isTeam": true,
+    "teams": "max of 6 teams in prelims, max of 3 teams in final",
+    "perteam": "3 or less",
+    "description": "The tapestry of India's culture, art, history, sports, and beyond in this immersive quiz. Explore the richness of this diverse nation and test your knowledge on its myriad facets.",
+    "rules": [
+      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
+      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
+      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+      "More than three teams from the same IIT will not make it to the finals.",
+      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+    ]
+  },
+  "L1": {
+    "points": 30,
+    "isTeam": false,
+    "participants": "5",
+    "time": "44 minutes per game",
+    "description": "A Scrabble tournament where players battle it out over multiple rounds of games to crown the ultimate Scrabble Champions. Games will happen on physical Scrabble boards.",
+    "rules": [
+      "Games will be 1v1, with all players playing all rounds of the tournament. The final results will be based on the cumulative wins over all rounds (Player will get 1 point for every win, 0 for every loss and 0.5 in the case of a bye for each game).",
+      "Time limit for each game: 40 (+4 overtime) minutes (20 (+2 overtime) per side). Things like arranging tiles, time for totaling, etc. are not counted in the 15 minutes. Going over the time limit will automatically award the win to the opponent (Time forfeit).",
+      "Upon entering each minute of overtime, 10 points are deducted from the player’s score. If the player reaches the end of the second minute of overtime, they lose by time forfeit.",
+      "Collin’s Scrabble Words 2021(CSW-21) dictionary will be used.",
+      "Matches are not void. You can challenge your opponent’s play. Any play may be challenged before the next player starts a turn. If the play challenged is unacceptable, the challenged player takes back their tiles and loses that turn. If the play challenged is acceptable, the challenger loses their next turn. Consult the dictionary for challenges only. All words made in one play are challenged simultaneously. If any word is unacceptable, then the entire play is unacceptable. Only one turn is lost on any challenge."
+    ],
+    "criteria": "We will be following the official Scrabble rules as detailed in this link: https://instructions.hasbro.com/api/download/04024_en-us_scrabble-board-game.pdf All disputes will be settled by the Tournament Director, who will have the final word on disputes."
+  }
+}
