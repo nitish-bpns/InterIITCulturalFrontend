@@ -1,22 +1,22 @@
 .events-frame {
-	display: flex;
-	justify-content: center;
-	margin: 0 auto;
-	width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .left-frame {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
 }
 
 .right-frame {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
 }
 
 .culinary,
@@ -30,14 +30,14 @@
 .music,
 .speaking-arts,
 .quiz {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	transition: all 0.3s ease-in-out;
-	text-decoration: none;
-	font-size: 3vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  font-size: 3vw;
 }
 
 .culinary img,
@@ -51,9 +51,9 @@
 .music img,
 .speaking-arts img,
 .quiz img {
-	width: 100%;
-	height: auto;
-	object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .culinary h1,
@@ -67,126 +67,126 @@
 .music h1,
 .speaking-arts h1,
 .quiz h1 {
-	transform: translate(0%, -155%);
-	font-weight: 300;
-	color: #fff;
+  transform: translate(0%, -155%);
+  font-weight: 300;
+  color: #fff;
 }
 
 .culinary {
-	transform: translate(0%, -10%);
-	width: 60%;
+  transform: translate(0%, -10%);
+  width: 60%;
 }
 
 .culinary:hover {
-	transform: scale(1.05) translate(0%, -10%);
-	cursor: pointer;
+  transform: scale(1.03) translate(0%, -10%);
+  cursor: pointer;
 }
 
 .dance {
-	transform: translate(0%, -58%);
-	z-index: 2;
-	width: 60%;
+  transform: translate(0%, -58%);
+  z-index: 2;
+  width: 60%;
 }
 
 .dance:hover {
-	transform: scale(1.05) translate(0%, -58%);
-	cursor: pointer;
+  transform: scale(1.03) translate(0%, -58%);
+  cursor: pointer;
 }
 
 .dramatics {
-	transform: translate(0%, -110%);
-	z-index: 2;
-	width: 60%;
+  transform: translate(0%, -110%);
+  z-index: 2;
+  width: 60%;
 }
 
 .dramatics:hover {
-	transform: scale(1.05) translate(0%, -110%);
-	cursor: pointer;
+  transform: scale(1.03) translate(0%, -110%);
+  cursor: pointer;
 }
 
 .fashion {
-	transform: translate(0%, -160%);
-	z-index: 2;
-	width: 60%;
+  transform: translate(0%, -160%);
+  z-index: 2;
+  width: 60%;
 }
 
 .fashion:hover {
-	transform: scale(1.05) translate(0%, -160%);
-	cursor: pointer;
+  transform: scale(1.03) translate(0%, -160%);
+  cursor: pointer;
 }
 
 .filmmaking {
-	transform: translate(0%, -215%);
-	z-index: 2;
-	width: 60%;
+  transform: translate(0%, -215%);
+  z-index: 2;
+  width: 60%;
 }
 
 .filmmaking:hover {
-	transform: scale(1.05) translate(0%, -215%);
-	cursor: pointer;
+  transform: scale(1.03) translate(0%, -215%);
+  cursor: pointer;
 }
 
 .digital-arts {
-	transform: translate(0%, -265%);
-	z-index: 2;
-	width: 60%;
+  transform: translate(0%, -265%);
+  z-index: 2;
+  width: 60%;
 }
 
 .digital-arts:hover {
-	transform: scale(1.05) translate(0%, -265%);
-	cursor: pointer;
+  transform: scale(1.03) translate(0%, -265%);
+  cursor: pointer;
 }
 
 .fine-arts {
-	transform: translate(0%, -10%);
-	width: 60%;
+  transform: translate(0%, -10%);
+  width: 60%;
 }
 
 .fine-arts:hover {
-	transform: scale(1.05) translate(0%, -10%);
-	cursor: pointer;
+  transform: scale(1.03) translate(0%, -10%);
+  cursor: pointer;
 }
 
 .literary-arts {
-	transform: translate(0%, -55%);
-	z-index: 2;
-	width: 60%;
+  transform: translate(0%, -55%);
+  z-index: 2;
+  width: 60%;
 }
 
 .literary-arts:hover {
-	transform: scale(1.05) translate(0%, -55%);
-	cursor: pointer;
+  transform: scale(1.03) translate(0%, -55%);
+  cursor: pointer;
 }
 
 .music {
-	transform: translate(0%, -103%);
-	z-index: 2;
-	width: 60%;
+  transform: translate(0%, -103%);
+  z-index: 2;
+  width: 60%;
 }
 
 .music:hover {
-	transform: scale(1.05) translate(0%, -103%);
-	cursor: pointer;
+  transform: scale(1.03) translate(0%, -103%);
+  cursor: pointer;
 }
 
 .speaking-arts {
-	transform: translate(0%, -145%);
-	z-index: 2;
-	width: 60%;
+  transform: translate(0%, -145%);
+  z-index: 2;
+  width: 60%;
 }
 
 .speaking-arts:hover {
-	transform: scale(1.05) translate(0%, -145%);
-	cursor: pointer;
+  transform: scale(1.03) translate(0%, -145%);
+  cursor: pointer;
 }
 
 .quiz {
-	transform: translate(0%, -205%);
-	z-index: 2;
-	width: 60%;
+  transform: translate(0%, -205%);
+  z-index: 2;
+  width: 60%;
 }
 
 .quiz:hover {
-	transform: scale(1.05) translate(0%, -205%);
-	cursor: pointer;
+  transform: scale(1.03) translate(0%, -205%);
+  cursor: pointer;
 }

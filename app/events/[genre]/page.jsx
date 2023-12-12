@@ -15,6 +15,8 @@ import plank4 from "../../../public/assets/images/events/genre/4.png";
 import plank5 from "../../../public/assets/images/events/genre/5.png";
 import plank6 from "../../../public/assets/images/events/genre/6.png";
 
+const planks = [plank1, plank2, plank3, plank4, plank5, plank6];
+
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
 export default function Genre({ params }) {
@@ -37,28 +39,32 @@ export default function Genre({ params }) {
     >
       <BackButton href={`/events`} />
       <section className={Styles["main"]}>
-        <div className={PageStyles["events-frame"]}>
+        <a className={PageStyles["main-plank-container"]}>
           <Image
             src={mainPlank}
             alt={data[genre].properName}
             className={PageStyles["plank"]}
           />
-          <h1 className={PageStyles["event-name"]}>{data[genre].properName}</h1>
-          {Object.keys(events).map((event, id) => (
-            <Link
-              key={id}
-              href={"/events/" + genre + "/" + event}
-              className={PageStyles["event"]}
-            >
-              <Image
-                src={plank1}
-                alt={events[event].name}
-                className={PageStyles["plank"]}
-              />
-              <h2 className={PageStyles["event-name"]}>{events[event].name}</h2>
-            </Link>
-          ))}
-        </div>
+          <h1 className={PageStyles["main-plank-name"]}>
+            {data[genre].properName}
+          </h1>
+        </a>
+        {Object.keys(events).map((event, id) => (
+          <Link
+            key={id}
+            href={"/events/" + genre + "/" + event}
+            className={PageStyles["plank-container"]}
+          >
+            <Image
+              src={planks[id == 0 ? 0 : (id % (planks.length - 1)) + 1]}
+              alt={events[event].name}
+              className={
+                PageStyles["plank"] + " " + PageStyles["plank-" + (id + 1)]
+              }
+            />
+            <h2 className={PageStyles["event-name"]}>{events[event].name}</h2>
+          </Link>
+        ))}
       </section>
     </main>
   );

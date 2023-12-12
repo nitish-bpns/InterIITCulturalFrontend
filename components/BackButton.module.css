@@ -1,8 +1,8 @@
 .back-button {
   position: absolute;
   margin: 30px;
-  width: 50x;
   height: 50px;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1000px) {
