@@ -2,9 +2,25 @@
 
 import { signOut, useSession } from "next-auth/react";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { toast, toastDict } from "@/lib/toastify";
-import data from "@/data/institutes.json";
+import institutes from "@/data/institutes.json";
+import eventsData from "@/data/events.json";
 import BackButton from "@/components/BackButton";
+
+function findEventByCode(code) {
+  for (const genre in eventsData) {
+    for (const event in eventsData[genre].events) {
+      if (eventsData[genre].events[event].code === code) {
+        return {
+          ...eventsData[genre].events[event],
+          link: "/events/" + genre + "/" + event,
+        };
+      }
+    }
+  }
+  return null;
+}
 
 export default function Profile() {
   const { data: session } = useSession();
@@ -20,12 +36,15 @@ export default function Profile() {
           },
           body: JSON.stringify({ email: session?.user?.email }),
         });
-        const { user } = await res.json();
+        const { user, events } = await res.json();
         if (!user) {
           toast.error("User not found.", toastDict);
           return;
         }
-        setUser(user);
+        setUser({
+          ...user,
+          events: events,
+        });
       } catch (error) {
         toast.error("Something went wrong! Please try again.", toastDict);
       }
@@ -62,7 +81,7 @@ export default function Profile() {
         <br />
         Gender : {user.gender}
         <br />
-        Institute : {data[user.instituteID]}
+        Institute : {institutes[user.instituteID]}
         <br />
       </div>
     );
@@ -71,7 +90,31 @@ export default function Profile() {
   const EventDetailsPage = () => {
     return (
       <div>
-        <h1>Event Details</h1>
+        <h1>Registered Event Details</h1>
+        {user.events.map((event) => {
+          event = {
+            ...event,
+            ...findEventByCode(event.eventCode),
+          };
+          return (
+            <div>
+              <Link href={event.link}>
+                <h3>{event.name}</h3>
+              </Link>
+              <p>
+                Institute - {institutes[event.instituteID]}
+                <br />
+                Participants
+                <br />
+                {event.pids.map((pid) => (
+                  <>
+                    {pid} <br />
+                  </>
+                ))}
+              </p>
+            </div>
+          );
+        })}
       </div>
     );
   };

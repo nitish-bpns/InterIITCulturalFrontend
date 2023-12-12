@@ -6,9 +6,9 @@ import data from "@/data/institutes.json";
 
 export default function RegisterUser() {
   const [formData, setFormData] = useState({
-    eventID: "34",
+    eventCode: "Q1",
     instituteID: "IITDH",
-    pids: ["abc", "def", "1234", "2345", "214", "ass"],
+    pids: ["KGP-0001", "def", "1234", "2345", "214", "ass"],
   });
 
   const handleSubmit = async (e) => {

@@ -4,11 +4,11 @@ import { NextResponse } from "next/server";
 
 export async function POST(req) {
   try {
-    let { eventID, instituteID, pids } = await req.json();
+    let { eventCode, instituteID, pids } = await req.json();
 
     await connectToDatabase();
     await EventReg.create({
-      eventID,
+      eventCode,
       instituteID,
       pids,
     });
