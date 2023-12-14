@@ -27,10 +27,11 @@ export default function RegisterUser() {
         },
         body: JSON.stringify(formData),
       });
+      const json = await res.json();
       if (res.ok) {
-        toast.success("Registered Successfully!", toastDict);
+        toast.success(json.message, toastDict);
       } else {
-        toast.error("Error in registering.", toastDict);
+        toast.error(json.message, toastDict);
       }
     } catch (error) {
       toast.error("Something went wrong! Please try again.", toastDict);

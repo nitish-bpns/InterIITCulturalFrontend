@@ -2,6 +2,7 @@ import { connectToDatabase } from "@/lib/mongodb";
 import User from "@/models/User";
 import { NextResponse } from "next/server";
 import { compare } from "bcryptjs";
+import { getToken } from "@/lib/jwt";
 
 export async function POST(req) {
   try {
@@ -30,9 +31,15 @@ export async function POST(req) {
         }
       );
     }
-    return NextResponse.json(user, {
-      status: 200,
-    });
+    return NextResponse.json(
+      {
+        message: "Logged in successfully",
+        token: getToken(user.pid),
+      },
+      {
+        status: 200,
+      }
+    );
   } catch (error) {
     console.log(error.message);
     return NextResponse.json(
