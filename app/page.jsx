@@ -8,37 +8,10 @@ import MusicPic from "../public/assets/images/home/music.png";
 import SpeakingArtsPic from "../public/assets/images/home/sp.png";
 import localFont from "next/font/local";
 import PageStyles from "./Home.module.css";
+import LeaderboardComponent from "@/components/LeaderboardComponent";
 
 const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
-
-const data = [
-  {
-    position: 1,
-    collegeName: "IIT Bombay",
-    points: 100,
-  },
-  {
-    position: 2,
-    collegeName: "IIT Delhi",
-    points: 90,
-  },
-  {
-    position: 3,
-    collegeName: "IIT Madras",
-    points: 80,
-  },
-  {
-    position: 4,
-    collegeName: "IIT Kanpur",
-    points: 70,
-  },
-  {
-    position: 5,
-    collegeName: "IIT Kharagpur",
-    points: 60,
-  },
-];
 
 export default function Home() {
   return (
@@ -76,6 +49,7 @@ export default function Home() {
               href="/events/dance"
               style={{
                 background: `url(${DancePic.src}) -115% / auto 100%`,
+                color: "black",
               }}
               className={myFont.className + " " + PageStyles["Event-Card"]}
             >
@@ -86,6 +60,7 @@ export default function Home() {
               href="/events/music"
               style={{
                 background: `url(${MusicPic.src}) -80% / auto 100%`,
+                color: "black",
               }}
               className={myFont.className + " " + PageStyles["Event-Card"]}
             >
@@ -96,6 +71,7 @@ export default function Home() {
               href="/events/speaking-arts"
               style={{
                 background: `url(${SpeakingArtsPic.src}) 5% / auto 100%`,
+                color: "black",
               }}
               className={myFont.className + " " + PageStyles["Event-Card"]}
             >
@@ -126,7 +102,7 @@ export default function Home() {
           }}
         ></div>
         <h1 className={Styles["heading"]}>Overall Leaderboard</h1>
-        <LeaderboardTable data={data} />
+        <LeaderboardComponent allowChange={false} />
       </section>
     </main>
   );

@@ -8,7 +8,7 @@ import localFont from "next/font/local";
 import Styles from "./SignInForm.module.css";
 
 const myFont = localFont({
-  src: "../public/assets/fonts/Dreaming.woff2",
+  src: "../../public/assets/fonts/Dreaming.woff2",
 });
 
 export default function SignInForm() {

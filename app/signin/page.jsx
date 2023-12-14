@@ -1,4 +1,4 @@
-import SignInForm from "@/components/SignInForm";
+import SignInForm from "./SignInForm";
 import Styles from "./Signin.module.css";
 
 import localFont from "next/font/local";

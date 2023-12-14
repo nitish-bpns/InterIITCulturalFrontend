@@ -124,6 +124,7 @@ export default function Profile() {
                     {pid} <br />
                   </>
                 ))}
+                Score - {event.score}
               </p>
             </div>
           );
