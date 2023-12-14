@@ -3,6 +3,7 @@
   margin: 30px;
   height: 50px;
   z-index: 2;
+  transition: transform 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 1000px) {
@@ -14,7 +15,5 @@
 }
 
 .back-button:hover {
-  transform: scale(1.2);
-  /* Enlarge the button on hover */
-  transition-duration: 0.7s ease-in;
+  transform: scale(1.1);
 }

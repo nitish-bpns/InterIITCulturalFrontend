@@ -34,7 +34,7 @@ const TeamName = ({ params }) => {
         {/* Grid of coordinator images */}
         <div className={PageStyles.imageGrid}>
           {coordinators.map((coordinator, index) => (
-            <figure className={PageStyles.figure}>
+            <figure className={PageStyles.figure} key={index}>
               <Image
                 src={ImageVariableCoordinators[coordinator.name]}
                 alt={coordinator.name}
@@ -44,7 +44,9 @@ const TeamName = ({ params }) => {
               />
               <figcaption className={PageStyles.figcaption}>
                 <div className={PageStyles.memberInfo}>
-                  <div className={PageStyles.memberName}>{coordinator.name}</div>
+                  <div className={PageStyles.memberName}>
+                    {coordinator.name}
+                  </div>
                   <div className={PageStyles.socialIcons}>
                     <a
                       href={coordinator.fblink}
@@ -83,7 +85,7 @@ const TeamName = ({ params }) => {
         {/* Grid of head images */}
         <div className={PageStyles.imageGrid}>
           {heads.map((head, index) => (
-            <figure className={PageStyles.figure}>
+            <figure className={PageStyles.figure} key={index}>
               <Image
                 src={ImageVariableHeads[head.name]}
                 alt={head.name}
@@ -123,7 +125,7 @@ const TeamName = ({ params }) => {
           ))}
         </div>
       </section>
-    </main >
+    </main>
   );
 };
 
