@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import { AuthProvider } from "@/lib/Providers.js";
 import { usePathname } from "next/navigation";
 
 import Footer from "@/components/Footer.jsx";
@@ -28,10 +27,8 @@ export default function LayoutProvider({ children }) {
 
   return (
     <>
-      <AuthProvider>
-        {<Navbar />}
-        {children}
-      </AuthProvider>
+      <Navbar />
+      {children}
       <Footer />
     </>
   );

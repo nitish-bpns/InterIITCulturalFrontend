@@ -1,8 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { toast, toastDict } from "@/lib/toastify";
-import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
 import localFont from "next/font/local";
@@ -14,6 +13,13 @@ const myFont = localFont({
 
 export default function SignInForm() {
   const router = useRouter();
+
+  useEffect(() => {
+    if (localStorage.getItem("interiit-cultural-token")) {
+      router.push("/profile");
+    }
+  }, []);
+
   const [data, setData] = useState({
     email: "",
     password: "",
@@ -29,16 +35,23 @@ export default function SignInForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await signIn("credentials", {
-        redirect: false,
-        email: data.email,
-        password: data.password,
+      const res = await fetch("http://localhost:3000/api/user/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: data.email,
+          password: data.password,
+        }),
       });
+      const json = await res.json();
       if (res.ok) {
-        toast.success("Signed in successfully", toastDict);
+        toast.success(json.message, toastDict);
+        localStorage.setItem("interiit-cultural-token", json.token);
         router.push("/profile");
       } else {
-        toast.error("Error while signing in.", toastDict);
+        toast.error(json.message, toastDict);
       }
     } catch (error) {
       toast.error("Something went wrong! Please try again.", toastDict);
@@ -46,37 +59,32 @@ export default function SignInForm() {
   };
 
   return (
-    <div className={Styles["signin-container"]}>
-      <div className={Styles["signin-box"]}>
-        <h1 className={`${myFont.className} ${Styles["heading"]}`}>Sign In</h1>
-        <form onSubmit={handleSubmit}>
-          <div className={Styles["input-container"]}>
-            <label className={myFont.className}>Email:</label>
-            <input
-              name="email"
-              type="email"
-              placeholder="Email"
-              required
-              value={data.email}
-              onChange={handleChange}
-            />
-          </div>
-          <div className={Styles["input-container"]}>
-            <label className={myFont.className}>Password:</label>
-            <input
-              name="password"
-              type="password"
-              placeholder="Password"
-              required
-              value={data.password}
-              onChange={handleChange}
-            />
-          </div>
-          <button type="submit" className={myFont.className}>
-            Sign In
-          </button>
-        </form>
+    <form onSubmit={handleSubmit} className={Styles["form"]}>
+      <div className={Styles["input-container"]}>
+        <label className={myFont.className}>Email:</label>
+        <input
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+          value={data.email}
+          onChange={handleChange}
+        />
       </div>
-    </div>
+      <div className={Styles["input-container"]}>
+        <label className={myFont.className}>Password:</label>
+        <input
+          name="password"
+          type="password"
+          placeholder="Password"
+          required
+          value={data.password}
+          onChange={handleChange}
+        />
+      </div>
+      <button type="submit" className={myFont.className}>
+        Sign In
+      </button>
+    </form>
   );
 }
