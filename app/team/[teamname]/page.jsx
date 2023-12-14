@@ -6,6 +6,7 @@ import localFont from "next/font/local";
 import BackButton from "@/components/BackButton";
 import data from "@/data/team.json";
 import ImageVariableCoordinators from "./images_coordis";
+import ImageVariableHeads from "./images_heads";
 const myFont = localFont({
   src: "../../../public/assets/fonts/Dreaming.woff2",
 });
@@ -38,8 +39,8 @@ const TeamName = ({ params }) => {
                 src={ImageVariableCoordinators[coordinator.name]}
                 alt={coordinator.name}
                 className={PageStyles.coordinatorImage}
-                width={100}
-                height={100}
+                width={500}
+                height={500}
               />
               <div className={PageStyles.memberInfo}>
                 <div className={PageStyles.memberName}>{coordinator.name}</div>
@@ -81,11 +82,11 @@ const TeamName = ({ params }) => {
           {heads.map((head, index) => (
             <div key={index} className={PageStyles.memberContainer}>
               <Image
-                src={head.image}
+                src={ImageVariableHeads[head.name]}
                 alt={head.name}
                 className={PageStyles.headImage}
-                width={100}
-                height={100}
+                width={500}
+                height={500}
               />
               <div className={PageStyles.memberInfo}>
                 <div className={PageStyles.memberName}>{head.name}</div>
