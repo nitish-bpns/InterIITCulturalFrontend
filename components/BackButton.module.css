@@ -12,3 +12,8 @@
     height: 30px;
   }
 }
+
+.back-button:hover {
+  transform: scale(1.2); /* Enlarge the button on hover */
+  transition-duration: 0.7s ease-in;
+}
