@@ -83,7 +83,7 @@ const TeamName = ({ params }) => {
         {/* Grid of head images */}
         <div className={PageStyles.imageGrid}>
           {heads.map((head, index) => (
-            <figure className={PageStyles.figurec}>
+            <figure className={PageStyles.figure}>
               <Image
                 src={ImageVariableHeads[head.name]}
                 alt={head.name}
@@ -91,7 +91,7 @@ const TeamName = ({ params }) => {
                 width={500}
                 height={500}
               />
-              <figcaption className={PageStyles.figcaptionc}>
+              <figcaption className={PageStyles.figcaption}>
                 <div className={PageStyles.memberInfo}>
                   <div className={PageStyles.memberName}>{head.name}</div>
                   <div className={PageStyles.socialIcons}>
