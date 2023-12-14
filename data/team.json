@@ -3,28 +3,63 @@
     "title": "Core Operations",
     "coordinators": [
       {
-        "name": "Coordinator 1",
+        "name": "Ishan Nargolkar",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
         "linkedin": "https://www.linkedin.com"
       },
       {
-        "name": "Coordinator 1",
+        "name": "Akshat Ansh Nayak",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
         "linkedin": "https://www.linkedin.com"
       },
       {
-        "name": "Coordinator 1",
+        "name": "Kusuma Ullasa",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
         "linkedin": "https://www.linkedin.com"
       },
       {
-        "name": "Coordinator 1",
+        "name": "Zeeshan Khan",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Rishitha Marlapati",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "GVK Sai Sarath",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "RISHI KUMAR",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Nikhil Goyal",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Awanish Kumar",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
@@ -94,27 +129,6 @@
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
         "linkedin": "https://www.linkedin.com"
-      },
-      {
-        "name": "Head 1",
-        "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
-      },
-      {
-        "name": "Head 1",
-        "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
-      },
-      {
-        "name": "Head 1",
-        "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
       }
     ]
   },
@@ -122,28 +136,14 @@
     "title": "Tech Team",
     "coordinators": [
       {
-        "name": "Coordinator 1",
+        "name": "Nitish Kumar",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
         "linkedin": "https://www.linkedin.com"
       },
       {
-        "name": "Coordinator 1",
-        "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
-      },
-      {
-        "name": "Coordinator 1",
-        "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
-      },
-      {
-        "name": "Coordinator 1",
+        "name": "Shivam Dwivedi",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
@@ -241,28 +241,14 @@
     "title": "Media and Publicity",
     "coordinators": [
       {
-        "name": "Coordinator 1",
+        "name": "Nidhi Goyal",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
         "linkedin": "https://www.linkedin.com"
       },
       {
-        "name": "Coordinator 1",
-        "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
-      },
-      {
-        "name": "Coordinator 1",
-        "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
-      },
-      {
-        "name": "Coordinator 1",
+        "name": "Shreyas Anilal",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
@@ -360,28 +346,42 @@
     "title": "Events",
     "coordinators": [
       {
-        "name": "Coordinator 1",
+        "name": "Rane Aryan Pannalal",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
         "linkedin": "https://www.linkedin.com"
       },
       {
-        "name": "Coordinator 1",
+        "name": "MD ZAID ALAM",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
         "linkedin": "https://www.linkedin.com"
       },
       {
-        "name": "Coordinator 1",
+        "name": "Burra Nitish",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
         "linkedin": "https://www.linkedin.com"
       },
       {
-        "name": "Coordinator 1",
+        "name": "JAI KUMAR SONI",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Sanchay Mahato",
+        "image": "",
+        "fblink": "https://www.facebook.com",
+        "mail": "test@gmail.com",
+        "linkedin": "https://www.linkedin.com"
+      },
+      {
+        "name": "Harishwar",
         "image": "",
         "fblink": "https://www.facebook.com",
         "mail": "test@gmail.com",
@@ -389,20 +389,6 @@
       }
     ],
     "heads": [
-      {
-        "name": "Head 1",
-        "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
-      },
-      {
-        "name": "Head 1",
-        "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
-      },
       {
         "name": "Head 1",
         "image": "",

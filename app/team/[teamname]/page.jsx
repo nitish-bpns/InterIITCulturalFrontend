@@ -2,11 +2,10 @@ import Image from "next/image";
 import { FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Styles from "@/styles/page.module.css";
 import PageStyles from "./core.module.css";
-import profile from "@/public/assets/images/profile.png";
 import localFont from "next/font/local";
 import BackButton from "@/components/BackButton";
 import data from "@/data/team.json";
-
+import ImageVariableCoordinators from "./images_coordis";
 const myFont = localFont({
   src: "../../../public/assets/fonts/Dreaming.woff2",
 });
@@ -36,32 +35,37 @@ const TeamName = ({ params }) => {
           {coordinators.map((coordinator, index) => (
             <div key={index} className={PageStyles.memberContainer}>
               <Image
-                src={profile}
+                src={ImageVariableCoordinators[coordinator.name]}
                 alt={coordinator.name}
                 className={PageStyles.coordinatorImage}
+                width={100}
+                height={100}
               />
-              <div className={PageStyles.socialIcons}>
-                <a
-                  href={coordinator.fblink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaFacebook className={PageStyles.icon} size={30} />
-                </a>
-                <a
-                  href={coordinator.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedin className={PageStyles.icon} size={30} />
-                </a>
-                <a
-                  href={"mailto:" + coordinator.mail}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaEnvelope className={PageStyles.icon} size={30} />
-                </a>
+              <div className={PageStyles.memberInfo}>
+                <div className={PageStyles.memberName}>{coordinator.name}</div>
+                <div className={PageStyles.socialIcons}>
+                  <a
+                    href={coordinator.fblink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaFacebook className={PageStyles.icon} size={30} />
+                  </a>
+                  <a
+                    href={coordinator.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedin className={PageStyles.icon} size={30} />
+                  </a>
+                  <a
+                    href={"mailto:" + coordinator.mail}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaEnvelope className={PageStyles.icon} size={30} />
+                  </a>
+                </div>
               </div>
             </div>
           ))}
@@ -77,28 +81,37 @@ const TeamName = ({ params }) => {
           {heads.map((head, index) => (
             <div key={index} className={PageStyles.memberContainer}>
               <Image
-                src={profile}
+                src={head.image}
                 alt={head.name}
                 className={PageStyles.headImage}
+                width={100}
+                height={100}
               />
-              <div className={PageStyles.socialIcons}>
-                <a href={head.fblink} target="_blank" rel="noopener noreferrer">
-                  <FaFacebook className={PageStyles.icon} size={25} />
-                </a>
-                <a
-                  href={head.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedin className={PageStyles.icon} size={25} />
-                </a>
-                <a
-                  href={"mailto:" + head.mail}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaEnvelope className={PageStyles.icon} size={25} />
-                </a>
+              <div className={PageStyles.memberInfo}>
+                <div className={PageStyles.memberName}>{head.name}</div>
+                <div className={PageStyles.socialIcons}>
+                  <a
+                    href={head.fblink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaFacebook className={PageStyles.icon} size={25} />
+                  </a>
+                  <a
+                    href={head.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedin className={PageStyles.icon} size={25} />
+                  </a>
+                  <a
+                    href={"mailto:" + head.mail}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaEnvelope className={PageStyles.icon} size={25} />
+                  </a>
+                </div>
               </div>
             </div>
           ))}
