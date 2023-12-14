@@ -8,11 +8,7 @@
 
 .topLeftIcons img {
   width: 40px;
-  /* Fixed width for the top icons */
   height: 40px;
-  /* Fixed height for the top icons */
-  /* border-radius: 50%; */
-  /* Make top icons rounded */
 }
 
 .topRightIcon {
@@ -23,11 +19,7 @@
 
 .topRightIcon img {
   width: 40px;
-  /* Fixed width for the top icon */
   height: 40px;
-  /* Fixed height for the top icon */
-  /* border-radius: 50%; */
-  /* Make top icon rounded */
 }
 
 .imageGrid,
@@ -35,7 +27,6 @@
   margin: auto;
   display: grid;
   width: 100%;
-  /* max-height: 10vh; Set a maximum height (adjust as needed) */
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -46,17 +37,11 @@
 .coordinatorImage,
 .headImage {
   width: 45vh;
-  /* Fixed width for both coordinator and head images */
   height: 40;
-  /* Fixed height for both coordinator and head images */
   border-radius: 10px;
-  /* Display images in a circle */
   overflow: hidden;
   display: flex;
   justify-content: space-around;
-  /* margin-bottom: 2vh; */
-  /* align-items: center;
-  margin-left: 60px; */
 }
 
 /* Larger size for coordinator images */
@@ -154,7 +139,8 @@
   .imageGrid {
     grid-template-columns: repeat(1, 1fr);
   }
-  .coordinatorImage{
+
+  .coordinatorImage {
     width: 100px;
     height: 100px;
   }
