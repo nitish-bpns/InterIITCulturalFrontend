@@ -31,8 +31,8 @@ export default function LayoutProvider({ children }) {
       <AuthProvider>
         {<Navbar />}
         {children}
+        <Footer />
       </AuthProvider>
-      <Footer />
     </>
   );
 }
