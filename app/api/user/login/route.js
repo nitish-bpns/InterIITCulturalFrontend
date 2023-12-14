@@ -1,12 +1,29 @@
-import { connectToDatabase } from "@/lib/mongodb";
 import User from "@/models/User";
 import { NextResponse } from "next/server";
 import { compare } from "bcryptjs";
+import sanitize from "mongo-sanitize";
+import validator from "validator";
+import { connectToDatabase } from "@/lib/mongodb";
 import { getToken } from "@/lib/jwt";
 
 export async function POST(req) {
   try {
     let { email, password } = await req.json();
+
+    email = sanitize(email).trim().toLowerCase();
+    password = sanitize(password).trim();
+
+    if (validator.isEmpty(email) || validator.isEmpty(password)) {
+      return NextResponse.json(
+        {
+          message: "All fields are required!",
+        },
+        {
+          status: 406,
+        }
+      );
+    }
+
     await connectToDatabase();
     const user = await User.findOne({ email });
     if (!user) {
