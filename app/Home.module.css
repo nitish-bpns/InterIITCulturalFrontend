@@ -1,24 +1,38 @@
 .Event-Card {
-  border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.25) 8px 8px 6px 0px;
-  width: 15rem;
-  height: 22.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  font-size: 2.2rem;
-  padding: 3rem;
-  transition: all 0.3s ease-in-out;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.25) 8px 8px 6px 0px;
+	width: 15rem;
+	height: 22.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	font-size: 2.2rem;
+	padding: 3rem;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
 }
 
 .Event-Card:hover {
-  transform: scale(1.1);
-  box-shadow: rgba(0, 0, 0, 0.25) 8px 8px 6px 0px;
+	transform: scale(1.1);
+	box-shadow: rgba(0, 0, 0, 0.25) 8px 8px 6px 0px;
 }
 
 .hr {
-  height: 3px;
-  background: black;
-  border: none;
-  margin: 0;
+	height: 3px;
+	background: black;
+	border: none;
+	margin: 0;
+}
+
+.leaderboard {
+	width: 80%;
+}
+
+.card-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 30px;
+	max-width: 90vw;
+	margin: 0px auto;
+	place-items: center;
 }
