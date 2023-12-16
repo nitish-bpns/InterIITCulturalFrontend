@@ -25,10 +25,18 @@
 }
 
 .ques {
+	display: flex;
+	justify-content: space-between;
 	font-size: 2vw;
 	font-weight: 600;
 	color: #000;
 	cursor: pointer;
+}
+
+.ques img {
+	width: 2vw;
+	height: auto;
+	margin-left: 5px;
 }
 
 .ans {
@@ -47,6 +55,9 @@
 	.ques {
 		font-size: 1.5vw;
 	}
+	.ques img {
+		width: 1.5vw;
+	}
 	.ans {
 		font-size: 1.2vw;
 	}
@@ -56,6 +67,9 @@
 	.ques {
 		font-size: 2.5vw;
 	}
+	.ques img {
+		width: 2.5vw;
+	}
 	.ans {
 		font-size: 2vw;
 		line-height: 28px;
@@ -63,12 +77,18 @@
 }
 
 @media (max-width: 700px) {
+	.faq-heading {
+		font-size: 8vw;
+	}
 	.ques-wrapper {
 		padding: 18px;
 		margin-bottom: 25px;
 	}
 	.ques {
 		font-size: 3vw;
+	}
+	.ques img {
+		width: 3vw;
 	}
 	.ans {
 		font-size: 2.8vw;
