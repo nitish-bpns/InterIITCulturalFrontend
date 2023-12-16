@@ -2,13 +2,14 @@
 
 import { useState } from "react";
 import { toast, toastDict } from "@/lib/toastify";
-import data from "@/data/institutes.json";
+import institutes from "@/data/institutes.json";
+import eventsData from "@/data/events.json";
 
 export default function RegisterUser() {
   const [formData, setFormData] = useState({
-    eventCode: "Q1",
-    instituteID: "IITDH",
-    pids: ["KGP-0001", "def", "1234", "2345", "214", "ass"],
+    eventCode: "",
+    instituteID: "",
+    pids: [],
   });
 
   const handleSubmit = async (e) => {
@@ -31,110 +32,98 @@ export default function RegisterUser() {
     }
   };
 
-  // const handleChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormData((prev) => {
-  //     return {
-  //       ...prev,
-  //       [name]: value,
-  //     };
-  //   });
-  // };
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
 
   return (
     <div>
-      <h1>Register for Event</h1>
+      <h1>Register for Event (Enter Team Details)</h1>
       <form onSubmit={handleSubmit}>
-        {/* <label htmlFor="pid">PID </label>
-        <input
-          type="text"
-          id="pid"
-          name="pid"
-          value={formData.pid}
-          onChange={handleChange}
-        />
-        <br />
-        <label htmlFor="name">Name </label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-        />
-        <br />
-        <label htmlFor="email">Email </label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-        <br />
-        <label htmlFor="password">Password </label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          value={formData.password}
-          onChange={handleChange}
-        />
-        <br />
-        <label htmlFor="phone">Phone </label>
-        <input
-          type="text"
-          id="phone"
-          name="phone"
-          value={formData.phone}
-          onChange={handleChange}
-        />
-        <br />
-        <label htmlFor="gender">Gender </label>
+        <label htmlFor="eventCode">Event </label>
         <select
-          id="gender"
-          name="gender"
-          value={formData.gender}
+          name="eventCode"
+          value={formData.eventCode}
           onChange={handleChange}
+          required
         >
-          <option value="M">Male</option>
-          <option value="F">Female</option>
+          <option value="">Choose Event</option>
+          {Object.keys(eventsData).map((genre) => {
+            const events = eventsData[genre].events;
+            const obj = Object.keys(events).map((event, index) => (
+              <option value={events[event].code} key={index}>
+                {eventsData[genre].properName + " - " + events[event].name}
+              </option>
+            ));
+            return obj;
+          })}
         </select>
         <br />
         <label htmlFor="instituteID">Institute </label>
         <select
-          id="instituteID"
-          name="institudeID"
+          name="instituteID"
           value={formData.instituteID}
           onChange={handleChange}
+          required
         >
-          {Object.keys(data).map((ID, index) => {
+          <option value="">Choose Institute</option>
+          {Object.keys(institutes).map((ID, index) => {
             return (
               <option value={ID} key={index}>
-                {data[ID]}
+                {institutes[ID]}
               </option>
             );
           })}
         </select>
         <br />
-        <label htmlFor="hall">Hall </label>
-        <input
-          type="text"
-          id="hall"
-          name="hall"
-          value={formData.hall}
-          onChange={handleChange}
-        />
+        <label htmlFor="pids">PIDs </label>
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            setFormData({
+              ...formData,
+              pids: [...formData.pids, ""],
+            });
+          }}
+        >
+          Add PID
+        </button>
+        {formData.pids.map((pid, index) => {
+          return (
+            <div key={index}>
+              <input
+                type="text"
+                value={pid}
+                onChange={(e) => {
+                  const newPids = formData.pids;
+                  newPids[index] = e.target.value;
+                  setFormData({
+                    ...formData,
+                    pids: newPids,
+                  });
+                }}
+                required
+              />
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  const newPids = formData.pids;
+                  newPids.splice(index, 1);
+                  setFormData({
+                    ...formData,
+                    pids: newPids,
+                  });
+                }}
+              >
+                X
+              </button>
+            </div>
+          );
+        })}
         <br />
-        <label htmlFor="mess">Mess </label>
-        <input
-          type="text"
-          id="mess"
-          name="mess"
-          value={formData.mess}
-          onChange={handleChange}
-        />
-        <br /> */}
         <button>Register</button>
       </form>
     </div>

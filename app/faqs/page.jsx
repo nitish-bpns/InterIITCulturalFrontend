@@ -1,15 +1,15 @@
-import FAQsComponent from "@/components/FAQsComponent";
+import FAQsComponent from "./FAQsComponent";
 import { Cookie } from "next/font/google";
 import faqs from "@/data/faqs.json";
 
 const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
 const FAQs = () => {
-	return (
-		<main className={cookie.className}>
-			<FAQsComponent faqs={faqs} />
-		</main>
-	);
+  return (
+    <main className={cookie.className}>
+      <FAQsComponent faqs={faqs} />
+    </main>
+  );
 };
 
 export default FAQs;

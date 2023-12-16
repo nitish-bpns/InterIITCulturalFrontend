@@ -8,11 +8,7 @@
 
 .topLeftIcons img {
   width: 40px;
-  /* Fixed width for the top icons */
   height: 40px;
-  /* Fixed height for the top icons */
-  border-radius: 50%;
-  /* Make top icons rounded */
 }
 
 .topRightIcon {
@@ -23,11 +19,7 @@
 
 .topRightIcon img {
   width: 40px;
-  /* Fixed width for the top icon */
   height: 40px;
-  /* Fixed height for the top icon */
-  border-radius: 50%;
-  /* Make top icon rounded */
 }
 
 .imageGrid,
@@ -35,44 +27,63 @@
   margin: auto;
   display: grid;
   width: 100%;
-
+  width: 100%;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   justify-items: center;
+  margin-bottom: 0px;
 }
 
 .coordinatorImage,
 .headImage {
-  width: 100px;
-  /* Fixed width for both coordinator and head images */
-  height: 100px;
-  /* Fixed height for both coordinator and head images */
-  border-radius: 50%;
-  /* Display images in a circle */
+  width: 45vh;
+  height: 40;
+  border-radius: 10px;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 2vh;
-  /* align-items: center;
-  margin-left: 60px; */
 }
 
 /* Larger size for coordinator images */
 .coordinatorImage {
-  width: 120px;
-  height: 120px;
-  margin-bottom: 20px;
-  /* Add margin-bottom for space between coordinators and heads */
-  /* align-items: center; */
+  width: 300px;
+  height: 300px;
+  /* margin-bottom: 20px; */
 }
 
 .headingHeads {
-  margin-top: 40px;
+  margin: 40px;
   size: 2em;
 }
 
-/* Responsive layout for small screens (mobile) */
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 1242px) {
+  .imageGrid {
+    grid-template-columns: repeat(3, 1fr);
+    /* 2 images in each row for mobile */
+    gap: 20px;
+    /* Adjust the gap between images */
+  }
+
+  /* Smaller size for head images on mobile */
+  .headImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .imageGridHeads {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 images in each row for mobile */
+    gap: 20px;
+    /* Adjust the gap between images */
+  }
+
+  /* Display 3 heads in each row for mobile */
+
+}
+
+
+@media only screen and (max-width: 964px) {
   .imageGrid {
     grid-template-columns: repeat(2, 1fr);
     /* 2 images in each row for mobile */
@@ -87,17 +98,51 @@
   }
 
   .imageGridHeads {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* 2 images in each row for mobile */
     gap: 20px;
     /* Adjust the gap between images */
   }
 
   /* Display 3 heads in each row for mobile */
-  @media only screen and (max-width: 479px) {
-    .imageGrid {
-      grid-template-columns: repeat(2, 1fr);
-    }
+
+}
+
+
+@media only screen and (max-width: 644px) {
+  .imageGrid {
+    grid-template-columns: repeat(1, 1fr);
+    /* 2 images in each row for mobile */
+    gap: 20px;
+    /* Adjust the gap between images */
+  }
+
+  /* Smaller size for head images on mobile */
+  .headImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .imageGridHeads {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 images in each row for mobile */
+    gap: 20px;
+    /* Adjust the gap between images */
+  }
+
+
+  /* Display 3 heads in each row for mobile */
+
+}
+
+@media only screen and (max-width: 440px) {
+  .imageGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .coordinatorImage {
+    width: 100px;
+    height: 100px;
   }
 }
 
@@ -110,16 +155,14 @@
 
 .socialIcons a {
   text-decoration: none;
-  /* Remove text decoration */
   color: rgb(121, 1, 21);
   transition: color 0.3s ease;
-  /* Add transition for smooth effect */
 }
 
 .socialIcons a:hover {
-  color: #00152c;
-  /* Change the color on hover */
+  color: #fefefe;
 }
+
 /* core.module.css or your existing stylesheet */
 
 .memberContainer {
@@ -184,12 +227,130 @@
 .memberName {
   font-size: 16px;
   font-weight: bold;
-  margin-top: 10px; /* Add margin top for spacing */
-  text-align: center; /* Center the text */
-  color: #333; /* Set the text color */
+  margin-top: 10px;
+  /* Add margin top for spacing */
+  text-align: center;
+  /* Center the text */
+  color: #333;
+  /* Set the text color */
   margin-bottom: 10px;
 }
 
 
-/* Add similar styles for heads if necessary */
+/* core.module.css or your existing stylesheet */
 
+/* ... (your existing styles) */
+
+.card {
+  background-color: #fff;
+  /* Set the background color for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add a subtle box shadow */
+  border-radius: 8px;
+  overflow: hidden;
+  /* Hide overflowing content */
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  /* Enlarge the card on hover */
+}
+
+.cardHeader {
+  background-color: #791515;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  /* Make the header text bold */
+  border-bottom: 2px solid #ddd;
+  /* Add a border at the bottom of the header */
+}
+
+.cardBody {
+  padding: 20px;
+  /* Add padding to the card body */
+}
+
+.memberName {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  color: #f2f0f0;
+  margin-bottom: 10px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  /* Center align the social icons */
+  margin-top: 15px;
+  /* Add margin at the top of social icons */
+}
+
+.socialIcons a {
+  text-decoration: none;
+  color: #ffffff;
+  /* Set the social icon color */
+  transition: color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  color: #0980ff;
+  /* Change the social icon color on hover */
+}
+
+
+
+.figure {
+  display: grid;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.figure>* {
+  grid-area: 1/1;
+  transition: .4s;
+}
+
+.figure .figcaption {
+  display: grid;
+  align-items: end;
+  font-family: sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: #efefef;
+  padding: .75rem;
+  background: var(--c, #A5510640);
+  clip-path: inset(0 var(--_i, 100%) 0 0);
+  -webkit-mask:
+    linear-gradient(#000 0 0),
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  -webkit-mask-clip: text, padding-box;
+  margin: -1px;
+}
+
+.figure:hover .figcaption {
+  --_i: 0%;
+}
+
+.figure:hover img {
+  transform: scale(1.2);
+}
+
+@supports not (-webkit-mask-clip: text) {
+  .figure .figcaption {
+    -webkit-mask: none;
+    color: #fff;
+  }
+}
+
+
+.memberName{
+  font-size: 25px;
+}

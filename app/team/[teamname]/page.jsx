@@ -34,7 +34,7 @@ const TeamName = ({ params }) => {
         {/* Grid of coordinator images */}
         <div className={PageStyles.imageGrid}>
           {coordinators.map((coordinator, index) => (
-            <div key={index} className={PageStyles.memberContainer}>
+            <figure className={PageStyles.figure} key={index}>
               <Image
                 src={ImageVariableCoordinators[coordinator.name]}
                 alt={coordinator.name}
@@ -42,33 +42,38 @@ const TeamName = ({ params }) => {
                 width={500}
                 height={500}
               />
-              <div className={PageStyles.memberInfo}>
-                <div className={PageStyles.memberName}>{coordinator.name}</div>
-                <div className={PageStyles.socialIcons}>
-                  <a
-                    href={coordinator.fblink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaFacebook className={PageStyles.icon} size={30} />
-                  </a>
-                  <a
-                    href={coordinator.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaLinkedin className={PageStyles.icon} size={30} />
-                  </a>
-                  <a
-                    href={"mailto:" + coordinator.mail}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaEnvelope className={PageStyles.icon} size={30} />
-                  </a>
+              <figcaption className={PageStyles.figcaption}>
+                <div className={PageStyles.memberInfo}>
+                  <div className={PageStyles.memberName}>
+                    {coordinator.name}
+                  </div>
+                  <div className={PageStyles.socialIcons}>
+                    <a
+                      href={coordinator.fblink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaFacebook className={PageStyles.icon} size={30} />
+                    </a>
+                    <a
+                      href={coordinator.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaLinkedin className={PageStyles.icon} size={30} />
+                    </a>
+                    <a
+                      href={"mailto:" + coordinator.mail}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaEnvelope className={PageStyles.icon} size={30} />
+                    </a>
+                  </div>
                 </div>
-              </div>
-            </div>
+                {/* </div> */}
+              </figcaption>
+            </figure>
           ))}
         </div>
 
@@ -78,43 +83,45 @@ const TeamName = ({ params }) => {
         </h2>
 
         {/* Grid of head images */}
-        <div className={PageStyles.imageGridHeads}>
+        <div className={PageStyles.imageGrid}>
           {heads.map((head, index) => (
-            <div key={index} className={PageStyles.memberContainer}>
+            <figure className={PageStyles.figure} key={index}>
               <Image
                 src={ImageVariableHeads[head.name]}
                 alt={head.name}
-                className={PageStyles.headImage}
+                className={PageStyles.coordinatorImage}
                 width={500}
                 height={500}
               />
-              <div className={PageStyles.memberInfo}>
-                <div className={PageStyles.memberName}>{head.name}</div>
-                <div className={PageStyles.socialIcons}>
-                  <a
-                    href={head.fblink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaFacebook className={PageStyles.icon} size={25} />
-                  </a>
-                  <a
-                    href={head.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaLinkedin className={PageStyles.icon} size={25} />
-                  </a>
-                  <a
-                    href={"mailto:" + head.mail}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaEnvelope className={PageStyles.icon} size={25} />
-                  </a>
+              <figcaption className={PageStyles.figcaption}>
+                <div className={PageStyles.memberInfo}>
+                  <div className={PageStyles.memberName}>{head.name}</div>
+                  <div className={PageStyles.socialIcons}>
+                    <a
+                      href={head.fblink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaFacebook className={PageStyles.icon} size={25} />
+                    </a>
+                    <a
+                      href={head.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaLinkedin className={PageStyles.icon} size={25} />
+                    </a>
+                    <a
+                      href={"mailto:" + head.mail}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaEnvelope className={PageStyles.icon} size={25} />
+                    </a>
+                  </div>
                 </div>
-              </div>
-            </div>
+              </figcaption>
+            </figure>
           ))}
         </div>
       </section>

@@ -1,8 +1,8 @@
 "use client";
 
-import { signOut, useSession } from "next-auth/react";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { toast, toastDict } from "@/lib/toastify";
 import institutes from "@/data/institutes.json";
 import eventsData from "@/data/events.json";
@@ -23,7 +23,7 @@ function findEventByCode(code) {
 }
 
 export default function Profile() {
-  const { data: session } = useSession();
+  const router = useRouter();
   const [user, setUser] = useState(null);
 
   useEffect(() => {
@@ -34,7 +34,9 @@ export default function Profile() {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ email: session?.user?.email }),
+          body: JSON.stringify({
+            token: localStorage.getItem("interiit-cultural-token"),
+          }),
         });
         const { user, events } = await res.json();
         if (!user) {
@@ -49,8 +51,12 @@ export default function Profile() {
         toast.error("Something went wrong! Please try again.", toastDict);
       }
     };
-    if (session?.user?.email) loadData();
-  }, [session?.user?.email]);
+    if (!localStorage.getItem("interiit-cultural-token")) {
+      router.push("/signin");
+    } else {
+      loadData();
+    }
+  }, []);
 
   const [page, setPage] = useState(0);
 
@@ -58,7 +64,14 @@ export default function Profile() {
     return (
       <div>
         <h1>My Profile</h1>
-        <button onClick={() => signOut()}>Sign Out</button>
+        <button
+          onClick={() => {
+            localStorage.removeItem("interiit-cultural-token");
+            router.push("/signin");
+          }}
+        >
+          Sign Out
+        </button>
         <br />
         <button onClick={() => setPage(1)}>Personal Information</button>
         <br />
@@ -111,6 +124,7 @@ export default function Profile() {
                     {pid} <br />
                   </>
                 ))}
+                Score - {event.score}
               </p>
             </div>
           );

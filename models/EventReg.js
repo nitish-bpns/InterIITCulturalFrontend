@@ -20,6 +20,10 @@ const eventRegSchema = new Schema({
     type: Array,
     required: [true, "Please provide team members"],
   },
+  score: {
+    type: Number,
+    default: 0,
+  },
 });
 
 const EventReg = models.EventReg || model("EventReg", eventRegSchema);

@@ -1,12 +1,19 @@
-import { getServerSession } from "next-auth";
-import { authOptions } from "../api/auth/[...nextauth]/route";
-import { redirect } from "next/navigation";
+import SignInForm from "./SignInForm";
+import Styles from "./Signin.module.css";
 
-import SignInForm from "@/components/SignInForm";
+import localFont from "next/font/local";
+
+const myFont = localFont({
+  src: "../../public/assets/fonts/Dreaming.woff2",
+});
 
 export default async function SignIn() {
-  const session = await getServerSession(authOptions);
-  if (session) redirect("/profile");
-
-  return <SignInForm />;
+  return (
+    <div className={Styles["signin-container"]}>
+      <div className={Styles["signin-box"]}>
+        <h1 className={`${myFont.className} ${Styles["heading"]}`}>Sign In</h1>
+        <SignInForm />
+      </div>
+    </div>
+  );
 }

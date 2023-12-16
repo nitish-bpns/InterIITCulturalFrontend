@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import { useSession } from "next-auth/react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import localFont from "next/font/local";
 import Image from "next/image";
 import Styles from "./Navbar.module.css";
@@ -12,8 +12,13 @@ import hamburger from "../public/assets/images/hamburger.png";
 const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
 
 export default function Navbar() {
-  const { data: session } = useSession();
+  const pathname = usePathname();
   const [dropdownVisible, setDropdownVisible] = useState(false);
+
+  const [isSignedIn, setIsSignedIn] = useState(false);
+  useEffect(() => {
+    setIsSignedIn(localStorage.getItem("interiit-cultural-token") !== null);
+  }, [pathname]);
 
   return (
     <nav className={`${Styles["navbar"]} ${myFont.className}`}>
@@ -77,12 +82,12 @@ export default function Navbar() {
           Schedule
         </Link>
         <Link
-          href="/signin"
+          href={isSignedIn ? "/profile" : "/signin"}
           onClick={() => {
             setDropdownVisible(false);
           }}
         >
-          {session ? "Profile" : "Sign In"}
+          {isSignedIn ? "Profile" : "Sign In"}
         </Link>
       </div>
     </nav>
