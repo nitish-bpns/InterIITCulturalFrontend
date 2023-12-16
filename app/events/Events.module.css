@@ -3,15 +3,10 @@
   justify-content: center;
   margin: 0 auto;
   width: 90%;
+  margin-bottom: 40px;
 }
 
-.left-frame {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-}
-
+.left-frame,
 .right-frame {
   display: flex;
   flex-direction: column;
@@ -19,17 +14,7 @@
   width: 50%;
 }
 
-.culinary,
-.dance,
-.dramatics,
-.fashion,
-.filmmaking,
-.digital-arts,
-.fine-arts,
-.literary-arts,
-.music,
-.speaking-arts,
-.quiz {
+.events-frame a {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -38,155 +23,55 @@
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   font-size: 3vw;
+  position: relative;
+  width: 60%;
 }
 
-.culinary img,
-.dance img,
-.dramatics img,
-.fashion img,
-.filmmaking img,
-.digital-arts img,
-.fine-arts img,
-.literary-arts img,
-.music img,
-.speaking-arts img,
-.quiz img {
+.events-frame a:hover {
+  transform: scale(1.03);
+}
+
+.left-frame a {
+  max-height: 12%;
+}
+
+.right-frame a {
+  max-height: 14%;
+}
+
+.events-frame a img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-.culinary h1,
-.dance h1,
-.dramatics h1,
-.fashion h1,
-.filmmaking h1,
-.digital-arts h1,
-.fine-arts h1,
-.literary-arts h1,
-.music h1,
-.speaking-arts h1,
-.quiz h1 {
-  transform: translate(0%, -155%);
+.events-frame a h1 {
+  transform: translate(0%, 50%);
   font-weight: 300;
   color: #fff;
+  position: absolute;
 }
 
-.culinary {
-  transform: translate(0%, -10%);
-  width: 60%;
-}
+@media screen and (max-width: 768px) {
+  .events-frame {
+    flex-direction: column;
+    width: 100%;
+  }
 
-.culinary:hover {
-  transform: scale(1.03) translate(0%, -10%);
-  cursor: pointer;
-}
+  .left-frame,
+  .right-frame {
+    width: 100%;
+  }
 
-.dance {
-  transform: translate(0%, -58%);
-  z-index: 2;
-  width: 60%;
-}
+  .right-frame {
+    transform: translate(0%, 2%);
+  }
 
-.dance:hover {
-  transform: scale(1.03) translate(0%, -58%);
-  cursor: pointer;
-}
+  .events-frame a {
+    max-height: 23vw;
+  }
 
-.dramatics {
-  transform: translate(0%, -110%);
-  z-index: 2;
-  width: 60%;
-}
-
-.dramatics:hover {
-  transform: scale(1.03) translate(0%, -110%);
-  cursor: pointer;
-}
-
-.fashion {
-  transform: translate(0%, -160%);
-  z-index: 2;
-  width: 60%;
-}
-
-.fashion:hover {
-  transform: scale(1.03) translate(0%, -160%);
-  cursor: pointer;
-}
-
-.filmmaking {
-  transform: translate(0%, -215%);
-  z-index: 2;
-  width: 60%;
-}
-
-.filmmaking:hover {
-  transform: scale(1.03) translate(0%, -215%);
-  cursor: pointer;
-}
-
-.digital-arts {
-  transform: translate(0%, -265%);
-  z-index: 2;
-  width: 60%;
-}
-
-.digital-arts:hover {
-  transform: scale(1.03) translate(0%, -265%);
-  cursor: pointer;
-}
-
-.fine-arts {
-  transform: translate(0%, -10%);
-  width: 60%;
-}
-
-.fine-arts:hover {
-  transform: scale(1.03) translate(0%, -10%);
-  cursor: pointer;
-}
-
-.literary-arts {
-  transform: translate(0%, -55%);
-  z-index: 2;
-  width: 60%;
-}
-
-.literary-arts:hover {
-  transform: scale(1.03) translate(0%, -55%);
-  cursor: pointer;
-}
-
-.music {
-  transform: translate(0%, -103%);
-  z-index: 2;
-  width: 60%;
-}
-
-.music:hover {
-  transform: scale(1.03) translate(0%, -103%);
-  cursor: pointer;
-}
-
-.speaking-arts {
-  transform: translate(0%, -145%);
-  z-index: 2;
-  width: 60%;
-}
-
-.speaking-arts:hover {
-  transform: scale(1.03) translate(0%, -145%);
-  cursor: pointer;
-}
-
-.quiz {
-  transform: translate(0%, -205%);
-  z-index: 2;
-  width: 60%;
-}
-
-.quiz:hover {
-  transform: scale(1.03) translate(0%, -205%);
-  cursor: pointer;
+  .events-frame a h1 {
+    font-size: 8vw;
+  }
 }

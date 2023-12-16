@@ -58,7 +58,7 @@ export default function Team() {
         >
           <a className={PageStyles["main-mob"]}>
             <Image src={MainPlankMob} alt="Schedule" />
-            <h1>Schedule</h1>
+            <h1>Organizing Team</h1>
           </a>
           <Link href="/team/core-ops">
             <Image src={Day0PlankMob} alt="Core Operations Team" />

@@ -37,10 +37,15 @@
 
 @media screen and (max-width: 768px) {
   .plank-container-mob > *:not(:first-child) {
-    max-height: 24vw;
+    max-height: 22vw;
   }
   .plank-container-mob > *:not(:first-child) > h1 {
-    transform: translate(-50%, 60%);
+    transform: translate(-50%, 70%);
     width: 100%;
+  }
+  .plank-container-mob > *:first-child > h1 {
+    width: 90%;
+    font-size: 7vw !important;
+    transform: translate(-50%, 10%) !important;
   }
 }
