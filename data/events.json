@@ -1,260 +1,260 @@
 {
-  "quiz": {
-    "properName": "Quiz",
-    "bg": "/assets/images/events/quiz.png",
-    "events": {
-      "general": {
-        "code": "Q1",
-        "name": "General Quiz"
-      },
-      "sports": {
-        "code": "Q2",
-        "name": "Sports Quiz"
-      },
-      "sci-tech": {
-        "code": "Q3",
-        "name": "Sci-Tech Quiz"
-      },
-      "biz": {
-        "code": "Q4",
-        "name": "Biz Quiz"
-      },
-      "MELA": {
-        "code": "Q5",
-        "name": "MELA Quiz"
-      },
-      "india": {
-        "code": "Q6",
-        "name": "India Quiz"
-      }
-    }
-  },
-  "literary": {
-    "properName": "Literary Arts",
-    "bg": "/assets/images/events/literary.png",
-    "events": {
-      "scrabble": {
-        "code": "L1",
-        "name": "Scrabble"
-      },
-      "cryptic-crossword": {
-        "code": "L2",
-        "name": "Cryptic Crossword"
-      },
-      "sacred-word-games": {
-        "code": "L3",
-        "name": "Sacred Word Games"
-      },
-      "hindi-creative-writing": {
-        "code": "L4",
-        "name": "Hindi Creative Writing"
-      },
-      "english-creative-writing": {
-        "code": "L5",
-        "name": "English Creative Writing"
-      },
-      "hindi-poetry-writing": {
-        "code": "L6",
-        "name": "Hindi Poetry Writing"
-      },
-      "english-poetry-writing": {
-        "code": "L7",
-        "name": "English Poetry Writing"
-      }
-    }
-  },
-  "speaking-arts": {
-    "properName": "Speaking Arts",
-    "bg": "/assets/images/events/speaking_arts.png",
-    "events": {
-      "hindi-slam-poetry": {
-        "code": "S1",
-        "name": "Hindi Slam Poetry"
-      },
-      "english-slam-poetry": {
-        "code": "S2",
-        "name": "English Slam Poetry"
-      },
-      "parliamentary-debate": {
-        "code": "S3",
-        "name": "Parliamentary Debate"
-      },
-      "jam": {
-        "code": "S4",
-        "name": "Just a Minute (JAM)"
-      },
-      "stand-up": {
-        "code": "S5",
-        "name": "Stand Up"
-      },
-      "improv-battle": {
-        "code": "S6",
-        "name": "Improv Battle"
-      }
-    }
-  },
-  "dance": {
-    "properName": "Dance Arts",
-    "bg": "/assets/images/events/dance.png",
-    "events": {
-      "group-dance": {
-        "code": "D1",
-        "name": "Group Dance"
-      },
-      "just-duet": {
-        "code": "D2",
-        "name": "Just Duet"
-      },
-      "street-battle": {
-        "code": "D3",
-        "name": "Street Battle"
-      }
-    }
-  },
-  "theatre-arts": {
-    "properName": "Theatre Arts",
-    "bg": "/assets/images/events/dramatics.png",
-    "events": {
-      "street-play": {
-        "code": "T1",
-        "name": "Street Play"
-      },
-      "stage-play": {
-        "code": "T2",
-        "name": "Stage Play"
-      },
-      "mono-acting": {
-        "code": "T3",
-        "name": "Mono-Acting"
-      },
-      "Mime": {
-        "code": "T4",
-        "name": "Mime"
-      }
-    }
-  },
-  "music": {
-    "properName": "Musical Arts",
-    "bg": "/assets/images/events/music.png",
-    "events": {
-      "band-competition": {
-        "code": "M1",
-        "name": "Band Competition"
-      },
-      "pair-on-stage": {
-        "code": "M2",
-        "name": "Pair On Stage"
-      },
-      "solo-singing": {
-        "code": "M3",
-        "name": "Solo Singing"
-      },
-      "classical-vocal-solo": {
-        "code": "M4",
-        "name": "Classical Vocal Solo"
-      }
-    }
-  },
-  "filmmaking": {
-    "properName": "Filmmaking Arts",
-    "bg": "/assets/images/events/filmmaking.png",
-    "events": {
-      "51-hour": {
-        "code": "V1",
-        "name": "51 Hour Film Making"
-      },
-      "short-filmmaking": {
-        "code": "V2",
-        "name": "Online Short Filmmaking Competition"
-      }
-    }
-  },
-  "fine-arts": {
-    "properName": "Fine Arts",
-    "bg": "/assets/images/events/fine_arts.png",
-    "events": {
-      "live-sketching": {
-        "code": "A1",
-        "name": "Live Sketching"
-      },
-      "canvas-painting": {
-        "code": "A2",
-        "name": "Canvas Painting"
-      },
-      "charcoal-art": {
-        "code": "A3",
-        "name": "Charcoal Art"
-      },
-      "costume-design": {
-        "code": "A4",
-        "name": "Costume Design"
-      }
-    }
-  },
-  "digital-arts": {
-    "properName": "Digital Arts",
-    "bg": "/assets/images/events/digital_arts.png",
-    "events": {
-      "photoshop-battle": {
-        "code": "G1",
-        "name": "Photoshop Battle"
-      },
-      "graphic-design": {
-        "code": "G2",
-        "name": "Online Graphic design"
-      },
-      "3D-animation": {
-        "code": "G3",
-        "name": "3D-Animation Competition"
-      },
-      "design-marathon": {
-        "code": "G4",
-        "name": "Design Marathon"
-      },
-      "street-photography": {
-        "code": "G5",
-        "name": "Street Photography"
-      },
-      "online-photography": {
-        "code": "G6",
-        "name": "Online Photography Competition"
-      },
-      "online-photostory": {
-        "code": "G7",
-        "name": "Online Photostory"
-      }
-    }
-  },
-  "fashion": {
-    "properName": "Fashion",
-    "bg": "/assets/images/events/fashion.png",
-    "events": {
-      "fashion-show": {
-        "code": "F1",
-        "name": "Fashion Show"
-      },
-      "online-modelling": {
-        "code": "F2",
-        "name": "Online Modelling Competition"
-      }
-    }
-  },
-  "culinary": {
-    "properName": "Culinary Arts",
-    "bg": "/assets/images/events/culinary.png",
-    "events": {
-      "cook-off": {
-        "code": "C1",
-        "name": "Cook Off"
-      },
-      "tag-team": {
-        "code": "C2",
-        "name": "Tag Team"
-      },
-      "mixology": {
-        "code": "C3",
-        "name": "Mixology"
-      }
-    }
-  }
+	"quiz": {
+		"properName": "Quiz",
+		"bg": "/assets/images/events/quiz.png",
+		"events": {
+			"general": {
+				"code": "Q1",
+				"name": "General Quiz"
+			},
+			"sports": {
+				"code": "Q2",
+				"name": "Sports Quiz"
+			},
+			"sci-tech": {
+				"code": "Q3",
+				"name": "Sci-Tech Quiz"
+			},
+			"biz": {
+				"code": "Q4",
+				"name": "Biz Quiz"
+			},
+			"MELA": {
+				"code": "Q5",
+				"name": "MELA Quiz"
+			},
+			"india": {
+				"code": "Q6",
+				"name": "India Quiz"
+			}
+		}
+	},
+	"literary": {
+		"properName": "Literary Arts",
+		"bg": "/assets/images/events/literary.png",
+		"events": {
+			"scrabble": {
+				"code": "L1",
+				"name": "Scrabble"
+			},
+			"cryptic-crossword": {
+				"code": "L2",
+				"name": "Cryptic Crossword"
+			},
+			"sacred-word-games": {
+				"code": "L3",
+				"name": "Sacred Word Games"
+			},
+			"hindi-creative-writing": {
+				"code": "L4",
+				"name": "Hindi Creative Writing"
+			},
+			"english-creative-writing": {
+				"code": "L5",
+				"name": "English Creative Writing"
+			},
+			"hindi-poetry-writing": {
+				"code": "L6",
+				"name": "Hindi Poetry Writing"
+			},
+			"english-poetry-writing": {
+				"code": "L7",
+				"name": "English Poetry Writing"
+			}
+		}
+	},
+	"speaking-arts": {
+		"properName": "Speaking Arts",
+		"bg": "/assets/images/events/speaking_arts.png",
+		"events": {
+			"hindi-slam-poetry": {
+				"code": "S1",
+				"name": "Hindi Slam Poetry"
+			},
+			"english-slam-poetry": {
+				"code": "S2",
+				"name": "English Slam Poetry"
+			},
+			"parliamentary-debate": {
+				"code": "S3",
+				"name": "Parliamentary Debate"
+			},
+			"jam": {
+				"code": "S4",
+				"name": "Just a Minute (JAM)"
+			},
+			"stand-up": {
+				"code": "S5",
+				"name": "Stand Up"
+			},
+			"improv-battle": {
+				"code": "S6",
+				"name": "Improv Battle"
+			}
+		}
+	},
+	"dance": {
+		"properName": "Dance Arts",
+		"bg": "/assets/images/events/dance.png",
+		"events": {
+			"group-dance": {
+				"code": "D1",
+				"name": "Group Dance"
+			},
+			"just-duet": {
+				"code": "D2",
+				"name": "Just Duet"
+			},
+			"street-battle": {
+				"code": "D3",
+				"name": "Street Battle"
+			}
+		}
+	},
+	"theatre-arts": {
+		"properName": "Theatre Arts",
+		"bg": "/assets/images/events/dramatics.png",
+		"events": {
+			"street-play": {
+				"code": "T1",
+				"name": "Street Play"
+			},
+			"stage-play": {
+				"code": "T2",
+				"name": "Stage Play"
+			},
+			"mono-acting": {
+				"code": "T3",
+				"name": "Mono-Acting"
+			},
+			"Mime": {
+				"code": "T4",
+				"name": "Mime"
+			}
+		}
+	},
+	"music": {
+		"properName": "Musical Arts",
+		"bg": "/assets/images/events/music.png",
+		"events": {
+			"band-competition": {
+				"code": "M1",
+				"name": "Band Competition"
+			},
+			"solo-singing": {
+				"code": "M2",
+				"name": "Solo Singing"
+			},
+			"classical-vocal-solo": {
+				"code": "M3",
+				"name": "Classical Vocal Solo"
+			},
+			"pair-on-stage": {
+				"code": "M4",
+				"name": "Pair On Stage"
+			}
+		}
+	},
+	"filmmaking": {
+		"properName": "Filmmaking Arts",
+		"bg": "/assets/images/events/filmmaking.png",
+		"events": {
+			"51-hour": {
+				"code": "V1",
+				"name": "51 Hour Film Making"
+			},
+			"short-filmmaking": {
+				"code": "V2",
+				"name": "Online Short Filmmaking Competition"
+			}
+		}
+	},
+	"fine-arts": {
+		"properName": "Fine Arts",
+		"bg": "/assets/images/events/fine_arts.png",
+		"events": {
+			"live-sketching": {
+				"code": "A1",
+				"name": "Live Sketching"
+			},
+			"canvas-painting": {
+				"code": "A2",
+				"name": "Canvas Painting"
+			},
+			"charcoal-art": {
+				"code": "A3",
+				"name": "Charcoal Art"
+			},
+			"costume-design": {
+				"code": "A4",
+				"name": "Costume Design"
+			}
+		}
+	},
+	"digital-arts": {
+		"properName": "Digital Arts",
+		"bg": "/assets/images/events/digital_arts.png",
+		"events": {
+			"photoshop-battle": {
+				"code": "G1",
+				"name": "Photoshop Battle"
+			},
+			"graphic-design": {
+				"code": "G2",
+				"name": "Online Graphic design"
+			},
+			"3D-animation": {
+				"code": "G3",
+				"name": "3D-Animation Competition"
+			},
+			"design-marathon": {
+				"code": "G4",
+				"name": "Design Marathon"
+			},
+			"street-photography": {
+				"code": "G5",
+				"name": "Street Photography"
+			},
+			"online-photography": {
+				"code": "G6",
+				"name": "Online Photography Competition"
+			},
+			"online-photostory": {
+				"code": "G7",
+				"name": "Online Photostory"
+			}
+		}
+	},
+	"fashion": {
+		"properName": "Fashion",
+		"bg": "/assets/images/events/fashion.png",
+		"events": {
+			"fashion-show": {
+				"code": "F1",
+				"name": "Fashion Show"
+			},
+			"online-modelling": {
+				"code": "F2",
+				"name": "Online Modelling Competition"
+			}
+		}
+	},
+	"culinary": {
+		"properName": "Culinary Arts",
+		"bg": "/assets/images/events/culinary.png",
+		"events": {
+			"cook-off": {
+				"code": "C1",
+				"name": "Cook Off"
+			},
+			"tag-team": {
+				"code": "C2",
+				"name": "Tag Team"
+			},
+			"mixology": {
+				"code": "C3",
+				"name": "Mixology"
+			}
+		}
+	}
 }

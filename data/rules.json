@@ -1,118 +1,1301 @@
 {
-  "Q1": {
-    "points": 30,
-    "isTeam": true,
-    "teams": "max of 6 teams in prelims, max of 3 teams in final",
-    "perteam": "3 or less",
-    "description": "Quiz that spans the vast spectrum of knowledge, encompassing anything and everything under the sun. With questions that traverse diverse topics, this quiz promises to challenge your wits and test your breadth of understanding.",
-    "rules": [
-      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
-      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
-      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
-      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
-      "More than three teams from the same IIT will not make it to the finals.",
-      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
-      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
-      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
-    ]
-  },
-  "Q2": {
-    "points": 30,
-    "isTeam": true,
-    "teams": "max of 6 teams in prelims, max of 3 teams in final",
-    "perteam": "3 or less",
-    "description": "Spanning the entire sporting universe, from legendary athletes like Ashe to iconic events like the Ashes, this challenge covers all things sports-related.",
-    "rules": [
-      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
-      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
-      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
-      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
-      "More than three teams from the same IIT will not make it to the finals.",
-      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
-      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
-      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
-    ]
-  },
-  "Q3": {
-    "points": 30,
-    "isTeam": true,
-    "teams": "max of 6 teams in prelims, max of 3 teams in final",
-    "perteam": "3 or less",
-    "description": "An exploration of the ever-evolving realms of science and technology in this engaging quiz. From cutting-edge innovations to fundamental scientific principles, this quiz covers all facets of the fascinating world of Sci-tech.",
-    "rules": [
-      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
-      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
-      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
-      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
-      "More than three teams from the same IIT will not make it to the finals.",
-      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
-      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
-      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
-    ]
-  },
-  "Q4": {
-    "points": 30,
-    "isTeam": true,
-    "teams": "max of 6 teams in prelims, max of 3 teams in final",
-    "perteam": "3 or less",
-    "description": "The dynamic world of business that navigates the ever-evolving landscape of commerce and entrepreneurship. Test your acumen on everything from corporate giants to start up success stories.",
-    "rules": [
-      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
-      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
-      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
-      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
-      "More than three teams from the same IIT will not make it to the finals.",
-      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
-      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
-      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
-    ]
-  },
-  "Q5": {
-    "points": 30,
-    "isTeam": true,
-    "teams": "max of 6 teams in prelims, max of 3 teams in final",
-    "perteam": "3 or less",
-    "description": "The MELA Quiz, encompassing the fields of Music, Entertainment, Literature and Art is one of the most anticipated events in the Inter IIT line-up! If you think you have what it takes to navigate your way through these exhilarating fields.",
-    "rules": [
-      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
-      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
-      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
-      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
-      "More than three teams from the same IIT will not make it to the finals.",
-      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
-      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
-      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
-    ]
-  },
-  "Q6": {
-    "isTeam": true,
-    "teams": "max of 6 teams in prelims, max of 3 teams in final",
-    "perteam": "3 or less",
-    "description": "The tapestry of India's culture, art, history, sports, and beyond in this immersive quiz. Explore the richness of this diverse nation and test your knowledge on its myriad facets.",
-    "rules": [
-      "Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
-      "The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
-      "In case of any discrepancy, the word of the quiz master shall be final and binding.",
-      "Use of unfair means will lead to immediate disqualification of the IIT from that event.",
-      "More than three teams from the same IIT will not make it to the finals.",
-      "The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
-      "A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
-      "In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
-    ]
-  },
-  "L1": {
-    "points": 30,
-    "isTeam": false,
-    "participants": "5",
-    "time": "44 minutes per game",
-    "description": "A Scrabble tournament where players battle it out over multiple rounds of games to crown the ultimate Scrabble Champions. Games will happen on physical Scrabble boards.",
-    "rules": [
-      "Games will be 1v1, with all players playing all rounds of the tournament. The final results will be based on the cumulative wins over all rounds (Player will get 1 point for every win, 0 for every loss and 0.5 in the case of a bye for each game).",
-      "Time limit for each game: 40 (+4 overtime) minutes (20 (+2 overtime) per side). Things like arranging tiles, time for totaling, etc. are not counted in the 15 minutes. Going over the time limit will automatically award the win to the opponent (Time forfeit).",
-      "Upon entering each minute of overtime, 10 points are deducted from the player’s score. If the player reaches the end of the second minute of overtime, they lose by time forfeit.",
-      "Collin’s Scrabble Words 2021(CSW-21) dictionary will be used.",
-      "Matches are not void. You can challenge your opponent’s play. Any play may be challenged before the next player starts a turn. If the play challenged is unacceptable, the challenged player takes back their tiles and loses that turn. If the play challenged is acceptable, the challenger loses their next turn. Consult the dictionary for challenges only. All words made in one play are challenged simultaneously. If any word is unacceptable, then the entire play is unacceptable. Only one turn is lost on any challenge."
-    ],
-    "criteria": "We will be following the official Scrabble rules as detailed in this link: https://instructions.hasbro.com/api/download/04024_en-us_scrabble-board-game.pdf All disputes will be settled by the Tournament Director, who will have the final word on disputes."
-  }
+	"Q1": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "max of 6 teams in prelims, max of 3 teams in final",
+		"perteam": "3 or less",
+		"description": "Quiz that spans the vast spectrum of knowledge, encompassing anything and everything under the sun. With questions that traverse diverse topics, this quiz promises to challenge your wits and test your breadth of understanding.",
+		"rules": [
+			"Each quiz consists of a written prelims round followed by on-stage finals for 8 qualifying teams.",
+			"The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+			"In case of any discrepancy, the word of the quiz master shall be final and binding.",
+			"Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+			"More than three teams from the same IIT will not make it to the finals.",
+			"The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+			"A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+			"In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+		]
+	},
+	"Q2": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "max of 6 teams in prelims, max of 3 teams in final",
+		"perteam": "3 or less",
+		"description": "Spanning the entire sporting universe, from legendary athletes like Ashe to iconic events like the Ashes, this challenge covers all things sports-related.",
+		"rules": [
+			"Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
+			"The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+			"In case of any discrepancy, the word of the quiz master shall be final and binding.",
+			"Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+			"More than three teams from the same IIT will not make it to the finals.",
+			"The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+			"A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+			"In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+		]
+	},
+	"Q3": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "max of 6 teams in prelims, max of 3 teams in final",
+		"perteam": "3 or less",
+		"description": "An exploration of the ever-evolving realms of science and technology in this engaging quiz. From cutting-edge innovations to fundamental scientific principles, this quiz covers all facets of the fascinating world of Sci-tech.",
+		"rules": [
+			"Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
+			"The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+			"In case of any discrepancy, the word of the quiz master shall be final and binding.",
+			"Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+			"More than three teams from the same IIT will not make it to the finals.",
+			"The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+			"A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+			"In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+		]
+	},
+	"Q4": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "max of 6 teams in prelims, max of 3 teams in final",
+		"perteam": "3 or less",
+		"description": "The dynamic world of business that navigates the ever-evolving landscape of commerce and entrepreneurship. Test your acumen on everything from corporate giants to start up success stories.",
+		"rules": [
+			"Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
+			"The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+			"In case of any discrepancy, the word of the quiz master shall be final and binding.",
+			"Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+			"More than three teams from the same IIT will not make it to the finals.",
+			"The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+			"A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+			"In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+		]
+	},
+	"Q5": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "max of 6 teams in prelims, max of 3 teams in final",
+		"perteam": "3 or less",
+		"description": "The MELA Quiz, encompassing the fields of Music, Entertainment, Literature and Art is one of the most anticipated events in the Inter IIT line-up! If you think you have what it takes to navigate your way through these exhilarating fields.",
+		"rules": [
+			"Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
+			"The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+			"In case of any discrepancy, the word of the quiz master shall be final and binding.",
+			"Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+			"More than three teams from the same IIT will not make it to the finals.",
+			"The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+			"A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+			"In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+		]
+	},
+	"Q6": {
+		"isTeam": true,
+		"teams": "max of 6 teams in prelims, max of 3 teams in final",
+		"perteam": "3 or less",
+		"description": "The tapestry of India's culture, art, history, sports, and beyond in this immersive quiz. Explore the richness of this diverse nation and test your knowledge on its myriad facets.",
+		"rules": [
+			"Each quiz consists of a written prelims round followed by on- stage finals for 8 qualifying teams.",
+			"The quiz will start on the arrival of the quiz master. No request for delaying the quiz will be entertained.",
+			"In case of any discrepancy, the word of the quiz master shall be final and binding.",
+			"Use of unfair means will lead to immediate disqualification of the IIT from that event.",
+			"More than three teams from the same IIT will not make it to the finals.",
+			"The points would be given only for to the finalist teams. Prelims participation would not fetch points.",
+			"A student can only be a part of one team (for each quiz) Tiebreakers and other rules will be announced by the quizmaster",
+			"In case of multiple qualifications in the prelims, from the same IIT, only the best 3 teams from an IIT will proceed to final and points received to highest placed team would be considered and the rest positions obtained by the respective IITs will be blocked."
+		]
+	},
+	"L1": {
+		"points": 30,
+		"isTeam": false,
+		"participants": "5",
+		"time": "44 minutes per game",
+		"description": "A Scrabble tournament where players battle it out over multiple rounds of games to crown the ultimate Scrabble Champions. Games will happen on physical Scrabble boards.",
+		"rules": [
+			"Games will be 1v1, with all players playing all rounds of the tournament. The final results will be based on the cumulative wins over all rounds (Player will get 1 point for every win, 0 for every loss and 0.5 in the case of a bye for each game).",
+			"Time limit for each game: 40 (+4 overtime) minutes (20 (+2 overtime) per side). Things like arranging tiles, time for totaling, etc. are not counted in the 15 minutes. Going over the time limit will automatically award the win to the opponent (Time forfeit).",
+			"Upon entering each minute of overtime, 10 points are deducted from the player’s score. If the player reaches the end of the second minute of overtime, they lose by time forfeit.",
+			"Collin’s Scrabble Words 2021 (CSW-21) dictionary will be used.",
+			"Matches are not void. You can challenge your opponent’s play. Any play may be challenged before the next player starts a turn. If the play challenged is unacceptable, the challenged player takes back their tiles and loses that turn. If the play challenged is acceptable, the challenger loses their next turn. Consult the dictionary for challenges only. All words made in one play are challenged simultaneously. If any word is unacceptable, then the entire play is unacceptable. Only one turn is lost on any challenge."
+		],
+		"criteria": "We will be following the official Scrabble rules as detailed in this link: https://instructions.hasbro.com/api/download/04024_en-us_scrabble-board-game.pdf All disputes will be settled by the Tournament Director, who will have the final word on disputes."
+	},
+	"L2": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "4 (maximum)",
+		"perteam": "1-2",
+		"time": "1-hour prelims + 2.5 hours’ finals",
+		"description": "Sharpen your linguistic skills and engage your intellect as you decipher clues that will lead you to the hidden answers. Join us in this cerebral quest where every square holds a secret waiting to be revealed. A standard cryptic crossword grid, set by an external setter for prelims, following which the top 8 teams proceed to the finals in a bounce/pounce + written format.",
+		"rules": [
+			"Prelims will consist of a grid to solve in a stipulated time.",
+			"The top 8 teams advance to the finals, which will have a format similar to quiz finals (bounce/pounce and written rounds). The exact format would be at the discretion of the judge.",
+			"More than three teams from the same IIT will not make it to the finals.",
+			"Pounce and Bounce rules – These are a set of rules for determining the scoring pattern of thei n case a dispute arises, the setter’s word is final."
+		],
+		"criteria": "As per the scoring format of the set. For prelims, there will be starred clues to break ties if multiple teams have the points."
+	},
+	"L3": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "4 (maximum)",
+		"perteam": "1-2",
+		"time": "1-hour prelims + 2.5 hours’ finals",
+		"description": "A written word games set, which will be a mixed bag of word games. These games will challenge your vocabulary and nerve, with clues and riddles inspired by the eeriest tales. Prelims, following which the top 8 teams proceed to the finals in a bounce/pounce + written format.",
+		"rules": [
+			"Prelims will consist of a written word game set to solve within a stipulated time.",
+			"The top 8 teams advance to the finals, which will have a format similar to quiz finals (bounce/pounce and written rounds).",
+			"More than three teams from the same IIT will not make it to the finals.",
+			"In case a dispute arises, the setter’s word is final."
+		],
+		"criteria": "As per the scoring format of the set. For prelims, there will be starred clues to break ties if multiple teams have the same points."
+	},
+	"L4": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "2",
+		"perteam": "1",
+		"time": "4 hrs",
+		"description": "A Theme Based individual event where participants will write a short story of 1000- 2000 words in Hindi based on given prompts.",
+		"rules": [
+			"Entries should have a title and the word limit is 2000 words.",
+			"This will be a theme-based writing competition where the theme will be provided on the spot and the participants must come up with the story in the given time.",
+			"The short story should be an original work of the participant. Plagiarism of any kind is not allowed. The story can be inspired a bit but it must be mentioned. Also, any charge of plagiarism will be dealt by the judges.",
+			"The story should originally be in Hindi. Words of Urdu and English are allowed but not an entire composition. Although the script of the composition should be Devanagari.",
+			"No participant will be allowed to enter the hall after 1 hour from the competition start timing. Participants will be allowed to leave after completion of two hours of competition time",
+			"Illustrations such as graphs and sketches are not allowed.",
+			"Any form of vulgarity/obscenity in content will be dealt with very strictly. The participant’s entry may be disqualified from the competition. It will be left to the judge’s discretion.",
+			"A zero percent relevance to theme will lead to disqualification."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Prose Structure - 15%",
+			"Creativity and Content - 30%",
+			"Vocabulary and Language - 20%",
+			"Relevance to theme - 25%",
+			"Overall Impact - 10%"
+		]
+	},
+	"L5": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "2",
+		"perteam": "1",
+		"time": "4 hrs",
+		"description": "A Theme Based individual event where participants will write a short story in English based on the given prompts.",
+		"rules": [
+			"The word limit is 2000 words.",
+			"Entries should have a title.",
+			"This will be a theme-based writing competition where the theme will be provided on the spot and the participants must come up with the story in the given time.",
+			"The short story should be an original work of the participant. Plagiarism of any kind is not allowed. The story can be inspired a bit but it must be mentioned. Also, any charge of plagiarism will be dealt by the judges.",
+			"No participant will be allowed to enter the hall after 1 hour from the competition start timing. Participants will be allowed to leave after completion of two hours of competition time",
+			"Each participant must write and submit 1 short story on the provided themes on-spot in English only.",
+			"Illustrations such as graphs and sketches are not allowed.",
+			"Any form of vulgarity/obscenity in content will be dealt with very strictly. The participant’s entry may be disqualified from the competition. It will be left to the judge's discretion.",
+			"A zero percent relevance to theme will lead to disqualification."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Prose Structure - 15%",
+			"Creativity and Content - 30%",
+			"Vocabulary and Language - 20%",
+			"Relevance to theme - 25%",
+			"Overall Impact - 10%"
+		]
+	},
+	"L6": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "2",
+		"perteam": "1",
+		"time": "2 hrs",
+		"description": "A Theme-based individual event where participants will write a poetry in Hindi based on given prompts.",
+		"rules": [
+			"The word limit is 100-250 words.",
+			"Entries should have a title",
+			"This will be a theme-based writing competition where the theme will be provided on the spot and the participants must come up with the poem in the given time.",
+			"The poem should be an original work of the participant.",
+			"Plagiarism of any kind is not allowed.",
+			"The poem should originally be in Hindi. Words of Urdu and English are allowed but not an entire composition. Although the script of the composition should be Devanagari.",
+			"No participant will be allowed to enter the hall after 15 mins from the competition start timing.",
+			"Illustrations such as graphs and sketches are not allowed.",
+			"Any form of vulgarity/obscenity in content will be dealt with very strictly. The participant’s entry may be disqualified from the competition. It will be left to the judge's discretion.",
+			"A zero percent relevance to theme will lead to disqualification."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Poem Structure and Complexity - 25%",
+			"Creativity and Content - 30%",
+			"Relevance to theme - 25%",
+			"Overall Impact - 20%"
+		]
+	},
+	"L7": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "2",
+		"perteam": "1",
+		"time": "2 hrs",
+		"description": "A Theme-based individual event where participants will write a poetry in English based on given prompts.",
+		"rules": [
+			"The word limit is 100-250 words.",
+			"Entries should have a title",
+			"This will be a theme-based writing competition where the theme will be provided on the spot and the participants must come up with the poem in the given time.",
+			"The poem should be an original work of the participant.",
+			"Plagiarism of any kind is not allowed.",
+			"The poem should originally be in English only",
+			"No participant will be allowed to enter the hall after 15 mins from the competition start timing.",
+			"Illustrations such as graphs and sketches are not allowed.",
+			"Any form of vulgarity/obscenity in content will be dealt with very strictly. The participant’s entry may be disqualified from the competition. It will be left to the judge's discretion.",
+			"A zero percent relevance to theme will lead to disqualification."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Poem Structure and Complexity - 25%",
+			"Creativity and Content - 30%",
+			"Relevance to theme - 25%",
+			"Overall Impact - 20%"
+		]
+	},
+	"S1": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "2",
+		"perteam": "1",
+		"time": "5 mins per participant",
+		"description": "A Non-Theme Based individual event where participants perform original works of poetry",
+		"rules": [
+			"All kinds of poem compositions are allowed. The poem should originally be in Hindi. Words of English and Urdu are allowed but not an entire composition.",
+			"Whether the composition is original or not has to be announced before the performance. Zero marks for both Content and Creativity & Vocabulary and Poetry Language will be awarded if not original. Refer below for Marks Distribution. If not announced, the entry will be canceled.",
+			"If your claim of originality is incorrect, then the individual entry will not be considered valid for the competition.",
+			"For each performance, performers are allowed at most 5 Minutes of recital (There can be multiple poems in each performance, but the total time of performance should not exceed 5 minutes)",
+			"Jazz poetry and beat poetry will not carry any extra marks. Participants may carry a piece of paper or phone which they may refer to while reciting.",
+			"Any form of vulgarity/obscenity in content will be dealt with very strictly. The participant’s entry may be disqualified from the competition. It will be left to judge's discretion.",
+			"The judge’s decision will be final and binding. In case of ambiguity at the last minute, the matter will be resolved by the judge."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Vocabulary and Poetry Language - 15%",
+			"Content & Creativity - 20%",
+			"Performing Style and Diction - 30%",
+			"Originality - 15%",
+			"Overall Impact - 20%"
+		]
+	},
+	"S2": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "2",
+		"perteam": "1",
+		"time": "5 mins per participant",
+		"description": "A Non-Theme Based individual event where participants perform original works of poetry",
+		"rules": [
+			"All kinds of poem compositions are allowed. The poem should originally be in English only",
+			"Whether the composition is original or not has to be announced before the performance. Zero marks for both Content and Creativity & Vocabulary and Poetry Language will be awarded if not original. Refer below for Marks Distribution. If not announced, the entry will be canceled.",
+			"If your claim of originality is incorrect then the individual entry will not be considered valid for the competition.",
+			"For each performance, performers are allowed at most 5 Minutes of recital (There can be multiple poems in each performance but the total time of performance should not exceed 5 minutes)",
+			"Jazz poetry and beat poetry will not carry any extra marks. Participants may carry a piece of paper or phone which they may refer to while reciting.",
+			"Any form of vulgarity/obscenity in content will be dealt with very strictly. The participant’s entry may be disqualified from the competition. It will be left to judge's discretion.",
+			"The judge’s decision will be final and binding. In case of ambiguity at the last minute, the matter will be resolved by the judge."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Vocabulary and Poetry Language - 15%",
+			"Content & Creativity - 20%",
+			"Performing Style and Diction - 30%",
+			"Originality - 15%",
+			"Overall Impact - 20%"
+		]
+	},
+	"S3": {
+		"points": "80 + 20",
+		"isTeam": true,
+		"teams": "1, For each participating team, they will be required to send 2 adjudicators. Please note that there will be an upper limit of adjudicators from each IIT to avoid team and speaker clashes. If the speaker team fails to fulfil the adjudication criteria, there will be a penalty of 5 points from the overall tally.",
+		"perteam": "3 + 2 adjudicators, There will be an adjudication test for all adjudicators to decide the adjudicators on the panel.",
+		"time": "2 days (Prelim round 1.5 hours each x 3 + 2 Semis + 1 Finals)",
+		"struct": [
+			"There will be 3 preliminary rounds in which teams will be ranked according to wins and losses.",
+			"In the event of a tie, speaker scores and margin of victory shall be used.",
+			"This will be followed by the top 4 teams qualifying to further rounds: The Semi Finals and Final.",
+			"Semi-finals will have a knockout format wherein the two winning teams will proceed to the finals.",
+			"A panel of core adjudicators will be appointed to set the motions and conduct the debate for Semi-Finals and Finals.",
+			"The adjudicators will deliver a seven-minute oral adjudication at the end of the debate. Following this, the debaters will score the adjudicators. The adjudicator scores obtained by the judges of each IIT will be added to their debate scores to determine the points table. Kindly note that the selection to semi-finals (team breaks) will however depend only on the debate scores, wins/losses, and margin of victory."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Manner, Matter and Method (Standard Asian Parliamentary rules).",
+			"Asian Parliamentary Format (Themed rounds, Motion ranking with veto, 25 minutes’ preparation time, 7 minutes speaking time with the first and last minutes as protected time, Standard speaker roles apply, 4 minutes’ reply speech from a non-whip member of the team, 7 minutes’ oral adjudication followed by secret ballot of adjudicators by teams).",
+			"A detailed Handbook of Parliamentary Debate Procedures will be shared later by the organizing team.",
+			"The adjudication will also be judged and ranked according to the Standard judge scoring guide and the top 5 adjudicator will be awarded 20 points total in addition to the points secured by an IIT in debate. The points secured by the adjudicator will be stacked for an IIT. (Refer to Page 59: WUDC Judging Manual (https://drive.google.com/file/d/1bUlNpNPOjmXibDKUwRuDk_qmbT8oLa45/view) for judge scale)"
+		]
+	},
+	"S4": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "5",
+		"perteam": "1",
+		"rules": [
+			"Only Queen’s English must be spoken (points deducted for deviation).",
+			"In Prelims, a panel, max of 6 participants can be there.",
+			"Standard rules would remain consistent throughout all the panels and the stages of the scrabble.",
+			"The Judge would finalize the standard rules that would be followed through.",
+			"No gesticulation is allowed (points deducted for deviation). Repetition of the topic can be done no more than once in the speech.",
+			"Standard Just-A-Minute rules apply. Link to standard Just-A-Minute rules - https://docs.google.com/document/d/1YwLPkkluDNR_25NJilj3XbyZs3EhfWmt/edit. The judge’s decision will be final and binding. In case of ambiguity at the last minute, the matter will be resolved by the judge."
+		]
+	},
+	"S5": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "3",
+		"perteam": "1",
+		"time": "6-8 minutes",
+		"description": "Individual event in which participants have to perform Stand Up Comedy in front of an audience",
+		"rules": [
+			"Participants have to prepare a set that is to be performed in front of the live audience",
+			"Any plagiarism will lead to immediate disqualification. Any form of pre-recorded music is not allowed during performance.",
+			"Props are allowed but carry no weightage. Participants can use it to enhance their performance.",
+			"Visual aids (slides/videos/pictures) are not to be used",
+			"The performance must be delivered in only English or Hindi. Obscenity and vulgarity are left to judges' discretion."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Exceeding the time limit will cause deduction of 5 marks per minute.",
+			"After 10 minutes, the participant will be asked to leave the stage along with a penalty of 10 marks."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Humorous content (Premises, punchlines etc.) - 30%",
+			"Content Delivery (Orator-ship) - 30%",
+			"Stage Presence + Audience Engagement - 20%",
+			"Overall Impact - 20%"
+		]
+	},
+	"S6": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "2",
+		"perteam": "4-6",
+		"time": "6-8 minutes",
+		"description": "Improvisational comedy, or improv comedy, is a theatrical art form where improvisers perform without a script. The actors then riff on the suggestions, listening closely to one another and allowing scenes to spontaneously develop in real-time.",
+		"rules": [
+			"Participants have to perform a spontaneous act in front of a live audience.",
+			"Any plagiarism will lead to immediate disqualification. Any form of pre-recorded music is not allowed during performance.",
+			"Props are allowed but carry no weightage. Participants can use it to enhance their performance.",
+			"Visual aids (slides/videos/pictures) are not to be used.",
+			"The performance must be delivered in only English or Hindi; vernacular words may be used as a part of a joke but may or may not be graded solely based on the Judge’s discretion.",
+			"Obscenity is left to judges' discretion."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Exceeding the time limit will cause deduction of 5 marks per minute. After 10 minutes,",
+			"the participant will be asked to leave the stage along with a penalty of 10 marks."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Judge-specific metrics (free to be allocated by the judge) - 20%",
+			"Humour content - 20%, Spontaneity - 20%",
+			"Audience Appeal - 10%",
+			"Confidence - 10%",
+			"Relevance to theme - 10%",
+			"Cast enjoyment (Chemistry between performers and overall coherence) - 10%"
+		]
+	},
+	"D1": {
+		"points": 100,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "5-37 (including backstage members and lights and sound in-charges)",
+		"time": "5-13 minutes (including stage setup)",
+		"description": "A group event where participants perform together as a cohesive unit with musicality showcasing various styles and cultures.",
+		"rules": [
+			"Music pieces should be a minimum of 5 and a maximum of 13 minutes long and must not be vulgar (contain inappropriate, lewd, or offensive language). This is left to the judge’s discretion.",
+			"Songs of all types/languages are allowed (remixes, folk, etc. are allowed).",
+			"Props may be used to enhance the performance. Normalization of scores will be done to have objective judging.",
+			"Stunts which pose any risk to life are not permitted. Exceeding the time limit is strictly not allowed.",
+			"Spilling of powdery substance, fluids, usage of fire, props or any substance which might damage the stage or adversely affect the performance of other teams is strictly not allowed. Any team found using it would face a penalty of 30% points (that is 30% of the maximum points they can get in that following competition). The teams will be expected to restore the stage to its original condition within the set time limit in case any prop or substance that causes temporary changes is used (e.g., in case of spilling powdered substances, the stage will need to be cleaned up by the team).",
+			"Tracks should be submitted in mp3 before 11:59 pm of 20th December, 2023 for both Group Dance and Just Duet to submission.interiitculturalmeet@gmail.com",
+			"Vulgarity and obscenity are strictly not allowed. It will be left to judges’ discretion, and their decision will be final and binding in case any part of the performance is found objectionable."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"13:01 - 14:00 - 10 marks",
+			"14:01 - 15:00 - 20 marks",
+			"15:01 - 16:00 - 30 marks",
+			"After 16 minutes the music will be stopped along with a penalty of 35 marks.",
+			"Cumulative duration of 20 seconds or more taken from another dance original moves or unique dancing style will lead to losing all marks from originality"
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Choreography and versatility - 25%",
+			"Coordination - 25%",
+			"Energy + Body language (expressions) - 15%",
+			"Creativity and Originality (Creativity includes prop usage, costume, variety etc.) - 10%",
+			"Stage utilization + Transitions - 15%",
+			"Overall Impact + X factor - 10%"
+		],
+		"image": "../../../../public/assets/images/events/netaji.png",
+		"additional": "Group Dance will take place in Netaji Auditorium. The dimensions (in metres) for the same are as mentioned above."
+	},
+	"D2": {
+		"points": 50,
+		"isTeam": true,
+		"teams": "2",
+		"perteam": "2",
+		"time": "2.5-6 minutes(including setup)",
+		"description": "A duet dance is a performance by two dancers, coordinating and choreographing their moves together for a synchronized and engaging routine.",
+		"rules": [
+			"Music pieces should be a minimum of 2.5 and a maximum of 6 minutes long and must not be vulgar (contain inappropriate, lewd, or offensive language).",
+			"Songs of all types/languages are allowed (remixes, folk, etc. are allowed).",
+			"Participants are allowed to use props for a part of their performance. No props will be provided by event organisers.",
+			"Normalization of scores will be done to have objective judging.",
+			"Stunts which pose any risk to life are not permitted. Exceeding the time limit is strictly not allowed.",
+			"Spilling of powdery substance, fluids, usage of fire, props or any substance which might damage the stage or adversely affect the performance of other teams is strictly not allowed. Any team found using it would face a penalty of 30% points (that is 30% of the maximum points they can get in that following competition). The teams will be expected to restore the stage to its original condition within the set time limit in case any prop or substance that causes temporary changes is used (e.g., in case of spilling powdered substances, the stage will need to be cleaned up by the team).",
+			"Tracks should be submitted in mp3 before 11:59 pm of 20th December, 2023 for both Group Dance and Just Duet to submission.interiitculturalmeet@gmail.com",
+			"Vulgarity and obscenity are strictly not allowed. It will be left to judges’ discretion, and their decision will be final and binding in case any part of the performance is found objectionable."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Deduction of 10 marks for every 30 seconds after 6th minute. Music will be stopped after 7 minutes with a 30-mark penalty",
+			"Cumulative duration of 20 seconds or more taken from another dance original moves or unique dancing style will lead to losing all marks from originality"
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Choreography - 30%",
+			"Coordination - 25%",
+			"Energy + Creativity and Uniqueness (Creativity/Uniqueness i.e. prop usage, costume, variety) - 10%",
+			"Energy - 20%",
+			"Overall Impact - 15%"
+		],
+		"image": "../../../../public/assets/images/events/netaji.png",
+		"additional": "Just Duet will take place in Netaji Auditorium. The dimensions(in metres) for the same are as mentioned above"
+	},
+	"D3": {
+		"points": 50,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "4-10",
+		"description": "Competitive freestyle dance event where dancers showcase skills and creativity against each other.",
+		"street": [
+			"Locking Popping",
+			"Bboying / Bgirling (breaking) Waacking / Punking Vogueing",
+			"Afro",
+			"House Dance",
+			"Party Dances or Club Dances (popular or trendy dances) Hip Hop Dance / Choreography",
+			"Krumping",
+			"Stepping / Gumboots"
+		],
+		"rules": [
+			"Each battle will be a street style dance face-off, eliminative in nature.",
+			"One battle between teams will have 3 rounds. Each round of a battle will be of 45 seconds.",
+			"In each round, both teams will have to perform on the same song which will be played in continuation. The team which will go first will be decided by a toss at the beginning of the battle and thereafter the next team will go first in the next round and again the first team in the third round and so on.",
+			"The number of people dancing in each round of the battle is up to the individual team's discretion.",
+			"Any combination of routine solo/duo/group should be performed for at least 30 seconds in a round. The round will be considered lost by the team in case it violates this rule.",
+			"A penalty of 10 marks will be imposed for vulgar actions, extreme aggression or doing any action which is inappropriate or harmful",
+			"The fixture will be decided according to the number of participating IITs and battles/byes will be decided by picking up chits.",
+			"Stunts which pose any risk to life are not permitted. Exceeding the time limit is strictly not allowed.",
+			"Spilling of powdery substance, fluids, usage of fire, props or any substance which might damage the stage or adversely affect the performance of other teams is strictly not allowed. Any team found using it would face a penalty of 30% points (that is 30% of the maximum points they can get in that following competition). The teams will be expected to restore the stage to its original condition within the set time limit in case any prop or substance that causes temporary changes is used (e.g., in case of spilling powdered substances, the stage will need to be cleaned up by the team).",
+			"Tracks should be submitted in mp3 before 11:59 pm of 20th December, 2023 for both Group Dance and Just Duet to submission.interiitculturalmeet@gmail.com",
+			"Vulgarity and obscenity are strictly not allowed. It will be left to judges’ discretion, and their decision will be final and binding in case any part of the performance is found objectionable."
+		],
+		"penalty": "A penalty of 10 marks will be imposed for vulgar actions. extreme aggression or doing any such action which is inappropriate.",
+		"isCriteriaTable": true,
+		"criteria": [
+			"Musicality - 35%",
+			"Synchronization and Execution - 20%",
+			"Energy - 20%",
+			"Creativity and Uniqueness - 15%",
+			"Overall Impact - 10%"
+		]
+	},
+	"T1": {
+		"points": 100,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "5-30",
+		"time": "30 minutes (from empty stage to empty stage)*",
+		"description": "Street Play is an event where actors present a play in outdoor public spaces, with no specific target audience.",
+		"rules": [
+			"The act should be either in English or Hindi or both. Both original and adapted scripts are allowed.",
+			"Exact copying of scenes will be considered plagiarism, and the penalization will be left to judges’ discretion.",
+			"Modification and adaptation of other plays (with proper credits), and performance of any past production by the IIT in question, is allowed.",
+			"The judge's decision is final and binding",
+			"The time expended because of applause interruption will not be added to the play time.",
+			"Obscenity of any kind that is harmful to the interests or beliefs of specific but not limited to social, economic, religious, gender or political groups is strictly punishable and can lead to disqualification of the IIT. In case of dispute, the decision of the judge will be final."
+		],
+		"penalty": "Deduction of 5 marks per minute after the 30th minute After 35 minutes, the team will be asked to leave the stage along with a penalty of 30 marks.",
+		"isCriteriaTable": true,
+		"criteria": [
+			"Script and Originality - 20%",
+			"Acting, Energy, and Voice - 40%",
+			"Direction and coherence in implementation - 20%",
+			"Creativity and Overall Impact - 20%"
+		],
+		"dimension": "A 30 X 30 ft performance area will be provided.",
+		"additional": "*An ‘empty stage’ is stipulated as the requirement for a team member to ensure that they retrieve all items they bring onto the stage upon their departure from it."
+	},
+	"T2": {
+		"points": 100,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "30 (including backstage/crew members)",
+		"time": "45-75 minutes (from empty stage to empty stage). Each team will get a 30-minute practice time. The same will be communicated with the Contingent Leaders.",
+		"description": "Stage play is an event where participants put up a play that is up to 75 minutes long from empty stage to empty stage (wings excluded).",
+		"rules": [
+			"The play should only be in English or Hindi or both, but a few words (Including slang) of other languages are allowed.",
+			"Both original and adapted scripts are allowed.",
+			"The details of the play need to be sent by the deadline 11:59pm, 16th December, 2023. The details include - (The title of the play, Approximate duration, Requirements from the host institute (subject to availability), If self-written, credits to the playwrights and/or plays whose material has been used. The subject line would be as per the common format STAGEPLAY_IITNAME)",
+			"Use of flammable substances or liquids is strictly prohibited. In case of special liquid requirements with the context of the play is absolutely necessary, then an exception may be made under the discretion of the organising team. The Organising Team must be informed at least 2 days prior to the performance.",
+			"Original script or an original adaptation of a playwright’s script is allowed, and will be judged equally (only based on performance).",
+			"Vulgarity is strictly prohibited and can lead to disqualification.",
+			"Obscenity of any kind that is harmful to the interests or beliefs of specific but not limited to social, economic, religious, gender or political groups is strictly punishable and can lead to disqualification of the IIT. In case of dispute, the decision of the judge will be final.",
+			"The time expended because of applause interruption will not be added to the play timing.",
+			"Any damage caused to the stage will result in a 30% penalty.",
+			"Performances exceeding the time limit will be penalised.",
+			"Judges' decisions are final and binding."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Deduction of 5 marks per minute after 75th minute.",
+			"After 80 minutes, the team will be disqualified but they may continue their performance"
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Script and Direction (Plot, Character definition, Dialogues, Originality) - 35%",
+			"Acting - 35%",
+			"Lights and Music - 15%",
+			"Creativity and Stage Setting/Design - 10%",
+			"Overall Impact - 5%"
+		],
+		"image": "../../../../public/assets/images/events/kalidas.png",
+		"additional": "Stage Play will take place in Kalidas Auditorium. The dimensions (in metres) for the same are as mentioned above."
+	},
+	"T3": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "2",
+		"perteam": "1 actor, maximum 4 background members",
+		"time": "5-10 minutes (from empty stage to empty stage)",
+		"description": "Mono acting is an event where a monologue is delivered by a single actor.",
+		"rules": [
+			"The act has to be in English or Hindi or both. Few words of any other language are allowed.",
+			"Any props required for the act must be brought by the participants. Any other requirements have to be informed beforehand, and are subject to availability.",
+			"Vulgarity is strictly prohibited and can lead to disqualification.",
+			"Obscenity of any kind that is harmful to the interests or beliefs of specific but not limited to social, economic, religious, gender or political groups is strictly punishable and can lead to disqualification of the IIT. In case of dispute, the decision of the judge will be final.",
+			"Performances exceeding the time limit may be penalized."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Deduction of 5 marks per minute after the 10th minute.",
+			"After 13 minutes, the team will be disqualified and will be asked to leave the stage."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Script and Direction(Plot, Character definition, Dialogues, Originality) - 25%",
+			"Acting - 40%",
+			"Lights and Music - 15%",
+			"Creativity and Overall Impact - 20%"
+		],
+		"image": "../../../../public/assets/images/events/SNBose.png",
+		"additional": "MonoActing will take place in SN Bose Auditorium. The dimensions(in metres) for the same are as mentioned above."
+	},
+	"T4": {
+		"points": 50,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "3-12 members (including backstage members/crew)",
+		"time": "5-10 minutes (from empty stage to empty stage)",
+		"description": "Teams will be required to present a skit in the form of mime.",
+		"rules": [
+			"Performance may comprise multiple scenes and hence have blackouts.",
+			"No dialogue or backstage voiceover/narration of any sort is allowed in the performance.",
+			"Pre-recorded music is allowed and should be brought in a pen drive in .mp3 format only. However, the music should not contain any kind of recognizable human words in any language. Participants will be provided with a laptop and are expected to appoint an individual to manage sounds during the performance within the team limit",
+			"Music may also be played live. However, no amplifiers or plug points will be provided for this purpose.",
+			"Usage of props and other costumes etc. is allowed. However, any kind of fluids, live animals, flame, artificial colours, heavy and sharp objects, or any other material which has a possibility of damaging the stage is STRICTLY not allowed.",
+			"Any kind of damage caused to the stage will result in immediate disqualification.",
+			"Time limit is 5-10 minutes for each team. 5 Negative points for exceeding or lacking each minute of the maximum time limit or the minimum time limit respectively.",
+			"Vulgarity is strictly prohibited and can lead to disqualification.",
+			"Obscenity of any kind that is harmful to the interests or beliefs of specific but not limited to social, economic, religious, gender or political groups is strictly punishable and can lead to disqualification of the IIT. In case of dispute, the decision of the judge will be final.",
+			"The decision of the judges will be final and binding."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Screenplay, Story & Creativity - 35%",
+			"Acting - 35%",
+			"Lights and Music (in coherence to the performance) - 15%",
+			"Overall Impact - 15%"
+		],
+		"image": "../../../../public/assets/images/events/kalidas.png",
+		"additional": "Mime will take place in Kalidas Auditorium. The dimensions(in metres) for the same are as mentioned above"
+	},
+	"M1": {
+		"points": 100,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "3-20 (including all crew)",
+		"time": "Maximum of 20 minutes + 5 minutes (for setup) + 5 minutes of extra time in case the band has a left-handed drummer. Every team will get practice slots of 20+ 5 minutes (for setup) before the event for sound check. The schedule will be notified to Contingent Leaders.",
+		"description": "A group music event where participants of the band perform in synchrony with various instruments and vocal artists in multiple genres.",
+		"rules": [
+			"There is no constraint on the genre of songs. Suitable judges will be called to judge Eastern as well as Western Music. However, variety will be appreciated.",
+			"The number of people on the stage should at least be three and no more than 15 during the performance.",
+			"At least three instruments are always required on stage.",
+			"It is advised that apart from the performing group, an extra person guides the audio engineer for the off-stage mix.",
+			"In the case of Instrument Players, a physical instrument has to be used to generate sound on the stage. The usage of virtual instruments to generate the sound is prohibited.",
+			"For Instruments, usage of virtual amps/plugins to modify the sound is allowed.",
+			"A standard drum kit (5-piece drum kit, two crashes, one ride, one hi-hat, and a double pedal) will be provided. Teams are expected to bring other instruments with them.",
+			"Profanity is allowed but not encouraged in the lyrics. Teams are requested to submit the lyrics of all their songs before the beginning of the event to the organising team.",
+			"The judges would be judging from “AMPS ON” to “AMPS OFF.” The participants must make sure to prompt the judges to mark the beginning and ending of the performance differentiating it from the setup time."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Deduction of 5 marks per 30 seconds after the maximum permissible time for the team.",
+			"After the 32nd minute, music will be stopped."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Song Selection (Coherence, Quality and Variety in Set list) - 15%",
+			"Creativity/Originality - 15%",
+			"Synchronization - 30%",
+			"Technical Brilliance/Individual Skill - 30%",
+			"Overall Impact - 10%"
+		]
+	},
+	"M2": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "2",
+		"perteam": "1",
+		"time": "Maximum of 7 minutes per performance, including sound-check.",
+		"description": "Solo singing competition where participants are judged over lite and western music.",
+		"rules": [
+			"Only acoustic or percussion accompaniment (maximum 1) is allowed. The person singing can also play the instrument, but in this case, he/she will not be allowed any other accompanist.",
+			"Karaoke or recorded tracks are not allowed.",
+			"For each performance, at most 7 Minutes of songs, performers are allowed. (There can be multiple songs in each performance, but the total performance time should not exceed 7 minutes.)",
+			"No restriction on language. Participants can perform pieces either in Western or Light Music styles.",
+			"Digital Tanpura is allowed irrespective of any other accompaniment.",
+			"A standard drum kit (5-piece drum kit, two crashes, one ride, one hi-hat, and a double pedal) will be provided. Teams are expected to bring other instruments with them.",
+			"Profanity is allowed but not encouraged in the lyrics. Teams are requested to submit the lyrics of all their songs before the beginning of the event to the organising team.",
+			"The judges would be judging from “AMPS ON” to “AMPS OFF.” The participants must make sure to prompt the judges to mark the beginning and ending of the performance differentiating it from the setup time."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Exceeding the time limit will cause a deduction of 10 marks per minute.",
+			"After 9 minutes, the sound will be stopped, and the team will be asked to leave the stage."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Song Selection - 30%",
+			"Taal/Rhythm Sense - 20%",
+			"Sur/Melody - 30%",
+			"Creativity/Originality - 10%",
+			"Overall Impact - 10%"
+		]
+	},
+	"M3": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "2",
+		"perteam": "1",
+		"time": "Maximum of 7 minutes per performance, including sound-check.",
+		"description": "Classical Solo Vocal competition, Hindustani and Carnatic performances will be judged together.",
+		"rules": [
+			"Participants are required to report at least 15 minutes before the commencement of the competition.",
+			"An electronic Tanpura will be provided at the venue. No other instruments are allowed.",
+			"Carnatic Participants can present a Kriti/Keerthanam of their choice.",
+			"Hindustani Participants can present a Madhya Laya or a Drut Laya Bandish, or a Tarana.",
+			"Manodharma (one or more of Ragam/Neraval/Swaram or Alap/Bol Alap/Taans) is encouraged, although not compulsory.",
+			"A standard drum kit (5-piece drum kit, two crashes, one ride, one hi-hat, and a double pedal) will be provided. Teams are expected to bring other instruments with them.",
+			"Profanity is allowed but not encouraged in the lyrics. Teams are requested to submit the lyrics of all their songs before the beginning of the event to the organising team.",
+			"The judges would be judging from “AMPS ON” to “AMPS OFF.” The participants must make sure to prompt the judges to mark the beginning and ending of the performance differentiating it from the setup time."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Exceeding the time limit will cause a deduction of 10 marks per minute.",
+			"After 9 minutes, the sound will be stopped, and the team will be asked to leave the stage."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Song Selection - 30%",
+			"Taal/Rhythm Sense - 20%",
+			"Sur/Melody - 30%",
+			"Creativity/Originality - 10%",
+			"Overall Impact - 10%"
+		]
+	},
+	"M4": {
+		"points": 50,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "2",
+		"time": "Maximum of 10 minutes per team, including soundcheck",
+		"description": "Duet competition with any combination of instrumentalists and vocalists is allowed with no restriction on the type of music and genre",
+		"rules": [
+			"An individual cannot be a part of both teams.",
+			"Only the two performers will be allowed on stage throughout a performance.",
+			"Live-looping is allowed. However, any form of pre-recorded soundtrack is not permitted.",
+			"In the case of Instrument Players, a physical instrument has to be used to generate sound on the stage. The usage of virtual instruments to create the sound is prohibited.",
+			"For Instruments, usage of virtual amps/plugins to modify the sound is allowed.",
+			"A standard drum kit (5-piece drum kit, two crashes, one ride, one hi-hat, and a double pedal) will be provided. Teams are expected to bring other instruments with them.",
+			"Profanity is allowed but not encouraged in the lyrics. Teams are requested to submit the lyrics of all their songs before the beginning of the event to the organising team.",
+			"The judges would be judging from “AMPS ON” to “AMPS OFF.” The participants must make sure to prompt the judges to mark the beginning and ending of the performance differentiating it from the setup time."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Exceeding the time limit will cause a deduction of 10 marks/min.",
+			"After 12 minutes, the sound will be stopped, and the team will be asked to leave the stage."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Song Selection (Coherence, Quality and Variety in Set list) - 10%",
+			"Arrangement - 15%",
+			"Creativity/Originality - 20%",
+			"Technical Brilliance/Individual Skill - 30%",
+			"Synchronization - 25%"
+		]
+	},
+	"V1": {
+		"points": 100,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "4-17 members",
+		"time": "3 - 8 min (including credits)",
+		"theme": "Will be announced on the first day of the meet.",
+		"description": "The 51-hour filmmaking competition is a themebased event. Submission will be taken offline. You must complete everything - scripting, shooting, and editing within 51 hours. A short synopsis of the film also must be submitted.",
+		"deadline": "51 hours after the theme is announced.",
+		"submission": "Final movie, some major raw shots used to make the final movie (the host institute reserves the right to ask for specific raw shots if needed)",
+		"rules": [
+			"The content of the movie should be appropriate for public screening and thus should have no kind of vulgarity or obscenity.",
+			"The sequence of screening will be decided by picking up chits from the number of submissions.",
+			"Judges will not comment on any entry in between; all comments will be given at the end of the screening.",
+			"Subtitles are compulsory in case of usage of any language other than English.",
+			"A synopsis of not more than 100 words must be submitted. Penalty of (5 or 10) points for failing to do so",
+			"Short films should be shot within the boundaries of the city of the host IIT. Failing to do so would result in disqualification.",
+			"Use of copied lyrical music is not allowed and its usage would lead to a penalty of 5-10 points.",
+			"You are free to use a song(lyrics-free), an instrumental or a mix of different background sounds/music as the background score for your film. You need to provide proper credits in case you use someone else’s creation. An Original Poem or Original Compositions (music made especially for the movie) are allowed and appreciated. A penalty of 8 marks will be imposed in the final judging sheet if credits are not provided in the video credits in such a case."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Exceeding the time limit will cause deduction of 5 marks per minute. Entries with duration more than 10 minutes will not be judged.",
+			"Penalties for late submission are - (15 min after deadline 5 marks, 30 min after deadline 10 marks, 60 min after deadline 20 marks, No submission will be accepted 90 mins after the deadline).",
+			"If the movie lacks relevance to the given theme, a maximum of 30 marks shall be deducted from the overall score, as per the judge’s discretion."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Story and Screenplay - 25%",
+			"Cinematography & Direction - 30%",
+			"Editing (also includes background score, sound design, Foley, VFX, etc.) - 25%",
+			"Acting - 5%",
+			"Overall Impact (production value, overall vibes from the film, etc.) - 15%"
+		]
+	},
+	"V2": {
+		"points": 100,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "No limit",
+		"time": "4-15mins (credits included)",
+		"description": "An online short filmmaking competition",
+		"deadline": "11:59 pm IST, 24th December, 2023",
+		"submission": "Final movie, some major raw shots used to make the final movie (the host institute reserves the right to ask for specific raw shots if needed)",
+		"rules": [
+			"There is no limit on the number of cast and crew members.",
+			"A synopsis of not more than 100 words must be submitted. Penalty of (5 or 10) points on failing to do so",
+			"Use of copied lyrical music is not allowed and its usage would lead to a penalty of 5-10 points.",
+			"The content of the movie should be appropriate for public screening and thus should have no kind of vulgarity or obscenity. Entries will be screened in reverse order of submission (The entry submitted first will be screened last).",
+			"Subtitles are compulsory in case of usage of languages other than English. It is optional for English.",
+			"The movie must not suggest in any way (explicitly, or implicitly) the name of the IIT that made it.",
+			"Subtitles are required in case of usage of languages other than English/Hindi. If a small section uses some other language, then please add subtitles even for that. A penalty of 10 marks will be imposed in the final judging sheet if this is not followed.",
+			"Stock footage or footage used that have not been shot by the College members for the particular movie must be given due credit in the movie or credits. You need to submit the link of any such stock footage used at the time of submission. There is a limit of 20% on using stock footage. If any of the above rules are not followed, a penalty of 20 marks will be imposed in the final judging sheet.",
+			"Please carry footage in a hard disk while coming for the compe1tition.",
+			"The video should be shot only after launch, 1st December 2023. If some allegations for violating this rule are raised against any entry, you will have to provide enough proof. Failure to do so may lead to disqualification.",
+			"You are free to use a song, an instrumental or a mix of different background sounds/music as the background score for your film. You need to provide proper credits in case you use someone else’s creation. An Original Poem or Original Compositions (a music made especially for the movie) are allowed and appreciated. A penalty of 8 marks will be imposed in the final judging sheet if credits are not provided in the video credits in such a case."
+		],
+		"penalty": "5 marks will be deducted for every hour exceeded after the deadline. No submissions will be accepted after 12 PM. the following day.",
+		"isCriteriaTable": true,
+		"criteria": [
+			"Screenplay & acting - 25%",
+			"Cinematography & Direction - 30%",
+			"Editing (also includes background score, sound design, Foley, VFX etc.) - 25%",
+			"Production - 10%",
+			"Overall Impact (overall vibes from the film etc.) - 10%"
+		]
+	},
+	"A1": {
+		"points": 50,
+		"isTeam": true,
+		"teams": "3",
+		"perteam": "1",
+		"time": "4 hours",
+		"description": "A pencil sketching competition in which participants create their artwork live within the given timeframe. It will be a live scenery sketching event.",
+		"rules": [
+			"Medium: Graphite pencils (will be provided if necessary). Charcoal and other colored pencils are not allowed.",
+			"Drawing Sheet: Off-white A3 sheet (Cartridge sheet quality) will be provided.",
+			"Participants may bring their own drawing items like pencils, erasers, tissue paper, cotton, and sharpeners.",
+			"Participants can bring some kind of base (for support, for example, an A3-sized sketchbook, a cardboard, etc.) on which they can keep the A3 sheet we will provide.",
+			"Use of scale and mechanical pencil is not allowed",
+			"No external help (e.g., internet/photograph on phone or camera) is allowed during the event.",
+			"Judge’s decisions are final and binding"
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Proportion & Perspective - 35%",
+			"Composition and Components - 35%",
+			"Shading - 30%"
+		]
+	},
+	"A2": {
+		"points": 50,
+		"isTeam": true,
+		"teams": "3",
+		"perteam": "1",
+		"time": "4 hours",
+		"theme": "will be announced on 1st December 2023",
+		"description": "This is a competition where the participants have to paint on a canvas using acrylic paints according to the given theme in the given time.",
+		"rules": [
+			"Medium: Acrylic paints (use of any other paint will lead to disqualification)",
+			"Participants will be provided with a 30cm X 40cm canvas board and a drawing board (architecture-style drafting board).",
+			"Participants need to bring their own paints and brushes.",
+			"Participants may bring other needful stationery such as painting knives, palettes, fixatives, and driers.",
+			"Penalty should be there if taken reference from the internet or from anywhere",
+			"The word Limit for the write-up is 100 words"
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Originality - 20%",
+			"Skill - 30%",
+			"Neatness - 20%",
+			"Write up + Depiction of Theme + Description - 30%"
+		]
+	},
+	"A3": {
+		"points": 50,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "2 or 3",
+		"time": "4 hours",
+		"theme": "Theme will be provided on the spot.",
+		"description": "This is a competition which uses the charcoal medium exclusively, participants will have to adhere to the theme and the time limit.",
+		"rules": [
+			"Teams will be provided with four A1-sized sheets (off-white cartridge sheet). The sheets will have to be pasted together by (Using all 4 sheets is compulsory)",
+			"Charcoal pencils, kneaded and rubber erasers, sharpeners, thread for measurement, threads, charcoal stick will be provided.",
+			"Willow charcoal is allowed",
+			"The team may align the four sheets as they wish, but all of them have to be used.",
+			"Charcoal fixatives will be provided. It will be up to the teams to use them, if they are comfortable and confident that it will not spoil their creation.",
+			"Use of materials other than provided is strictly prohibited",
+			"Use of the Internet is not allowed (Penalty will be imposed if taken reference from the Internet or from anywhere)"
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Originality - 20%",
+			"Skill - 30%",
+			"Composition and neatness - 25%",
+			"Depiction of Theme - 25%"
+		]
+	},
+	"A4": {
+		"points": 50,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "6",
+		"time": "4 hours",
+		"theme": "Will be announced on 1st December 2023",
+		"description": "The team has to create a costume for one of their members.",
+		"rules": [
+			"Basic materials like Newspapers, colored sheets, ribbons, wires, etc. will be provided to the participants.",
+			"Teams can bring their own sheets(only basic chart papers are allowed), scissors, dispensers, and adhesive; anything else is not allowed.",
+			"Only one glue gun per team is allowed.",
+			"Pre-folded sheets, pre-marked designs, and painting on costumes or model are not allowed and will be penalized.",
+			"1 Junk/waste item (Surprise element) will be given to the participating teams that they need to incorporate in the costume, which will be different from the costume materials provided. Example: Bottle caps, straws, etc.",
+			"Model should be able to walk, climb stairs, may be asked to describe the utility of the dress"
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Appearance & Neatness - 25%",
+			"Incorporation of theme and creativity - 30%",
+			"Innovation and Utility - 30%",
+			"Incorporation of Junk/waste - 15%"
+		],
+		"additional": "E.g.: Utility implies whether or not the dress will be destroyed (or rendered useless) while/after taking it off."
+	},
+	"G1": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "3",
+		"time": "6 hours + 15 min",
+		"description": "A live photo editing competition. Where each team will be given a stock image and they have to edit it in 6 hours. Participants are allowed to use all Photoshop tools.",
+		"rules": [
+			"Stock image will be disclosed with the start of the event.",
+			"For submission of the final image extra 15 mins will be given. Entries will not be accepted beyond the deadline.",
+			"Submission should include: Final created image, original PSD file, separate write-up text file, and screenshots of the screen with time for every 30 mins during the event (12 screenshots).",
+			"No typography is allowed.",
+			"Word Limit for the write-up is 100 words",
+			"Pen tabs, iPads and Android Tablets are not allowed",
+			"Use of Generative fill, or AI of any kind is strictly prohibited.",
+			"Photoshop versions 2022 or prior are only allowed."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"The penalty scheme will be as follows (minutes exceeded after the deadline): 0 - 10: 5 points, 10 - 20: 10 points, 20 - 30: 15 points.",
+			"No submissions will be accepted after 30 minutes past the deadline."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Technical Skill - 30%",
+			"Creativity - 30%",
+			"Concept and Uniqueness - 30%",
+			"Write up - 10%"
+		]
+	},
+	"G2": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "1-2 (At max 2 unique entries per IIT)",
+		"perteam": "1",
+		"deadline": "24th December 2023, 11:59pm IST",
+		"description": "It is an online submission event where the participants need to submit their work according to the theme and problem statement given. The problem statement will be released on 1st December 2023 at 12 noon.",
+		"rules": [
+			"No entries will be accepted after the deadline.",
+			"Participants need to send their work in the .psd, .ai that they have used along with the .jpeg file of the same, with at least three stages of their work.",
+			"Any sign of plagiarism may lead to disqualification.",
+			"The submission should be in the form of a ZIP folder containing the final draft & description and a separate subfolder containing raw files.",
+			"The main folder should be submitted. Instructions for submission will be given later.",
+			"Judge’s decisions are final and binding"
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Creativity and Concept - 35%",
+			"Aesthetics - 30%",
+			"Finishing - 20%",
+			"Utility and Incorporation of theme - 15%"
+		]
+	},
+	"G3": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "No limit",
+		"theme": "Will be given on 1st December, 2023.",
+		"deadline": "24th December 2023, 11:59pm IST",
+		"description": "Participants will need to create an innovative 3D animation from a given base animation within specified duration, showcasing a harmonious blend of visual elements.",
+		"rules": [
+			"A 3D animation of 8-10 seconds is required for submission. Any kind of image or still render will not be considered.",
+			"The base animation will be provided in a video (.mp4) file.",
+			"Final animation should contain all the features of base animation. Submissions which do not resemble the base Animation will be discarded.",
+			"Elements in the final submission should all be 3D assets and external assets can also be used for this event (not more than 30% of the scene).",
+			"The composition can be done using other software’s. (e.g. After effects)",
+			"Participants need to send the original software file that they have used along with the final animation (.mp4) file of the same, with at least three stages of their work(screenshots) in a Zip folder.",
+			"No entries will be accepted after the deadline.",
+			"All entries should be submitted via <submission.interiitculturameet@gmail.com>.",
+			"Any sign of plagiarism may lead to disqualification.",
+			"Use of any AI generative tool is not permitted.",
+			"Judge’s decisions are final and binding."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Creativity and Concept - 30%",
+			"Lighting and texturing - 30%",
+			"Animations technique and execution - 20%",
+			"Render Quality - 20%"
+		]
+	},
+	"G4": {
+		"points": 50,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "3",
+		"time": "24 hours",
+		"description": "Design marathon is a continuous event where the participants get to solve various projects throughout the day.",
+		"rules": [
+			"A list of projects will be given to the teams out of which they can attempt any number of projects.",
+			"The projects can be poster making, UI UX design, logo designing, comic design, T-shirt design, etc.",
+			"Participants need to send their work in the .psd, .ai that they have used along with the .jpeg file of the same, with at least three stages of their work.",
+			"Any sign of plagiarism may lead to disqualification.",
+			"The submission should be in the form of a Zip folder containing the final draft & description and a separate subfolder containing raw files.",
+			"The main folder should be submitted. Instructions for submission will be given later.",
+			"Judge’s decisions are final and binding"
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Creativity and Concept - 35%",
+			"Aesthetics - 30%",
+			"Finishing - 20%",
+			"Utility and Incorporation of theme - 15%"
+		]
+	},
+	"G5": {
+		"points": 40,
+		"isTeam": false,
+		"submissions": "2 per theme",
+		"participants": "2 team of at most 3 people each",
+		"theme": "Themes will be disclosed on the first day of the event",
+		"description": "Offline event where the participants should submit photographs clicked on streets with relevance to given theme.",
+		"rules": [
+			"All entries should be submitted in person to the Organising Committee.",
+			"The event would start and end in the host IIT.",
+			"Participants have to add captions to their entries. A maximum of 50 words can be used including the title for the caption of each photograph. Captions should be written in a Word/PDF file and submitted with photographs. Any text accompanying the photograph (including the title) would be considered under the caption. Exceeding the limit would lead to a penalty of 5 points.",
+			"Photographs must contain EXIF data and hence the date. Entries without EXIF data will be disqualified.",
+			"Include all Metadeta including edit history while exporting the image. Images without Metadata would be disqualified.",
+			"Participants must submit RAW images (CR2, NEF, SR2, etc.) and edited images (JPEG/JPG). Will be disqualified if not followed.",
+			"Anonymity of the participating IIT, participant, club/society, etc. must be strictly maintained in the photographs' frame, EXIF data, and Word/PDF file containing captions. Violation will lead to disqualification.",
+			"Photographs should not contain any objectionable content, if found, the judge’s consent will disqualify entry.",
+			"Only global editing is allowed. Entries with local editing will be disqualified. For global editing/ local editing refer: http://www.damiensymonds.net/art_global.html",
+			"Any sign of plagiarism would lead to disqualification."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"The penalty scheme will be as follows (minutes exceeded after the deadline): 0 - 10: 5 points, 10 - 20: 10 points, 20 - 30: 15 points",
+			"No submission will be accepted after 30 minutes past the deadline.",
+			"Exceeding the word limit on captions: 5 points",
+			"Entries without EXIF Data: Disqualification",
+			"Entries breaching anonymity in any part of submission: Disqualification",
+			"Entries without valid submission (invalid/incorrect format): Disqualification",
+			"Entries with local edits/ without Metadata: Disqualification",
+			"Points will be deducted out of 100."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Storytelling and Concept - 25%",
+			"Composition - 25%",
+			"Creativity - 20%",
+			"Technical Excellence - 15%",
+			"Overall Impact - 15%"
+		]
+	},
+	"G6": {
+		"points": 40,
+		"isTeam": false,
+		"submissions": "3 per theme",
+		"participants": "1 team with no limit on no. of people",
+		"theme": "Will be disclosed on 1st December, 2023.",
+		"deadline": "24th December 2023, 11:59pm IST",
+		"description": "Online photography competition is a themebased event where participants need to take photographs related to the themes given.",
+		"rules": [
+			"All photographs must be clicked after the theme is announced.",
+			"All entries should be submitted via <submission.interiitculturameet@gmail.com>.",
+			"Participants have to add captions to their entries. A maximum of 50 words can be used including the title for the caption of each photograph. Captions should be written in a Word/PDF file and submitted with photographs. Any text accompanying the photograph (including the title) would be considered under the caption. Exceeding the limit would lead to a penalty of 5 points.",
+			"Photographs must contain EXIF data and hence the date. Entries without EXIF data will be disqualified.",
+			"Include all Metadeta including edit history while exporting the image. Images without Metadata would be disqualified.",
+			"Participants must submit RAW images (CR2, NEF, SR2, etc.) and edited images (JPEG/JPG). Will be disqualified if not followed.",
+			"Anonymity of the participating IIT, participant, club/society, etc. must be strictly maintained in the photographs' frame, EXIF data, and Word/PDF file containing captions. Violation will lead to disqualification.",
+			"Photographs should not contain any objectionable content, if found, the judge’s consent will disqualify entry.",
+			"Only global editing is allowed. Entries with local editing will be disqualified.For global editing/ local editing refer: http://www.damiensymonds.net/art_global.html",
+			"Any sign of plagiarism would lead to disqualification.",
+			"Cumulative evaluation will be done for each theme to calculate the final result."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"The penalty scheme will be as follows (minutes exceeded after the deadline): 0 - 10: 5 points, 10 - 20: 10 points, 20 - 30: 15 points",
+			"No submission will be accepted after 30 minutes past the deadline.",
+			"Exceeding the word limit on captions: 5 points",
+			"Entries without EXIF Data: Disqualification",
+			"Entries breaching anonymity in any part of submission: Disqualification",
+			"Entries without valid submission (invalid/incorrect format): Disqualification",
+			"Entries with local edits/ without Metadata: Disqualification",
+			"Entries with Plagiarized content: Disqualification",
+			"Points will be deducted out of 100."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Relevance to theme and concept - 30%",
+			"Composition - 35%",
+			"Exposure and post processing - 25%",
+			"Overall Impact, Creativity and Uniqueness - 15%"
+		]
+	},
+	"G7": {
+		"points": 40,
+		"isTeam": false,
+		"submissions": "1 photo-story",
+		"photoLimit": "5-15",
+		"participants": "1 team with no limit on no. of people",
+		"theme": "Will be announced on 1st December, 2023.",
+		"deadline": "24th December 2023, 11:59pm IST",
+		"description": "An online photo-story is a digital narrative using photos and caption to tell a story or convey information in a visually engaging way.",
+		"rules": [
+			"Camera Resolution should be at least 3.2 megapixels.",
+			"All photographs must be clicked after the theme is announced.",
+			"All entries should be submitted via <submission.interiitculturameet@gmail.com>.",
+			"Participants have to add captions to their entries. A maximum of can be used including the title. Captions should be 50 words written in a Word/PDF file and submitted with photographs. Any text accompanying the photograph (including the title) would be considered under the caption. Individual photo captions are not allowed. Exceeding the limit would lead to a penalty of 5 points.",
+			"Photographs must contain EXIF data and hence the date. Entries without EXIF data will be disqualified.",
+			"Include all Metadeta including edit history while exporting the image. Images without Metadata would be disqualified.",
+			"Anonymity of the participating IIT, participant, club/society, etc. must be strictly maintained in the photographs' frame, EXIF data, and Word/PDF file containing captions. Violation will lead to disqualification.",
+			"Photographs should not contain any objectionable content, if found, the judge’s consent will disqualify entry.",
+			"Only global editing is allowed. Entries with local editing will be disqualified. For global editing/ local editing refer: http://www.damiensymonds.net/art_global.html",
+			"Any sign of plagiarism would lead to disqualification."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"The penalty scheme will be as follows (minutes exceeded after the deadline): 0 - 10: 5 points, 10 - 20: 10 points, 20 - 30: 15 points",
+			"No submission will be accepted after 30 minutes past the deadline.",
+			"Exceeding the word limit on captions: 5 points",
+			"Entries without EXIF Data: Disqualification",
+			"Entries breaching anonymity in any part of submission: Disqualification",
+			"Entries without valid submission (invalid/incorrect format): Disqualification",
+			"Entries with local edits/ without Metadata: Disqualification",
+			"Entries with Plagiarized content: Disqualification",
+			"Points will be deducted out of 100."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Relevance to Theme - 25%",
+			"Story Depiction - 25%",
+			"Compositiong - 20%",
+			"Technical Accuracy - 20%",
+			"Creativity and Uniqueness - 10%"
+		]
+	},
+	"F1": {
+		"points": 70,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "There should be a minimum of 8 and a maximum of 18 performers in a team. Other than the performers the team is allowed to have a maximum of 8 members of designers, choreographers, makeup artists, narrators, light and backstage members.",
+		"time": "Maximum 15 minutes’ fashion show including stage setup. (Marks will be reduced accordingly for every exceeding minute)",
+		"description": "Display of clothing and accessories on a runway, showcasing latest designs to a wider audience.",
+		"theme": "Theme will be announced on 1st December, 2023",
+		"rules": [
+			"Stunts which pose any risk to life are not permitted. Exceeding the time limit will be strictly penalized.",
+			"Using any substance (or prop) that poses danger or might alter the stage in any way for the next team is not allowed (e.g., spilling of liquid that will affect the dryness).",
+			"The teams will be expected to restore the stage to its original condition within the set time limit in case any prop or substance that causes temporary changes is used (e.g., in case of spilling powdered substances, the stage will need to be cleaned up by the team).",
+			"Live Narration can be done during the performance.",
+			"Judging will be done on an overall basis, including costumes, hairstyle, and accessories most important being their relevance to the theme.",
+			"Vulgarity is not allowed.",
+			"Obscenity will be left to the judge's discretion, and their decision will be final and binding in case any part of the performance is found objectionable."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"15 - 16: 10 marks",
+			"16 - 17: 20 marks",
+			"After 17 minutes, the music will be stopped along with a penalty of 35 marks."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Ramp Walk + Choreography - 35%",
+			"Costumes - 35%",
+			"Theme Relevance - 15%",
+			"Stage Presence and Overall Impact - 15%"
+		],
+		"image": "../../../../public/assets/images/events/kalidas.png",
+		"additional": "Fashion will take place in Kalidas Auditorium. The dimensions (in metres) for the same are as mentioned above."
+	},
+	"F2": {
+		"points": 30,
+		"isTeam": false,
+		"submissions": "5",
+		"rules": [
+			"Participants are expected to upload EXACTLY 5 editorials in jpg format",
+			"Photographs must contain EXIF data. Will be disqualified if not followed.",
+			"Participants must also submit both raw images (CR2/NEF/SR2, etc.) and edited images (peg/jpg), will be disqualified if not followed.",
+			"Do not include your credentials (Name, Watermark, Date, etc.) in the frame of the photograph. Such photos will be disqualified.",
+			"A theme will be announced, there must be one photograph in each of the following categories based on the theme: full body shot, head shot, candid shot, lifestyle shot, environmental shot. Silhouette shots with the subject not clearly visible are not permitted.",
+			"Vulgarity and obscenity is not allowed and disqualification will be based on the judge's discretion.",
+			"Backdrop or the set of the editorial must not contain any identifying features."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"The penalty scheme will be as follows (minutes exceeded after the deadline): 0 - 10: 5 points, 10 - 20: 10 points, 20 - 30: 15 points",
+			"No submission will be accepted after 30 minutes past the deadline.",
+			"Exceeding the word limit on captions: 5 points",
+			"Entries without EXIF Data: Disqualification",
+			"Entries breaching anonymity in any part of submission: Disqualification",
+			"Entries without valid submission (invalid/incorrect format): Disqualification",
+			"Entries with local edits/ without Metadata: Disqualification",
+			"Entries with Plagiarized content: Disqualification",
+			"Points will be deducted out of 100."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Beauty & Personality - 30%",
+			"Outfit / Costume - 30%",
+			"Picture Composition - 10%",
+			"Overall Appearance - 30%"
+		]
+	},
+	"C1": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "2",
+		"time": "2 hours",
+		"description": "A timed cooking competition. Participants will be given a fixed pantry and theme around which they have to base their dish. Each team will cook any two dishes of their choice.",
+		"rules": [
+			"Each team is required to prep, cook, and present two dishes in 120 minutes.",
+			"A theme would be announced along with the ingredient list one month prior to the event.",
+			"Ingredients will include basic household ingredients.",
+			"Every team can suggest one extra ingredient to be added to the list - which will be made available for everyone. It can be mailed to an email ID which would be provided later.",
+			"The ingredient must be a raw material.",
+			"Participants will be given 15 minutes to browse through the ingredients before the competition.",
+			"This will be an induction-stove based cooking event. Each team will be provided with one stove."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Exceeding the time limit will cause deduction of 5 marks per minute.",
+			"Use of any personal ingredient will result in disqualification."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Taste - 40%",
+			"Presentation - 20%",
+			"Adherence to Theme - 15%",
+			"Creativity and Skill - 25%"
+		]
+	},
+	"C2": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "2",
+		"time": "1 hours",
+		"description": "A team-relay challenge where participants would switch between cooking every 15 minutes. Only one participant will cook at a given time. Each team will have to include a certain ingredient in their dish based on a lucky draw.",
+		"rules": [
+			"Each team is required to prep, cook, and plate one dish in 60 minutes.",
+			"The challenge requires team members to switch every 15 minutes. Hence, at any point of time, there will be only one-member cooking.",
+			"A whistle will be blown after every 15 minutes, indicating the members to switch. Failure to do so will result in disqualification.",
+			"Every team will choose an ingredient to be included in their dish based on a lucky draw 15 minutes before their event. The team is free to cook any dish as long as the ingredient is included.",
+			"A common ingredient list will be provided a month before the event which will comprise of basic ingredients found in any household.",
+			"A common ingredient list will be provided a month before the event which will comprise of basic ingredients found in any household.",
+			"Every team can suggest one extra ingredient to be added to the list - which will be made available for everyone. It can be mailed to an email ID which would be provided later. The ingredient must be raw material.",
+			"Participants will be given 15 minutes to browse through the ingredients before the competition.",
+			"This will be an induction-stove based cooking event. Each team will be provided with one stove."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Exceeding the time limit will cause deduction of 5 marks per minute.",
+			"Use of any personal ingredient will result in disqualification.",
+			"A failure to switch will result in disqualification.",
+			"Not including the chosen ingredient in the dish will result in disqualification."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Taste - 40%",
+			"Presentation - 20%",
+			"Incorporation of the surprise ingredient - 15%",
+			"Creativity and Skill - 25%"
+		]
+	},
+	"C3": {
+		"points": 30,
+		"isTeam": true,
+		"teams": "1",
+		"perteam": "2",
+		"time": "1 hours",
+		"description": "A mocktail making competition. Participants will be provided with a three-color palette and a theme. They will be required to prepare three different drinks adhering to the color combinations and theme. The color combinations and theme will be chosen via a lucky draw.",
+		"rules": [
+			"Each team is required to prep, cook, and plate three mock tails in 45 minutes.",
+			"The challenge requires team members to plan and submit their final conceptualized drinks in the first 15 minutes of the competition.",
+			"A whistle will be blown after 15 minutes, indicating the members to begin preparing their drinks.",
+			"Every team will choose three colors and a theme 15 minutes prior to the competition via a lucky draw.",
+			"A common ingredient list will be provided a month before the event which will comprise of basic ingredients required for the event.",
+			"Every team can suggest one extra ingredient to be added to the list - which will be made available for everyone. It can be mailed to an email ID which would be provided later. The ingredient must be raw material.",
+			"Participants will be given 15 minutes to browse through the ingredients before the competition.",
+			"This will be an induction-stove based cooking event. Each team will be provided with one stove."
+		],
+		"isPenaltyTable": true,
+		"penalty": [
+			"Exceeding the time limit will cause deduction of 5 marks per minute.",
+			"Use of any personal ingredient will result in disqualification.",
+			"Significant deviation from the conceptualized drinks in the presented drinks will call for disqualification."
+		],
+		"isCriteriaTable": true,
+		"criteria": [
+			"Taste - 30%",
+			"Presentation - 20%",
+			"Adherence to Theme - 20%",
+			"Creativity and Skill - 30%"
+		]
+	}
 }
