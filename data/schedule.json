@@ -1,0 +1,290 @@
+{
+	"0": [
+		{
+			"event": "Welcome Ceremony",
+			"venue": "Kalidas",
+			"time": "8 AM"
+		},
+		{
+			"event": "Sci Tech Quiz",
+			"venue": "Bhatnagar",
+			"time": "10 AM"
+		},
+		{
+			"event": "Hindi Slam Poetry",
+			"venue": "F244",
+			"time": "10 AM"
+		},
+		{
+			"event": "Band Sound Check",
+			"venue": "TOAT",
+			"time": "10 AM"
+		},
+		{
+			"event": "Mono Acting",
+			"venue": "SN Bose",
+			"time": "10 AM"
+		},
+		{
+			"event": "English Creative Writing",
+			"venue": "Raman",
+			"time": "11 AM"
+		},
+		{
+			"event": "Stage Play Lights Practice",
+			"venue": "Kalidas",
+			"time": "11 AM"
+		},
+		{
+			"event": "Dance Lights Practice",
+			"venue": "Netaji",
+			"time": "11 AM"
+		},
+		{
+			"event": "Design Marathon",
+			"venue": "Nalanda",
+			"time": "12 PM"
+		},
+		{
+			"event": "Band Sound Check",
+			"venue": "TOAT",
+			"time": "3 PM"
+		},
+		{
+			"event": "Cryptic Crosword",
+			"venue": "Raman",
+			"time": "6 PM"
+		},
+		{
+			"event": "Mime Lights Practice",
+			"venue": "Kalidas",
+			"time": "11 PM"
+		},
+		{
+			"event": "Fashion Lights Practice",
+			"venue": "Kalidas",
+			"time": "1 AM"
+		}
+	],
+	"1": [
+		{
+			"event": "Biz Quiz",
+			"venue": "Bhatnagar",
+			"time": "8 AM"
+		},
+		{
+			"event": "English Slam Poetry",
+			"venue": "F244",
+			"time": "8 AM"
+		},
+		{
+			"event": "Hindi Creative Writing",
+			"venue": "Raman",
+			"time": "8 AM"
+		},
+		{
+			"event": "Stage Play",
+			"venue": "Kalidas",
+			"time": "8 AM"
+		},
+		{
+			"event": "Scrabble",
+			"venue": "Multipurpose Room",
+			"time": "8 AM"
+		},
+		{
+			"event": "Pair on Stage",
+			"venue": "SN Bose",
+			"time": "9 AM"
+		},
+		{
+			"event": "Sketching",
+			"venue": "Nehru Museum",
+			"time": "9 AM"
+		},
+		{
+			"event": "Debate",
+			"venue": "Nalanda",
+			"time": "10 AM"
+		},
+		{
+			"event": "Groups Dance",
+			"venue": "Netaji",
+			"time": "10 AM"
+		},
+		{
+			"event": "Standup",
+			"venue": "V1",
+			"time": "10 AM"
+		},
+		{
+			"event": "Street Play",
+			"venue": "JCB Foyer",
+			"time": "10 AM"
+		},
+		{
+			"event": "Vocals Solo",
+			"venue": "SN Bose",
+			"time": "3 PM"
+		},
+		{
+			"event": "Canvas Painting",
+			"venue": "Multipurpose Room",
+			"time": "3 PM"
+		},
+		{
+			"event": "MELA Quiz",
+			"venue": "Bhatnagar",
+			"time": "4 PM"
+		},
+		{
+			"event": "Sacred Word Games",
+			"venue": "F244",
+			"time": "4 PM"
+		},
+		{
+			"event": "Cook Off",
+			"venue": "LBS Mess",
+			"time": "4 PM"
+		}
+	],
+	"2": [
+		{
+			"event": "India Quiz",
+			"venue": "Bhatnagar",
+			"time": "8 AM"
+		},
+		{
+			"event": "English Poetry Writing",
+			"venue": "Raman",
+			"time": "8 AM"
+		},
+		{
+			"event": "Stage Play",
+			"venue": "Kalidas",
+			"time": "8 AM"
+		},
+		{
+			"event": "Just Duet",
+			"venue": "Netaji",
+			"time": "8 AM"
+		},
+		{
+			"event": "Scrabble",
+			"venue": "Multipurpose Room",
+			"time": "8 AM"
+		},
+		{
+			"event": "Photoshop Battle",
+			"venue": "-",
+			"time": "8 AM"
+		},
+		{
+			"event": "Band Competition",
+			"venue": "TOAT",
+			"time": "9 AM"
+		},
+		{
+			"event": "Debate",
+			"venue": "Nalanda",
+			"time": "10 AM"
+		},
+		{
+			"event": "Improv Comedy",
+			"venue": "V1",
+			"time": "10 AM"
+		},
+		{
+			"event": "Street Play",
+			"venue": "JCB Foyer",
+			"time": "10 AM"
+		},
+		{
+			"event": "Hindi Poetry Writing",
+			"venue": "Raman",
+			"time": "2 PM"
+		},
+		{
+			"event": "Sports Quiz",
+			"venue": "Bhatnagar",
+			"time": "4 PM"
+		},
+		{
+			"event": "Charcoal",
+			"venue": "Multipurpose Room",
+			"time": "4 PM"
+		},
+		{
+			"event": "JAM",
+			"venue": "F244",
+			"time": "5 PM"
+		},
+		{
+			"event": "Tag Team",
+			"venue": "LBS Mess",
+			"time": "5 PM"
+		},
+		{
+			"event": "Online SFM Screening",
+			"venue": "Netaji",
+			"time": "6 PM"
+		},
+		{
+			"event": "Mime",
+			"venue": "Kalidas",
+			"time": "7 PM"
+		}
+	],
+	"3": [
+		{
+			"event": "General Quiz",
+			"venue": "Bhatnagar",
+			"time": "8 AM"
+		},
+		{
+			"event": "Fashion Show",
+			"venue": "Kalidas",
+			"time": "8 AM"
+		},
+		{
+			"event": "51 Hour Film Screening",
+			"venue": "Netaji",
+			"time": "8 AM"
+		},
+		{
+			"event": "Costume Design",
+			"venue": "Vikramshila Foyer",
+			"time": "8 AM"
+		},
+		{
+			"event": "Street Battle",
+			"venue": "TT Court",
+			"time": "8 AM"
+		},
+		{
+			"event": "JAM",
+			"venue": "F244",
+			"time": "9 AM"
+		},
+		{
+			"event": "Classical Vocals",
+			"venue": "SN Bose",
+			"time": "9 AM"
+		},
+		{
+			"event": "Mixology",
+			"venue": "LBS Mess",
+			"time": "10 AM"
+		},
+		{
+			"event": "Trophy Distribution",
+			"venue": "Kalidas and TOAT",
+			"time": "7 PM"
+		},
+		{
+			"event": "Closing Ceremony",
+			"venue": "Kalidas and TOAT",
+			"time": "8 PM"
+		}
+	]
+}
