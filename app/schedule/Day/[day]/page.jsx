@@ -1,12 +1,13 @@
 import { Satisfy } from "next/font/google";
 import BackButton from "@/components/BackButton";
-import Styles from "../../../../styles/page.module.css";
+import ErrorPage from "@/components/ErrorPage";
+import Styles from "@/styles/page.module.css";
 
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
 export default function Page({ params }) {
   const day = params.day;
-  if (day > 3 || day < 0) return <h1>404</h1>;
+  if (day > 3 || day < 0) return <ErrorPage statusCode={404} />;
 
   return (
     <main className={satisfy.className}>

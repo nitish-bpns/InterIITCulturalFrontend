@@ -56,7 +56,6 @@
   size: 2em;
 }
 
-
 @media only screen and (max-width: 1242px) {
   .imageGrid {
     grid-template-columns: repeat(3, 1fr);
@@ -79,9 +78,7 @@
   }
 
   /* Display 3 heads in each row for mobile */
-
 }
-
 
 @media only screen and (max-width: 964px) {
   .imageGrid {
@@ -105,9 +102,7 @@
   }
 
   /* Display 3 heads in each row for mobile */
-
 }
-
 
 @media only screen and (max-width: 644px) {
   .imageGrid {
@@ -130,16 +125,14 @@
     /* Adjust the gap between images */
   }
 
-
   /* Display 3 heads in each row for mobile */
-
 }
 
 @media only screen and (max-width: 440px) {
   .imageGrid {
     grid-template-columns: repeat(1, 1fr);
   }
-  
+
   /* .coordinatorImage {
     width: 100px;
     height: 100px;
@@ -223,7 +216,6 @@
   z-index: 1;
 }
 
-
 .memberName {
   font-size: 16px;
   font-weight: bold;
@@ -235,7 +227,6 @@
   /* Set the text color */
   margin-bottom: 10px;
 }
-
 
 /* core.module.css or your existing stylesheet */
 
@@ -303,8 +294,6 @@
   /* Change the social icon color on hover */
 }
 
-
-
 .figure {
   display: grid;
   border-radius: 1rem;
@@ -312,9 +301,9 @@
   cursor: pointer;
 }
 
-.figure>* {
+.figure > * {
   grid-area: 1/1;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .figure .figcaption {
@@ -324,12 +313,10 @@
   font-size: 100px;
   font-weight: bold;
   color: #efefef;
-  padding: .75rem;
-  background: var(--c, #A5510640);
+  padding: 0.75rem;
+  background: var(--c, #a5510640);
   clip-path: inset(0 var(--_i, 100%) 0 0);
-  -webkit-mask:
-    linear-gradient(#000 0 0),
-    linear-gradient(#000 0 0);
+  -webkit-mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
   -webkit-mask-clip: text, padding-box;
   margin: -1px;
@@ -350,13 +337,6 @@
   }
 }
 
-
-.memberName{
+.memberName {
   font-size: 25px;
-}
-
-
-.err{
-  width: 90vw;
-  height: 67.8vh;
 }

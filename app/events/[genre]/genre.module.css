@@ -1,3 +1,7 @@
+.main {
+  padding-bottom: 40px;
+}
+
 .main-plank-container,
 .plank-container {
   text-align: center;
@@ -12,7 +16,7 @@
 }
 
 .plank-container {
-  max-height: 10.5vw;
+  max-height: 9vw;
   transition: all 0.3s ease-in-out;
 }
 .plank-container:hover {

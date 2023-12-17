@@ -8,6 +8,7 @@ import ErrorPage from "@/components/ErrorPage";
 import data from "@/data/team.json";
 import ImageVariableCoordinators from "./images_coordis";
 import ImageVariableHeads from "./images_heads";
+
 const myFont = localFont({
   src: "../../../public/assets/fonts/Dreaming.woff2",
 });
@@ -15,11 +16,7 @@ const myFont = localFont({
 const TeamName = ({ params }) => {
   const teamname = params.teamname;
   if (!data[teamname]) {
-    return (
-      <div className={PageStyles.err}>
-        <ErrorPage statusCode={404} />
-      </div>
-    );
+    return <ErrorPage statusCode={404} />;
   }
 
   const coordinators = data[teamname].coordinators;
