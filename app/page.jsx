@@ -1,16 +1,16 @@
 import Link from "next/link";
-import Styles from "../styles/page.module.css";
+import Styles from "@/styles/page.module.css";
 import { Satisfy } from "next/font/google";
 
-import DancePic from "../public/assets/images/home/dance.jpeg";
-import MusicPic from "../public/assets/images/home/music.png";
-import SpeakingArtsPic from "../public/assets/images/home/sp.png";
-import SeeMore from "../public/assets/images/home/see_more.png";
+import DancePic from "@/public/assets/images/home/dance.jpeg";
+import MusicPic from "@/public/assets/images/home/music.png";
+import SpeakingArtsPic from "@/public/assets/images/home/sp.png";
+import SeeMore from "@/public/assets/images/home/see_more.png";
 import localFont from "next/font/local";
 import PageStyles from "./Home.module.css";
 import LeaderboardComponent from "@/components/LeaderboardComponent";
 
-import HomeCarousel from "../components/HomeCarousel";
+import HomeCarousel from "@/components/HomeCarousel";
 
 const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });

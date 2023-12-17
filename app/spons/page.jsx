@@ -1,6 +1,6 @@
 import Styles from "./Spons.module.css";
 import { Cookie } from "next/font/google";
-import spons from "../../public/assets/images/profile.png";
+import spons from "@/public/assets/images/profile.png";
 
 import Image from "next/image";
 
