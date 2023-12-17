@@ -9,7 +9,6 @@ export default function RegisterUser() {
     pid: "KGP-0001",
     name: "Saharsh Agrawal",
     email: "saharshagrawalindia@gmail.com",
-    password: "saharsh123",
     phone: "1234567890",
     gender: "M",
     instituteID: "IITKGP",
@@ -79,16 +78,7 @@ export default function RegisterUser() {
           onChange={handleChange}
         />
         <br />
-        <label htmlFor="password">Password </label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          value={formData.password}
-          onChange={handleChange}
-        />
-        <br />
-        <label htmlFor="phone">Phone </label>
+        <label htmlFor="phone">Phone Number</label>
         <input
           type="text"
           id="phone"
