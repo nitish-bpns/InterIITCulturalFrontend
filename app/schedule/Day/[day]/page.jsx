@@ -1,6 +1,7 @@
 import { Satisfy } from "next/font/google";
 import BackButton from "@/components/BackButton";
 import ErrorPage from "@/components/ErrorPage";
+import Table from "@/components/Table";
 
 import data from "@/data/schedule.json";
 
@@ -20,11 +21,28 @@ export default function Page({ params }) {
 				<div
 					style={{
 						width: "90%",
-						minHeight: "80vh",
-						borderRadius: 15,
-						background: "rgba(0, 0, 0, 0.55)",
 					}}
-				></div>
+				>
+					<Table
+						data={{
+							cols: [
+								{
+									name: "Event",
+									width: "50%",
+								},
+								{
+									name: "Venue",
+									width: "30%",
+								},
+								{
+									name: "Time",
+									width: "20%",
+								},
+							],
+							rows: data[day],
+						}}
+					/>
+				</div>
 			</section>
 		</main>
 	);

@@ -26,13 +26,11 @@
 	color: #603d30;
 	font-size: 60px;
 	font-weight: 400;
-	word-wrap: break-word;
 }
 
 .td {
 	font-size: 40px;
 	font-weight: 200;
-	word-wrap: break-word;
 }
 
 @media (max-width: 1000px) {
@@ -41,7 +39,6 @@
 		border-radius: 15px;
 	}
 	.tr {
-		height: 64px;
 		padding: 10px;
 		border-radius: 15px;
 	}
