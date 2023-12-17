@@ -35,8 +35,8 @@ export default function Team() {
             </Link>
           </div>
           <div className={PageStyles["main"] + " " + PageStyles2["main"]}>
-            <Image src={MainPlank} alt="Organizing Team" />
-            <h1>Organizing Team</h1>
+            <Image src={MainPlank} alt="Overall Coordinator" />
+            <h1>Overall Coordinator</h1>
           </div>
           <div className={PageStyles["column2"] + " " + PageStyles2["column2"]}>
             <Link href="/team/events">
@@ -56,9 +56,9 @@ export default function Team() {
             PageStyles2["plank-container-mob"]
           }
         >
-          <a className={PageStyles["main-mob"]}>
-            <Image src={MainPlankMob} alt="Schedule" />
-            <h1>Organizing Team</h1>
+          <a className={PageStyles["main-mob"]} href="/team/overall-coordinator">
+            <Image src={MainPlankMob} alt="Overall Coordinator" />
+            <h1>Overall Coordinator</h1>
           </a>
           <Link href="/team/core-ops">
             <Image src={Day0PlankMob} alt="Core Operations Team" />
