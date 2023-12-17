@@ -40,11 +40,3 @@
 .carousel {
 	width: 80%;
 }
-
-.carousel-img > img {
-	width: 100%;
-	height: auto;
-	background-position: center;
-	background-size: cover;
-	border-radius: 10px;
-}
