@@ -18,17 +18,7 @@ export default function LeaderboardComponent({ allowChange }) {
 					eventCode: eventCode,
 				}),
 			});
-			const score = await res.json();
-
-			const data = score
-				.sort((a, b) => b.score - a.score)
-				.map((value, index) => {
-					return {
-						Position: index + 1,
-						Institute: institutes[value.institute],
-						Points: value.score,
-					};
-				});
+			const data = await res.json();
 			setData(data);
 		};
 		getData();
@@ -82,7 +72,15 @@ export default function LeaderboardComponent({ allowChange }) {
 							width: "20%",
 						},
 					],
-					rows: data,
+					rows: data
+						.sort((a, b) => b.score - a.score)
+						.map((value, index) => {
+							return {
+								Position: index + 1,
+								Institute: institutes[value.institute],
+								Points: value.score,
+							};
+						}),
 				}}
 			/>
 		</>
