@@ -5,7 +5,6 @@ const userObject = {
   pid: "",
   name: "",
   email: "",
-  password: "",
   phone: "",
   gender: "",
   instituteID: "",
@@ -27,10 +26,6 @@ const userSchema = new Schema({
     type: String,
     required: [true, "Please provide an email"],
     unique: true,
-  },
-  password: {
-    type: String,
-    required: [true, "Please provide a password"],
   },
   phone: {
     type: String,

@@ -4,6 +4,7 @@ import Styles from "@/styles/page.module.css";
 import PageStyles from "./core.module.css";
 import localFont from "next/font/local";
 import BackButton from "@/components/BackButton";
+import ErrorPage from "@/components/ErrorPage";
 import data from "@/data/team.json";
 import ImageVariableCoordinators from "./images_coordis";
 import ImageVariableHeads from "./images_heads";
@@ -14,7 +15,11 @@ const myFont = localFont({
 const TeamName = ({ params }) => {
   const teamname = params.teamname;
   if (!data[teamname]) {
-    return <h1>404</h1>;
+    return (
+      <div className={PageStyles.err}>
+        <ErrorPage statusCode={404} />
+      </div>
+    );
   }
 
   const coordinators = data[teamname].coordinators;
@@ -88,6 +93,7 @@ const TeamName = ({ params }) => {
             <figure className={PageStyles.figure} key={index}>
               <Image
                 src={ImageVariableHeads[head.name]}
+                {...console.log(head.name)}
                 alt={head.name}
                 className={PageStyles.coordinatorImage}
                 width={500}
