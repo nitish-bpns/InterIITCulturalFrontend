@@ -64,10 +64,16 @@ export default function Profile() {
 
 	const [page, setPage] = useState(0);
 
-	const ProfilePage = () => {
+	const MainPage = () => {
 		return (
 			<div>
 				<h1>My Profile</h1>
+				{user.isAdmin && (
+					<Link href="/admin">
+						<button>Admin Panel</button>
+						<br />
+					</Link>
+				)}
 				<button
 					onClick={() => {
 						localStorage.removeItem("interiit-cultural-token");
@@ -164,7 +170,7 @@ export default function Profile() {
 	return user ? (
 		<>
 			{page == 0 ? (
-				<ProfilePage />
+				<MainPage />
 			) : (
 				<BackButton
 					onClick={() => {
