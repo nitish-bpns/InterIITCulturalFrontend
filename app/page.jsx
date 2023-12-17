@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import Styles from "../styles/page.module.css";
 import { Satisfy } from "next/font/google";
+import Image from "next/image";
 
 import DancePic from "../public/assets/images/home/dance.jpeg";
 import MusicPic from "../public/assets/images/home/music.png";
@@ -10,22 +13,44 @@ import localFont from "next/font/local";
 import PageStyles from "./Home.module.css";
 import LeaderboardComponent from "@/components/LeaderboardComponent";
 
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import img1 from "../public/assets/images/home/carousel/campus_1.jpg";
+import img2 from "../public/assets/images/home/carousel/campus_2.jpg";
+import img3 from "../public/assets/images/home/carousel/campus_3.jpg";
+import img4 from "../public/assets/images/home/carousel/campus_4.jpg";
+import img5 from "../public/assets/images/home/carousel/campus_5.jpg";
+import img6 from "../public/assets/images/home/carousel/campus_6.jpg";
+
 const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
 export default function Home() {
+	const carousel = [img1, img2, img3, img4, img5, img6];
+
 	return (
 		<main className={satisfy.className}>
 			<section className={Styles["main"]}>
-				<div
-					data-aos="fade-up"
-					style={{
-						width: "80%",
-						minHeight: "80vh",
-						borderRadius: 15,
-						background: "rgba(0, 0, 0, 0.55)",
-					}}
-				></div>
+				<div className={PageStyles["carousel"]}>
+					<Carousel
+						showArrows={true}
+						swipeable={true}
+						autoPlay={true}
+						infiniteLoop={true}
+						showStatus={false}
+					>
+						{carousel.map((item, index) => {
+							return (
+								<div
+									className={PageStyles["carousel-img"]}
+									key={index}
+								>
+									<Image src={item} alt="campus-img" />
+								</div>
+							);
+						})}
+					</Carousel>
+				</div>
 				<h1 data-aos="fade-up" className={Styles["heading"]}>
 					Events
 				</h1>
@@ -99,15 +124,6 @@ export default function Home() {
 							See more...
 							<hr className={PageStyles["hr"]}></hr>
 						</Link>
-						{/* <Link
-							href="/events"
-							style={{
-								color: "black",
-								textDecoration: "none",
-							}}
-						>
-							See more...
-						</Link> */}
 					</div>
 				</div>
 				<h1 data-aos="fade-up" className={Styles["heading"]}>
