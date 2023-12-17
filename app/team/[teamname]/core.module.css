@@ -27,7 +27,7 @@
   margin: auto;
   display: grid;
   width: 100%;
-  width: 100%;
+  height: 100%;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   justify-items: center;
@@ -38,7 +38,7 @@
 .headImage {
   width: 45vh;
   height: 40;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   overflow: hidden;
   display: flex;
   justify-content: space-around;
@@ -139,11 +139,11 @@
   .imageGrid {
     grid-template-columns: repeat(1, 1fr);
   }
-
-  .coordinatorImage {
+  
+  /* .coordinatorImage {
     width: 100px;
     height: 100px;
-  }
+  } */
 }
 
 .socialIcons {
@@ -299,7 +299,7 @@
 }
 
 .socialIcons a:hover {
-  color: #0980ff;
+  color: #780000;
   /* Change the social icon color on hover */
 }
 

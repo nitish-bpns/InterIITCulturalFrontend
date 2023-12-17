@@ -68,6 +68,13 @@
     ],
     "heads": [
       {
+        "name": "Abhinaw Anand",
+        "portfolio": "Core-Ops",
+        "mail": "abhinaw12anand@gmail.com",
+        "fblink": "https://www.facebook.com/profile.php?id=100073320497563",
+        "linkedin": "https://www.linkedin.com/in/abhinaw-anand-6095071b0/"
+      },
+      {
         "name": "Neeraj Patel",
         "portfolio": "Core-Ops",
         "mail": "neeraj.patel2703@gmail.com",
@@ -101,13 +108,6 @@
         "mail": "jhuriasanyam@gmail.com",
         "fblink": "https://www.facebook.com/profile.php?id=100077283706839&mibextid=ZbWKwL",
         "linkedin": "https://www.linkedin.com/in/sanyam-jhuria-4aaa68229"
-      },
-      {
-        "name": "Abhinaw Anand",
-        "portfolio": "Core-Ops",
-        "mail": "abhinaw12anand@gmail.com",
-        "fblink": "https://www.facebook.com/profile.php?id=100073320497563",
-        "linkedin": "https://www.linkedin.com/in/abhinaw-anand-6095071b0/"
       },
       {
         "name": "Ankit Yadav",
