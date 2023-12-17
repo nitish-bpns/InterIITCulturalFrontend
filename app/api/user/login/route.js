@@ -1,6 +1,5 @@
 import User from "@/models/User";
 import { NextResponse } from "next/server";
-import { compare } from "bcryptjs";
 import sanitize from "mongo-sanitize";
 import validator from "validator";
 import { connectToDatabase } from "@/lib/mongodb";
@@ -8,12 +7,12 @@ import { getToken } from "@/lib/jwt";
 
 export async function POST(req) {
   try {
-    let { email, password } = await req.json();
+    let { email, phone } = await req.json();
 
     email = sanitize(email).trim().toLowerCase();
-    password = sanitize(password).trim();
+    phone = sanitize(phone).trim();
 
-    if (validator.isEmpty(email) || validator.isEmpty(password)) {
+    if (validator.isEmpty(email) || validator.isEmpty(phone)) {
       return NextResponse.json(
         {
           message: "All fields are required!",
@@ -37,11 +36,12 @@ export async function POST(req) {
       );
     }
 
-    const match = await compare(password, user.password);
+    const match = phone === user.phone;
+
     if (!match) {
       return NextResponse.json(
         {
-          message: "Invalid Password",
+          message: "Wrong Phone Number",
         },
         {
           status: 401,

@@ -22,7 +22,7 @@ export default function SignInForm() {
 
   const [data, setData] = useState({
     email: "",
-    password: "",
+    phone: "",
   });
 
   const handleChange = (e) => {
@@ -42,7 +42,7 @@ export default function SignInForm() {
         },
         body: JSON.stringify({
           email: data.email,
-          password: data.password,
+          phone: data.phone,
         }),
       });
       const json = await res.json();
@@ -72,13 +72,13 @@ export default function SignInForm() {
         />
       </div>
       <div className={Styles["input-container"]}>
-        <label className={myFont.className}>Password:</label>
+        <label className={myFont.className}>Registered Phone Number:</label>
         <input
-          name="password"
-          type="password"
-          placeholder="Password"
+          name="phone"
+          type="text"
+          placeholder="Phone Number"
           required
-          value={data.password}
+          value={data.phone}
           onChange={handleChange}
         />
       </div>

@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import bcrypt from "bcryptjs";
 import sanitize from "mongo-sanitize";
 import validator from "validator";
 import { connectToDatabase } from "@/lib/mongodb";
@@ -8,13 +7,12 @@ import User from "@/models/User";
 
 export async function POST(req) {
   try {
-    let { pid, name, email, password, phone, gender, instituteID, hall, mess } =
+    let { pid, name, email, phone, gender, instituteID, hall, mess } =
       await req.json();
 
     pid = sanitize(pid).trim();
     name = sanitize(name).trim();
     email = sanitize(email).trim().toLowerCase();
-    password = sanitize(password).trim();
     phone = sanitize(phone).trim();
     gender = sanitize(gender).trim();
     instituteID = sanitize(instituteID).trim();
@@ -25,7 +23,6 @@ export async function POST(req) {
       validator.isEmpty(pid) ||
       validator.isEmpty(name) ||
       validator.isEmpty(email) ||
-      validator.isEmpty(password) ||
       validator.isEmpty(phone) ||
       validator.isEmpty(gender) ||
       validator.isEmpty(instituteID)
@@ -75,14 +72,11 @@ export async function POST(req) {
       );
     }
 
-    password = await bcrypt.hash(password, 10);
-
     await connectToDatabase();
     await User.create({
       pid,
       name,
       email,
-      password,
       phone,
       gender,
       instituteID,

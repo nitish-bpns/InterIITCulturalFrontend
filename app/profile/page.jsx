@@ -90,11 +90,13 @@ export default function Profile() {
         <br />
         Name : {user.name}
         <br />
+        Institute : {institutes[user.instituteID]}
+        <br />
+        Phone Number : {user.phone}
+        <br />
         Email : {user.email}
         <br />
         Gender : {user.gender}
-        <br />
-        Institute : {institutes[user.instituteID]}
         <br />
       </div>
     );
