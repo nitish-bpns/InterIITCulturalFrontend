@@ -85,6 +85,7 @@
 		]
 	},
 	"Q6": {
+		"points": 30,
 		"isTeam": true,
 		"teams": "max of 6 teams in prelims, max of 3 teams in final",
 		"perteam": "3 or less",
@@ -428,7 +429,6 @@
 			"Stage utilization + Transitions - 15%",
 			"Overall Impact + X factor - 10%"
 		],
-		"image": "../../../../public/assets/images/events/netaji.png",
 		"additional": "Group Dance will take place in Netaji Auditorium. The dimensions (in metres) for the same are as mentioned above."
 	},
 	"D2": {
@@ -461,7 +461,6 @@
 			"Energy - 20%",
 			"Overall Impact - 15%"
 		],
-		"image": "../../../../public/assets/images/events/netaji.png",
 		"additional": "Just Duet will take place in Netaji Auditorium. The dimensions(in metres) for the same are as mentioned above"
 	},
 	"D3": {
@@ -489,7 +488,6 @@
 			"The fixture will be decided according to the number of participating IITs and battles/byes will be decided by picking up chits.",
 			"Stunts which pose any risk to life are not permitted. Exceeding the time limit is strictly not allowed.",
 			"Spilling of powdery substance, fluids, usage of fire, props or any substance which might damage the stage or adversely affect the performance of other teams is strictly not allowed. Any team found using it would face a penalty of 30% points (that is 30% of the maximum points they can get in that following competition). The teams will be expected to restore the stage to its original condition within the set time limit in case any prop or substance that causes temporary changes is used (e.g., in case of spilling powdered substances, the stage will need to be cleaned up by the team).",
-			"Tracks should be submitted in mp3 before 11:59 pm of 20th December, 2023 for both Group Dance and Just Duet to submission.interiitculturalmeet@gmail.com",
 			"Vulgarity and obscenity are strictly not allowed. It will be left to judges’ discretion, and their decision will be final and binding in case any part of the performance is found objectionable."
 		],
 		"penalty": "A penalty of 10 marks will be imposed for vulgar actions. extreme aggression or doing any such action which is inappropriate.",
@@ -561,7 +559,6 @@
 			"Creativity and Stage Setting/Design - 10%",
 			"Overall Impact - 5%"
 		],
-		"image": "../../../../public/assets/images/events/kalidas.png",
 		"additional": "Stage Play will take place in Kalidas Auditorium. The dimensions (in metres) for the same are as mentioned above."
 	},
 	"T3": {
@@ -590,7 +587,6 @@
 			"Lights and Music - 15%",
 			"Creativity and Overall Impact - 20%"
 		],
-		"image": "../../../../public/assets/images/events/SNBose.png",
 		"additional": "MonoActing will take place in SN Bose Auditorium. The dimensions(in metres) for the same are as mentioned above."
 	},
 	"T4": {
@@ -619,7 +615,6 @@
 			"Lights and Music (in coherence to the performance) - 15%",
 			"Overall Impact - 15%"
 		],
-		"image": "../../../../public/assets/images/events/kalidas.png",
 		"additional": "Mime will take place in Kalidas Auditorium. The dimensions(in metres) for the same are as mentioned above"
 	},
 	"M1": {
@@ -753,9 +748,9 @@
 		"teams": "1",
 		"perteam": "4-17 members",
 		"time": "3 - 8 min (including credits)",
-		"theme": "Will be announced on the first day of the meet.",
+		"theme": "Will be announced on the first day of the meet (Dec 26th, 9.00 pm).",
 		"description": "The 51-hour filmmaking competition is a themebased event. Submission will be taken offline. You must complete everything - scripting, shooting, and editing within 51 hours. A short synopsis of the film also must be submitted.",
-		"deadline": "51 hours after the theme is announced.",
+		"deadline": "51 hours after the theme is announced (Dec 28th, 11:59 PM).",
 		"submission": "Final movie, some major raw shots used to make the final movie (the host institute reserves the right to ask for specific raw shots if needed)",
 		"rules": [
 			"The content of the movie should be appropriate for public screening and thus should have no kind of vulgarity or obscenity.",
@@ -999,6 +994,7 @@
 		"teams": "1",
 		"perteam": "3",
 		"time": "24 hours",
+		"theme": "Themes will be disclosed on the first day of the event (Dec 26th, 12.00pm IST).",
 		"description": "Design marathon is a continuous event where the participants get to solve various projects throughout the day.",
 		"rules": [
 			"A list of projects will be given to the teams out of which they can attempt any number of projects.",
@@ -1022,7 +1018,8 @@
 		"isTeam": false,
 		"submissions": "2 per theme",
 		"participants": "2 team of at most 3 people each",
-		"theme": "Themes will be disclosed on the first day of the event",
+		"theme": "Themes will be disclosed on the first day of the event (Dec 26th, 6.00pm IST).",
+		"deadline": "28th December 2023, 9:00pm IST",
 		"description": "Offline event where the participants should submit photographs clicked on streets with relevance to given theme.",
 		"rules": [
 			"All entries should be submitted in person to the Organising Committee.",
@@ -1154,7 +1151,8 @@
 			"Live Narration can be done during the performance.",
 			"Judging will be done on an overall basis, including costumes, hairstyle, and accessories most important being their relevance to the theme.",
 			"Vulgarity is not allowed.",
-			"Obscenity will be left to the judge's discretion, and their decision will be final and binding in case any part of the performance is found objectionable."
+			"Obscenity will be left to the judge's discretion, and their decision will be final and binding in case any part of the performance is found objectionable.",
+			"Track should be submitted in mp3 before 11:59 pm of 20th December, 2023 to submission.interiitculturalmeet@gmail.com"
 		],
 		"isPenaltyTable": true,
 		"penalty": [
@@ -1169,13 +1167,14 @@
 			"Theme Relevance - 15%",
 			"Stage Presence and Overall Impact - 15%"
 		],
-		"image": "../../../../public/assets/images/events/kalidas.png",
 		"additional": "Fashion will take place in Kalidas Auditorium. The dimensions (in metres) for the same are as mentioned above."
 	},
 	"F2": {
 		"points": 30,
 		"isTeam": false,
 		"submissions": "5",
+		"theme": "Theme will be announced on 1st December, 2023",
+		"deadline": "11:59 pm IST, 24th December, 2023",
 		"rules": [
 			"Participants are expected to upload EXACTLY 5 editorials in jpg format",
 			"Photographs must contain EXIF data. Will be disqualified if not followed.",
