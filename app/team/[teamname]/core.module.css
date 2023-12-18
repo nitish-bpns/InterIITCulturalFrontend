@@ -6,7 +6,8 @@
   gap: 10px;
 }
 
-.topLeftIcons img {
+.topLeftIcons img,
+.topRightIcon img {
   width: 40px;
   height: 40px;
 }
@@ -16,57 +17,46 @@
   top: 0;
   right: 0;
 }
-
-.topRightIcon img {
-  width: 40px;
-  height: 40px;
+.memberName {
+  font-size: 25px;
+  color: white;
 }
 
 .imageGrid,
 .imageGridHeads {
   margin: auto;
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  justify-items: center;
-  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px; /* Adjusted gap between images */
+  margin-bottom: 0;
 }
 
 .coordinatorImage,
 .headImage {
   width: 45vh;
   height: 40;
-  /* border-radius: 10px; */
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
+  color: rgb(129, 3, 3);
   justify-content: space-around;
+  flex-direction: column;
 }
 
-/* Larger size for coordinator images */
 .coordinatorImage {
   width: 300px;
   height: 300px;
-  overflow: hidden;
-  /* object-fit: contain; */
-  /* margin-bottom: 20px; */
 }
 
-.headingHeads {
-  margin: 40px;
-  size: 2em;
-}
-
-@media only screen and (max-width: 1242px) {
+/* Update the media queries for smaller screens */
+@media only screen and (max-width: 1242px),
+  only screen and (max-width: 964px),
+  only screen and (max-width: 644px),
+  only screen and (max-width: 440px) {
   .imageGrid {
-    grid-template-columns: repeat(3, 1fr);
-    /* 2 images in each row for mobile */
-    gap: 20px;
-    /* Adjust the gap between images */
+    flex-wrap: wrap;
   }
 
-  /* Smaller size for head images on mobile */
   .headImage {
     width: 80px;
     height: 80px;
@@ -74,77 +64,13 @@
 
   .imageGridHeads {
     grid-template-columns: repeat(2, 1fr);
-    /* 2 images in each row for mobile */
     gap: 20px;
-    /* Adjust the gap between images */
   }
-
-  /* Display 3 heads in each row for mobile */
-}
-
-@media only screen and (max-width: 964px) {
-  .imageGrid {
-    grid-template-columns: repeat(2, 1fr);
-    /* 2 images in each row for mobile */
-    gap: 20px;
-    /* Adjust the gap between images */
-  }
-
-  /* Smaller size for head images on mobile */
-  .headImage {
-    width: 80px;
-    height: 80px;
-  }
-
-  .imageGridHeads {
-    grid-template-columns: repeat(2, 1fr);
-    /* 2 images in each row for mobile */
-    gap: 20px;
-    /* Adjust the gap between images */
-  }
-
-  /* Display 3 heads in each row for mobile */
-}
-
-@media only screen and (max-width: 644px) {
-  .imageGrid {
-    grid-template-columns: repeat(1, 1fr);
-    /* 2 images in each row for mobile */
-    gap: 20px;
-    /* Adjust the gap between images */
-  }
-
-  /* Smaller size for head images on mobile */
-  .headImage {
-    width: 80px;
-    height: 80px;
-  }
-
-  .imageGridHeads {
-    grid-template-columns: repeat(2, 1fr);
-    /* 2 images in each row for mobile */
-    gap: 20px;
-    /* Adjust the gap between images */
-  }
-
-  /* Display 3 heads in each row for mobile */
-}
-
-@media only screen and (max-width: 440px) {
-  .imageGrid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  /* .coordinatorImage {
-    width: 100px;
-    height: 100px;
-  } */
 }
 
 .socialIcons {
   display: flex;
   gap: 10px;
-  /* Adjust the gap value as needed */
   justify-content: space-around;
 }
 
@@ -158,13 +84,7 @@
   color: #fefefe;
 }
 
-/* core.module.css or your existing stylesheet */
-
 .memberContainer {
-  position: relative;
-}
-
-.imageWrapper {
   position: relative;
   overflow: hidden;
 }
@@ -186,13 +106,6 @@
   opacity: 1;
 }
 
-/* core.module.css or your existing stylesheet */
-
-.memberContainer {
-  position: relative;
-  overflow: hidden;
-}
-
 .gridElement {
   display: flex;
   flex-direction: column;
@@ -203,51 +116,16 @@
   transform: scale(1.1);
 }
 
-.imageWrapper {
-  overflow: hidden;
-}
-
-.details {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* background-color: white; */
-  padding: 10px;
-  position: relative;
-  z-index: 1;
-}
-
-.memberName {
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 10px;
-  /* Add margin top for spacing */
-  text-align: center;
-  /* Center the text */
-  color: #333;
-  /* Set the text color */
-  margin-bottom: 10px;
-}
-
-/* core.module.css or your existing stylesheet */
-
-/* ... (your existing styles) */
-
 .card {
   background-color: #fff;
-  /* Set the background color for the card */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Add a subtle box shadow */
   border-radius: 8px;
   overflow: hidden;
-  /* Hide overflowing content */
   transition: transform 0.3s ease-in-out;
 }
 
 .card:hover {
   transform: scale(1.05);
-  /* Enlarge the card on hover */
 }
 
 .cardHeader {
@@ -256,14 +134,11 @@
   padding: 12px;
   text-align: center;
   font-weight: bold;
-  /* Make the header text bold */
   border-bottom: 2px solid #ddd;
-  /* Add a border at the bottom of the header */
 }
 
 .cardBody {
   padding: 20px;
-  /* Add padding to the card body */
 }
 
 .memberName {
@@ -271,29 +146,9 @@
   font-weight: bold;
   margin-top: 10px;
   text-align: center;
-  color: #f2f0f0;
+  color: #0da591;
   margin-bottom: 10px;
-}
-
-.socialIcons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  /* Center align the social icons */
-  margin-top: 15px;
-  /* Add margin at the top of social icons */
-}
-
-.socialIcons a {
-  text-decoration: none;
-  color: #ffffff;
-  /* Set the social icon color */
-  transition: color 0.3s ease;
-}
-
-.socialIcons a:hover {
-  color: #780000;
-  /* Change the social icon color on hover */
+  opacity: 100%;
 }
 
 .figure {
@@ -314,12 +169,12 @@
   font-family: sans-serif;
   font-size: 100px;
   font-weight: bold;
-  color: #efefef;
+  color: #ff6262;
   padding: 0.75rem;
   background: var(--c, #a5510640);
   clip-path: inset(0 var(--_i, 100%) 0 0);
-  -webkit-mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
+  -webkit-mask: linear-gradient(#ffffff 0 0), linear-gradient(#000 0 0);
+  /* -webkit-mask-composite: xor; */
   -webkit-mask-clip: text, padding-box;
   margin: -1px;
 }
@@ -335,215 +190,11 @@
 @supports not (-webkit-mask-clip: text) {
   .figure .figcaption {
     -webkit-mask: none;
-    color: #fff;
+    color: #ffffff;
   }
 }
 
-.memberName {
+.memberName{
+  color: white;
   font-size: 25px;
 }
-
-.topLeftIcons {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  gap: 40px;
-}
-
-.topLeftIcons img {
-  width: 40px;
-  height: 40px;
-}
-
-.topRightIcon {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.topRightIcon img {
-  width: 40px;
-  height: 40px;
-}
-
-.imageGrid,
-.imageGridHeads {
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
-  justify-content: center; /* Center align items horizontally */
-  gap: 20px;
-  margin-bottom: 0px;
-}
-
-.coordinatorImage,
-.headImage {
-  width: 45vh;
-  height: 40;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column; /* Stack items vertically */
-}
-
-/* Larger size for coordinator images */
-.coordinatorImage {
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-}
-
-/* Update the media queries for smaller screens */
-@media only screen and (max-width: 1242px) {
-  .imageGrid {
-    flex-wrap: wrap;
-  }
-
-  /* ... */
-}
-
-@media only screen and (max-width: 964px) {
-  .imageGrid {
-    flex-wrap: wrap;
-  }
-
-  /* ... */
-}
-
-@media only screen and (max-width: 644px) {
-  .imageGrid {
-    flex-wrap: wrap;
-  }
-
-  /* ... */
-}
-
-@media only screen and (max-width: 440px) {
-  .imageGrid {
-    flex-wrap: wrap;
-  }
-
-  /* ... */
-}
-
-.socialIcons {
-  display: flex;
-  gap: 40px;
-  justify-content: space-around;
-}
-
-.socialIcons a {
-  text-decoration: none;
-  color: rgb(121, 1, 21);
-  transition: color 0.3s ease;
-}
-
-.socialIcons a:hover {
-  color: #fefefe;
-}
-
-/* ... (other existing styles) */
-
-
-.topLeftIcons {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  gap: 10px;
-}
-
-.topLeftIcons img {
-  width: 40px;
-  height: 40px;
-}
-
-.topRightIcon {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.topRightIcon img {
-  width: 40px;
-  height: 40px;
-}
-
-.imageGrid,
-.imageGridHeads {
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
-  justify-content: center; /* Center align items horizontally */
-  gap: 50px; /* Adjusted gap between images */
-  margin-bottom: 0px;
-}
-
-.coordinatorImage,
-.headImage {
-  width: 45vh;
-  height: 40;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column; /* Stack items vertically */
-}
-
-/* Larger size for coordinator images */
-.coordinatorImage {
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-}
-
-/* Update the media queries for smaller screens */
-@media only screen and (max-width: 1242px) {
-  .imageGrid {
-    flex-wrap: wrap;
-  }
-
-  /* ... */
-}
-
-@media only screen and (max-width: 964px) {
-  .imageGrid {
-    flex-wrap: wrap;
-  }
-
-  /* ... */
-}
-
-@media only screen and (max-width: 644px) {
-  .imageGrid {
-    flex-wrap: wrap;
-  }
-
-  /* ... */
-}
-
-@media only screen and (max-width: 440px) {
-  .imageGrid {
-    flex-wrap: wrap;
-  }
-
-  /* ... */
-}
-
-.socialIcons {
-  display: flex;
-  gap: 10px;
-  justify-content: space-around;
-}
-
-.socialIcons a {
-  text-decoration: none;
-  color: rgb(121, 1, 21);
-  transition: color 0.3s ease;
-}
-
-.socialIcons a:hover {
-  color: #fefefe;
-}
-
-/* ... (other existing styles) */

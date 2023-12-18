@@ -90,7 +90,6 @@ const TeamName = ({ params }) => {
             <figure className={PageStyles.figure} key={index}>
               <Image
                 src={ImageVariableHeads[head.name]}
-                {...console.log(head.name)}
                 alt={head.name}
                 className={PageStyles.coordinatorImage}
                 // layout="responsive"
