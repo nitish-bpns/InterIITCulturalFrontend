@@ -1,25 +1,25 @@
 {
-  "name": "interiitculturalfrontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@sendgrid/mail": "^8.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongo-sanitize": "^1.1.0",
-    "mongoose": "^8.0.3",
-    "next": "14.0.4",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-icons": "^4.12.0",
-    "react-responsive-carousel": "^3.2.23",
-    "react-toastify": "^9.1.3",
-    "sharp": "^0.33.0",
-    "validator": "^13.11.0"
-  }
+	"name": "interiitculturalfrontend",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"jsonwebtoken": "^9.0.2",
+		"mongo-sanitize": "^1.1.0",
+		"mongoose": "^8.0.3",
+		"next": "14.0.4",
+		"nodemailer": "^6.9.7",
+		"react": "^18",
+		"react-dom": "^18",
+		"react-icons": "^4.12.0",
+		"react-responsive-carousel": "^3.2.23",
+		"react-toastify": "^9.1.3",
+		"sharp": "^0.33.0",
+		"validator": "^13.11.0"
+	}
 }

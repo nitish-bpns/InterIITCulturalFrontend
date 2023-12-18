@@ -4,7 +4,7 @@ import sanitize from "mongo-sanitize";
 import validator from "validator";
 import { connectToDatabase } from "@/lib/mongodb";
 import { getToken } from "@/lib/jwt";
-// import { sendMail } from "@/lib/sendGrid";
+import sendEmail from "@/lib/nodemailer";
 
 export async function POST(req) {
 	try {
@@ -43,12 +43,12 @@ export async function POST(req) {
 			user.otp = otp;
 			await user.save();
 
-			// Send OTP to user's email address
-			// await sendMail(
-			// 	(to = user.email),
-			// 	(subject = "OTP for Inter IIT Cultural Meet 6.0 Website"),
-			// 	(text = `Your OTP is ${otp}. Please do not share this with anyone.`)
-			// );
+			await sendEmail(
+				user.email,
+				"OTP for Login",
+				"",
+				`<p>Your OTP for login is <strong>${otp}</strong>. This OTP is valid for 5 minutes. Please do not share this OTP with anyone.</p>`
+			);
 
 			return NextResponse.json(
 				{
