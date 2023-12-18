@@ -22,6 +22,7 @@ export default function HomeCarousel() {
 			autoPlay={true}
 			infiniteLoop={true}
 			showStatus={false}
+			showThumbs={false}
 		>
 			{carousel.map((item, index) => {
 				return (
