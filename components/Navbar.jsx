@@ -85,6 +85,15 @@ export default function Navbar() {
 				>
 					Schedule
 				</Link>
+				<a
+					href="https://google.com"
+					target="_blank"
+					onClick={() => {
+						setDropdownVisible(false);
+					}}
+				>
+					Sponsors
+				</a>
 				<Link
 					href={isSignedIn ? "/profile" : "/signin"}
 					onClick={() => {
