@@ -11,6 +11,7 @@ const userObject = {
 	hall: "",
 	mess: "",
 	isAdmin: false,
+	otp: "",
 };
 
 const userSchema = new Schema({
@@ -49,6 +50,10 @@ const userSchema = new Schema({
 	isAdmin: {
 		type: Boolean,
 		default: false,
+	},
+	otp: {
+		type: String,
+		default: "",
 	},
 });
 

@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import sanitize from "mongo-sanitize";
 import validator from "validator";
 import { connectToDatabase } from "@/lib/mongodb";
-import { getToken, verifyToken } from "@/lib/jwt";
+import { verifyToken } from "@/lib/jwt";
 import User from "@/models/User";
 
 export async function POST(req) {
@@ -109,7 +109,6 @@ export async function POST(req) {
 		return NextResponse.json(
 			{
 				message: "User Created Successfully",
-				token: getToken(pid),
 			},
 			{
 				status: 200,
