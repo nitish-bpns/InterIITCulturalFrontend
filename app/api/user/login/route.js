@@ -4,6 +4,7 @@ import sanitize from "mongo-sanitize";
 import validator from "validator";
 import { connectToDatabase } from "@/lib/mongodb";
 import { getToken } from "@/lib/jwt";
+// import { sendMail } from "@/lib/sendGrid";
 
 export async function POST(req) {
 	try {
@@ -43,6 +44,11 @@ export async function POST(req) {
 			await user.save();
 
 			// Send OTP to user's email address
+			// await sendMail(
+			// 	(to = user.email),
+			// 	(subject = "OTP for Inter IIT Cultural Meet 6.0 Website"),
+			// 	(text = `Your OTP is ${otp}. Please do not share this with anyone.`)
+			// );
 
 			return NextResponse.json(
 				{
