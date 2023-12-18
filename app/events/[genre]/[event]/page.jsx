@@ -41,7 +41,7 @@ import Asim from "@/public/assets/images/events/judges/asim.jpg";
 import Shrikanth from "@/public/assets/images/events/judges/shrikanth.jpg";
 import Arindam from "@/public/assets/images/events/judges/arindam.jpg";
 import Samanway from "@/public/assets/images/events/judges/samanway.jpg";
-import Debanjan from "@/public/assets/images/events/judges/Debanjan.jpg";
+import Debanjan from "@/public/assets/images/events/judges/debanjan.jpg";
 import Partha from "@/public/assets/images/events/judges/partha.jpg";
 import Major from "@/public/assets/images/events/judges/major.jpg";
 
