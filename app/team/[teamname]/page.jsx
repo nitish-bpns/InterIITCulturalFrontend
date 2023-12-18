@@ -93,6 +93,7 @@ const TeamName = ({ params }) => {
                 {...console.log(head.name)}
                 alt={head.name}
                 className={PageStyles.coordinatorImage}
+                // layout="responsive"
                 width={500}
                 height={500}
               />
