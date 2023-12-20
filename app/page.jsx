@@ -110,9 +110,7 @@ export default function Home() {
 					}}
 				></div>
 				<h1 className={Styles["heading"]}>Overall Leaderboard</h1>
-				<div className={PageStyles["leaderboard"]}>
-					<LeaderboardComponent allowChange={false} />
-				</div>
+				<LeaderboardComponent allowChange={false} />
 			</section>
 		</main>
 	);
