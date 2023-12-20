@@ -17,6 +17,7 @@ import shreyas from "@/public/assets/images/team_pics_coordinators/shreyas.png";
 import Zaid from "@/public/assets/images/team_pics_coordinators/Zaid.png";
 import Zeeshan from "@/public/assets/images/team_pics_coordinators/Zeeshan.png";
 import Rishita from "@/public/assets/images/team_pics_coordinators/rishita.png";
+import rishi from "@/public/assets/images/team_pics_coordinators/Rishi.png";
 
 
 
@@ -32,7 +33,7 @@ const ImageVariableCoordinators = {
     "Kusuma Ullasa": kusuma,
     "Rishitha Marlapati": Rishita,
     "GVK Sai Sarath": gvk,
-    "Rishi Kumar": "",
+    "Rishi Kumar": rishi,
     "Nikhil Goyal": nikhil,
     "Awanish Kumar": avanish,
     "Rane Aryan Pannalal": aryan,

@@ -47,8 +47,16 @@ import Manaswi from "@/public/assets/images/images_heads_temp/intro-bg.jpg";
 import nitin from "@/public/assets/images/images_heads_temp/nitin.jpg";
 import nikhil from "@/public/assets/images/images_heads_temp/nikhil_rajani.jpg";
 import saharsh from "@/public/assets/images/images_heads_temp/saharsh.jpg";
+import sumit from "@/public/assets/images/images_heads_temp/sumit.jpeg";
+import vijeta from "@/public/assets/images/images_heads_temp/vijeta.jpg";
+import ayushRP from "@/public/assets/images/images_heads_temp/ayushRP.JPG";
+import sanjana from "@/public/assets/images/images_heads_temp/sanjana.jpeg";
+
 
 const ImageVariableHeads = {
+	"Sumit Kumar":sumit,
+	"Ayush Raj":ayushRP,
+	"Sanjana Palle":sanjana,
 	"Neeraj Patel": Neeraj_Patel,
 	"Priyanshu Sharma": Priyanshu_Sharma,
 	"Ananya Singh": Ananya_Singh,
@@ -87,7 +95,7 @@ const ImageVariableHeads = {
 	"Chiranjeet Mishra": Chiranjeet_Mishra,
 	"Sanyam Jhuria": Sanyam_Jhuria,
 	"Ashish Thakur": Ashish_Thakur,
-	// "Vijeta Singh": temp,
+	"Vijeta Singh": vijeta,
 	"Subhayan Dey": Subhayan_Dey,
 	Himanshu: Himanshu_,
 	"Riddhima Biyani": Riddhima_Biyani,

@@ -1,69 +1,102 @@
 {
-  "core-ops": {
-    "title": "Core Operations",
+  "overall-coordinator": {
+    "title": "Overall",
+    "coordinators": [
+      {
+        "name": "K.R.Rahul",
+        "image": "",
+        "fblink": "https://www.facebook.com/profile.php?id=100056602879445",
+        "mail": "krrahul.iitkgp@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/rahul-k-r-30a687201"
+      }
+    ],
+    "heads": []
+  },
+  "logistics": {
+    "title": "Logistics",
     "coordinators": [
       {
         "name": "Ishan Nargolkar",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/ishan.nargolkar.3",
+        "mail": "ishan.nargolkar@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/ishan-nargolkar"
       },
       {
         "name": "Akshat Ansh Nayak",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/BludgerMist16850?mibextid=V3Yony",
+        "mail": "akshatansh.nayak@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/akshat-ansh-nayak-752480205"
       },
       {
         "name": "Kusuma Ullasa",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
-      },
+        "fblink": "https://www.facebook.com/vskusuma.ullasa?mibextid=ZbWKwL",
+        "mail": "kusumaullasa11@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/kusuma-ullasa"
+      }
+    ],
+    "heads": []
+  },
+  "outreach-and-hospitality": {
+    "title": "Outreach and Hospitality",
+    "coordinators": [
       {
         "name": "Zeeshan Khan",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/profile.php/?id=100003497188793",
+        "mail": "zeeshankhan.iitkgp@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/zeeshan-khan-05a25211b"
       },
       {
         "name": "Rishitha Marlapati",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/rishitha.marlapati?mibextid=ZbWKwL",
+        "mail": "marlapatirishitha@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/rishitha-marlapati-a7096521b"
       },
       {
         "name": "GVK Sai Sarath",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
-      },
+        "fblink": "https://www.facebook.com/sarathgarimella17/",
+        "mail": "saisarath857@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/saisarathgarimella/"
+      }
+    ],
+    "heads": [
       {
-        "name": "RISHI KUMAR",
+        "name": "Sanjana Palle",
+        "portfolio": "acco",
+        "mail": "pallesanjana@gmail.com",
+        "fblink": "https://www.facebook.com/profile.php?id=100008299579836&mibextid=LQQJ4d",
+        "linkedin": "hhttps://www.linkedin.com/in/sanjana-palle-8b6ba3255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+      }
+    ]
+  },
+  "sponsorship": {
+    "title": "Sponsorship",
+    "coordinators": [
+      {
+        "name": "Rishi Kumar",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/profile.php?id=100006118908643",
+        "mail": "tkumarrishi.iitkgp@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/rishi-kumar-01a752221/"
       },
       {
         "name": "Nikhil Goyal",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/profile.php?id=100056865170803",
+        "mail": "nikhilgoyal.iitkgp@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/nikhil-goyal-612700205/"
       },
       {
         "name": "Awanish Kumar",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/profile.php?id=100007226146644&mibextid=LQQJ4d",
+        "mail": "Awanish.iitkgp@gmail.com",
+        "linkedin": "http://linkedin.com/in/awanish-kumar-413781205"
       }
     ],
     "heads": [
@@ -194,16 +227,16 @@
       {
         "name": "Nitish Kumar",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/nitishk1005",
+        "mail": "nitishkumar1.iitkgp@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/nitish-bpns"
       },
       {
         "name": "Shivam Dwivedi",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/profile.php?id=100048948850858",
+        "mail": "shivamkval@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/shivam-dwivedi-764006217/"
       }
     ],
     "heads": [
@@ -243,16 +276,16 @@
       {
         "name": "Nidhi Goyal",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/profile.php?id=100059180424213",
+        "mail": "nidhigoyal1310@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/nidhi-goyal-iitkgp"
       },
       {
         "name": "Shreyas Anilal",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/shreyas.anilal/",
+        "mail": "shreyas2.0sv@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/shreyas-anilal-883166179/"
       }
     ],
     "heads": [
@@ -278,6 +311,13 @@
         "linkedin": "https://www.linkedin.com/in/ananya---singh-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
+        "name": "Ayush Raj",
+        "portfolio": "Media and Publicity",
+        "mail": "ayushraj27iitkgp@gmail.com",
+        "fblink": "https://www.facebook.com/",
+        "linkedin": "www.linkedin.com/in/ayush-raj27/"
+      },
+      {
         "name": "Vaibhav Joshi",
         "portfolio": "Media and Publicity",
         "mail": "vj520041@gmail.com",
@@ -299,44 +339,44 @@
       {
         "name": "Rane Aryan Pannalal",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://m.facebook.com/profile.php/?id=100006483914831",
+        "mail": "aryanrane1000@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/aryan-rane-22a8241b9"
       },
       {
         "name": "MD ZAID ALAM",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/Mallickzaid7",
+        "mail": "Mallickzaid7@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/md-zaid-alam-a99874217"
       },
       {
         "name": "Burra Nitish",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/nithish.nani.50?mibextid=9R9pXO",
+        "mail": "nithishnani.277@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/burra-nithish-78279a230"
       },
       {
         "name": "JAI KUMAR SONI",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/profile.php?id=100062647992139&mibextid=ZbWKwL",
+        "mail": "sonij7767@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/jai-kumar-soni-64b21a211"
       },
       {
         "name": "Sanchay Mahato",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/heavymetal17/",
+        "mail": "15sanchay@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/sanchay17/"
       },
       {
         "name": "Harishwar",
         "image": "",
-        "fblink": "https://www.facebook.com",
-        "mail": "test@gmail.com",
-        "linkedin": "https://www.linkedin.com"
+        "fblink": "https://www.facebook.com/Harishwar.Adithya.S?mibextid=ZbWKwL",
+        "mail": "harishwar017@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/harishwar-adithya-s-5499b922a"
       }
     ],
     "heads": [
@@ -359,14 +399,14 @@
         "portfolio": "Events",
         "mail": "riddhimabiyani@gmail.com",
         "fblink": "https://www.facebook.com/profile.php?id=100071937273813&mibextid=ZbWKwL",
-        "linkedin": "www.linkedin.com"
+        "linkedin": "https://www.linkedin.com/in/riddhima-biyani-519331224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
         "name": "Subhayan Dey",
         "portfolio": "Events",
         "mail": "subhayandey72@gmail.com",
         "fblink": "https://www.facebook.com/subhayan.dey.750?mibextid=ZbWKwL",
-        "linkedin": "https://www.linkedin.com/in/riddhima-biyani-519331224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        "linkedin": "https://www.linkedin.com/in/subhayan-dey-008780222/"
       },
       {
         "name": "Vijeta Singh",
@@ -500,6 +540,13 @@
         "mail": "kunal.soulrocker@gmail.com",
         "fblink": "https://www.facebook.com/Kunal.TheEnigma?mibextid=rS40aB7S9Ucbxw6v",
         "linkedin": "https://www.linkedin.com/in/kunal-agarwal-10b62b223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Sumit Kumar",
+        "portfolio": "Events ",
+        "mail": "gmail.com",
+        "fblink": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/in/sumit-kumar-kgp2025?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ]
   }

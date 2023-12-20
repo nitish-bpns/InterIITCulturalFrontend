@@ -101,7 +101,7 @@ export default function Team() {
 						<Image src={Day0PlankMob} alt="Events Team" />
 						<h1>Events Team</h1>
 					</Link>
-					<Link href="/team/logistics-team">
+					<Link href="/team/logistics">
 						<Image src={Day1PlankMob} alt="Logistics Team" />
 						<h1>Logistics Team</h1>
 					</Link>
