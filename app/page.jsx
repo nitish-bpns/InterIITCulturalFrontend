@@ -104,7 +104,7 @@ export default function Home() {
 					data-aos="fade-up"
 					style={{
 						width: "80%",
-						minHeight: "80vh",
+						minHeight: "40vh",
 						borderRadius: 15,
 						background: "rgba(0, 0, 0, 0.55)",
 					}}

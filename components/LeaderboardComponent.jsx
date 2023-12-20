@@ -56,11 +56,11 @@ export default function LeaderboardComponent({ allowChange }) {
 					cols: [
 						{
 							name: "Position",
-							width: "27%",
+							width: "25%",
 						},
 						{
 							name: "Institute",
-							width: "53%",
+							width: "55%",
 						},
 						{
 							name: "Points",
