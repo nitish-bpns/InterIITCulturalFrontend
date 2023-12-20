@@ -88,9 +88,6 @@ export default function Navbar() {
 				<a
 					href="https://www.spons.interiitculturals.org"
 					target="_blank"
-{/* 					onClick={() => {
-						setDropdownVisible(false);
-					}} */}
 				>
 					Sponsors
 				</a>
