@@ -88,7 +88,7 @@ export async function POST(req) {
 			return NextResponse.json(
 				{
 					message: "Logged in successfully",
-					token: getToken(user.pid),
+					token: getToken(user.email),
 				},
 				{
 					status: 200,
