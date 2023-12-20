@@ -86,11 +86,8 @@ export default function Navbar() {
 					Schedule
 				</Link>
 				<a
-					href="https://google.com"
+					href="https://www.spons.interiitculturals.org"
 					target="_blank"
-					onClick={() => {
-						setDropdownVisible(false);
-					}}
 				>
 					Sponsors
 				</a>
