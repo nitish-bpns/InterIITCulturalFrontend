@@ -12,7 +12,7 @@ export default function RegisterUser() {
 	const [formData, setFormData] = useState({
 		eventCode: "",
 		instituteID: "",
-		pids: [],
+		emails: [],
 	});
 
 	const handleSubmit = async (e) => {
@@ -89,30 +89,30 @@ export default function RegisterUser() {
 					})}
 				</select>
 				<br />
-				<label htmlFor="pids">PIDs </label>
+				<label htmlFor="emails">Emails </label>
 				<button
 					onClick={(e) => {
 						e.preventDefault();
 						setFormData({
 							...formData,
-							pids: [...formData.pids, ""],
+							emails: [...formData.emails, ""],
 						});
 					}}
 				>
-					Add PID
+					Add Email
 				</button>
-				{formData.pids.map((pid, index) => {
+				{formData.emails.map((email, index) => {
 					return (
 						<div key={index}>
 							<input
 								type="text"
-								value={pid}
+								value={email}
 								onChange={(e) => {
-									const newPids = formData.pids;
-									newPids[index] = e.target.value;
+									const newEmails = formData.emails;
+									newEmails[index] = e.target.value;
 									setFormData({
 										...formData,
-										pids: newPids,
+										emails: newEmails,
 									});
 								}}
 								required
@@ -120,11 +120,11 @@ export default function RegisterUser() {
 							<button
 								onClick={(e) => {
 									e.preventDefault();
-									const newPids = formData.pids;
-									newPids.splice(index, 1);
+									const newEmails = formData.emails;
+									newEmails.splice(index, 1);
 									setFormData({
 										...formData,
-										pids: newPids,
+										emails: newEmails,
 									});
 								}}
 							>

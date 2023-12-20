@@ -104,15 +104,13 @@ export default function Home() {
 					data-aos="fade-up"
 					style={{
 						width: "80%",
-						minHeight: "80vh",
+						minHeight: "40vh",
 						borderRadius: 15,
 						background: "rgba(0, 0, 0, 0.55)",
 					}}
 				></div>
 				<h1 className={Styles["heading"]}>Overall Leaderboard</h1>
-				<div className={PageStyles["leaderboard"]}>
-					<LeaderboardComponent allowChange={false} />
-				</div>
+				<LeaderboardComponent allowChange={false} />
 			</section>
 		</main>
 	);

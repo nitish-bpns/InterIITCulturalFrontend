@@ -2,12 +2,22 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import localFont from "next/font/local";
+import Image from "next/image";
+import Styles from "./Profile.module.css";
+
 import { useRouter } from "next/navigation";
 import { toast, toastDict } from "@/lib/toastify";
 import institutes from "@/data/institutes.json";
 import eventsData from "@/data/events.json";
 import BackButton from "@/components/BackButton";
 import Table from "@/components/Table";
+import Ellipse from "@/public/assets/images/Ellipse.png";
+import Info from "@/public/assets/images/info_icon.png";
+import Events from "@/public/assets/images/events_icon.png";
+import Home from "@/public/assets/images/home_icon.png";
+
+const myFont = localFont({ src: "../../public/assets/fonts/Dreaming.woff2" });
 
 function findEventByCode(code) {
 	for (const genre in eventsData) {
@@ -66,29 +76,60 @@ export default function Profile() {
 
 	const MainPage = () => {
 		return (
-			<div>
-				<h1>My Profile</h1>
-				{user.isAdmin && (
-					<Link href="/admin">
-						<button>Admin Panel</button>
-						<br />
-					</Link>
-				)}
-				<button
-					onClick={() => {
-						localStorage.removeItem("interiit-cultural-token");
-						router.push("/signin");
-					}}
-				>
-					Sign Out
-				</button>
-				<br />
-				<button onClick={() => setPage(1)}>Personal Information</button>
-				<br />
-				<button onClick={() => setPage(2)}>Event Details</button>
-				<br />
-				<button onClick={() => setPage(3)}>Accomodation Details</button>
-			</div>
+			<main className={myFont.className}>
+				<section className={Styles["profile-wrapper"]}>
+					<div className={Styles["title-bar"]}>
+						{user.isAdmin ? (
+							<Link href="/admin" className={Styles["admin-btn"]}>
+								Admin Panel
+							</Link>
+						) : (
+							<div className={Styles["no-admin-btn"]}>Text</div>
+						)}
+						<h1>My Profile</h1>
+						<div
+							onClick={() => {
+								localStorage.removeItem(
+									"interiit-cultural-token"
+								);
+								router.push("/");
+							}}
+							className={Styles["sign-out-btn"]}
+						>
+							Sign Out
+						</div>
+					</div>
+
+					<div className={Styles["profile"]}>
+						<div className={Styles["profile-img"]}>
+							<Image src={Ellipse} />
+						</div>
+						<div className={Styles["profile-btns"]}>
+							<div
+								onClick={() => setPage(1)}
+								className={Styles["btn"]}
+							>
+								<Image src={Info} />
+								<p>Personal Information</p>
+							</div>
+							<div
+								onClick={() => setPage(2)}
+								className={Styles["btn"]}
+							>
+								<Image src={Events} />
+								<p>Event Details</p>
+							</div>
+							<div
+								onClick={() => setPage(3)}
+								className={Styles["btn"]}
+							>
+								<Image src={Home} />
+								<p>Accomodation Details</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
 		);
 	};
 
@@ -96,8 +137,6 @@ export default function Profile() {
 		return (
 			<div>
 				<h1>Personal Info</h1>
-				PID : {user.pid}
-				<br />
 				Name : {user.name}
 				<br />
 				Institute : {institutes[user.instituteID]}

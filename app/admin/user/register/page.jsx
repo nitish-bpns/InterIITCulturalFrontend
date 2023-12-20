@@ -9,7 +9,6 @@ export default function RegisterUser() {
 	const router = useRouter();
 
 	const [formData, setFormData] = useState({
-		// pid: "KGP-0001",
 		// name: "Saharsh Agrawal",
 		// email: "saharshagrawalindia@gmail.com",
 		// phone: "1234567890",
@@ -17,7 +16,6 @@ export default function RegisterUser() {
 		// instituteID: "IITKGP",
 		// hall: "RP",
 		// mess: "RK",
-		pid: "",
 		name: "",
 		email: "",
 		phone: "",
@@ -54,6 +52,7 @@ export default function RegisterUser() {
 
 	const handleChange = (e) => {
 		const { name, value } = e.target;
+		console.log(name, value);
 		setFormData((prev) => {
 			return {
 				...prev,
@@ -66,16 +65,6 @@ export default function RegisterUser() {
 		<div>
 			<h1>Register User</h1>
 			<form onSubmit={handleSubmit}>
-				<label htmlFor="pid">PID </label>
-				<input
-					type="text"
-					id="pid"
-					name="pid"
-					value={formData.pid}
-					onChange={handleChange}
-					required
-				/>
-				<br />
 				<label htmlFor="name">Name </label>
 				<input
 					type="text"
@@ -122,7 +111,7 @@ export default function RegisterUser() {
 				<label htmlFor="instituteID">Institute </label>
 				<select
 					id="instituteID"
-					name="institudeID"
+					name="instituteID"
 					value={formData.instituteID}
 					onChange={handleChange}
 					required

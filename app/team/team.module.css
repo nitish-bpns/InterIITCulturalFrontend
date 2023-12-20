@@ -1,51 +1,59 @@
 .main {
-  font-size: 1.8vw !important;
+	font-size: 2.2vw !important;
 }
 .column1,
 .column2 {
-  font-size: 1.3vw !important;
+	font-size: 1.7vw !important;
 }
 .main h1 {
-  transform: translate(0%, -190%) !important;
+	transform: translate(0%, -200%) !important;
 }
 .column2 > a > h1 {
-  transform: translate(0%, -210%) !important;
-  width: 90%;
-  text-align: center;
+	transform: translate(0%, -210%) !important;
+	width: 90%;
+	text-align: center;
 }
 .column1 > a > h1 {
-  transform: translate(0%, -125%) !important;
-  width: 60%;
-  text-align: center;
+	transform: translate(0%, -125%) !important;
+	width: 65%;
+	text-align: center;
+}
+
+.third-plank {
+	transform: translate(0%, -85%) !important;
+}
+.third-plank:hover {
+	transform: translate(0%, -85%) scale(1.05) !important;
 }
 
 @media screen and (max-width: 1000px) {
-  .main h1 {
-    transform: translate(0%, -230%) !important;
-  }
-  .column2 > a > h1 {
-    transform: translate(0%, -250%) !important;
-    width: 90%;
-    text-align: center;
-  }
-  .column1 > a > h1 {
-    transform: translate(0%, -155%) !important;
-    width: 60%;
-    text-align: center;
-  }
+	.main h1 {
+		transform: translate(0%, -230%) !important;
+	}
+	.column2 > a > h1 {
+		transform: translate(0%, -250%) !important;
+		width: 90%;
+		text-align: center;
+	}
+	.column1 > a > h1 {
+		transform: translate(0%, -140%) !important;
+		width: 58%;
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 768px) {
-  .plank-container-mob > *:not(:first-child) {
-    max-height: 22vw;
-  }
-  .plank-container-mob > *:not(:first-child) > h1 {
-    transform: translate(-50%, 70%);
-    width: 100%;
-  }
-  .plank-container-mob > *:first-child > h1 {
-    width: 90%;
-    font-size: 7vw !important;
-    transform: translate(-50%, 10%) !important;
-  }
+	.plank-container-mob > *:not(:first-child) {
+		max-height: 23vw;
+	}
+	.plank-container-mob > *:not(:first-child) > h1 {
+		width: 100%;
+		font-size: 7vw !important;
+		transform: translate(-50%, 100%);
+	}
+	.plank-container-mob > *:first-child > h1 {
+		width: 90%;
+		font-size: 7vw !important;
+		transform: translate(-50%, 20%) !important;
+	}
 }

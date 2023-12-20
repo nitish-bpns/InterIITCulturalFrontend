@@ -7,19 +7,9 @@ import User from "@/models/User";
 
 export async function POST(req) {
 	try {
-		let {
-			pid,
-			name,
-			email,
-			phone,
-			gender,
-			instituteID,
-			hall,
-			mess,
-			token,
-		} = await req.json();
+		let { name, email, phone, gender, instituteID, hall, mess, token } =
+			await req.json();
 
-		pid = sanitize(pid).trim();
 		name = sanitize(name).trim();
 		email = sanitize(email).trim().toLowerCase();
 		phone = sanitize(phone).trim();
@@ -29,7 +19,6 @@ export async function POST(req) {
 		mess = sanitize(mess).trim();
 
 		if (
-			validator.isEmpty(pid) ||
 			validator.isEmpty(name) ||
 			validator.isEmpty(email) ||
 			validator.isEmpty(phone) ||
@@ -83,20 +72,7 @@ export async function POST(req) {
 			);
 		}
 
-		const pidExists = await User.find({ pid: pid });
-		if (pidExists.length >= 1) {
-			return NextResponse.json(
-				{
-					message: "A registration with this PID already exists!",
-				},
-				{
-					status: 406,
-				}
-			);
-		}
-
 		await User.create({
-			pid,
 			name,
 			email,
 			phone,

@@ -2,7 +2,6 @@ import { Schema, model, models } from "mongoose";
 
 // User model
 const userObject = {
-	pid: "",
 	name: "",
 	email: "",
 	phone: "",
@@ -15,11 +14,6 @@ const userObject = {
 };
 
 const userSchema = new Schema({
-	pid: {
-		type: String,
-		required: [true, "Please provide a pid"],
-		unique: true,
-	},
 	name: {
 		type: String,
 		required: [true, "Please provide a name"],

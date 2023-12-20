@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
 .faq-section {
 	min-height: 100vh;
 	display: flex;
@@ -12,7 +14,7 @@
 }
 
 .faq-wrapper {
-	width: 80%;
+	width: 60%;
 	list-style: none;
 }
 
@@ -43,7 +45,7 @@
 	overflow: hidden;
 	transition: all 0.6s ease-in-out;
 	font-size: 1.5vw;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 28px;
 	color: #000;
 }
@@ -64,6 +66,9 @@
 }
 
 @media (max-width: 1000px) {
+	.faq-wrapper {
+		width: 70%;
+	}
 	.ques {
 		font-size: 2.5vw;
 	}
@@ -77,6 +82,9 @@
 }
 
 @media (max-width: 700px) {
+	.faq-wrapper {
+		width: 80%;
+	}
 	.faq-heading {
 		font-size: 8vw;
 	}
