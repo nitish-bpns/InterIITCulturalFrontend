@@ -19,6 +19,8 @@ import Home from "@/public/assets/images/home_icon.png";
 
 const myFont = localFont({ src: "../../public/assets/fonts/Dreaming.woff2" });
 
+import Acco from "@/public/assets/images/home/carousel/campus_1.jpg";
+
 function findEventByCode(code) {
 	for (const genre in eventsData) {
 		for (const event in eventsData[genre].events) {
@@ -135,74 +137,96 @@ export default function Profile() {
 
 	const PersonalInfoPage = () => {
 		return (
-			<div>
-				<h1>Personal Info</h1>
-				Name : {user.name}
-				<br />
-				Institute : {institutes[user.instituteID]}
-				<br />
-				Phone Number : {user.phone}
-				<br />
-				Email : {user.email}
-				<br />
-				Gender : {user.gender}
-				<br />
-			</div>
+			<main className={myFont.className}>
+				<section className={Styles["personal-info-wrapper"]}>
+					<h1>Personal Info</h1>
+					<div className={Styles["personal-info"]}>
+						<p>
+							<span>Name : </span>
+							{user.name}
+						</p>
+						<p>
+							<span>Institute : </span>
+							{institutes[user.instituteID]}
+						</p>
+						<p>
+							<span>Phone Number : </span>
+							{user.phone}
+						</p>
+						<p>
+							<span>Email : </span>
+							{user.email}
+						</p>
+						<p>
+							<span>Gender : </span>
+							{user.gender}
+						</p>
+					</div>
+				</section>
+			</main>
 		);
 	};
 
 	const EventDetailsPage = () => {
 		return (
-			<div>
-				<h1>Registered Event Details</h1>
-				<Table
-					data={{
-						cols: [
-							{
-								name: "Event",
-								width: "40%",
-							},
-							{
-								name: "Institute",
-								width: "40%",
-							},
-							{
-								name: "Score",
-								width: "20%",
-							},
-						],
-						rows: user.events.map((event) => {
-							event = {
-								...event,
-								...findEventByCode(event.eventCode),
-							};
-							return {
-								Event: (
-									<Link href={event.link}>{event.name}</Link>
-								),
-								Institute: institutes[event.instituteID],
-								Score: event.score,
-							};
-						}),
-					}}
-				/>
-			</div>
+			<main className={myFont.className}>
+				<section className={Styles["event-details"]}>
+					<h1>Registered Event Details</h1>
+					<Table
+						data={{
+							cols: [
+								{
+									name: "Event",
+									width: "70%",
+								},
+								{
+									name: "Score",
+									width: "30%",
+								},
+							],
+							rows: user.events.map((event) => {
+								event = {
+									...event,
+									...findEventByCode(event.eventCode),
+								};
+								return {
+									Event: (
+										<Link href={event.link}>
+											{event.name}
+										</Link>
+									),
+									Institute: institutes[event.instituteID],
+									Score: event.score,
+								};
+							}),
+						}}
+					/>
+				</section>
+			</main>
 		);
 	};
 
 	const AccomodationPage = () => {
 		return (
-			<div>
-				<h1>Accomodation</h1>
-				<img src="https://www.iitism.ac.in/assets/img/Hostel/Hostel%20Block%20I.jpg" />
-				<br />
-				Hall of Residence : {user.hall}
-				<br />
-				Mess : {user.mess}
-				<br />
-				Contact Details : +9876543210
-				<br />
-			</div>
+			<main className={myFont.className}>
+				<section className={Styles["personal-info-wrapper"]}>
+					<h1>Accomodation</h1>
+					<Image src={Acco} alt="accomodation" />
+					<div className={Styles["personal-info"]}>
+						<p>
+							<span>Hall of Residence : </span>
+							{user.hall}
+						</p>
+						<p>
+							<span>Mess : </span>
+							{user.mess}
+						</p>
+						<p>
+							<span>Contact Details : </span>+91876543210
+						</p>
+					</div>
+				</section>
+			</main>
 		);
 	};
 
