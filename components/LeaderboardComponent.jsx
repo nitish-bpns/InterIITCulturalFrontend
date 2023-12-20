@@ -12,8 +12,6 @@ export default function LeaderboardComponent({ allowChange }) {
 	const [eventCode, setEventCode] = useState("all");
 	const [data, setData] = useState([]);
 
-	const [showRows, setShowRows] = useState(5);
-
 	useEffect(() => {
 		const getData = async () => {
 			const res = await fetch("api/event/score/", {
@@ -75,20 +73,9 @@ export default function LeaderboardComponent({ allowChange }) {
 								Institute: institutes[value.institute],
 								Points: value.score,
 							};
-						})
-						.slice(0, showRows),
+						}),
 				}}
 			/>
-			{showRows < data.length && (
-				<button
-					className={Styles["show-more"]}
-					onClick={() => {
-						setShowRows(showRows + 5);
-					}}
-				>
-					Show more
-				</button>
-			)}
 		</>
 	);
 }
