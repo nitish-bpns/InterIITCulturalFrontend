@@ -30,7 +30,7 @@ export default function Team() {
 							PageStyles["column1"] + " " + PageStyles2["column1"]
 						}
 					>
-						<Link href="/team/core-ops">
+						<Link href="/team/sponsorship">
 							<Image src={Day0Plank} alt="Sponsorship Team" />
 							<h1>Sponsorship Team</h1>
 						</Link>
