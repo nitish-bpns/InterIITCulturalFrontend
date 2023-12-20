@@ -66,6 +66,9 @@
 }
 
 @media (max-width: 1000px) {
+	.faq-wrapper {
+		width: 70%;
+	}
 	.ques {
 		font-size: 2.5vw;
 	}
@@ -79,6 +82,9 @@
 }
 
 @media (max-width: 700px) {
+	.faq-wrapper {
+		width: 80%;
+	}
 	.faq-heading {
 		font-size: 8vw;
 	}

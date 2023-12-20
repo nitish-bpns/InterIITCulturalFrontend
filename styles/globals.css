@@ -11,8 +11,13 @@ body {
 	max-width: 100vw;
 }
 
+body {
+	background-position: center;
+	background-size: cover;
+}
+
 body::-webkit-scrollbar {
-	width: 1rem;
+	width: 0.7rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -20,6 +25,6 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-	background: #603d30;
+	background: #604338b9;
 	border-radius: 10px;
 }

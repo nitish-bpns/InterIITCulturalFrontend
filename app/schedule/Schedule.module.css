@@ -1,147 +1,147 @@
 .plank-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 70%;
-  margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 70%;
+	margin: 0 auto;
 }
 
 .plank-container-mob {
-  display: none;
+	display: none;
 }
 
 .main,
 .column1,
 .column2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .main img,
 .food img,
 .cycles img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .main {
-  font-size: 3vw;
-  transform: translate(0%, -15%);
-  width: 40%;
+	font-size: 3vw;
+	transform: translate(0%, -15%);
+	width: 40%;
 }
 
 .column1,
 .column2 {
-  width: 30%;
-  z-index: 2;
-  font-size: 2.5vw;
+	width: 30%;
+	z-index: 2;
+	font-size: 2.5vw;
 }
 
 .column1 {
-  transform: translate(30%, -5%);
+	transform: translate(30%, -5%);
 }
 
 .column2 {
-  transform: translate(-30%, -5%);
+	transform: translate(-30%, -5%);
 }
 
 .column1 > *:not(:first-child),
 .column2 > *:not(:first-child) {
-  transform: translate(0%, -40%);
+	transform: translate(0%, -40%);
 }
 
 .column1 > a,
 .column2 > a {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
 }
 
 .column1 > a:hover,
 .column2 > a:hover {
-  transform: scale(1.05);
-  cursor: pointer;
+	transform: scale(1.05);
+	cursor: pointer;
 }
 .column1 > *:not(:first-child):hover,
 .column2 > *:not(:first-child):hover {
-  transform: scale(1.05) translate(0%, -40%);
+	transform: scale(1.05) translate(0%, -40%);
 }
 
 .main > img,
 .column1 > a > img,
 .column2 > a > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .main h1,
 .column1 > a > h1,
 .column2 > a > h1 {
-  transform: translate(0%, -140%);
-  font-weight: 300;
-  color: #fff;
+	transform: translate(0%, -140%);
+	font-weight: 300;
+	color: #fff;
 }
 
 @media screen and (max-width: 1000px) {
-  .plank-container {
-    width: 90%;
-  }
+	.plank-container {
+		width: 90%;
+	}
 }
 
 @media screen and (max-width: 768px) {
-  .plank-container {
-    display: none;
-  }
-  .plank-container-mob {
-    transform: translate(0%, -30px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-  }
-  .plank-container-mob > a {
-    width: 100%;
-    text-decoration: none;
-    position: relative;
-  }
+	.plank-container {
+		display: none;
+	}
+	.plank-container-mob {
+		transform: translate(0%, -10px);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 80%;
+	}
+	.plank-container-mob > a {
+		width: 100%;
+		text-decoration: none;
+		position: relative;
+	}
 
-  .plank-container-mob > *:not(:first-child) {
-    max-height: 20.5vw;
-    transform: translate(0%, -10vw);
-    transition: all 0.3s ease-in-out;
-  }
+	.plank-container-mob > *:not(:first-child) {
+		max-height: 20.5vw;
+		transform: translate(0%, -12vw);
+		transition: all 0.3s ease-in-out;
+	}
 
-  /* hover */
-  .plank-container-mob > *:not(:first-child):hover {
-    cursor: pointer;
-    transform: translate(0%, -10vw) scale(1.05);
-  }
+	/* hover */
+	.plank-container-mob > *:not(:first-child):hover {
+		cursor: pointer;
+		transform: translate(0%, -12vw) scale(1.05);
+	}
 
-  .plank-container-mob > a > img {
-    width: 100%;
-    height: 100%;
-  }
-  .plank-container-mob > a > h1 {
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    top: 45%;
-    transform: translate(-50%, 70%);
-    font-weight: 300;
-    color: #fff;
-    font-size: 5vw;
-  }
-  .main-mob > h1 {
-    font-size: 10vw !important;
-    transform: translate(-50%, 10%) !important;
-  }
+	.plank-container-mob > a > img {
+		width: 100%;
+		height: 100%;
+	}
+	.plank-container-mob > a > h1 {
+		position: absolute;
+		text-align: center;
+		left: 50%;
+		top: 45%;
+		transform: translate(-50%, 90%);
+		font-weight: 300;
+		color: #fff;
+		font-size: 8vw;
+	}
+	.main-mob > h1 {
+		font-size: 10vw !important;
+		transform: translate(-50%, 10%) !important;
+	}
 }

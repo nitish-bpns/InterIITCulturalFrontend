@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Satisfy } from "next/font/google";
+import { Cookie } from "next/font/google";
 import Styles from "@/styles/page.module.css";
 
 import PageStyles from "../schedule/Schedule.module.css";
@@ -18,11 +18,11 @@ import Day1PlankMob from "@/public/assets/images/schedule_team/Day1_mob.png";
 import Day2PlankMob from "@/public/assets/images/schedule_team/Day2_mob.png";
 import Day3PlankMob from "@/public/assets/images/schedule_team/Day3_mob.png";
 
-const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
+const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
 export default function Team() {
 	return (
-		<main className={satisfy.className}>
+		<main className={cookie.className}>
 			<section className={Styles["main"]}>
 				<div className={PageStyles["plank-container"]}>
 					<div

@@ -17,11 +17,11 @@
 }
 
 .table::-webkit-scrollbar-track {
-	background: #a5510640;
+	background: #00000000;
 }
 
 .table::-webkit-scrollbar-thumb {
-	background: #603d30;
+	background: #604338e5;
 	border-radius: 10px;
 }
 
@@ -45,7 +45,7 @@
 
 .td {
 	font-size: 40px;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 @media (max-width: 1000px) {
