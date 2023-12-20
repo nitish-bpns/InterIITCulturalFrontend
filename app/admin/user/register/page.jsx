@@ -52,6 +52,7 @@ export default function RegisterUser() {
 
 	const handleChange = (e) => {
 		const { name, value } = e.target;
+		console.log(name, value);
 		setFormData((prev) => {
 			return {
 				...prev,
@@ -110,7 +111,7 @@ export default function RegisterUser() {
 				<label htmlFor="instituteID">Institute </label>
 				<select
 					id="instituteID"
-					name="institudeID"
+					name="instituteID"
 					value={formData.instituteID}
 					onChange={handleChange}
 					required

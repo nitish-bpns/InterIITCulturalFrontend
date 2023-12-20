@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server";
 import validator from "validator";
 import { connectToDatabase } from "@/lib/mongodb";
-import EventReg from "@/models/EventReg";
 import { verifyToken } from "@/lib/jwt";
+import EventReg from "@/models/EventReg";
+import User from "@/models/User";
 
 export async function POST(req) {
 	try {
@@ -23,7 +24,49 @@ export async function POST(req) {
 			);
 		}
 
+		for (let i = 0; i < emails.length; i++) {
+			let email = emails[i];
+			if (!validator.isEmail(email)) {
+				return NextResponse.json(
+					{
+						message: "Invalid email! - " + email,
+					},
+					{
+						status: 406,
+					}
+				);
+			}
+			emails[i] = email.toLowerCase();
+		}
+
+		// check duplicate emails
+		let uniqueEmails = [...new Set(emails)];
+		if (uniqueEmails.length != emails.length) {
+			return NextResponse.json(
+				{
+					message: "Duplicate emails found!",
+				},
+				{
+					status: 406,
+				}
+			);
+		}
+
 		await connectToDatabase();
+
+		for (let i = 0; i < emails.length; i++) {
+			const user = await User.findOne({ email: emails[i] });
+			if (!user) {
+				return NextResponse.json(
+					{
+						message: "User " + emails[i] + " does not exist",
+					},
+					{
+						status: 404,
+					}
+				);
+			}
+		}
 
 		const adminUser = await verifyToken(token);
 		if (!adminUser.isAdmin) {
