@@ -12,7 +12,7 @@ import institutes from "@/data/institutes.json";
 import eventsData from "@/data/events.json";
 import BackButton from "@/components/BackButton";
 import Table from "@/components/Table";
-import Ellipse from "@/public/assets/images/Ellipse.png";
+import Ellipse from "@/public/assets/images/ellipse.png";
 import Info from "@/public/assets/images/info_icon.png";
 import Events from "@/public/assets/images/events_icon.png";
 import Home from "@/public/assets/images/home_icon.png";
