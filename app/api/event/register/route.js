@@ -6,12 +6,12 @@ import { verifyToken } from "@/lib/jwt";
 
 export async function POST(req) {
 	try {
-		let { eventCode, instituteID, pids, token } = await req.json();
+		let { eventCode, instituteID, emails, token } = await req.json();
 
 		if (
 			validator.isEmpty(eventCode) ||
 			validator.isEmpty(instituteID) ||
-			pids.length == 0
+			emails.length == 0
 		) {
 			return NextResponse.json(
 				{
@@ -40,7 +40,7 @@ export async function POST(req) {
 		await EventReg.create({
 			eventCode,
 			instituteID,
-			pids,
+			emails,
 		});
 
 		return NextResponse.json(

@@ -137,8 +137,6 @@ export default function Profile() {
 		return (
 			<div>
 				<h1>Personal Info</h1>
-				PID : {user.pid}
-				<br />
 				Name : {user.name}
 				<br />
 				Institute : {institutes[user.instituteID]}
