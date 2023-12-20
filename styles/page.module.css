@@ -8,13 +8,19 @@
 	padding: 20px;
 }
 
+@media screen and (max-width: 768px) {
+	.main {
+		padding: 0;
+	}
+}
+
 .heading {
 	color: #603d30;
 	font-size: 100px;
 	font-family: "Cookie", cursive;
 	font-weight: 400;
 	word-wrap: break-word;
-	margin: 80px 0 20px 0;
+	margin: 40px 10px 20px 10px;
 	text-align: center;
 }
 

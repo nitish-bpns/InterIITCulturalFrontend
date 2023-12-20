@@ -44,6 +44,10 @@
 @media (max-width: 1000px) {
 	.navbar-header {
 		width: 100%;
+		padding: 0 10px;
+	}
+	.navbar-header > a {
+		height: 60px;
 	}
 	.navbar-header > img {
 		display: block;
@@ -61,7 +65,7 @@
 @media (max-width: 1000px) {
 	.navbar-logo {
 		height: 50px;
-		margin: 7px;
+		margin: 5px;
 	}
 }
 

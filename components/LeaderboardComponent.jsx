@@ -6,6 +6,8 @@ import Table from "@/components/Table";
 import institutes from "@/data/institutes.json";
 import eventsData from "@/data/events.json";
 
+import Styles from "@/components/LeaderboardComponent.module.css";
+
 export default function LeaderboardComponent({ allowChange }) {
 	const [eventCode, setEventCode] = useState("all");
 	const [data, setData] = useState([]);
@@ -30,16 +32,7 @@ export default function LeaderboardComponent({ allowChange }) {
 		<>
 			{allowChange && (
 				<select
-					style={{
-						width: "100%",
-						height: "100%",
-						background: "#fef0df",
-						borderRadius: "20px",
-						padding: "20px",
-						fontSize: "40px",
-						fontWeight: "200",
-						marginBottom: "40px",
-					}}
+					className={Styles["drop-down"]}
 					onChange={(e) => {
 						setEventCode(e.target.value);
 					}}
@@ -88,15 +81,9 @@ export default function LeaderboardComponent({ allowChange }) {
 			/>
 			{showRows < data.length && (
 				<button
+					className={Styles["show-more"]}
 					onClick={() => {
 						setShowRows(showRows + 5);
-					}}
-					style={{
-						background: "#fef0df",
-						borderRadius: "10px",
-						padding: "10px",
-						fontSize: "20px",
-						marginTop: "10px",
 					}}
 				>
 					Show more

@@ -92,7 +92,7 @@ export default function Profile() {
 								localStorage.removeItem(
 									"interiit-cultural-token"
 								);
-								router.push("/signin");
+								router.push("/");
 							}}
 							className={Styles["sign-out-btn"]}
 						>
