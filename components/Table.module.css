@@ -8,6 +8,21 @@
 	gap: 20px;
 	padding: 20px;
 	width: 100%;
+	max-height: 80vh;
+	overflow-y: scroll;
+}
+
+.table::-webkit-scrollbar {
+	width: 0.5rem;
+}
+
+.table::-webkit-scrollbar-track {
+	background: #a5510640;
+}
+
+.table::-webkit-scrollbar-thumb {
+	background: #603d30;
+	border-radius: 10px;
 }
 
 .tr {

@@ -8,20 +8,8 @@
 	font-weight: 200;
 	margin: 40px;
 }
-
-.show-more {
-	background: rgb(254, 240, 223);
-	border-radius: 10px;
-	padding: 10px;
-	font-size: 20px;
-	margin-block: 10px;
-}
-
 @media screen and (max-width: 768px) {
 	.drop-down {
 		font-size: 20px;
-	}
-	.show-more {
-		font-size: 15px;
 	}
 }
