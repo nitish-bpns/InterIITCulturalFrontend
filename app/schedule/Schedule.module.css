@@ -31,6 +31,11 @@
 	font-size: 3vw;
 	transform: translate(0%, -15%);
 	width: 40%;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none;
+}
+.main:hover {
+	transform: translate(0%, -15%) scale(1.05);
 }
 
 .column1,
@@ -41,16 +46,16 @@
 }
 
 .column1 {
-	transform: translate(30%, -5%);
+	transform: translate(30%, -3%);
 }
 
 .column2 {
-	transform: translate(-30%, -5%);
+	transform: translate(-30%, -3%);
 }
 
 .column1 > *:not(:first-child),
 .column2 > *:not(:first-child) {
-	transform: translate(0%, -40%);
+	transform: translate(0%, -45%);
 }
 
 .column1 > a,
@@ -85,14 +90,14 @@
 .main h1,
 .column1 > a > h1,
 .column2 > a > h1 {
-	transform: translate(0%, -140%);
+	transform: translate(0%, -170%);
 	font-weight: 300;
 	color: #fff;
 }
 
 @media screen and (max-width: 1000px) {
 	.plank-container {
-		width: 90%;
+		width: 80%;
 	}
 }
 
@@ -115,7 +120,7 @@
 	}
 
 	.plank-container-mob > *:not(:first-child) {
-		max-height: 20.5vw;
+		max-height: 23.5vw;
 		transform: translate(0%, -12vw);
 		transition: all 0.3s ease-in-out;
 	}
@@ -135,7 +140,7 @@
 		text-align: center;
 		left: 50%;
 		top: 45%;
-		transform: translate(-50%, 90%);
+		transform: translate(-50%, 70%);
 		font-weight: 300;
 		color: #fff;
 		font-size: 8vw;

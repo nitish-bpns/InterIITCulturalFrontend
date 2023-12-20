@@ -15,8 +15,15 @@
 }
 .column1 > a > h1 {
 	transform: translate(0%, -125%) !important;
-	width: 60%;
+	width: 65%;
 	text-align: center;
+}
+
+.third-plank {
+	transform: translate(0%, -85%) !important;
+}
+.third-plank:hover {
+	transform: translate(0%, -85%) scale(1.05) !important;
 }
 
 @media screen and (max-width: 1000px) {
@@ -29,15 +36,15 @@
 		text-align: center;
 	}
 	.column1 > a > h1 {
-		transform: translate(0%, -155%) !important;
-		width: 60%;
+		transform: translate(0%, -140%) !important;
+		width: 58%;
 		text-align: center;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.plank-container-mob > *:not(:first-child) {
-		max-height: 22vw;
+		max-height: 23vw;
 	}
 	.plank-container-mob > *:not(:first-child) > h1 {
 		width: 100%;

@@ -31,25 +31,36 @@ export default function Team() {
 						}
 					>
 						<Link href="/team/core-ops">
-							<Image src={Day0Plank} alt="Core Operations Team" />
-							<h1>Core Operations Team</h1>
+							<Image src={Day0Plank} alt="Sponsorship Team" />
+							<h1>Sponsorship Team</h1>
 						</Link>
-						<Link href="/team/media-publicity">
+						<Link href="/team/outreach-and-hospitality">
 							<Image
 								src={Day2Plank}
+								alt="Media & Publicity Team"
+							/>
+							<h1>Outreach & Hospitality Team</h1>
+						</Link>
+						<Link
+							href="/team/media-publicity"
+							className={PageStyles2["third-plank"]}
+						>
+							<Image
+								src={Day3Plank}
 								alt="Media & Publicity Team"
 							/>
 							<h1>Media & Publicity Team</h1>
 						</Link>
 					</div>
-					<div
+					<Link
+						href="/team/overall-coordinator"
 						className={
 							PageStyles["main"] + " " + PageStyles2["main"]
 						}
 					>
 						<Image src={MainPlank} alt="Overall Coordinator" />
 						<h1>Overall Coordinator</h1>
-					</div>
+					</Link>
 					<div
 						className={
 							PageStyles["column2"] + " " + PageStyles2["column2"]
@@ -60,7 +71,14 @@ export default function Team() {
 							<h1>Events Team</h1>
 						</Link>
 						<Link href="/team/tech">
-							<Image src={Day3Plank} alt="Tech Team" />
+							<Image src={Day3Plank} alt="Logistics Team" />
+							<h1>Logistics Team</h1>
+						</Link>
+						<Link
+							href="/team/tech"
+							className={PageStyles2["third-plank"]}
+						>
+							<Image src={Day2Plank} alt="Tech Team" />
 							<h1>Tech Team</h1>
 						</Link>
 					</div>
@@ -72,31 +90,42 @@ export default function Team() {
 						PageStyles2["plank-container-mob"]
 					}
 				>
-					<a
+					<Link
 						className={PageStyles["main-mob"]}
 						href="/team/overall-coordinator"
 					>
 						<Image src={MainPlankMob} alt="Overall Coordinator" />
 						<h1>Overall Coordinator</h1>
-					</a>
-					<Link href="/team/core-ops">
-						<Image src={Day0PlankMob} alt="Core Operations Team" />
-						<h1>Core Operations Team</h1>
 					</Link>
 					<Link href="/team/events">
-						<Image src={Day1PlankMob} alt="Events Team" />
+						<Image src={Day0PlankMob} alt="Events Team" />
 						<h1>Events Team</h1>
+					</Link>
+					<Link href="/team/logistics-team">
+						<Image src={Day1PlankMob} alt="Logistics Team" />
+						<h1>Logistics Team</h1>
+					</Link>
+					<Link href="/team/tech">
+						<Image src={Day2PlankMob} alt="Tech Team" />
+						<h1>Tech Team</h1>
+					</Link>
+					<Link href="/team/sponsorship">
+						<Image src={Day3PlankMob} alt="Sponsorship Team" />
+						<h1>Sponsorship Team</h1>
 					</Link>
 					<Link href="/team/media-publicity">
 						<Image
-							src={Day2PlankMob}
+							src={Day1PlankMob}
 							alt="Media & Publicity Team"
 						/>
 						<h1>Media & Publicity Team</h1>
 					</Link>
-					<Link href="/team/tech">
-						<Image src={Day3PlankMob} alt="Tech Team" />
-						<h1>Tech Team</h1>
+					<Link href="/team/outreach-hospitality">
+						<Image
+							src={Day2PlankMob}
+							alt="Outreach & Hospitality Team"
+						/>
+						<h1>Outreach & Hospitality Team</h1>
 					</Link>
 				</div>
 			</section>
