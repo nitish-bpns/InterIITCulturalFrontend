@@ -46,11 +46,11 @@
 }
 
 .column1 {
-	transform: translate(30%, -3%);
+	transform: translate(30%, -5%);
 }
 
 .column2 {
-	transform: translate(-30%, -3%);
+	transform: translate(-30%, -5%);
 }
 
 .column1 > *:not(:first-child),

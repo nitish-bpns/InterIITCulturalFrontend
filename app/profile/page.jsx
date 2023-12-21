@@ -211,19 +211,23 @@ export default function Profile() {
 			<main className={myFont.className}>
 				<section className={Styles["personal-info-wrapper"]}>
 					<h1>Accomodation</h1>
-					<Image src={Acco} alt="accomodation" />
-					<div className={Styles["personal-info"]}>
-						<p>
-							<span>Hall of Residence : </span>
-							{user.hall}
-						</p>
-						<p>
-							<span>Mess : </span>
-							{user.mess}
-						</p>
-						<p>
-							<span>Contact Details : </span>+91876543210
-						</p>
+					<div className={Styles["acco-info"]}>
+						<div className={Styles["acco-img"]}>
+							<Image src={Acco} alt="accomodation" />
+						</div>
+						<div className={Styles["acco-text"]}>
+							<p>
+								<span>Hall of Residence : </span>
+								{user.hall}
+							</p>
+							<p>
+								<span>Mess : </span>
+								{user.mess}
+							</p>
+							<p>
+								<span>Contact Details : </span>+91876543210
+							</p>
+						</div>
 					</div>
 				</section>
 			</main>

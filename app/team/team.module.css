@@ -5,6 +5,12 @@
 .column2 {
 	font-size: 1.7vw !important;
 }
+.column1 {
+	transform: translate(30%, -3%) !important;
+}
+.column2 {
+	transform: translate(-30%, -3%) !important;
+}
 .main h1 {
 	transform: translate(0%, -200%) !important;
 }
