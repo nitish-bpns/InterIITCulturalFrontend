@@ -18,31 +18,25 @@ export default function Page({ params }) {
 			<BackButton href={`/schedule`} />
 			<section className={Styles["main"]}>
 				<h1 className={Styles["heading"]}>Day {day}</h1>
-				<div
-					style={{
-						width: "90%",
+				<Table
+					data={{
+						cols: [
+							{
+								name: "Event",
+								width: "50%",
+							},
+							{
+								name: "Venue",
+								width: "30%",
+							},
+							{
+								name: "Time",
+								width: "20%",
+							},
+						],
+						rows: data[day],
 					}}
-				>
-					<Table
-						data={{
-							cols: [
-								{
-									name: "Event",
-									width: "50%",
-								},
-								{
-									name: "Venue",
-									width: "30%",
-								},
-								{
-									name: "Time",
-									width: "20%",
-								},
-							],
-							rows: data[day],
-						}}
-					/>
-				</div>
+				/>
 			</section>
 		</main>
 	);

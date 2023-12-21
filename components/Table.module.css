@@ -7,21 +7,7 @@
 	align-items: center;
 	gap: 20px;
 	width: 80%;
-	max-height: 80vh;
-	overflow-y: scroll;
-}
-
-.table::-webkit-scrollbar {
-	width: 0.5rem;
-}
-
-.table::-webkit-scrollbar-track {
-	background: #00000000;
-}
-
-.table::-webkit-scrollbar-thumb {
-	background: #604338e5;
-	border-radius: 10px;
+	margin: 0 auto;
 }
 
 .tr {

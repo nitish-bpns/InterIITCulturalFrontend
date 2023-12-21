@@ -14,3 +14,22 @@
 		font-size: 20px;
 	}
 }
+
+.table-container {
+	max-height: 80vh;
+	overflow-y: scroll;
+	width: 100%;
+}
+
+.table-container::-webkit-scrollbar {
+	width: 0.5rem;
+}
+
+.table-container::-webkit-scrollbar-track {
+	background: #00000000;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+	background: #604338e5;
+	border-radius: 10px;
+}

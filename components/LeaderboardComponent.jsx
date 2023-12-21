@@ -49,33 +49,35 @@ export default function LeaderboardComponent({ allowChange }) {
 					})}
 				</select>
 			)}
-			<Table
-				data={{
-					cols: [
-						{
-							name: "Position",
-							width: "25%",
-						},
-						{
-							name: "Institute",
-							width: "55%",
-						},
-						{
-							name: "Points",
-							width: "20%",
-						},
-					],
-					rows: data
-						.sort((a, b) => b.score - a.score)
-						.map((value, index) => {
-							return {
-								Position: index + 1,
-								Institute: institutes[value.institute],
-								Points: value.score,
-							};
-						}),
-				}}
-			/>
+			<div className={Styles["table-container"]}>
+				<Table
+					data={{
+						cols: [
+							{
+								name: "Position",
+								width: "25%",
+							},
+							{
+								name: "Institute",
+								width: "55%",
+							},
+							{
+								name: "Points",
+								width: "20%",
+							},
+						],
+						rows: data
+							.sort((a, b) => b.score - a.score)
+							.map((value, index) => {
+								return {
+									Position: index + 1,
+									Institute: institutes[value.institute],
+									Points: value.score,
+								};
+							}),
+					}}
+				/>
+			</div>
 		</>
 	);
 }
