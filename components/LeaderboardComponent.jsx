@@ -14,7 +14,7 @@ export default function LeaderboardComponent({ allowChange }) {
 
 	useEffect(() => {
 		const getData = async () => {
-			const res = await fetch("api/event/score/", {
+			const res = await fetch("api/score/", {
 				method: "POST",
 				body: JSON.stringify({
 					eventCode: eventCode,
