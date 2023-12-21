@@ -5,7 +5,7 @@ import burra from "@/public/assets/images/team_pics_coordinators/burra.JPG";
 import gvk from "@/public/assets/images/team_pics_coordinators/gvk.JPG";
 import harishwar from "@/public/assets/images/team_pics_coordinators/harishwar.JPG";
 import ishan from "@/public/assets/images/team_pics_coordinators/ishan.png";
-import jai from "@/public/assets/images/team_pics_coordinators/jai.JPG";
+import jai from "@/public/assets/images/team_pics_coordinators/jai.jpg";
 import kusuma from "@/public/assets/images/team_pics_coordinators/kusuma.JPG";
 import nidhi from "@/public/assets/images/team_pics_coordinators/nidhi.JPG";
 import nikhil from "@/public/assets/images/team_pics_coordinators/nikhil.JPG";
