@@ -1,5 +1,6 @@
 .main {
 	font-size: 2.2vw !important;
+	-webkit-tap-highlight-color: transparent;
 }
 .column1,
 .column2 {

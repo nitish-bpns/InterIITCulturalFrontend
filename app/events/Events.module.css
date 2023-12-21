@@ -1,3 +1,7 @@
+.main {
+	-webkit-tap-highlight-color: transparent;
+}
+
 .events-frame {
 	display: flex;
 	justify-content: center;

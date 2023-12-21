@@ -1,111 +1,115 @@
+.main {
+	-webkit-tap-highlight-color: transparent;
+}
+
 .plank-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 90%;
-  margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .plank-container-mob {
-  display: none;
+	display: none;
 }
 
 .services,
 .cycles,
 .food {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none;
 }
 
 .services img,
 .food img,
 .cycles img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
 }
 
 .services {
-  font-size: 5vw;
-  transform: translate(0%, -2%);
-  width: 40%;
+	font-size: 5vw;
+	transform: translate(0%, -2%);
+	width: 40%;
 }
 
 .food {
-  font-size: 4vw;
-  transform: translate(50%, 0%);
-  z-index: 2;
-  width: 30%;
+	font-size: 4vw;
+	transform: translate(50%, 0%);
+	z-index: 2;
+	width: 30%;
 }
 
 .food:hover {
-  transform: scale(1.05) translate(50%, 0%);
-  cursor: pointer;
+	transform: scale(1.05) translate(50%, 0%);
+	cursor: pointer;
 }
 
 .cycles {
-  font-size: 4vw;
-  transform: translate(-50%, 0%);
-  z-index: 2;
-  width: 30%;
+	font-size: 4vw;
+	transform: translate(-50%, 0%);
+	z-index: 2;
+	width: 30%;
 }
 
 .cycles:hover {
-  transform: scale(1.05) translate(-50%, 0%);
-  cursor: pointer;
+	transform: scale(1.05) translate(-50%, 0%);
+	cursor: pointer;
 }
 
 .services h1,
 .cycles h1,
 .food h1 {
-  transform: translate(0%, -140%);
-  font-weight: 300;
-  color: #fff;
+	transform: translate(0%, -140%);
+	font-weight: 300;
+	color: #fff;
 }
 
 @media (max-width: 1000px) {
-  .plank-container {
-    display: none;
-  }
+	.plank-container {
+		display: none;
+	}
 
-  .plank-container-mob {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    margin: 0 auto;
-  }
+	.plank-container-mob {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 60%;
+		margin: 0 auto;
+	}
 
-  .services {
-    font-size: 6vw;
-    width: 100%;
-  }
-  .food,
-  .cycles {
-    font-size: 5vw;
-    width: 100%;
-  }
-  .food {
-    transform: translate(0, -50%);
-  }
-  .food:hover {
-    transform: scale(1.05) translate(0, -50%);
-  }
-  .cycles {
-    transform: translate(0, -85%);
-  }
-  .cycles:hover {
-    transform: scale(1.05) translate(0%, -85%);
-  }
-  .services h1,
-  .food h1,
-  .cycles h1 {
-    transform: translate(0%, -155%);
-  }
+	.services {
+		font-size: 6vw;
+		width: 100%;
+	}
+	.food,
+	.cycles {
+		font-size: 5vw;
+		width: 100%;
+	}
+	.food {
+		transform: translate(0, -50%);
+	}
+	.food:hover {
+		transform: scale(1.05) translate(0, -50%);
+	}
+	.cycles {
+		transform: translate(0, -85%);
+	}
+	.cycles:hover {
+		transform: scale(1.05) translate(0%, -85%);
+	}
+	.services h1,
+	.food h1,
+	.cycles h1 {
+		transform: translate(0%, -155%);
+	}
 }

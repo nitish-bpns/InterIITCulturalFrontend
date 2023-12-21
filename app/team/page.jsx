@@ -34,7 +34,7 @@ export default function Team() {
 							<Image src={Day0Plank} alt="Sponsorship Team" />
 							<h1>Sponsorship Team</h1>
 						</Link>
-						<Link href="/team/outreach-and-hospitality">
+						<Link href="/team/outreach-hospitality">
 							<Image
 								src={Day2Plank}
 								alt="Media & Publicity Team"
@@ -70,7 +70,7 @@ export default function Team() {
 							<Image src={Day1Plank} alt="Events Team" />
 							<h1>Events Team</h1>
 						</Link>
-						<Link href="/team/tech">
+						<Link href="/team/logistics">
 							<Image src={Day3Plank} alt="Logistics Team" />
 							<h1>Logistics Team</h1>
 						</Link>

@@ -1,3 +1,7 @@
+.main {
+	-webkit-tap-highlight-color: transparent;
+}
+
 .plank-container {
 	display: flex;
 	justify-content: center;

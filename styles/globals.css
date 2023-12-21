@@ -14,6 +14,7 @@ body {
 body {
 	background-position: center;
 	background-size: cover;
+	-webkit-tap-highlight-color: transparent;
 }
 
 body::-webkit-scrollbar {

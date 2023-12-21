@@ -59,6 +59,7 @@
 	width: 70%;
 	padding: 0 30px;
 	border-radius: 15px;
+	margin-left: 20px;
 }
 
 .restaurant-info h2 {
@@ -75,28 +76,10 @@
 	margin-bottom: 10px;
 }
 
-/* .restaurant-info a {
+.restaurant-info ul li {
 	color: #603d30;
-	font-size: 20px;
-	font-weight: 300;
 	margin-bottom: 10px;
-	text-decoration: none;
+	font-size: 2vw;
+	font-weight: 300;
+	margin-right: 10px;
 }
-
-.restaurant-info a:hover {
-	text-decoration: underline;
-	cursor: pointer;
-}
-
-@media (max-width: 1000px) {
-	.restaurant {
-		width: 100%;
-		margin-bottom: 20px;
-	}
-	.restaurant-wrapper img {
-		width: 100%;
-	}
-	.restaurant-info {
-		width: 100%;
-	}
-} */
