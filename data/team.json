@@ -37,7 +37,50 @@
 				"linkedin": "https://www.linkedin.com/in/kusuma-ullasa"
 			}
 		],
-		"heads": []
+		"heads": [
+			{
+				"name": "Abhinaw Anand",
+				"portfolio": "Core-Ops",
+				"mail": "abhinaw12anand@gmail.com",
+				"fblink": "https://www.facebook.com/profile.php?id=100073320497563",
+				"linkedin": "https://www.linkedin.com/in/abhinaw-anand-6095071b0/"
+			},
+			{
+				"name": "Neeraj Patel",
+				"portfolio": "Core-Ops",
+				"mail": "neeraj.patel2703@gmail.com",
+				"fblink": "https://www.facebook.com/profile.php?id=100075286177788&mibextid=ZbWKwL",
+				"linkedin": "www.linkedin.com"
+			},
+			{
+				"name": "Akshat Agarwal",
+				"portfolio": "Core-Ops",
+				"mail": "agarwalakshat2018@gmail.com",
+				"fblink": "https://www.facebook.com/profile.php?id=100033169273749",
+				"linkedin": "www.linkedin.com"
+			},
+			{
+				"name": "Yuvraj Singh",
+				"portfolio": "Core-Ops",
+				"mail": "yuvi54529@gmail.com",
+				"fblink": "https://www.facebook.com/profile.php?id=100022961858698",
+				"linkedin": "https://www.linkedin.com/in/yuvraj-singh-6a4b2b197/"
+			},
+			{
+				"name": "Sanyam Jhuria",
+				"portfolio": "Core-Ops",
+				"mail": "jhuriasanyam@gmail.com",
+				"fblink": "https://www.facebook.com/profile.php?id=100077283706839&mibextid=ZbWKwL",
+				"linkedin": "https://www.linkedin.com/in/sanyam-jhuria-4aaa68229"
+			},
+			{
+				"name": "Himanshu",
+				"portfolio": "Core-Ops",
+				"mail": "himanshu.kgpian786@gmail.com",
+				"fblink": "https://m.facebook.com/profile.php/?id=100008771947144&name=xhp_nt__fb__action__open_user",
+				"linkedin": "https://www.linkedin.com/in/himanshu-saini-7b5246230"
+			}
+		]
 	},
 	"outreach-hospitality": {
 		"title": "Outreach and Hospitality",
@@ -66,11 +109,60 @@
 		],
 		"heads": [
 			{
+				"name": "Anmol Kumar Mishra",
+				"portfolio": "Core-Ops",
+				"mail": "anmolmishra.iitkgp@gmail.com",
+				"fblink": "https://www.facebook.com/Anmoliitkgp",
+				"linkedin": "https://www.linkedin.com/in/anmol-kumar-mishra-6a63981a5/"
+			},
+			{
 				"name": "Sanjana Palle",
 				"portfolio": "acco",
 				"mail": "pallesanjana@gmail.com",
 				"fblink": "https://www.facebook.com/profile.php?id=100008299579836&mibextid=LQQJ4d",
 				"linkedin": "hhttps://www.linkedin.com/in/sanjana-palle-8b6ba3255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+			},
+			{
+				"name": "Kushal",
+				"portfolio": "Core-Ops",
+				"mail": "thekushal15@gmail.com",
+				"fblink": "https://www.facebook.com/kushal.1593",
+				"linkedin": "www.linkedin.com"
+			},
+			{
+				"name": "Tanishka Garg",
+				"portfolio": "Core-Ops",
+				"mail": "babitagarg0727@gmail.com",
+				"fblink": "www.facebook.com",
+				"linkedin": "https://www.linkedin.com/in/tanishka-garg-9ba53b223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+			},
+			{
+				"name": "Sakshi Agarwal",
+				"portfolio": "Core-Ops",
+				"mail": "sakshiagarwaljmp@gmail.com",
+				"fblink": "https://www.facebook.com/profile.php?id=100081139711501",
+				"linkedin": "https://www.linkedin.com/in/sakshi-agarwal-884308228/"
+			},
+			{
+				"name": "Pranav",
+				"portfolio": "Core-Ops",
+				"mail": "pranav.bhadane.iitkgp@gmail,com",
+				"fblink": "https://www.facebook.com/profile.php?id=100075640234375",
+				"linkedin": "https://www.linkedin.com/in/pranav-bhadane-iitkgp/"
+			},
+			{
+				"name": "Anurag Saha",
+				"portfolio": "Core-Ops",
+				"mail": "sahaanuragabash@gmail.com",
+				"fblink": "https://www.facebook.com/profile.php?id=100076368730138",
+				"linkedin": "www.linkedin.com"
+			},
+			{
+				"name": "Ashutosh Patwariya",
+				"portfolio": "Core-Ops",
+				"mail": "ashutoshpatwariya2002@gmail.com",
+				"fblink": "https://www.facebook.com/profile.php?id=100075362712783&mibextid=ZbWKwL",
+				"linkedin": "https://www.linkedin.com/in/ashutosh-patwariya-a33003212/"
 			}
 		]
 	},
@@ -101,46 +193,11 @@
 		],
 		"heads": [
 			{
-				"name": "Abhinaw Anand",
-				"portfolio": "Core-Ops",
-				"mail": "abhinaw12anand@gmail.com",
-				"fblink": "https://www.facebook.com/profile.php?id=100073320497563",
-				"linkedin": "https://www.linkedin.com/in/abhinaw-anand-6095071b0/"
-			},
-			{
-				"name": "Neeraj Patel",
-				"portfolio": "Core-Ops",
-				"mail": "neeraj.patel2703@gmail.com",
-				"fblink": "https://www.facebook.com/profile.php?id=100075286177788&mibextid=ZbWKwL",
-				"linkedin": "www.linkedin.com"
-			},
-			{
-				"name": "Anmol Kumar Mishra",
-				"portfolio": "Core-Ops",
-				"mail": "anmolmishra.iitkgp@gmail.com",
-				"fblink": "https://www.facebook.com/Anmoliitkgp",
-				"linkedin": "https://www.linkedin.com/in/anmol-kumar-mishra-6a63981a5/"
-			},
-			{
-				"name": "Himanshu",
-				"portfolio": "Core-Ops",
-				"mail": "himanshu.kgpian786@gmail.com",
-				"fblink": "https://m.facebook.com/profile.php/?id=100008771947144&name=xhp_nt__fb__action__open_user",
-				"linkedin": "https://www.linkedin.com/in/himanshu-saini-7b5246230"
-			},
-			{
 				"name": "Ashish Thakur",
 				"portfolio": "Core-Ops",
 				"mail": "ashishthakur1718@gmail.com",
 				"fblink": "https://www.facebook.com/profile.php?id=100075359954543&mibextid=LQQJ4d",
 				"linkedin": "https://www.linkedin.com/in/ashish-thakur-73b6a922b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-			},
-			{
-				"name": "Sanyam Jhuria",
-				"portfolio": "Core-Ops",
-				"mail": "jhuriasanyam@gmail.com",
-				"fblink": "https://www.facebook.com/profile.php?id=100077283706839&mibextid=ZbWKwL",
-				"linkedin": "https://www.linkedin.com/in/sanyam-jhuria-4aaa68229"
 			},
 			{
 				"name": "Ankit Yadav",
@@ -150,20 +207,6 @@
 				"linkedin": "https://www.linkedin.com/in/ankit-yadav-64a903228/"
 			},
 			{
-				"name": "Kushal",
-				"portfolio": "Core-Ops",
-				"mail": "thekushal15@gmail.com",
-				"fblink": "https://www.facebook.com/kushal.1593",
-				"linkedin": "www.linkedin.com"
-			},
-			{
-				"name": "Tanishka Garg",
-				"portfolio": "Core-Ops",
-				"mail": "babitagarg0727@gmail.com",
-				"fblink": "www.facebook.com",
-				"linkedin": "https://www.linkedin.com/in/tanishka-garg-9ba53b223?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-			},
-			{
 				"name": "Suryansh Patsaria",
 				"portfolio": "Core-Ops",
 				"mail": "suryanshpatsaria.iitkgp@gmail.com",
@@ -171,53 +214,11 @@
 				"linkedin": "https://www.linkedin.com/in/suryansh-patsaria-0a4345226/"
 			},
 			{
-				"name": "Sakshi Agarwal",
-				"portfolio": "Core-Ops",
-				"mail": "sakshiagarwaljmp@gmail.com",
-				"fblink": "https://www.facebook.com/profile.php?id=100081139711501",
-				"linkedin": "https://www.linkedin.com/in/sakshi-agarwal-884308228/"
-			},
-			{
-				"name": "Yuvraj Singh",
-				"portfolio": "Core-Ops",
-				"mail": "yuvi54529@gmail.com",
-				"fblink": "https://www.facebook.com/profile.php?id=100022961858698",
-				"linkedin": "https://www.linkedin.com/in/yuvraj-singh-6a4b2b197/"
-			},
-			{
-				"name": "Pranav",
-				"portfolio": "Core-Ops",
-				"mail": "pranav.bhadane.iitkgp@gmail,com",
-				"fblink": "https://www.facebook.com/profile.php?id=100075640234375",
-				"linkedin": "https://www.linkedin.com/in/pranav-bhadane-iitkgp/"
-			},
-			{
 				"name": "Ankesh Kumar",
 				"portfolio": "Core-Ops",
 				"mail": "ankeshkumar.iitkgp@gmail.com",
 				"fblink": "https://www.facebook.com/profile.php?id=100076628275362&mibextid=9R9pXO",
 				"linkedin": "https://www.linkedin.com/in/ankeshkumar-iitkgp"
-			},
-			{
-				"name": "Anurag Saha",
-				"portfolio": "Core-Ops",
-				"mail": "sahaanuragabash@gmail.com",
-				"fblink": "https://www.facebook.com/profile.php?id=100076368730138",
-				"linkedin": "www.linkedin.com"
-			},
-			{
-				"name": "Akshat Agarwal",
-				"portfolio": "Core-Ops",
-				"mail": "agarwalakshat2018@gmail.com",
-				"fblink": "https://www.facebook.com/profile.php?id=100033169273749",
-				"linkedin": "www.linkedin.com"
-			},
-			{
-				"name": "Ashutosh Patwariya",
-				"portfolio": "Core-Ops",
-				"mail": "ashutoshpatwariya2002@gmail.com",
-				"fblink": "https://www.facebook.com/profile.php?id=100075362712783&mibextid=ZbWKwL",
-				"linkedin": "https://www.linkedin.com/in/ashutosh-patwariya-a33003212/"
 			}
 		]
 	},
