@@ -7,7 +7,7 @@ export default function AdminNavbar() {
 	return (
 		<Navbar expand="lg" className="bg-body-tertiary">
 			<Container>
-				<Navbar.Brand>
+				<Navbar.Brand href="/">
 					<Image src={ILU} alt="Logo" height="30" />
 					Inter IIT Cultural 6.0 Admin
 				</Navbar.Brand>
