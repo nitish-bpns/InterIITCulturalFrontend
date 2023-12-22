@@ -1,0 +1,124 @@
+{
+	"items": [
+		{
+			"name": "Technology Food Court",
+			"location": "South of Clock Tower, beside TATA steel complex",
+			"timing": "9:00 AM to 10:00 PM",
+			"image": "/assets/images/services/food/tfc.jpg"
+		},
+		{
+			"name": "HJB Aastha Night Canteen",
+			"location": "Inside HJB Hall",
+			"timing": "8:00 PM to 4:00 AM",
+			"additional": "One of the co-ed canteen will remain open during the night-time.",
+			"image": "/assets/images/services/food/hjb.jpg"
+		},
+		{
+			"name": "JCB Night Canteen",
+			"location": "Inside JCB Hall",
+			"timing": "7:00 PM to 2:00 AM",
+			"additional": "Another co-ed canteen which remain open during the night-time.",
+			"image": "/assets/images/services/food/hjb.jpg"
+		},
+		{
+			"name": "Amigos and Sahara",
+			"location": "Near Staff Quarters",
+			"timing": "10:00 AM to 9:00 PM",
+			"image": "/assets/images/services/food/sahara.jpg"
+		},
+		{
+			"name": "Dreamland",
+			"location": "Near Staff Quarters",
+			"timing": "10:00 AM to 9:00 PM",
+			"image": "/assets/images/services/food/dreamland.jpg"
+		},
+		{
+			"name": "Heritage Complex",
+			"location": "IIT Avenue Road, Scholar Canvas Stadium",
+			"timing": "9:00 AM to 10:00 PM",
+			"additional": "Heritage complex consists of various food outlets:",
+			"list": [
+				{
+					"name": "Heritage Restaurant:",
+					"timing": "9:00 AM to 9:00 PM"
+				},
+				{
+					"name": "Café Coffee Day:",
+					"timing": "10:00 AM to 9:00 PM"
+				},
+				{
+					"name": "Baskin Robbins:",
+					"timing": "10:00 AM to 11:00 PM"
+				},
+				{
+					"name": "Mio Amore:",
+					"timing": "9:30 AM to 10:00 PM"
+				},
+				{
+					"name": "Coffee Xpress:",
+					"timing": "10:00 AM to 9:30 PM"
+				},
+				{
+					"name": "Smart Pind:",
+					"timing": "9:00 AM to 10:00 PM"
+				},
+				{
+					"name": "Banana Leaf Bistro:",
+					"timing": "9:00 AM to 10:00 PM"
+				},
+				{
+					"name": "Momos Mania:",
+					"timing": "10:00 AM to 10:00 PM"
+				},
+				{
+					"name": "Amul and Iosys:",
+					"timing": "10:00 AM to 10:00 PM"
+				}
+			],
+			"image": "/assets/images/services/food/heritage.jpg"
+		},
+		{
+			"name": "Smart Pind",
+			"location": "Scholars Avenue Road, near Cafe Coffee Day (CCD) and Jnan Ghosh Stadium",
+			"timing": "9:00 AM to 10:00 PM",
+			"image": "/assets/images/services/food/smart_pind.png"
+		},
+		{
+			"name": "Banana Leaf Bistro",
+			"location": "Near Cafe Coffee Day (CCD) and Jnan Ghosh Stadium",
+			"timing": "9:00 AM to 10:00 PM",
+			"image": "/assets/images/services/food/banana_leaf.jpg"
+		},
+		{
+			"name": "Panloop Food Center (PFC)",
+			"location": "Near Patel Hall, PAN Loop",
+			"timing": "10:00 AM to 11:00 PM",
+			"image": "/assets/images/services/food/pfc.jpg"
+		},
+		{
+			"name": "Biloo's Restaurant",
+			"location": "Near RK Hall",
+			"timing": "9:00 AM to 10:00 PM",
+			"image": "/assets/images/services/food/biloo.jpg"
+		},
+		{
+			"name": "Subway",
+			"location": "Nalanda Complex, Near Agricultural department",
+			"timing": "10:00 AM to 8:00 PM",
+			"image": "/assets/images/services/food/subway.jpg"
+		},
+		{
+			"name": "Rooster",
+			"location": "Nala Complex",
+			"timing": "10:00 AM to 9:00 PM",
+			"image": "/assets/images/services/food/rooster.jpg"
+		},
+		{
+			"name": "Veggies",
+			"location": "Near Heritage Complex",
+			"timing": "10:00 AM to 8:00 PM",
+			"additional": "Veggies serves only vegetarian food on campus.",
+			"image": "/assets/images/services/food/vegies.jpg"
+		}
+	]
+}

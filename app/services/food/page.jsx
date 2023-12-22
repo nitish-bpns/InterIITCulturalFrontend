@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
-import restaurants from "./restaurants";
+import restaurants from "@/data/restaurants";
 
 export default function Food() {
 	return (
@@ -14,49 +14,50 @@ export default function Food() {
 			<section className={Styles["main"]}>
 				<h1 className={Styles["heading"]}>Restraunts/Eateries</h1>
 				<p className={Styles["description"]}>
-					The following are some of the most popular restaurants in
-					the IIT Kharagpur campus. For more options, check out{" "}
+					The following are the{" "}
+					<strong>Restaurants and Eateries</strong> available in the
+					IIT Kharagpur campus. For more options, check out{" "}
 					<a href="https://www.zomato.com/kharagpur">Zomato</a>.
 				</p>
 				<ul className={Styles["restaurant-wrapper"]}>
-					{restaurants.map((restaurant, index) => (
+					{restaurants.items.map((restaurant, index) => (
 						<li key={index} className={Styles["restaurant"]}>
-							<Image src={restaurant.image}></Image>
-							<div className={Styles["restaurant-info"]}>
-								<h2 className={Styles["restaurant-name"]}>
-									{restaurant.name}
-								</h2>
-								<p>
-									<strong>Location :</strong>{" "}
-									{restaurant.location}
-								</p>
-								<p>
-									<strong>Timing :</strong>{" "}
-									{restaurant.timing}
-								</p>
-								{restaurant.additional && (
-									<p>{restaurant.additional}</p>
-								)}
-								{restaurant.list ? (
-									<ul>
-										{restaurant.list.map(
-											(listItem, index) => (
-												<li key={index}>
-													<strong>
-														{listItem.name}
-													</strong>{" "}
-													{listItem.timing}
-												</li>
-											)
-										)}
-									</ul>
-								) : null}
-								{restaurant.description && (
+							<div className={Styles["restaurant-box"]}>
+								<Image
+									src={restaurant.image}
+									width={1000}
+									height={1000}
+								/>
+								<div className={Styles["restaurant-info"]}>
+									<h2 className={Styles["restaurant-name"]}>
+										{restaurant.name}
+									</h2>
 									<p>
-										<strong>Description :</strong>{" "}
-										{restaurant.description}
+										<strong>Location :</strong>{" "}
+										{restaurant.location}
 									</p>
-								)}
+									<p>
+										<strong>Timing :</strong>{" "}
+										{restaurant.timing}
+									</p>
+									{restaurant.additional && (
+										<p>{restaurant.additional}</p>
+									)}
+									{restaurant.list ? (
+										<ul>
+											{restaurant.list.map(
+												(listItem, index) => (
+													<li key={index}>
+														<strong>
+															{listItem.name}
+														</strong>{" "}
+														{listItem.timing}
+													</li>
+												)
+											)}
+										</ul>
+									) : null}
+								</div>
 							</div>
 						</li>
 					))}

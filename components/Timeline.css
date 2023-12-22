@@ -296,6 +296,7 @@
 		top: 6px;
 		font-size: 16px;
 		font-size: 2rem;
+		padding: 0 0.4em;
 		font-family: "Roboto Mono", monospace;
 	}
 	.vertical-timeline--two-columns
