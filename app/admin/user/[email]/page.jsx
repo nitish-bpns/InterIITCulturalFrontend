@@ -11,10 +11,7 @@ function findEventByCode(code) {
 	for (const genre in eventsData) {
 		for (const event in eventsData[genre].events) {
 			if (eventsData[genre].events[event].code === code) {
-				return {
-					...eventsData[genre].events[event],
-					link: "/admin/event/" + genre + "/" + event,
-				};
+				return eventsData[genre].events[event];
 			}
 		}
 	}
@@ -115,7 +112,12 @@ export default function Events({ params }) {
 								};
 								return {
 									Event: (
-										<Link href={event.link}>
+										<Link
+											href={
+												"/admin/event/details/" +
+												event._id.valueOf()
+											}
+										>
 											{event.name}
 										</Link>
 									),
