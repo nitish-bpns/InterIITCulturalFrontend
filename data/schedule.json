@@ -3,66 +3,79 @@
 		{
 			"Event": "Welcome Ceremony",
 			"Venue": "Kalidas",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Sci Tech Quiz",
 			"Venue": "Bhatnagar",
+			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "Hindi Slam Poetry",
 			"Venue": "F244",
+			"Location": "https://maps.app.goo.gl/YrLpfoEtE8pFTvG89",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "Band Sound Check",
 			"Venue": "TOAT",
+			"Location": "https://maps.app.goo.gl/erqAB9F1YhqNEmes7",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "Mono Acting",
 			"Venue": "SN Bose",
+			"Location": "https://maps.app.goo.gl/5FVP2p2JgDxHqPGX9",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "English Creative Writing",
 			"Venue": "Raman",
+			"Location": "https://maps.app.goo.gl/ZV4D2NKFB445uKWW6",
 			"Time": "11 AM"
 		},
 		{
 			"Event": "Stage Play Lights Practice",
 			"Venue": "Kalidas",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
 			"Time": "11 AM"
 		},
 		{
 			"Event": "Dance Lights Practice",
 			"Venue": "Netaji",
+			"Location": "https://maps.app.goo.gl/6tj2khz4dnypX1gk8",
 			"Time": "11 AM"
 		},
 		{
 			"Event": "Design Marathon",
 			"Venue": "Nalanda",
+			"Location": "https://maps.app.goo.gl/riH6edSc36adPj896",
 			"Time": "12 PM"
 		},
 		{
 			"Event": "Band Sound Check",
 			"Venue": "TOAT",
+			"Location": "https://maps.app.goo.gl/erqAB9F1YhqNEmes7",
 			"Time": "3 PM"
 		},
 		{
 			"Event": "Cryptic Crosword",
 			"Venue": "Raman",
+			"Location": "https://maps.app.goo.gl/ZV4D2NKFB445uKWW6",
 			"Time": "6 PM"
 		},
 		{
 			"Event": "Mime Lights Practice",
 			"Venue": "Kalidas",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
 			"Time": "11 PM"
 		},
 		{
 			"Event": "Fashion Lights Practice",
 			"Venue": "Kalidas",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
 			"Time": "1 AM"
 		}
 	],
@@ -70,81 +83,97 @@
 		{
 			"Event": "Biz Quiz",
 			"Venue": "Bhatnagar",
+			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "English Slam Poetry",
 			"Venue": "F244",
+			"Location": "https://maps.app.goo.gl/YrLpfoEtE8pFTvG89",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Hindi Creative Writing",
 			"Venue": "Raman",
+			"Location": "https://maps.app.goo.gl/ZV4D2NKFB445uKWW6",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Stage Play",
 			"Venue": "Kalidas",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Scrabble",
 			"Venue": "Multipurpose Room",
+			"Location": "https://maps.app.goo.gl/3rZ45SCX8sJgUGST6",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Pair on Stage",
 			"Venue": "SN Bose",
+			"Location": "https://maps.app.goo.gl/5FVP2p2JgDxHqPGX9",
 			"Time": "9 AM"
 		},
 		{
 			"Event": "Sketching",
 			"Venue": "Nehru Museum",
+			"Location": "https://maps.app.goo.gl/wX3Qa64MMGH8vSmF6",
 			"Time": "9 AM"
 		},
 		{
 			"Event": "Debate",
 			"Venue": "Nalanda",
+			"Location": "https://maps.app.goo.gl/riH6edSc36adPj896",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "Groups Dance",
 			"Venue": "Netaji",
+			"Location": "https://maps.app.goo.gl/6tj2khz4dnypX1gk8",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "Standup",
 			"Venue": "V1",
+			"Location": "https://maps.app.goo.gl/fb4vYBZQf5BeBqXG7",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "Street Play",
 			"Venue": "JCB Foyer",
+			"Location": "https://maps.app.goo.gl/16bFE3veKbGQQs3r7",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "Vocals Solo",
 			"Venue": "SN Bose",
+			"Location": "https://maps.app.goo.gl/5FVP2p2JgDxHqPGX9",
 			"Time": "3 PM"
 		},
 		{
 			"Event": "Canvas Painting",
 			"Venue": "Multipurpose Room",
+			"Location": "https://maps.app.goo.gl/3rZ45SCX8sJgUGST6",
 			"Time": "3 PM"
 		},
 		{
 			"Event": "MELA Quiz",
 			"Venue": "Bhatnagar",
+			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
 			"Time": "4 PM"
 		},
 		{
 			"Event": "Sacred Word Games",
 			"Venue": "F244",
+			"Location": "https://maps.app.goo.gl/YrLpfoEtE8pFTvG89",
 			"Time": "4 PM"
 		},
 		{
 			"Event": "Cook Off",
 			"Venue": "LBS Mess",
+			"Location": "https://maps.app.goo.gl/PhuHCzq9rPGzkq9J8",
 			"Time": "4 PM"
 		}
 	],
@@ -152,86 +181,103 @@
 		{
 			"Event": "India Quiz",
 			"Venue": "Bhatnagar",
+			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "English Poetry Writing",
 			"Venue": "Raman",
+			"Location": "https://maps.app.goo.gl/ZV4D2NKFB445uKWW6",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Stage Play",
 			"Venue": "Kalidas",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Just Duet",
 			"Venue": "Netaji",
+			"Location": "https://maps.app.goo.gl/6tj2khz4dnypX1gk8",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Scrabble",
 			"Venue": "Multipurpose Room",
+			"Location": "https://maps.app.goo.gl/3rZ45SCX8sJgUGST6",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Photoshop Battle",
 			"Venue": "-",
+			"Location": "",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Band Competition",
 			"Venue": "TOAT",
+			"Location": "https://maps.app.goo.gl/erqAB9F1YhqNEmes7",
 			"Time": "9 AM"
 		},
 		{
 			"Event": "Debate",
 			"Venue": "Nalanda",
+			"Location": "https://maps.app.goo.gl/riH6edSc36adPj896",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "Improv Comedy",
 			"Venue": "V1",
+			"Location": "https://maps.app.goo.gl/fb4vYBZQf5BeBqXG7",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "Street Play",
 			"Venue": "JCB Foyer",
+			"Location": "https://maps.app.goo.gl/16bFE3veKbGQQs3r7",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "Hindi Poetry Writing",
 			"Venue": "Raman",
+			"Location": "https://maps.app.goo.gl/ZV4D2NKFB445uKWW6",
 			"Time": "2 PM"
 		},
 		{
 			"Event": "Sports Quiz",
 			"Venue": "Bhatnagar",
+			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
 			"Time": "4 PM"
 		},
 		{
 			"Event": "Charcoal",
 			"Venue": "Multipurpose Room",
+			"Location": "https://maps.app.goo.gl/3rZ45SCX8sJgUGST6",
 			"Time": "4 PM"
 		},
 		{
 			"Event": "JAM",
 			"Venue": "F244",
+			"Location": "https://maps.app.goo.gl/YrLpfoEtE8pFTvG89",
 			"Time": "5 PM"
 		},
 		{
 			"Event": "Tag Team",
 			"Venue": "LBS Mess",
+			"Location": "https://maps.app.goo.gl/PhuHCzq9rPGzkq9J8",
 			"Time": "5 PM"
 		},
 		{
 			"Event": "Online SFM Screening",
 			"Venue": "Netaji",
+			"Location": "https://maps.app.goo.gl/6tj2khz4dnypX1gk8",
 			"Time": "6 PM"
 		},
 		{
 			"Event": "Mime",
 			"Venue": "Kalidas",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
 			"Time": "7 PM"
 		}
 	],
@@ -239,51 +285,61 @@
 		{
 			"Event": "General Quiz",
 			"Venue": "Bhatnagar",
+			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Fashion Show",
 			"Venue": "Kalidas",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "51 Hour Film Screening",
 			"Venue": "Netaji",
+			"Location": "https://maps.app.goo.gl/6tj2khz4dnypX1gk8",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Costume Design",
 			"Venue": "Vikramshila Foyer",
+			"Location": "https://maps.app.goo.gl/bNbD4qEp2XUXwFSp9",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "Street Battle",
 			"Venue": "TT Court",
+			"Location": "https://maps.app.goo.gl/zgN7cmau3b5gYWJN8",
 			"Time": "8 AM"
 		},
 		{
 			"Event": "JAM",
 			"Venue": "F244",
+			"Location": "https://maps.app.goo.gl/YrLpfoEtE8pFTvG89",
 			"Time": "9 AM"
 		},
 		{
 			"Event": "Classical Vocals",
 			"Venue": "SN Bose",
+			"Location": "https://maps.app.goo.gl/5FVP2p2JgDxHqPGX9",
 			"Time": "9 AM"
 		},
 		{
 			"Event": "Mixology",
 			"Venue": "LBS Mess",
+			"Location": "https://maps.app.goo.gl/PhuHCzq9rPGzkq9J8",
 			"Time": "10 AM"
 		},
 		{
 			"Event": "Trophy Distribution",
 			"Venue": "Kalidas and TOAT",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
 			"Time": "7 PM"
 		},
 		{
 			"Event": "Closing Ceremony",
 			"Venue": "Kalidas and TOAT",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
 			"Time": "8 PM"
 		}
 	]

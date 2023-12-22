@@ -34,7 +34,24 @@ export default function Page({ params }) {
 								width: "20%",
 							},
 						],
-						rows: data[day],
+						rows: data[day].map((row) => {
+							return {
+								...row,
+								Venue: (
+									<a
+										href={row.Location}
+										target="_blank"
+										style={{
+											color: "#000",
+											textDecoration: "none",
+										}}
+									>
+										<i class="fa-solid fa-map-location-dot"></i>{" "}
+										{row.Venue}
+									</a>
+								),
+							};
+						}),
 					}}
 				/>
 			</section>
