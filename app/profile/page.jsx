@@ -1,25 +1,26 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import Link from "next/link";
 import localFont from "next/font/local";
 import Image from "next/image";
-import Styles from "./Profile.module.css";
-
 import { useRouter } from "next/navigation";
+
 import { toast, toastDict } from "@/lib/toastify";
-import institutes from "@/data/institutes.json";
-import eventsData from "@/data/events.json";
 import BackButton from "@/components/BackButton";
 import Table from "@/components/Table";
+
+import institutes from "@/data/institutes.json";
+import eventsData from "@/data/events.json";
+import halls from "@/data/halls.json";
+import Styles from "./Profile.module.css";
+
 import Ellipse from "@/public/assets/images/ellipse.png";
 import Info from "@/public/assets/images/info_icon.png";
 import Events from "@/public/assets/images/events_icon.png";
 import Home from "@/public/assets/images/home_icon.png";
 
 const myFont = localFont({ src: "../../public/assets/fonts/Dreaming.woff2" });
-
-import Acco from "@/public/assets/images/home/carousel/campus_1.jpg";
 
 function findEventByCode(code) {
 	for (const genre in eventsData) {
@@ -213,19 +214,43 @@ export default function Profile() {
 					<h1>Accomodation</h1>
 					<div className={Styles["acco-info"]}>
 						<div className={Styles["acco-img"]}>
-							<Image src={Acco} alt="accomodation" />
+							<Image
+								src={halls[user.hall].img}
+								width={1000}
+								height={1000}
+								alt="Accomodation Hall"
+							/>
 						</div>
 						<div className={Styles["acco-text"]}>
 							<p>
-								<span>Hall of Residence : </span>
-								{user.hall}
+								<span>Lodging</span>
+							</p>
+							<p>
+								{halls[user.hall].name}{" "}
+								<a
+									style={{
+										color: "#6bb2ff",
+										textDecoration: "none",
+									}}
+									href={halls[user.hall].location}
+									target="_blank"
+								>
+									<i class="fa-solid fa-map-location-dot"></i>
+								</a>
 							</p>
 							<p>
 								<span>Mess : </span>
-								{user.mess}
-							</p>
-							<p>
-								<span>Contact Details : </span>+91876543210
+								{halls[user.mess].name}{" "}
+								<a
+									style={{
+										color: "#6bb2ff",
+										textDecoration: "none",
+									}}
+									href={halls[user.mess].location}
+									target="_blank"
+								>
+									<i class="fa-solid fa-map-location-dot"></i>
+								</a>
 							</p>
 						</div>
 					</div>

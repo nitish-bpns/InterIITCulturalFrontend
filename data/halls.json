@@ -1,0 +1,12 @@
+{
+	"RP": {
+		"name": "Rajendra Prasad Hall of Residence",
+		"location": "https://maps.app.goo.gl/bzBGWcPkNNBwThhB9",
+		"img": "/assets/images/home/carousel/campus_1.jpg"
+	},
+	"RK": {
+		"name": "Radhakrishnan Hall of Residence",
+		"location": "https://maps.app.goo.gl/M9TPjJoN4heurjak9",
+		"img": "/assets/images/halls/RK.jpg"
+	}
+}
