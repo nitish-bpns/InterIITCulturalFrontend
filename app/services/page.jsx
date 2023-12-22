@@ -4,11 +4,11 @@ import Image from "next/image";
 
 import ServicesPlank from "@/public/assets/images/services/services.png";
 import FoodPlank from "@/public/assets/images/services/food.png";
-import CyclesPlank from "@/public/assets/images/services/cycles.png";
+import BusesPlank from "@/public/assets/images/services/buses.png";
 
 import ServicesPlankMob from "@/public/assets/images/services/services_mob.png";
 import FoodPlankMob from "@/public/assets/images/services/food_mob.png";
-import CyclesPlankMob from "@/public/assets/images/services/cycles_mob.png";
+import BusesPlankMob from "@/public/assets/images/services/buses_mob.png";
 import Link from "next/link";
 
 const cookie = Cookie({ weight: "400", subsets: ["latin"] });
@@ -26,9 +26,9 @@ export default function Services() {
 						<Image src={ServicesPlank} alt="Services" />
 						<h1>Services</h1>
 					</div>
-					<Link href="/services/cycles/" className={Styles["cycles"]}>
-						<Image src={CyclesPlank} alt="Cycles" />
-						<h1>Cycles</h1>
+					<Link href="/services/buses/" className={Styles["buses"]}>
+						<Image src={BusesPlank} alt="Buses" />
+						<h1>Buses</h1>
 					</Link>
 				</div>
 				<div className={Styles["plank-container-mob"]}>
@@ -40,9 +40,9 @@ export default function Services() {
 						<Image src={FoodPlankMob} alt="Food" />
 						<h1>Food</h1>
 					</Link>
-					<Link href="/services/cycles/" className={Styles["cycles"]}>
-						<Image src={CyclesPlankMob} alt="Cycles" />
-						<h1>Cycles</h1>
+					<Link href="/services/buses/" className={Styles["buses"]}>
+						<Image src={BusesPlankMob} alt="Buses" />
+						<h1>Buses</h1>
 					</Link>
 				</div>
 			</section>

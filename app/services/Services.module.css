@@ -15,7 +15,7 @@
 }
 
 .services,
-.cycles,
+.buses,
 .food {
 	text-align: center;
 	display: flex;
@@ -28,7 +28,7 @@
 
 .services img,
 .food img,
-.cycles img {
+.buses img {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
@@ -52,20 +52,20 @@
 	cursor: pointer;
 }
 
-.cycles {
+.buses {
 	font-size: 4vw;
 	transform: translate(-50%, 0%);
 	z-index: 2;
 	width: 30%;
 }
 
-.cycles:hover {
+.buses:hover {
 	transform: scale(1.05) translate(-50%, 0%);
 	cursor: pointer;
 }
 
 .services h1,
-.cycles h1,
+.buses h1,
 .food h1 {
 	transform: translate(0%, -140%);
 	font-weight: 300;
@@ -91,7 +91,7 @@
 		width: 100%;
 	}
 	.food,
-	.cycles {
+	.buses {
 		font-size: 5vw;
 		width: 100%;
 	}
@@ -101,15 +101,15 @@
 	.food:hover {
 		transform: scale(1.05) translate(0, -50%);
 	}
-	.cycles {
+	.buses {
 		transform: translate(0, -85%);
 	}
-	.cycles:hover {
+	.buses:hover {
 		transform: scale(1.05) translate(0%, -85%);
 	}
 	.services h1,
 	.food h1,
-	.cycles h1 {
+	.buses h1 {
 		transform: translate(0%, -155%);
 	}
 }

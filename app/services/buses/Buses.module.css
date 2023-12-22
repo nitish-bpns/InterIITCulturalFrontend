@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	padding: 20px;
+	-webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+	.main {
+		padding: 0 0 20px 0;
+	}
+}
+
+.heading {
+	color: #603d30;
+	font-size: 100px;
+	font-family: "Cookie", cursive;
+	font-weight: 400;
+	word-wrap: break-word;
+	margin: 40px 10px 20px 10px;
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	.heading {
+		font-size: 50px;
+	}
+}
