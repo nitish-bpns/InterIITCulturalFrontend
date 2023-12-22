@@ -6,7 +6,6 @@ import { Container } from "react-bootstrap";
 import DataTable from "@/components/admin/DataTable";
 import DownloadButton from "@/components/admin/DownloadButton";
 import institutes from "@/data/institutes.json";
-import { set } from "mongoose";
 
 export default function Users() {
 	const router = useRouter();
