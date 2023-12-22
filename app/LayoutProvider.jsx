@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect } from "react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
+import { toast, toastDict } from "@/lib/toastify";
 import Footer from "@/components/Footer.jsx";
 import Navbar from "@/components/Navbar.jsx";
 import bg from "@/public/assets/images/bg-image.png";
@@ -10,9 +11,29 @@ import AdminNavbar from "@/components/admin/Navbar";
 
 export default function LayoutProvider({ children }) {
 	const pathname = usePathname();
-	const isAdmin = pathname.startsWith("/admin");
+	const router = useRouter();
 
-	if (isAdmin) {
+	useEffect(() => {
+		if (
+			pathname.startsWith("/admin") &&
+			!localStorage.getItem("interiit-cultural-token")
+		) {
+			toast.error(
+				"Please sign in with admin access to continue",
+				toastDict
+			);
+			router.push("/signin");
+		}
+
+		const isGenrePage = pathname.startsWith("/events/");
+		if (isGenrePage || pathname.startsWith("/admin")) {
+			document.body.style.backgroundImage = "none";
+		} else {
+			document.body.style.backgroundImage = `url(${bg.src})`;
+		}
+	}, [pathname]);
+
+	if (pathname.startsWith("/admin")) {
 		return (
 			<>
 				<link
@@ -26,16 +47,6 @@ export default function LayoutProvider({ children }) {
 			</>
 		);
 	}
-
-	const isGenrePage = pathname.startsWith("/events/");
-
-	useEffect(() => {
-		if (isGenrePage) {
-			document.body.style.backgroundImage = "none";
-		} else {
-			document.body.style.backgroundImage = `url(${bg.src})`;
-		}
-	}, [isGenrePage]);
 
 	return (
 		<>

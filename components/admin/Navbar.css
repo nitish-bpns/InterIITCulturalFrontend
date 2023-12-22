@@ -1,0 +1,4 @@
+.nav-item.show.dropdown div {
+	max-height: 300px;
+	overflow-y: scroll;
+}

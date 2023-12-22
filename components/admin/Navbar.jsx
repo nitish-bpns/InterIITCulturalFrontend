@@ -2,6 +2,7 @@ import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import Image from "next/image";
 import eventsData from "@/data/events.json";
 import ILU from "@/public/assets/images/ILU.png";
+import "./Navbar.css";
 
 export default function AdminNavbar() {
 	return (
