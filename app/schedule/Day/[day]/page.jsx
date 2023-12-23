@@ -1,13 +1,12 @@
-import { Satisfy } from "next/font/google";
+import { Handlee } from "next/font/google";
 import BackButton from "@/components/BackButton";
 import ErrorPage from "@/components/ErrorPage";
 import Table from "@/components/Table";
 
 import data from "@/data/schedule.json";
-
 import Styles from "@/styles/page.module.css";
 
-const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
+const handlee = Handlee({ weight: "400", subsets: ["latin"] });
 
 export function generateMetadata({ params }) {
 	const day = params.day;
@@ -26,7 +25,7 @@ export default function Page({ params }) {
 	if (!data[day]) return <ErrorPage statusCode={404} />;
 
 	return (
-		<main className={satisfy.className}>
+		<main className={handlee.className}>
 			<BackButton href={`/schedule`} />
 			<section className={Styles["main"]}>
 				<h1 className={Styles["heading"]}>Day {day}</h1>

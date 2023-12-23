@@ -8,8 +8,8 @@
 }
 
 .spons-wrapper h1 {
-	font-size: 6vw;
-	font-weight: 300;
+	font-size: 4vw;
+	font-weight: 600;
 	margin: 40px 0;
 }
 
@@ -69,7 +69,7 @@
 
 @media (max-width: 1000px) {
 	.spons-wrapper h1 {
-		font-size: 7.5vw;
+		font-size: 6vw;
 	}
 }
 
@@ -81,7 +81,7 @@
 
 @media (max-width: 480px) {
 	.spons-wrapper h1 {
-		font-size: 10vw;
+		font-size: 8vw;
 	}
 	.spons-flex-item img {
 		max-width: 270px;

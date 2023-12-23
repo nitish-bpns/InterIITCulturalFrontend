@@ -1,8 +1,8 @@
 import FAQsComponent from "./FAQsComponent";
-import { Cookie } from "next/font/google";
+import { Handlee } from "next/font/google";
 import faqs from "@/data/faqs.json";
 
-const cookie = Cookie({ weight: "400", subsets: ["latin"] });
+const handlee = Handlee({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
 	title: "FAQs",
@@ -10,7 +10,7 @@ export const metadata = {
 
 const FAQs = () => {
 	return (
-		<main className={cookie.className}>
+		<main className={handlee.className}>
 			<FAQsComponent faqs={faqs} />
 		</main>
 	);

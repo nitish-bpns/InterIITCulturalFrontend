@@ -2,16 +2,14 @@ import Image from "next/image";
 import { FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Styles from "@/styles/page.module.css";
 import PageStyles from "./core.module.css";
-import localFont from "next/font/local";
+import { Handlee } from "next/font/google";
 import BackButton from "@/components/BackButton";
 import ErrorPage from "@/components/ErrorPage";
 import data from "@/data/team.json";
 import ImageVariableCoordinators from "./images_coordis";
 import ImageVariableHeads from "./images_heads";
 
-const myFont = localFont({
-	src: "../../../public/assets/fonts/Dreaming.woff2",
-});
+const handlee = Handlee({ weight: "400", subsets: ["latin"] });
 
 export function generateMetadata({ params }) {
 	const teamname = params.teamname;
@@ -42,7 +40,7 @@ const TeamName = ({ params }) => {
 			<BackButton href={`/team`} />
 			<section className={Styles.main}>
 				{/* Heading for Coordinators */}
-				<h1 className={myFont.className}>
+				<h1 className={handlee.className}>
 					<div className={Styles.heading}>
 						{isOverallCoordinators
 							? `${data[teamname].title} Coordinator`
@@ -120,7 +118,7 @@ const TeamName = ({ params }) => {
 				{!isOverallCoordinators && (
 					<>
 						{/* Heading for Heads */}
-						<h2 className={myFont.className}>
+						<h2 className={handlee.className}>
 							<div className={Styles.heading}>
 								{data[teamname].title} Heads
 							</div>

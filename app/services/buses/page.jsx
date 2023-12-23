@@ -1,9 +1,9 @@
 import BackButton from "@/components/BackButton";
 import Timeline from "@/components/Timeline";
 import Styles from "./Buses.module.css";
-import { Cookie } from "next/font/google";
+import { Handlee } from "next/font/google";
 
-const cookie = Cookie({ weight: "400", subsets: ["latin"] });
+const handlee = Handlee({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
 	title: "Buses",
@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function Buses() {
 	return (
-		<main className={cookie.className}>
+		<main className={handlee.className}>
 			<BackButton href="/services" />
 			<section className={Styles["main"]}>
 				<h1 className={Styles["heading"]}>Buses</h1>

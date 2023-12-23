@@ -1,10 +1,13 @@
 import Styles from "./Food.module.css";
 import BackButton from "@/components/BackButton";
-import { Cookie } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 
-const cookie = Cookie({ weight: "400", subsets: ["latin"] });
+const montserrat = Montserrat({
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	subsets: ["latin"],
+});
 
 import restaurants from "@/data/restaurants";
 
@@ -14,7 +17,7 @@ export const metadata = {
 
 export default function Food() {
 	return (
-		<main className={cookie.className}>
+		<main className={montserrat.className}>
 			<BackButton href="/services" />
 			<section className={Styles["main"]}>
 				<h1 className={Styles["heading"]}>Restraunts/Eateries</h1>

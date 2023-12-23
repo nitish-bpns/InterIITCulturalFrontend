@@ -1,11 +1,11 @@
 "use client";
 import { useState, useRef } from "react";
 import Styles from "./Spons.module.css";
-import { Cookie } from "next/font/google";
+import { Handlee } from "next/font/google";
 import sponsors from "./data";
 import Image from "next/image";
 
-const cookie = Cookie({ weight: "400", subsets: ["latin"] });
+const handlee = Handlee({ weight: "400", subsets: ["latin"] });
 
 export default function Sponsors() {
 	const [isVisible, setIsVisible] = useState(false);
@@ -28,7 +28,7 @@ export default function Sponsors() {
 	};
 
 	return (
-		<main className={cookie.className}>
+		<main className={handlee.className}>
 			<section className={Styles["spons-wrapper"]}>
 				{isVisible && (
 					<div

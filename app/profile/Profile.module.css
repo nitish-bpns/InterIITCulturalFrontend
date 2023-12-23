@@ -243,10 +243,10 @@
 }
 
 .personal-info-wrapper h1 {
-	font-family: "Cookie", cursive;
-	font-size: 5vw;
+	font-family: "Handlee", cursive;
+	font-size: 4vw;
 	color: #603d30;
-	font-weight: 300;
+	font-weight: 600;
 	text-align: center;
 	margin: 30px 0;
 }
@@ -271,14 +271,14 @@
 }
 
 .personal-info p {
-	font-size: 3vw;
+	font-size: 2.2vw;
 	margin: 10px 0;
 	color: #fef0df;
 	letter-spacing: 2px;
 }
 
 .personal-info p span {
-	font-size: 3.2vw;
+	font-size: 2.5vw;
 	font-weight: 600;
 	color: #ffe8cc;
 }
@@ -291,17 +291,17 @@
 
 @media (max-width: 480px) {
 	.personal-info-wrapper h1 {
-		font-size: 10vw;
+		font-size: 8vw;
 		margin: 20px 0;
 	}
 	.personal-info {
 		padding: 10px 20px;
 	}
 	.personal-info p {
-		font-size: 4vw;
+		font-size: 3.6vw;
 	}
 	.personal-info p span {
-		font-size: 4.2vw;
+		font-size: 3.4vw;
 	}
 }
 
@@ -315,17 +315,17 @@
 }
 
 .event-details h1 {
-	font-family: "Cookie", cursive;
-	font-size: 6vw;
+	font-family: "Handlee", cursive;
+	font-size: 4vw;
 	color: #603d30;
-	font-weight: 300;
+	font-weight: 600;
 	text-align: center;
 	margin: 30px 0;
 }
 
 @media (max-width: 768px) {
 	.event-details h1 {
-		font-size: 8vw;
+		font-size: 5vw;
 		margin: 20px 0;
 	}
 }
@@ -359,18 +359,19 @@
 	margin: 0 auto;
 	border-radius: 15px;
 	background: rgba(0, 0, 0, 0.7);
+	font-family: "montserrat", sans-serif;
 	color: #fcddbb;
 }
 
 .acco-text p {
-	font-size: 3vw;
+	font-size: 2vw;
 	margin: 10px 0;
 	color: #fef0df;
 	letter-spacing: 2px;
 }
 
 .acco-text p span {
-	font-size: 3.2vw;
+	font-size: 2.2vw;
 	font-weight: 600;
 	color: #ffe8cc;
 }
@@ -387,6 +388,12 @@
 @media (max-width: 768px) {
 	.acco-text {
 		padding: 20px 40px;
+	}
+	.acco-text p {
+		font-size: 3vw;
+	}
+	.acco-text p span {
+		font-size: 3.2vw;
 	}
 }
 

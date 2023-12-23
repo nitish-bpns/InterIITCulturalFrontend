@@ -1,10 +1,12 @@
 import PageStyles from "./Table.module.css";
-import localFont from "next/font/local";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Handlee } from "next/font/google";
 
-const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
 const montserrat = Montserrat({
 	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	subsets: ["latin"],
+});
+const handlee = Handlee({
+	weight: ["400"],
 	subsets: ["latin"],
 });
 
@@ -24,7 +26,7 @@ export default function Table(props) {
 						style={{
 							width: col.width,
 						}}
-						className={PageStyles["th"] + " " + myFont.className}
+						className={PageStyles["th"] + " " + handlee.className}
 						key={index}
 					>
 						{col.name}

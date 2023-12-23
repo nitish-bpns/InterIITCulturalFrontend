@@ -229,7 +229,7 @@ export default function Profile() {
 						</div>
 						<div className={Styles["acco-text"]}>
 							<p>
-								<span>Lodging</span>
+								<span>Lodging :</span>
 							</p>
 							<p>
 								{halls[user.hall].name}{" "}

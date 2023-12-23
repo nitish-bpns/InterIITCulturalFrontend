@@ -17,9 +17,8 @@
 
 .heading {
 	color: #603d30;
-	font-size: 4rem;
-	/* font-family: "Cookie", cursive; */
-	font-weight: 400;
+	font-size: 3rem;
+	font-weight: 600;
 	word-wrap: break-word;
 	margin: 40px 10px 20px 10px;
 	text-align: center;
@@ -27,6 +26,13 @@
 
 @media (max-width: 1000px) {
 	.heading {
-		font-size: 3rem;
+		font-size: 2.5rem;
+		margin: 40px 10px 20px 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	.heading {
+		font-size: 2.2rem;
 	}
 }

@@ -25,7 +25,7 @@
 .th {
 	color: #603d30;
 	font-size: 3rem;
-	font-weight: 400;
+	font-weight: 600 !important;
 }
 
 .td {
