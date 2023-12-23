@@ -90,12 +90,14 @@ export default function Navbar() {
 				>
 					Schedule
 				</Link>
-				<a
-					href="https://www.spons.interiitculturals.org"
-					target="_blank"
+				<Link
+					href="/sponsors"
+					onClick={() => {
+						setDropdownVisible(false);
+					}}
 				>
 					Sponsors
-				</a>
+				</Link>
 				<Link
 					href={isSignedIn ? "/profile" : "/signin"}
 					onClick={() => {
