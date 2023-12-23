@@ -1,4 +1,4 @@
-import { Satisfy } from "next/font/google";
+import { Cookie } from "next/font/google";
 import BackButton from "@/components/BackButton";
 import ErrorPage from "@/components/ErrorPage";
 import data from "@/data/events.json";
@@ -17,7 +17,7 @@ import plank5 from "@/public/assets/images/events/genre/5.png";
 
 const planks = [plank1, plank2, plank3, plank4, plank5];
 
-const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
+const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
 export function generateMetadata({ params }) {
 	const genre = params.genre;
@@ -41,7 +41,7 @@ export default function Genre({ params }) {
 
 	return (
 		<main
-			className={satisfy.className}
+			className={cookie.className}
 			style={{
 				backgroundImage: `url(${data[genre].bg})`,
 				backgroundAttachment: "fixed",

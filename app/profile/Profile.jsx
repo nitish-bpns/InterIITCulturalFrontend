@@ -19,6 +19,7 @@ import Ellipse from "@/public/assets/images/ellipse.png";
 import Info from "@/public/assets/images/info_icon.png";
 import Events from "@/public/assets/images/events_icon.png";
 import Home from "@/public/assets/images/home_icon.png";
+import { ThreeDots } from "react-loader-spinner";
 
 const myFont = localFont({ src: "../../public/assets/fonts/Dreaming.woff2" });
 
@@ -79,7 +80,7 @@ export default function Profile() {
 
 	const MainPage = () => {
 		return (
-			<main className={myFont.className}>
+			<main className={myFont.className + Styles["main"]}>
 				<section className={Styles["profile-wrapper"]}>
 					<div className={Styles["title-bar"]}>
 						{user.isAdmin ? (
@@ -138,7 +139,7 @@ export default function Profile() {
 
 	const PersonalInfoPage = () => {
 		return (
-			<main className={myFont.className}>
+			<main className={myFont.className + Styles["main"]}>
 				<section className={Styles["personal-info-wrapper"]}>
 					<h1>Personal Info</h1>
 					<div className={Styles["personal-info"]}>
@@ -170,7 +171,7 @@ export default function Profile() {
 
 	const EventDetailsPage = () => {
 		return (
-			<main className={myFont.className}>
+			<main className={myFont.className + Styles["main"]}>
 				<section className={Styles["event-details"]}>
 					<h1>Registered Event Details</h1>
 					<Table
@@ -209,7 +210,7 @@ export default function Profile() {
 
 	const AccomodationPage = () => {
 		return (
-			<main className={myFont.className}>
+			<main className={myFont.className + Styles["main"]}>
 				<section className={Styles["personal-info-wrapper"]}>
 					<h1>Accomodation</h1>
 					<div className={Styles["acco-info"]}>
@@ -275,6 +276,19 @@ export default function Profile() {
 			{page == 3 && <AccomodationPage />}
 		</>
 	) : (
-		"Loading..."
+		<main className={myFont.className + Styles["main"]}>
+			<section className={Styles["loader"]}>
+				<ThreeDots
+					visible={true}
+					height="300"
+					width="300"
+					color="#E3C7AE"
+					radius="9"
+					ariaLabel="three-dots-loading"
+					wrapperStyle={{}}
+					wrapperClass=""
+				/>
+			</section>
+		</main>
 	);
 }

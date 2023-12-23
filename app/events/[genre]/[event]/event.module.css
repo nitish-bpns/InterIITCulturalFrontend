@@ -36,13 +36,13 @@
 	font-size: 3.8vw;
 	font-weight: 600;
 	margin-bottom: 10px;
-	letter-spacing: 3px;
+	/* letter-spacing: 3px; */
 }
 
 .rulebook-wrapper h2 {
 	font-size: 3vw;
 	margin: 22px 0 5px 0;
-	letter-spacing: 2px;
+	/* letter-spacing: 2px; */
 }
 
 .rulebook-wrapper li {
@@ -58,7 +58,7 @@
 .rulebook-wrapper p {
 	font-size: 2.6vw;
 	margin-bottom: 5px;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 }
 
 .event-img {
@@ -71,13 +71,16 @@
 .judge-wrapper {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	justify-content: center;
 	grid-gap: 20px;
 	width: 100%;
-	margin: 20px 0;
+	margin: 20px auto;
+	place-items: center;
 }
 
 .judge-card {
 	display: flex;
+	width: 100%;
 	flex-direction: column;
 	align-items: center;
 	margin: 20px;
@@ -85,7 +88,6 @@
 	border-radius: 15px;
 	background: rgba(0, 0, 0, 0.7);
 	max-width: 450px;
-	align-self: center;
 }
 
 .judge-card img {
@@ -97,7 +99,7 @@
 
 .judge-card h3 {
 	font-size: 2.6vw;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	margin: 20px 0 10px 0;
 }
 

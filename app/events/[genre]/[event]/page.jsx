@@ -1,6 +1,6 @@
 import React from "react";
 import Styles from "./event.module.css";
-import { Satisfy } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import BackButton from "@/components/BackButton";
 import ErrorPage from "@/components/ErrorPage";
 import localFont from "next/font/local";
@@ -54,7 +54,10 @@ import SNBose from "@/public/assets/images/events/SNBose.png";
 const myFont = localFont({
 	src: "../../../../public/assets/fonts/Dreaming.woff2",
 });
-const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
+const montserrat = Montserrat({
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	subsets: ["latin"],
+});
 
 export function generateMetadata({ params }) {
 	const genre = params.genre;
@@ -617,7 +620,7 @@ export default function Event({ params }) {
 
 	return (
 		<main
-			className={`${satisfy.className} ${Styles["main-wrapper"]}`}
+			className={`${montserrat.className} ${Styles["main-wrapper"]}`}
 			style={{
 				backgroundImage: `url(${data[genre].bg})`,
 				backgroundAttachment: "fixed",
@@ -627,7 +630,7 @@ export default function Event({ params }) {
 		>
 			<BackButton href={"/events/" + genre} />
 			<section className={Styles["main"]}>
-				<div className={`${myFont.className} ${Styles["heading"]}`}>
+				<div className={`${montserrat.className} ${Styles["heading"]}`}>
 					Rulebook
 				</div>
 				<div className={Styles["rulebook-wrapper"]}>

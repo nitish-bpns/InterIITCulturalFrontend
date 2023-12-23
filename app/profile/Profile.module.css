@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 
+.main {
+	min-height: 80vh;
+}
+
+.loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+}
+
 .profile-wrapper {
 	padding: 40px 0;
-	min-height: 76vh;
 }
 
 .admin-btn {

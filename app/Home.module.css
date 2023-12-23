@@ -6,10 +6,11 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	font-size: 2.2rem;
-	padding: 3rem;
+	font-size: 1.8rem;
+	padding: 2rem 1.6rem;
 	text-decoration: none;
 	transition: all 0.3s ease-in-out;
+	text-shadow: 0 0 5px #fef0df;
 }
 
 @media screen and (max-width: 768px) {
@@ -17,7 +18,7 @@
 		width: 12rem;
 		height: 18rem;
 		padding: 2rem;
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 	}
 }
 
@@ -43,7 +44,7 @@
 }
 
 .carousel {
-	width: 80%;
+	width: 70%;
 }
 
 @media screen and (max-width: 768px) {
