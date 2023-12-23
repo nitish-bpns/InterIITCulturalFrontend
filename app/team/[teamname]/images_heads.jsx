@@ -13,7 +13,7 @@ import Ashutosh_Patwariya from "@/public/assets/images/images_heads_temp/ashu.pn
 import Yuvraj_Singh from "@/public/assets/images/images_heads_temp/Yuvraj Singh.png";
 import Ruhul_Amin from "@/public/assets/images/images_heads_temp/Ruhul Amin.png";
 import Sakshi_Agarwal from "@/public/assets/images/images_heads_temp/Sakshi Agarwal.png";
-import Vaishnavi_Nikam from "@/public/assets/images/images_heads_temp/Vaishnavi Nikam.png";
+import Vaishnavi_Nikam from "@/public/assets/images/images_heads_temp/Sakshi Agarwal.png";
 import Deovardhan_ from "@/public/assets/images/images_heads_temp/deovardhan.png";
 import Suryansh_Patsaria from "@/public/assets/images/images_heads_temp/Suryansh Patsaria.png";
 import Tanishka_Garg from "@/public/assets/images/images_heads_temp/Tanishka.png";
@@ -52,11 +52,10 @@ import vijeta from "@/public/assets/images/images_heads_temp/vijeta.jpg";
 import ayushRP from "@/public/assets/images/images_heads_temp/ayushRP.JPG";
 import sanjana from "@/public/assets/images/images_heads_temp/sanjana.jpeg";
 
-
 const ImageVariableHeads = {
-	"Sumit Kumar":sumit,
-	"Ayush Raj":ayushRP,
-	"Sanjana Palle":sanjana,
+	"Sumit Kumar": sumit,
+	"Ayush Raj": ayushRP,
+	"Sanjana Palle": sanjana,
 	"Neeraj Patel": Neeraj_Patel,
 	"Priyanshu Sharma": Priyanshu_Sharma,
 	"Ananya Singh": Ananya_Singh,
