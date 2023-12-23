@@ -6,8 +6,13 @@ import LayoutProvider from "./LayoutProvider";
 import "../styles/globals.css";
 
 export const metadata = {
-	title: "Inter IIT Cultural Meet 6.0",
-	description: "Inter IIT Cultural Meet 6.0 Website",
+	title: {
+		template: "%s | Inter IIT Cultural Meet 6.0",
+		default: "Inter IIT Cultural Meet 6.0",
+	},
+	description:
+		"The official webisite for Inter IIT Cultural Meet 6.0 Website",
+	metadataBase: new URL("https://interiitculturals.org"),
 };
 
 export default function RootLayout({ children }) {
