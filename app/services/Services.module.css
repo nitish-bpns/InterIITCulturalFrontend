@@ -1,5 +1,6 @@
 .main {
 	-webkit-tap-highlight-color: transparent;
+	min-height: 80vh;
 }
 
 .plank-container {

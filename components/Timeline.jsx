@@ -8,14 +8,13 @@ import "./Timeline.css";
 
 import Link from "next/link";
 import Image from "next/image";
-import SNIG from "@/public/assets/images/home/carousel/campus_1.jpg";
 
 const busRoute = [
 	{
 		code: "SNIG",
 		name: "Sarojani Naidu/Indira Gandhi",
 		additional: "Hall of Residence",
-		image: SNIG,
+		image: "/assets/images/halls/SNIG.jpg",
 		location: "https://maps.app.goo.gl/vyWniws15TjqqdZ37",
 	},
 	{
@@ -50,7 +49,7 @@ const busRoute = [
 		code: "PAN Loop",
 		name: "PAN Loop Turn",
 		additional: "Patel, Azad, Nehru, PFC",
-		image: SNIG,
+		image: "/assets/images/halls/PANloop.jpg",
 		location: "https://maps.app.goo.gl/NahEhJWf9ddor4j26",
 	},
 	{
@@ -93,7 +92,7 @@ const busRoute = [
 		code: "SNVH",
 		name: "Sister Nivedita",
 		additional: "Hall of Residence",
-		image: SNIG,
+		image: "/assets/images/halls/SNVH.jpg",
 		location: "https://maps.app.goo.gl/DBs8dqyGQ2CWEhPY7",
 	},
 	{
@@ -107,7 +106,7 @@ const busRoute = [
 		code: "SNIG",
 		name: "Sarojani Naidu/Indira Gandhi",
 		additional: "Hall of Residence",
-		image: SNIG,
+		image: "/assets/images/halls/SNIG.jpg",
 		location: "https://maps.app.goo.gl/vyWniws15TjqqdZ37",
 	},
 ];

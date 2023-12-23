@@ -2,11 +2,86 @@
 	"RP": {
 		"name": "Rajendra Prasad Hall of Residence",
 		"location": "https://maps.app.goo.gl/bzBGWcPkNNBwThhB9",
-		"img": "/assets/images/home/carousel/campus_1.jpg"
+		"img": "/assets/images/home/carousel/RP.jpg"
 	},
 	"RK": {
 		"name": "Radhakrishnan Hall of Residence",
 		"location": "https://maps.app.goo.gl/M9TPjJoN4heurjak9",
 		"img": "/assets/images/halls/RK.jpg"
+	},
+	"GKH": {
+		"name": "Gokhale Hall of Residence",
+		"location": "https://maps.app.goo.gl/PAkSbvYE84ZcwCoK7",
+		"img": "/assets/images/halls/Gokhale.jpg"
+	},
+	"HJB": {
+		"name": "Homi Jahangir Bhabha Hall of Residence",
+		"location": "https://maps.app.goo.gl/GJ1YD6mFMNNRa1jq8",
+		"img": "/assets/images/halls/HJB_JCB.jpg"
+	},
+	"JCB": {
+		"name": "Jagdish Chandra Bose Hall of Residence",
+		"location": "https://maps.app.goo.gl/teZATERo2VavjSM66",
+		"img": "/assets/images/halls/HJB_JCB.jpg"
+	},
+	"LBS": {
+		"name": "Lal Bahadur Shastri Hall of Residence",
+		"location": "https://maps.app.goo.gl/sVrgS4GNqTirSUND9",
+		"img": "/assets/images/halls/LBS.jpg"
+	},
+	"LLR": {
+		"name": "Lala Lajpat Roy Hall of Residence",
+		"location": "https://maps.app.goo.gl/io4kuNtJ3z9VKxSE6",
+		"img": "/assets/images/halls/LLR.jpg"
+	},
+	"MS": {
+		"name": "Meghnad Saha Hall of Residence",
+		"location": "https://maps.app.goo.gl/QxMozmBY21v5WpGL8",
+		"img": "/assets/images/halls/MS.jpg"
+	},
+	"SNIG": {
+		"name": "Sarojani Naidu/Indira Gandhi Hall of Residence",
+		"location": "https://maps.app.goo.gl/K3WDwrKt8CnikDs36",
+		"img": "/assets/images/halls/SNIG.jpg"
+	},
+	"SNVH": {
+		"name": "Sister Nivedita Hall of Residence",
+		"location": "https://maps.app.goo.gl/2baKBDDZ6fWBLbk3A",
+		"img": "/assets/images/halls/SNVH.jpg"
+	},
+	"VS": {
+		"name": "Vidyasagar Hall of Residence",
+		"location": "https://maps.app.goo.gl/LSzf8zMGd2wGXyB97",
+		"img": "/assets/images/halls/VS.jpg"
+	},
+	"MMM": {
+		"name": "Lal Bahadur Shastri Hall of Residence",
+		"location": "https://maps.app.goo.gl/qCT8eSf6m7fn8KoQ8",
+		"img": "/assets/images/halls/MMM.jpg"
+	},
+	"Azad": {
+		"name": "Azad Hall of Residence",
+		"location": "https://maps.app.goo.gl/QEPq6wSENSAZRWJm9",
+		"img": "/assets/images/halls/Azad.jpg"
+	},
+	"Nehru": {
+		"name": "Nehru Hall of Residence",
+		"location": "https://maps.app.goo.gl/vyWJnJypTv4PpM796",
+		"img": "/assets/images/halls/Nehru.jpg"
+	},
+	"Patel": {
+		"name": "Patel Hall of Residence",
+		"location": "https://maps.app.goo.gl/dGQGDvEmsxRjEkLw6",
+		"img": "/assets/images/halls/Patel.jpg"
+	},
+	"MT": {
+		"name": "Mother Teresa Hall of Residence",
+		"location": "https://maps.app.goo.gl/VQyXdnqdCCw8jtUz9",
+		"img": "/assets/images/halls/MT.jpg"
+	},
+	"IGH": {
+		"name": "Sister Nivedita Hall of Residence / International Guest House",
+		"location": "https://maps.app.goo.gl/GtrjutiiB7PjNP9n7",
+		"img": "/assets/images/halls/IGH.jpg"
 	}
 }

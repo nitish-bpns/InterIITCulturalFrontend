@@ -2,6 +2,7 @@ import Styles from "./Food.module.css";
 import BackButton from "@/components/BackButton";
 import { Cookie } from "next/font/google";
 import Image from "next/image";
+import Link from "next/link";
 
 const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
@@ -29,9 +30,12 @@ export default function Food() {
 									height={1000}
 								/>
 								<div className={Styles["restaurant-info"]}>
-									<h2 className={Styles["restaurant-name"]}>
-										{restaurant.name}
-									</h2>
+									<Link href={restaurant.link}>
+										<h2>
+											{restaurant.name + " "}
+											<i className="fa-solid fa-map-location-dot"></i>
+										</h2>
+									</Link>
 									<p>
 										<strong>Location :</strong>{" "}
 										{restaurant.location}

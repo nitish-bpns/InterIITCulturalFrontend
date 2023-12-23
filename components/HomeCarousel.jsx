@@ -11,9 +11,10 @@ import img3 from "@/public/assets/images/home/carousel/campus_3.jpg";
 import img4 from "@/public/assets/images/home/carousel/campus_4.jpg";
 import img5 from "@/public/assets/images/home/carousel/campus_5.jpg";
 import img6 from "@/public/assets/images/home/carousel/campus_6.jpg";
+import img7 from "@/public/assets/images/home/carousel/campus_7.jpg";
 
 export default function HomeCarousel() {
-	const carousel = [img1, img2, img3, img4, img5, img6];
+	const carousel = [img7, img1, img2, img3, img4, img5, img6];
 
 	return (
 		<Carousel

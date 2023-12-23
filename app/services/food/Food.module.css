@@ -21,7 +21,7 @@
 
 .description {
 	color: #603d30;
-	font-size: 2vw;
+	font-size: 2rem;
 	font-weight: 300;
 	margin: 10px 0 20px 0;
 	text-align: center;
@@ -87,14 +87,22 @@
 
 .restaurant-info h2 {
 	color: #603d30;
-	font-size: 3vw;
+	font-size: 3rem;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
 
+.restaurant-info a {
+	text-decoration: none;
+}
+
+.restaurant-info h2 i {
+	font-size: 2rem;
+}
+
 .restaurant-info p {
 	color: #603d30;
-	font-size: 2vw;
+	font-size: 2.5rem;
 	font-weight: 300;
 	margin-bottom: 10px;
 }
@@ -102,7 +110,7 @@
 .restaurant-info ul li {
 	color: #603d30;
 	margin-bottom: 10px;
-	font-size: 2vw;
+	font-size: 2.5rem;
 	font-weight: 300;
 	margin-right: 10px;
 }
@@ -142,6 +150,9 @@
 	}
 	.restaurant-info h2 {
 		font-size: 2rem;
+	}
+	.restaurant-info h2 i {
+		font-size: 1.5rem;
 	}
 	.restaurant-info p {
 		font-size: 1.6rem;
