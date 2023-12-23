@@ -1,1 +1,145 @@
-[{"name":"Isha Singh ","ROLL NO":"2023uma0214","phone":"9810683951","email":"2023uma0214@iitjammu.ac.in","hall":"SNVH-IGH B101","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Prisha Suchak ","ROLL NO":"2023uma0230","phone":"9328164395","email":"2023uma2030@iitjammu.ac.in","hall":"SNVH-IGH B101","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Ekta Verma","ROLL NO":"2020uch0029","phone":"6307346674","email":"2020uch0029@iitjammu.ac.in","hall":"SNVH-IGH B101","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Palak","ROLL NO":"2023UME0270","phone":"6230962951","email":"2023ume0270@iitjammu.ac.in","hall":"SNVH-IGH B102","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Misti ","ROLL NO":"2023UCE0055","phone":"7889641613","email":"2023uce0055@iitjammu.ac.in","hall":"SNVH-IGH B102","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Mishthi Agarwal","ROLL NO":"2023UME0268","phone":"8439214422","email":"2023ume0268@iitjammu.ac.in","hall":"SNVH-IGH B102","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Tanu","ROLL NO":"2023UEE0156","phone":"7015791897","email":"2023uee0156@iitjammu.ac.in","hall":"SNVH-IGH B102","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Kashvi Sood ","ROLL NO":"2022UCE0011 ","phone":"7807891533","email":"2022uce0011@iitjammu.ac.in ","hall":"SNVH-IGH B102","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Dovala Umadevi","ROLL NO":"2020ucs0098","phone":"7702042033","email":"2020ucs0098@iitjammu.ac.in","hall":"SNVH-IGH B103","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Himani Khobragade","ROLL NO":"2020ucs0116","phone":"70248 24825","email":"2020ucs0116@iitjammu.ac.in","hall":"SNVH-IGH B103","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Navya Arora","ROLL NO":"2020ume0212","phone":"8287209700","email":"2020ume0212@iitjammu.ac.in","hall":"SNVH-IGH B103","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Nivedita ","ROLL NO":"2021Uch0023","phone":"7702200120","email":"2021uch0023@iitjammu.ac.in","hall":"SNVH-IGH B103","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"},{"name":"Gowri Priya ","ROLL NO":"2021umt0178","phone":"9063143421","email":"2021umt0178@iitjammu.ac.in","hall":"SNVH-IGH B103","mess":"","isAdmin":false,"otp":null,"instituteID":"IITJMU","gender":"F"}]
+[
+	{
+		"name": "Isha Singh",
+		"phone": "9810683951",
+		"email": "2023uma0214@iitjammu.ac.in",
+		"hall": "SNVH-IGH B101",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Prisha Suchak",
+		"phone": "9328164395",
+		"email": "2023uma2030@iitjammu.ac.in",
+		"hall": "SNVH-IGH B101",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Ekta Verma",
+		"phone": "6307346674",
+		"email": "2020uch0029@iitjammu.ac.in",
+		"hall": "SNVH-IGH B101",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Palak",
+		"phone": "6230962951",
+		"email": "2023ume0270@iitjammu.ac.in",
+		"hall": "SNVH-IGH B102",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Misti",
+		"phone": "7889641613",
+		"email": "2023uce0055@iitjammu.ac.in",
+		"hall": "SNVH-IGH B102",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Mishthi Agarwal",
+		"phone": "8439214422",
+		"email": "2023ume0268@iitjammu.ac.in",
+		"hall": "SNVH-IGH B102",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Tanu",
+		"phone": "7015791897",
+		"email": "2023uee0156@iitjammu.ac.in",
+		"hall": "SNVH-IGH B102",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Kashvi Sood",
+		"phone": "7807891533",
+		"email": "2022uce0011@iitjammu.ac.in",
+		"hall": "SNVH-IGH B102",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Dovala Umadevi",
+		"phone": "7702042033",
+		"email": "2020ucs0098@iitjammu.ac.in",
+		"hall": "SNVH-IGH B103",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Himani Khobragade",
+		"phone": "70248 24825",
+		"email": "2020ucs0116@iitjammu.ac.in",
+		"hall": "SNVH-IGH B103",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Navya Arora",
+		"phone": "8287209700",
+		"email": "2020ume0212@iitjammu.ac.in",
+		"hall": "SNVH-IGH B103",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Nivedita",
+		"phone": "7702200120",
+		"email": "2021uch0023@iitjammu.ac.in",
+		"hall": "SNVH-IGH B103",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	},
+	{
+		"name": "Gowri Priya",
+		"phone": "9063143421",
+		"email": "2021umt0178@iitjammu.ac.in",
+		"hall": "SNVH-IGH B103",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITJMU",
+		"gender": "F"
+	}
+]

@@ -1,1 +1,233 @@
-[{"name":"Sneha","ROLL NO":"hs22m112","phone":"7601076759","email":"hs22m112@iittp.ac.in","hall":"SNVH-IGH B001","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Chathurya","ROLL NO":"me21b011","phone":"9493235005","email":"me21b011@iittp.ac.in","hall":"SNVH-IGH B001","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Kowshiki","ROLL NO":"ce21b025","phone":"8639660090","email":"ce21b025@iittp.ac.in","hall":"SNVH-IGH B001","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Sri\u00a0vidhya","ROLL NO":"ce23b018","phone":"9392928789","email":"ce23b018@iittp.ac.in","hall":"SNVH-IGH B001","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Pallavi","ROLL NO":"ee22b051","phone":"9618791188","email":"ee22b051@iittp.ac.in","hall":"SNVH-IGH B002","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Bilwani","ROLL NO":"cs22b013","phone":"9121349911","email":"cs22b013@iittp.ac.in","hall":"SNVH-IGH B002","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Vaishnavi","ROLL NO":null,"phone":"9502322484","email":"Email_ID_not_available","hall":"SNVH-IGH B002","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Rama","ROLL NO":"me20b012","phone":"81065 32419","email":"me20b012@iittp.ac.in","hall":"SNVH-IGH B002","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Sneha Das","ROLL NO":"cy23m019","phone":"9864568970","email":"cy23m019@iittp.ac.in","hall":"SNVH-IGH B002","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Amulya","ROLL NO":"Hs22m102","phone":"89855 34722","email":"Hs22m102@iittp.ac.in","hall":"SNVH-IGH B003","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Sunidhi","ROLL NO":"ch21b037","phone":"97014 03695","email":"ch21b037@iittp.ac.in","hall":"SNVH-IGH B003","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Akshara","ROLL NO":"ee21b005","phone":"8328592360","email":"ee21b005@iittp.ac.in","hall":"SNVH-IGH B003","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Sindhuja","ROLL NO":"ee21b018","phone":"8328451265","email":"ee21b018@iittp.ac.in","hall":"SNVH-IGH B003","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Anshitha","ROLL NO":"hs23b005","phone":"9504398985","email":"hs23b005@iittp.ac.in","hall":"SNVH-IGH B003","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Akshita","ROLL NO":"hs23m103","phone":"8328592360","email":"hs23m103@iittp.ac.in","hall":"SNVH-IGH B004","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Anoushka","ROLL NO":"hs23m105","phone":"9530351419","email":"hs23m105@iittp.ac.in","hall":"SNVH-IGH B004","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Shruti","ROLL NO":null,"phone":"7517553369","email":"Email_ID_not_available","hall":"SNVH-IGH B004","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Saumya","ROLL NO":"me22b049","phone":"8789657215","email":"me22b049@iittp.ac.in","hall":"SNVH-IGH B004","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"palak ","ROLL NO":"ch22b026","phone":"9079319160","email":"ch22b026@iittp.ac.in","hall":"SNVH-IGH B004","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Sneha","ROLL NO":"me21b045","phone":"97405 59237","email":"me21b045@iittp.ac.in","hall":"SNVH-IGH B005","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Samara","ROLL NO":"me22b020","phone":"8500911929","email":"me22b020@iittp.ac.in","hall":"SNVH-IGH B005","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Shweta","ROLL NO":"ch21b033","phone":"9527793449","email":"ch21b033@iittp.ac.in","hall":"SNVH-IGH B005","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"},{"name":"Archana","ROLL NO":"me22b005","phone":"9080660787","email":"me22b005@iittp.ac.in","hall":"SNVH-IGH B005","mess":"","isAdmin":false,"otp":null,"instituteID":"IITT","gender":"F"}]
+[
+	{
+		"name": "Sneha",
+		"phone": "7601076759",
+		"email": "hs22m112@iittp.ac.in",
+		"hall": "SNVH-IGH B001",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Chathurya",
+		"phone": "9493235005",
+		"email": "me21b011@iittp.ac.in",
+		"hall": "SNVH-IGH B001",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Kowshiki",
+		"phone": "8639660090",
+		"email": "ce21b025@iittp.ac.in",
+		"hall": "SNVH-IGH B001",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Sri\u00a0vidhya",
+		"phone": "9392928789",
+		"email": "ce23b018@iittp.ac.in",
+		"hall": "SNVH-IGH B001",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Pallavi",
+		"phone": "9618791188",
+		"email": "ee22b051@iittp.ac.in",
+		"hall": "SNVH-IGH B002",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Bilwani",
+		"phone": "9121349911",
+		"email": "cs22b013@iittp.ac.in",
+		"hall": "SNVH-IGH B002",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Rama",
+		"phone": "81065 32419",
+		"email": "me20b012@iittp.ac.in",
+		"hall": "SNVH-IGH B002",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Sneha Das",
+		"phone": "9864568970",
+		"email": "cy23m019@iittp.ac.in",
+		"hall": "SNVH-IGH B002",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Amulya",
+		"phone": "89855 34722",
+		"email": "Hs22m102@iittp.ac.in",
+		"hall": "SNVH-IGH B003",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Sunidhi",
+		"phone": "97014 03695",
+		"email": "ch21b037@iittp.ac.in",
+		"hall": "SNVH-IGH B003",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Akshara",
+		"phone": "8328592360",
+		"email": "ee21b005@iittp.ac.in",
+		"hall": "SNVH-IGH B003",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Sindhuja",
+		"phone": "8328451265",
+		"email": "ee21b018@iittp.ac.in",
+		"hall": "SNVH-IGH B003",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Anshitha",
+		"phone": "9504398985",
+		"email": "hs23b005@iittp.ac.in",
+		"hall": "SNVH-IGH B003",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Akshita",
+		"phone": "8328592360",
+		"email": "hs23m103@iittp.ac.in",
+		"hall": "SNVH-IGH B004",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Anoushka",
+		"phone": "9530351419",
+		"email": "hs23m105@iittp.ac.in",
+		"hall": "SNVH-IGH B004",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Saumya",
+		"phone": "8789657215",
+		"email": "me22b049@iittp.ac.in",
+		"hall": "SNVH-IGH B004",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "palak",
+		"phone": "9079319160",
+		"email": "ch22b026@iittp.ac.in",
+		"hall": "SNVH-IGH B004",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Sneha",
+		"phone": "97405 59237",
+		"email": "me21b045@iittp.ac.in",
+		"hall": "SNVH-IGH B005",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Samara",
+		"phone": "8500911929",
+		"email": "me22b020@iittp.ac.in",
+		"hall": "SNVH-IGH B005",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Shweta",
+		"phone": "9527793449",
+		"email": "ch21b033@iittp.ac.in",
+		"hall": "SNVH-IGH B005",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	},
+	{
+		"name": "Archana",
+		"phone": "9080660787",
+		"email": "me22b005@iittp.ac.in",
+		"hall": "SNVH-IGH B005",
+		"mess": "",
+		"isAdmin": false,
+		"otp": null,
+		"instituteID": "IITT",
+		"gender": "F"
+	}
+]
