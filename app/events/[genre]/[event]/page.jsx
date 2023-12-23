@@ -18,7 +18,7 @@ import Hiba from "@/public/assets/images/events/judges/hiba.jpg";
 import Sammya from "@/public/assets/images/events/judges/sammya.jpeg";
 import Lokesh from "@/public/assets/images/events/judges/lokesh.jpg";
 import Anand from "@/public/assets/images/events/judges/anand.jpg";
-import Parag from "@/public/assets/images/events/judges/parag.jpg";
+import Parag from "@/public/assets/images/events/judges/parag.png";
 import Darniya from "@/public/assets/images/events/judges/darniya.jpg";
 import Jayati from "@/public/assets/images/events/judges/jayati.jpg";
 import Samarth from "@/public/assets/images/events/judges/samarth.jpeg";

@@ -13,7 +13,7 @@ import Ashutosh_Patwariya from "@/public/assets/images/images_heads_temp/ashu.pn
 import Yuvraj_Singh from "@/public/assets/images/images_heads_temp/Yuvraj Singh.png";
 import Ruhul_Amin from "@/public/assets/images/images_heads_temp/Ruhul Amin.png";
 import Sakshi_Agarwal from "@/public/assets/images/images_heads_temp/Sakshi Agarwal.png";
-import Vaishnavi_Nikam from "@/public/assets/images/images_heads_temp/Sakshi Agarwal.png";
+import Vaishnavi_Nikam from "@/public/assets/images/images_heads_temp/vaishnavi.jpg";
 import Deovardhan_ from "@/public/assets/images/images_heads_temp/deovardhan.png";
 import Suryansh_Patsaria from "@/public/assets/images/images_heads_temp/Suryansh Patsaria.png";
 import Tanishka_Garg from "@/public/assets/images/images_heads_temp/Tanishka.png";
