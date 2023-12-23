@@ -10,8 +10,7 @@ export const metadata = {
 		template: "%s | Inter IIT Cultural Meet 6.0",
 		default: "Inter IIT Cultural Meet 6.0",
 	},
-	description:
-		"The official webisite for Inter IIT Cultural Meet 6.0 Website",
+	description: "The official website for Inter IIT Cultural Meet 6.0",
 	keywords: [
 		"Inter",
 		"IIT",
