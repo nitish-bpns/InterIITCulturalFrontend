@@ -1,3 +1,4 @@
+import React from "react";
 import Styles from "./event.module.css";
 import { Satisfy } from "next/font/google";
 import BackButton from "@/components/BackButton";
@@ -776,15 +777,14 @@ export default function Event({ params }) {
 							{stages.map(
 								(stage, idx) =>
 									stage.code === event.code && (
-										<>
+										<React.Fragment key={idx}>
 											<h2>Auditorium :</h2>
 											<Image
-												key={idx}
 												src={stage.image}
 												alt={event.name}
 												className={Styles["event-img"]}
 											/>
-										</>
+										</React.Fragment>
 									)
 							)}
 							{rules.dimension && (
@@ -807,9 +807,9 @@ export default function Event({ params }) {
 					</h1>
 					<div className={Styles["judge-wrapper"]}>
 						{judges.map(
-							(judge) =>
+							(judge, index) =>
 								judge.code === event.code && (
-									<>
+									<React.Fragment key={index}>
 										{judge.images.map((person, idx) => (
 											<div
 												key={idx}
@@ -822,7 +822,7 @@ export default function Event({ params }) {
 												<h3>{person.name}</h3>
 											</div>
 										))}
-									</>
+									</React.Fragment>
 								)
 						)}
 					</div>
