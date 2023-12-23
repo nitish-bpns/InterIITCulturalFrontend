@@ -4,14 +4,14 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import localFont from "next/font/local";
-import { Single_Day } from "next/font/google";
+import { Handlee } from "next/font/google";
 import Image from "next/image";
 import Styles from "./Navbar.module.css";
 import ILU from "@/public/assets/images/ILU.png";
 import hamburger from "@/public/assets/images/hamburger.png";
 
 const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
-const single_Day = Single_Day({
+const handlee = Handlee({
 	weight: ["400"],
 	subsets: ["latin"],
 });
@@ -26,7 +26,7 @@ export default function Navbar() {
 	}, [pathname]);
 
 	return (
-		<nav className={`${Styles["navbar"]} ${myFont.className}`}>
+		<nav className={`${Styles["navbar"]} ${handlee.className}`}>
 			<div className={Styles["navbar-header"]}>
 				<Link href="/">
 					<Image

@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import localFont from "next/font/local";
+import { Montserrat } from "next/font/google";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
@@ -22,6 +23,10 @@ import Home from "@/public/assets/images/home_icon.png";
 import { ThreeDots } from "react-loader-spinner";
 
 const myFont = localFont({ src: "../../public/assets/fonts/Dreaming.woff2" });
+const montserrat = Montserrat({
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	subsets: ["latin"],
+});
 
 function findEventByCode(code) {
 	for (const genre in eventsData) {
@@ -80,7 +85,7 @@ export default function Profile() {
 
 	const MainPage = () => {
 		return (
-			<main className={myFont.className + Styles["main"]}>
+			<main className={montserrat.className + Styles["main"]}>
 				<section className={Styles["profile-wrapper"]}>
 					<div className={Styles["title-bar"]}>
 						{user.isAdmin ? (
@@ -139,7 +144,7 @@ export default function Profile() {
 
 	const PersonalInfoPage = () => {
 		return (
-			<main className={myFont.className + Styles["main"]}>
+			<main className={montserrat.className + Styles["main"]}>
 				<section className={Styles["personal-info-wrapper"]}>
 					<h1>Personal Info</h1>
 					<div className={Styles["personal-info"]}>
@@ -171,7 +176,7 @@ export default function Profile() {
 
 	const EventDetailsPage = () => {
 		return (
-			<main className={myFont.className + Styles["main"]}>
+			<main className={montserrat.className + Styles["main"]}>
 				<section className={Styles["event-details"]}>
 					<h1>Registered Event Details</h1>
 					<Table
@@ -210,7 +215,7 @@ export default function Profile() {
 
 	const AccomodationPage = () => {
 		return (
-			<main className={myFont.className + Styles["main"]}>
+			<main className={montserrat.className + Styles["main"]}>
 				<section className={Styles["personal-info-wrapper"]}>
 					<h1>Accomodation</h1>
 					<div className={Styles["acco-info"]}>
@@ -276,7 +281,7 @@ export default function Profile() {
 			{page == 3 && <AccomodationPage />}
 		</>
 	) : (
-		<main className={myFont.className + Styles["main"]}>
+		<main className={montserrat.className + Styles["main"]}>
 			<section className={Styles["loader"]}>
 				<ThreeDots
 					visible={true}

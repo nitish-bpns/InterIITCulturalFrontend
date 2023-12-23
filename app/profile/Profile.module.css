@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Handlee&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .main {
 	min-height: 80vh;
@@ -13,6 +13,7 @@
 
 .profile-wrapper {
 	padding: 40px 0;
+	font-family: "montserrat", sans-serif;
 }
 
 .admin-btn {
@@ -44,10 +45,10 @@
 }
 
 .title-bar h1 {
-	font-family: "Cookie", cursive;
-	font-size: 5vw;
+	font-family: "Handlee", cursive;
+	font-size: 4vw;
 	color: #603d30;
-	font-weight: 300;
+	font-weight: 600;
 	text-align: center;
 }
 
@@ -137,7 +138,7 @@
 		padding: 20px 0 20px 0;
 	}
 	.title-bar h1 {
-		font-size: 7vw;
+		font-size: 5vw;
 	}
 	.btn {
 		border-radius: 4vw;
@@ -171,7 +172,7 @@
 		padding: 20px 0 0 0;
 	}
 	.title-bar h1 {
-		font-size: 8vw;
+		font-size: 6vw;
 	}
 	.sign-out-btn {
 		font-size: 4vw;
@@ -259,6 +260,7 @@
 .personal-info {
 	display: flex;
 	flex-direction: column;
+	font-family: "montserrat", sans-serif;
 	justify-content: space-between;
 	padding: 40px 60px;
 	width: 80%;

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap"); */
 
 .main {
 	display: flex;
@@ -17,8 +17,8 @@
 
 .heading {
 	color: #603d30;
-	font-size: 5rem;
-	font-family: "Cookie", cursive;
+	font-size: 4rem;
+	/* font-family: "Cookie", cursive; */
 	font-weight: 400;
 	word-wrap: break-word;
 	margin: 40px 10px 20px 10px;

@@ -75,6 +75,9 @@ const TeamName = ({ params }) => {
 									<div className={PageStyles.memberName}>
 										{coordinator.name}
 									</div>
+									<div className={PageStyles.memberPhone}>
+										{coordinator.phone}
+									</div>
 									<div className={PageStyles.socialIcons}>
 										<a
 											href={coordinator.fblink}

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Styles from "@/styles/page.module.css";
-import { Satisfy } from "next/font/google";
+import { Neucha } from "next/font/google";
 
 import DancePic from "@/public/assets/images/home/dance.jpeg";
 import MusicPic from "@/public/assets/images/home/music.png";
@@ -13,11 +13,11 @@ import LeaderboardComponent from "@/components/LeaderboardComponent";
 import HomeCarousel from "@/components/HomeCarousel";
 
 const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
-const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
+const neucha = Neucha({ weight: "400", subsets: ["latin"] });
 
 export default function Home() {
 	return (
-		<main className={satisfy.className}>
+		<main className={neucha.className}>
 			<section className={Styles["main"]}>
 				<div className={PageStyles["carousel"]}>
 					<HomeCarousel />

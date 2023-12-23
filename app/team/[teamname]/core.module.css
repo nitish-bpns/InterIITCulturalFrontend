@@ -150,7 +150,17 @@
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
-	color: #0da591;
+	color: #ffffff;
+	margin-bottom: 10px;
+	opacity: 100%;
+	text-shadow: 2px 2px 5px #525252;
+}
+
+.memberPhone {
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	color: #ffffff;
 	margin-bottom: 10px;
 	opacity: 100%;
 	text-shadow: 2px 2px 5px #525252;

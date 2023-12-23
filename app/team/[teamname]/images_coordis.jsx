@@ -18,6 +18,7 @@ import zaid from "@/public/assets/images/team_pics_coordinators/zaid.JPG";
 import zeeshan from "@/public/assets/images/team_pics_coordinators/zeeshan.JPG";
 import rishita from "@/public/assets/images/team_pics_coordinators/rishita.JPG";
 import rishi from "@/public/assets/images/team_pics_coordinators/rishi.JPG";
+import shroyon from "@/public/assets/images/team_pics_coordinators/shroyon.jpg";
 
 const ImageVariableCoordinators = {
 	"Zeeshan Khan": zeeshan,
@@ -40,6 +41,7 @@ const ImageVariableCoordinators = {
 	"JAI KUMAR SONI": jai,
 	"Sanchay Mahato": sanchay,
 	Harishwar: harishwar,
+	"Shroyon Dasgupta": shroyon,
 };
 
 export default ImageVariableCoordinators;
