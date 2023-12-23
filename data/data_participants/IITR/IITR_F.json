@@ -759,17 +759,6 @@
 		"gender": "F"
 	},
 	{
-		"name": "Ananya Kumar",
-		"phone": "9167989296",
-		"email": "ananya_k@ma.iitr.ac.in",
-		"hall": "SNVH-IGH B206",
-		"mess": "",
-		"isAdmin": false,
-		"otp": null,
-		"instituteID": "IITR",
-		"gender": "F"
-	},
-	{
 		"name": "Zenith Gupta",
 		"phone": "7982292859",
 		"email": "zenith_g@mfs.iitr.ac.in",

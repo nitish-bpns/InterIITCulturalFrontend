@@ -407,17 +407,6 @@
 		"gender": "M"
 	},
 	{
-		"name": "Mayank Garg",
-		"phone": "8557031199",
-		"email": "m_garg@ar.iitr.ac.in",
-		"hall": "LBS DD-106",
-		"mess": "",
-		"isAdmin": false,
-		"otp": null,
-		"instituteID": "IITR",
-		"gender": "M"
-	},
-	{
 		"name": "C. Likith",
 		"phone": "7032052408",
 		"email": "chinchati_lk@ar.iitr.ac.in",

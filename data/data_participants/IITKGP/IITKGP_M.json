@@ -363,17 +363,6 @@
 		"gender": "M"
 	},
 	{
-		"name": "Ratan Junior",
-		"phone": "9861815354",
-		"email": "ratanjunior@kgpian.iitkgp.ac.in",
-		"hall": "RK E-220",
-		"mess": "",
-		"isAdmin": false,
-		"otp": null,
-		"instituteID": "IITKGP",
-		"gender": "M"
-	},
-	{
 		"name": "Aditya Yadav",
 		"phone": "8318759190",
 		"email": "adityayadav7236@gmail.com",
@@ -1144,17 +1133,6 @@
 		"gender": "M"
 	},
 	{
-		"name": "Ayush Agrawal",
-		"phone": "6204673375",
-		"email": "ayush2019agrawal@gmail.com",
-		"hall": "RK E320",
-		"mess": "",
-		"isAdmin": false,
-		"otp": null,
-		"instituteID": "IITKGP",
-		"gender": "M"
-	},
-	{
 		"name": "Admya maheshwari",
 		"phone": "9303580079",
 		"email": "aadimaheshwari888@gmail.com",
@@ -1169,17 +1147,6 @@
 		"name": "Yuvraj Gill",
 		"phone": "9389716079",
 		"email": "yuvraj.gill1602@gmail.com",
-		"hall": "RK E320",
-		"mess": "",
-		"isAdmin": false,
-		"otp": null,
-		"instituteID": "IITKGP",
-		"gender": "M"
-	},
-	{
-		"name": "Mehul Shah",
-		"phone": "8879795521",
-		"email": "mehul634shah@gmail.com",
 		"hall": "RK E320",
 		"mess": "",
 		"isAdmin": false,

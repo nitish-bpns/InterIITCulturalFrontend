@@ -708,18 +708,6 @@
 		"gender": "M"
 	},
 	{
-		"name": "Harsh Lokhande",
-		"ROLL NO": null,
-		"phone": "9424393956",
-		"email": "20je0287@me.iitism.ac.in",
-		"hall": "LBS C-321",
-		"mess": "",
-		"isAdmin": false,
-		"otp": null,
-		"instituteID": "IITDHN",
-		"gender": "M"
-	},
-	{
 		"name": "Shovit Kumar",
 		"ROLL NO": null,
 		"phone": "7488760269",
@@ -1972,18 +1960,6 @@
 		"ROLL NO": null,
 		"phone": "7992377166",
 		"email": "20je0753@agp.iitism.ac.in",
-		"hall": "LBS D-420",
-		"mess": "",
-		"isAdmin": false,
-		"otp": null,
-		"instituteID": "IITDHN",
-		"gender": "M"
-	},
-	{
-		"name": "Nakshatra Sharma",
-		"ROLL NO": null,
-		"phone": "9625519610",
-		"email": "22je0599@iitism.ac.in",
 		"hall": "LBS D-420",
 		"mess": "",
 		"isAdmin": false,

@@ -638,17 +638,6 @@
 		"gender": "M"
 	},
 	{
-		"name": "Rishi",
-		"phone": "9065447636",
-		"email": "parthojaiswal03@gmail.com",
-		"hall": "LBS C-506",
-		"mess": "",
-		"isAdmin": false,
-		"otp": null,
-		"instituteID": "IITD",
-		"gender": "M"
-	},
-	{
 		"name": "Vatsal",
 		"phone": "9602019242",
 		"email": "vatsal.mathur04@gmail.com",

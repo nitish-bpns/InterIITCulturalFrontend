@@ -143,17 +143,6 @@
 		"gender": "M"
 	},
 	{
-		"name": "Abhinandan",
-		"phone": "6299450703",
-		"email": "b22255@students.iitmandi.ac.in",
-		"hall": "MMM SDS-106",
-		"mess": "",
-		"isAdmin": false,
-		"otp": null,
-		"instituteID": "IITMD",
-		"gender": "M"
-	},
-	{
 		"name": "Utkarsh Yadav",
 		"phone": "7523014337",
 		"email": "b21326@students.iitmandi.ac.in",
@@ -377,17 +366,6 @@
 		"name": "Milan Jadav",
 		"phone": "9316688983",
 		"email": "b23134@students.iitmandi.ac.in",
-		"hall": "MMM SDS-116",
-		"mess": "",
-		"isAdmin": false,
-		"otp": null,
-		"instituteID": "IITMD",
-		"gender": "M"
-	},
-	{
-		"name": "Divyanshu",
-		"phone": "7570970309",
-		"email": "b22009@students.iitmandi.ac.in",
 		"hall": "MMM SDS-116",
 		"mess": "",
 		"isAdmin": false,

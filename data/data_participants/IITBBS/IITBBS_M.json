@@ -11,17 +11,6 @@
 		"gender": "M"
 	},
 	{
-		"name": "Ayush Kashyap",
-		"phone": "7488089039",
-		"email": "20cs01068@iitbbs.ac.in",
-		"hall": "RP E-101",
-		"mess": "",
-		"isAdmin": false,
-		"otp": null,
-		"instituteID": "IITBBS",
-		"gender": "M"
-	},
-	{
 		"name": "Rohit Matta",
 		"phone": "8309634919",
 		"email": "21cs01022@iitbbs.ac.in",
