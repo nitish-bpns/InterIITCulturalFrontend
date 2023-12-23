@@ -82,7 +82,7 @@ export default function Events({ params }) {
 					</p>
 					<p>
 						<span>Phone Number : </span>
-						{user.phone}
+						<a href={"tel:" + user.phone}>{user.phone}</a>
 					</p>
 					<p>
 						<span>Email : </span>
