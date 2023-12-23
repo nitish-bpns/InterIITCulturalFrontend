@@ -81,7 +81,12 @@ export async function POST(req) {
 		);
 		return NextResponse.json(
 			{
-				teams,
+				teams: teams.map((team) => {
+					return {
+						...team,
+						emails: team.emails.join(", "),
+					};
+				}),
 				count,
 			},
 			{

@@ -2,13 +2,13 @@
 
 import Styles from "./FAQsComponent.module.css";
 import { useState } from "react";
-import { Roboto_Mono } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import downArrow from "@/public/assets/images/down-arrow.svg";
 import upArrow from "@/public/assets/images/up-arrow.svg";
 import Image from "next/image";
 
-const roboto_Mono = Roboto_Mono({
-	weight: ["100", "200", "300", "400", "500", "600", "700"],
+const montserrat = Montserrat({
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 	subsets: ["latin"],
 });
 
@@ -23,7 +23,7 @@ export default function FAQsComponent(props) {
 	return (
 		<section className={Styles["faq-section"]}>
 			<h1 className={Styles["faq-heading"]}>FAQs</h1>
-			<ul className={`${Styles["faq-wrapper"]} ${roboto_Mono.className}`}>
+			<ul className={`${Styles["faq-wrapper"]} ${montserrat.className}`}>
 				{faqs.map((faq, index) => (
 					<li
 						key={index}

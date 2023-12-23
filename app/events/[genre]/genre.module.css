@@ -41,13 +41,13 @@
 }
 
 .main-plank-name {
-	transform: translate(-50%, 60%);
-	font-size: 3.5vw;
+	transform: translate(-50%, 70%);
+	font-size: 3.8vw;
 }
 
 .event-name {
-	transform: translate(-50%, 80%);
-	font-size: 2vw;
+	transform: translate(-50%, 95%);
+	font-size: 2.5vw;
 }
 
 @media (max-width: 1000px) {

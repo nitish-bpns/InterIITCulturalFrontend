@@ -22,6 +22,7 @@ export default function SignInForm() {
 
 	const [data, setData] = useState({
 		email: "",
+		phone: "",
 	});
 
 	const handleChange = (e) => {
@@ -39,22 +40,13 @@ export default function SignInForm() {
 				headers: {
 					"Content-Type": "application/json",
 				},
-				body: JSON.stringify({
-					...data,
-					step: "otp" in data ? 2 : 1,
-				}),
+				body: JSON.stringify(data),
 			});
 			const json = await res.json();
-			if (res.status === 200) {
+			if (res.ok) {
 				toast.success(json.message, toastDict);
 				localStorage.setItem("interiit-cultural-token", json.token);
 				router.push("/profile");
-			} else if (res.status === 201) {
-				toast.success(json.message, toastDict);
-				setData({
-					...data,
-					otp: "",
-				});
 			} else {
 				toast.error(json.message, toastDict);
 			}
@@ -76,21 +68,22 @@ export default function SignInForm() {
 					onChange={handleChange}
 				/>
 			</div>
-			{"otp" in data && (
-				<div className={Styles["input-container"]}>
-					<label className={myFont.className}>OTP:</label>
-					<input
-						name="otp"
-						type="text"
-						placeholder={"OTP sent to " + data.email}
-						required
-						value={data.otp}
-						onChange={handleChange}
-					/>
-				</div>
-			)}
+
+			<div className={Styles["input-container"]}>
+				<label className={myFont.className}>
+					Regsitered Phone Number
+				</label>
+				<input
+					name="phone"
+					type="text"
+					placeholder="Registered Phone Number"
+					required
+					value={data.phone}
+					onChange={handleChange}
+				/>
+			</div>
 			<button type="submit" className={myFont.className}>
-				{"otp" in data ? "Login" : "Send OTP"}
+				Login
 			</button>
 		</form>
 	);

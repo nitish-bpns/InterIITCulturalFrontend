@@ -28,7 +28,7 @@ export default function Events({ params }) {
 	const [teams, setTeams] = useState([]);
 	const [count, setCount] = useState(0);
 
-	const [searchField, setSearchField] = useState("institutionID");
+	const [searchField, setSearchField] = useState("instituteID");
 	const [search, setSearch] = useState("");
 
 	const loadData = async () => {
@@ -55,11 +55,13 @@ export default function Events({ params }) {
 			});
 			const { teams, count } = await res.json();
 			if (!teams) {
-				toast.error("User not found.", toastDict);
+				toast.error("Teams not found.", toastDict);
 				router.push("/admin");
 				return;
 			}
-			setTeams(teams);
+			setTeams(
+				teams.map((team) => ({ ...team, insti: team.instituteID }))
+			);
 			setCount(count);
 		} catch (error) {
 			toast.error("Something went wrong! Please try again.", toastDict);
@@ -72,13 +74,15 @@ export default function Events({ params }) {
 
 	const columns = {
 		_id: "Serial Number",
-		instituteID: "Institute",
+		insti: "Institute",
 		score: "Score",
+		emails: "Emails",
 	};
 
 	let downloadHeaders = [
 		{ label: "Institute", key: "instituteID" },
 		{ label: "Score", key: "score" },
+		{ label: "Emails", key: "emails" },
 	];
 
 	return (
@@ -105,6 +109,7 @@ export default function Events({ params }) {
 				}}
 			>
 				<option value="instituteID">Institute</option>
+				<option value="emails">Emails</option>
 			</select>
 			&nbsp;&nbsp;Value:&nbsp;&nbsp;
 			{searchField === "instituteID" ? (

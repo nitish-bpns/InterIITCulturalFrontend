@@ -6,6 +6,10 @@ import Image from "next/image";
 
 const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
+export const metadata = {
+	title: "Sponsors",
+};
+
 const Spons = () => {
 	const sponsors = [
 		{

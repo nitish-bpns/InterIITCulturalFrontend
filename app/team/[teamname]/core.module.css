@@ -67,10 +67,16 @@
 	}
 }
 
+.memberInfo {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
 .socialIcons {
 	display: flex;
-	gap: 10px;
 	justify-content: space-around;
+	width: 60%;
 }
 
 .socialIcons a {
@@ -80,7 +86,7 @@
 }
 
 .socialIcons a:hover {
-	color: #afafaf;
+	color: #696969;
 }
 
 .memberContainer {
@@ -143,11 +149,11 @@
 .memberName {
 	font-size: 16px;
 	font-weight: bold;
-	margin-top: 10px;
 	text-align: center;
 	color: #0da591;
 	margin-bottom: 10px;
 	opacity: 100%;
+	text-shadow: 2px 2px 5px #525252;
 }
 
 .figure {
@@ -166,20 +172,11 @@
 	display: grid;
 	align-items: end;
 	font-family: sans-serif;
-	font-size: 100px;
 	font-weight: bold;
-	color: #ff6262;
 	padding: 0.75rem;
-	background: var(--c, #a5510640);
-	clip-path: inset(0 var(--_i, 100%) 0 0);
 	-webkit-mask: linear-gradient(#ffffff 0 0), linear-gradient(#000 0 0);
-	/* -webkit-mask-composite: xor; */
-	-webkit-mask-clip: text, padding-box;
+	mask: linear-gradient(#fff 0 0), linear-gradient(#000 0 0);
 	margin: -1px;
-}
-
-.figure:hover .figcaption {
-	--_i: 0%;
 }
 
 .figure:hover img {
@@ -189,6 +186,7 @@
 @supports not (-webkit-mask-clip: text) {
 	.figure .figcaption {
 		-webkit-mask: none;
+		mask: none;
 		color: #ffffff;
 	}
 }

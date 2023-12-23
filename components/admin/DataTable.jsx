@@ -173,12 +173,35 @@ export default function DataTable(props) {
 											>
 												{part[val]}
 											</Link>
-										) : val == "email" ? (
-											<a href={"mailto:" + part[val]}>
-												{part[val]}
-											</a>
-										) : val == "instituteID" ? (
+										) : val.startsWith("email") ? (
+											<>
+												{part[val]
+													.split(", ")
+													.map((email) => (
+														<>
+															<Link
+																href={
+																	"/admin/user/" +
+																	email
+																}
+															>
+																{email}
+															</Link>
+															<br />
+														</>
+													))}
+											</>
+										) : val == "instituteID" ? ( //for users table
 											institutes[part[val]]
+										) : val == "insti" ? ( //for events table
+											<Link
+												href={
+													"/admin/event/details/" +
+													part["_id"].valueOf()
+												}
+											>
+												{institutes[part[val]]}
+											</Link>
 										) : (
 											part[val]
 										)

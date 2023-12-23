@@ -1,5 +1,6 @@
+import React from "react";
 import Styles from "./event.module.css";
-import { Satisfy } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import BackButton from "@/components/BackButton";
 import ErrorPage from "@/components/ErrorPage";
 import localFont from "next/font/local";
@@ -17,7 +18,7 @@ import Hiba from "@/public/assets/images/events/judges/hiba.jpg";
 import Sammya from "@/public/assets/images/events/judges/sammya.jpeg";
 import Lokesh from "@/public/assets/images/events/judges/lokesh.jpg";
 import Anand from "@/public/assets/images/events/judges/anand.jpg";
-import Parag from "@/public/assets/images/events/judges/parag.jpg";
+import Parag from "@/public/assets/images/events/judges/parag.png";
 import Darniya from "@/public/assets/images/events/judges/darniya.jpg";
 import Jayati from "@/public/assets/images/events/judges/jayati.jpg";
 import Samarth from "@/public/assets/images/events/judges/samarth.jpeg";
@@ -53,7 +54,28 @@ import SNBose from "@/public/assets/images/events/SNBose.png";
 const myFont = localFont({
 	src: "../../../../public/assets/fonts/Dreaming.woff2",
 });
-const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
+const montserrat = Montserrat({
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+	subsets: ["latin"],
+});
+
+export function generateMetadata({ params }) {
+	const genre = params.genre;
+	if (!data[genre]) {
+		return {
+			title: "404",
+		};
+	}
+	let event = params.event;
+	if (!data[genre].events[event]) {
+		return {
+			title: "404",
+		};
+	}
+	return {
+		title: data[genre].events[event].name,
+	};
+}
 
 export default function Event({ params }) {
 	const genre = params.genre;
@@ -62,7 +84,6 @@ export default function Event({ params }) {
 	}
 
 	let event = params.event;
-
 	if (!data[genre].events[event]) {
 		return <ErrorPage statusCode={404} />;
 	}
@@ -599,7 +620,7 @@ export default function Event({ params }) {
 
 	return (
 		<main
-			className={`${satisfy.className} ${Styles["main-wrapper"]}`}
+			className={`${montserrat.className} ${Styles["main-wrapper"]}`}
 			style={{
 				backgroundImage: `url(${data[genre].bg})`,
 				backgroundAttachment: "fixed",
@@ -609,7 +630,7 @@ export default function Event({ params }) {
 		>
 			<BackButton href={"/events/" + genre} />
 			<section className={Styles["main"]}>
-				<div className={`${myFont.className} ${Styles["heading"]}`}>
+				<div className={`${montserrat.className} ${Styles["heading"]}`}>
 					Rulebook
 				</div>
 				<div className={Styles["rulebook-wrapper"]}>
@@ -759,15 +780,14 @@ export default function Event({ params }) {
 							{stages.map(
 								(stage, idx) =>
 									stage.code === event.code && (
-										<>
+										<React.Fragment key={idx}>
 											<h2>Auditorium :</h2>
 											<Image
-												key={idx}
 												src={stage.image}
 												alt={event.name}
 												className={Styles["event-img"]}
 											/>
-										</>
+										</React.Fragment>
 									)
 							)}
 							{rules.dimension && (
@@ -790,9 +810,9 @@ export default function Event({ params }) {
 					</h1>
 					<div className={Styles["judge-wrapper"]}>
 						{judges.map(
-							(judge) =>
+							(judge, index) =>
 								judge.code === event.code && (
-									<>
+									<React.Fragment key={index}>
 										{judge.images.map((person, idx) => (
 											<div
 												key={idx}
@@ -805,7 +825,7 @@ export default function Event({ params }) {
 												<h3>{person.name}</h3>
 											</div>
 										))}
-									</>
+									</React.Fragment>
 								)
 						)}
 					</div>

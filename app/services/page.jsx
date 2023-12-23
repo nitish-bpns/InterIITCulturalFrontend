@@ -13,6 +13,10 @@ import Link from "next/link";
 
 const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
+export const metadata = {
+	title: "Services",
+};
+
 export default function Services() {
 	return (
 		<main className={cookie.className}>

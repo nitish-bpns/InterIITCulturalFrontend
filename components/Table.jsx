@@ -1,10 +1,10 @@
 import PageStyles from "./Table.module.css";
 import localFont from "next/font/local";
-import { Roboto_Mono } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
-const roboto_Mono = Roboto_Mono({
-	weight: ["100", "200", "300", "400", "500", "600", "700"],
+const montserrat = Montserrat({
+	weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 	subsets: ["latin"],
 });
 
@@ -33,7 +33,7 @@ export default function Table(props) {
 			</div>
 			{rows.map((value, idx) => (
 				<div
-					className={PageStyles["tr"] + " " + roboto_Mono.className}
+					className={PageStyles["tr"] + " " + montserrat.className}
 					key={idx}
 				>
 					{cols.map((col, index) => (

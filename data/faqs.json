@@ -25,15 +25,15 @@
 	},
 	{
 		"question": "What cultural events and competitions are part of the Inter-IIT Cultural Meet?",
-		"answer": "The events and competitions that are part of the Inter IIT Cultural Meet are: Dance, Music, Drama, Literary Arts, Fine Arts, Photography, Film Making, and Quiz. Each of these categories has multiple events and competitions. For more details, please visit the Events page or Refer to the Rule Book (Link)."
+		"answer": "The events and competitions that are part of the Inter IIT Cultural Meet are: Dance, Music, Drama, Literary Arts, Fine Arts, Photography, Film Making, and Quiz. Each of these categories has multiple events and competitions. For more details, please visit the Events page."
 	},
 	{
 		"question": "How many participants are allowed in each team for group events?",
-		"answer": "The maximum number of participants allowed in each event differ from event to event. For more details, please visit the Events page or Refer to the Rule Book (Link)."
+		"answer": "The maximum number of participants allowed in each event differ from event to event. For more details, please visit the Events page or Refer to the Events page."
 	},
 	{
 		"question": "Are there any specific rules for each cultural event or competition?",
-		"answer": "Yes, there are specific rules for each event and competition. For more details, Refer to the Rule Book (Link)."
+		"answer": "Yes, there are specific rules for each event and competition. For more details, Refer to the Rule Book in Events page."
 	},
 	{
 		"question": "Will accommodation be provided for participants?",
@@ -62,9 +62,5 @@
 	{
 		"question": "Is there a closing ceremony, and do I need an invitation to attend?",
 		"answer": "Yes, there is a closing ceremony. All participants are invited to attend the closing ceremony."
-	},
-	{
-		"question": "Is there a helpline or email address for queries related to the cultural meet?",
-		"answer": "Yes, there is a helpline and email address for queries related to the cultural meet. For more details, please visit the Contact page."
 	}
 ]

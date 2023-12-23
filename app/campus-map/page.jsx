@@ -3,6 +3,10 @@ import { Satisfy } from "next/font/google";
 
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
+export const metadata = {
+	title: "Campus Map",
+};
+
 export default function CampusMap() {
 	return (
 		<main className={satisfy.className}>

@@ -4,12 +4,17 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import localFont from "next/font/local";
+import { Single_Day } from "next/font/google";
 import Image from "next/image";
 import Styles from "./Navbar.module.css";
 import ILU from "@/public/assets/images/ILU.png";
 import hamburger from "@/public/assets/images/hamburger.png";
 
 const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
+const single_Day = Single_Day({
+	weight: ["400"],
+	subsets: ["latin"],
+});
 
 export default function Navbar() {
 	const pathname = usePathname();
@@ -85,12 +90,14 @@ export default function Navbar() {
 				>
 					Schedule
 				</Link>
-				<a
-					href="https://www.spons.interiitculturals.org"
-					target="_blank"
+				<Link
+					href="/sponsors"
+					onClick={() => {
+						setDropdownVisible(false);
+					}}
 				>
 					Sponsors
-				</a>
+				</Link>
 				<Link
 					href={isSignedIn ? "/profile" : "/signin"}
 					onClick={() => {

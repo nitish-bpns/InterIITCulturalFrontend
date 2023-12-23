@@ -9,6 +9,18 @@ import Styles from "@/styles/page.module.css";
 
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
+export function generateMetadata({ params }) {
+	const day = params.day;
+	if (!data[day]) {
+		return {
+			title: "404",
+		};
+	}
+	return {
+		title: "Day " + day + " Schedule",
+	};
+}
+
 export default function Page({ params }) {
 	const day = params.day;
 	if (!data[day]) return <ErrorPage statusCode={404} />;
