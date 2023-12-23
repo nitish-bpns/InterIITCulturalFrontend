@@ -18,6 +18,10 @@ import Day3PlankMob from "@/public/assets/images/schedule_team/Day3_mob.png";
 
 const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
+export const metadata = {
+	title: "Schedule",
+};
+
 export default function Schedule() {
 	return (
 		<main className={cookie.className}>

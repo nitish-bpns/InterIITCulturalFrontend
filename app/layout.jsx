@@ -12,6 +12,18 @@ export const metadata = {
 	},
 	description:
 		"The official webisite for Inter IIT Cultural Meet 6.0 Website",
+	keywords: [
+		"Inter",
+		"IIT",
+		"Cultural",
+		"Meet",
+		"6",
+		"6.0",
+		"Kharagpur",
+		"KGP",
+		"competition",
+		"championship",
+	],
 	metadataBase: new URL("https://interiitculturals.org"),
 };
 

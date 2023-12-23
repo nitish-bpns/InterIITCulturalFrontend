@@ -17,6 +17,10 @@ import QuizPlank from "@/public/assets/images/events/planks/quiz.png";
 
 const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
+export const metadata = {
+	title: "Events",
+};
+
 export default function Events() {
 	return (
 		<main className={cookie.className}>

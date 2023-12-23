@@ -7,6 +7,10 @@ const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
 import restaurants from "@/data/restaurants";
 
+export const metadata = {
+	title: "Food",
+};
+
 export default function Food() {
 	return (
 		<main className={cookie.className}>

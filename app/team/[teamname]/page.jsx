@@ -13,6 +13,18 @@ const myFont = localFont({
 	src: "../../../public/assets/fonts/Dreaming.woff2",
 });
 
+export function generateMetadata({ params }) {
+	const teamname = params.teamname;
+	if (!data[teamname]) {
+		return {
+			title: "404",
+		};
+	}
+	return {
+		title: data[teamname].title + " Team",
+	};
+}
+
 const TeamName = ({ params }) => {
 	const teamname = params.teamname;
 	if (!data[teamname]) {

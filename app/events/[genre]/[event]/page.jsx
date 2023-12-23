@@ -55,6 +55,24 @@ const myFont = localFont({
 });
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
+export function generateMetadata({ params }) {
+	const genre = params.genre;
+	if (!data[genre]) {
+		return {
+			title: "404",
+		};
+	}
+	let event = params.event;
+	if (!data[genre].events[event]) {
+		return {
+			title: "404",
+		};
+	}
+	return {
+		title: data[genre].events[event].name,
+	};
+}
+
 export default function Event({ params }) {
 	const genre = params.genre;
 	if (!data[genre]) {
@@ -62,7 +80,6 @@ export default function Event({ params }) {
 	}
 
 	let event = params.event;
-
 	if (!data[genre].events[event]) {
 		return <ErrorPage statusCode={404} />;
 	}
