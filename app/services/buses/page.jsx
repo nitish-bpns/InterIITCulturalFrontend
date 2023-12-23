@@ -5,6 +5,10 @@ import { Cookie } from "next/font/google";
 
 const cookie = Cookie({ weight: "400", subsets: ["latin"] });
 
+export const metadata = {
+	title: "Buses",
+};
+
 export default function Buses() {
 	return (
 		<main className={cookie.className}>

@@ -1,3 +1,4 @@
+import React from "react";
 import Styles from "./event.module.css";
 import { Satisfy } from "next/font/google";
 import BackButton from "@/components/BackButton";
@@ -55,6 +56,24 @@ const myFont = localFont({
 });
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
+export function generateMetadata({ params }) {
+	const genre = params.genre;
+	if (!data[genre]) {
+		return {
+			title: "404",
+		};
+	}
+	let event = params.event;
+	if (!data[genre].events[event]) {
+		return {
+			title: "404",
+		};
+	}
+	return {
+		title: data[genre].events[event].name,
+	};
+}
+
 export default function Event({ params }) {
 	const genre = params.genre;
 	if (!data[genre]) {
@@ -62,7 +81,6 @@ export default function Event({ params }) {
 	}
 
 	let event = params.event;
-
 	if (!data[genre].events[event]) {
 		return <ErrorPage statusCode={404} />;
 	}
@@ -759,15 +777,14 @@ export default function Event({ params }) {
 							{stages.map(
 								(stage, idx) =>
 									stage.code === event.code && (
-										<>
+										<React.Fragment key={idx}>
 											<h2>Auditorium :</h2>
 											<Image
-												key={idx}
 												src={stage.image}
 												alt={event.name}
 												className={Styles["event-img"]}
 											/>
-										</>
+										</React.Fragment>
 									)
 							)}
 							{rules.dimension && (
@@ -790,9 +807,9 @@ export default function Event({ params }) {
 					</h1>
 					<div className={Styles["judge-wrapper"]}>
 						{judges.map(
-							(judge) =>
+							(judge, index) =>
 								judge.code === event.code && (
-									<>
+									<React.Fragment key={index}>
 										{judge.images.map((person, idx) => (
 											<div
 												key={idx}
@@ -805,7 +822,7 @@ export default function Event({ params }) {
 												<h3>{person.name}</h3>
 											</div>
 										))}
-									</>
+									</React.Fragment>
 								)
 						)}
 					</div>
