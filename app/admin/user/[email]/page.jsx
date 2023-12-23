@@ -86,7 +86,7 @@ export default function Events({ params }) {
 					</p>
 					<p>
 						<span>Email : </span>
-						{user.email}
+						<a href={"mailto:" + user.email}>{user.email}</a>
 					</p>
 					<p>
 						<span>Gender : </span>

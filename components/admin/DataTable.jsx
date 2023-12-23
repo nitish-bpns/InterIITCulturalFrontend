@@ -173,11 +173,7 @@ export default function DataTable(props) {
 											>
 												{part[val]}
 											</Link>
-										) : val == "email" ? (
-											<a href={"mailto:" + part[val]}>
-												{part[val]}
-											</a>
-										) : val == "emails" ? (
+										) : val.startsWith("email") ? (
 											<>
 												{part[val]
 													.split(", ")
