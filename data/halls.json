@@ -9,7 +9,7 @@
 		"location": "https://maps.app.goo.gl/M9TPjJoN4heurjak9",
 		"img": "/assets/images/halls/RK.jpg"
 	},
-	"GKH": {
+	"Gokhale": {
 		"name": "Gokhale Hall of Residence",
 		"location": "https://maps.app.goo.gl/PAkSbvYE84ZcwCoK7",
 		"img": "/assets/images/halls/Gokhale.jpg"
@@ -79,7 +79,7 @@
 		"location": "https://maps.app.goo.gl/VQyXdnqdCCw8jtUz9",
 		"img": "/assets/images/halls/MT.jpg"
 	},
-	"IGH": {
+	"SNVH-IGH": {
 		"name": "Sister Nivedita Hall of Residence / International Guest House",
 		"location": "https://maps.app.goo.gl/GtrjutiiB7PjNP9n7",
 		"img": "/assets/images/halls/IGH.jpg"
