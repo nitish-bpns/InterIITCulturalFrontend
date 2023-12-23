@@ -1,0 +1,15 @@
+.map {
+  height: auto;
+  width: 80%;
+  margin: 0 10% 5% 10%;
+}
+.head2 {
+  display: block;
+  text-align: center;
+}
+
+@media screen and (max-width: 464px) {
+  .head2 {
+    display: none;
+  }
+}
