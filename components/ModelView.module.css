@@ -1,19 +1,20 @@
 .modelFrame {
   width: 80%;
   height: 50rem;
-  margin: 0 10% 0 10%;
+  margin: 20px 10%;
 }
 
 @media screen and (max-width: 464px) {
   .modelFrame {
     width: 90%;
     height: 20rem;
-    margin: 0 5% 0 5%;
+    margin: 20px 5%;
   }
 }
 
 .toggle-button {
   display: flex;
+  margin-top: 20px;
 }
 
 .disabledCheck {

@@ -5,7 +5,11 @@ export function Model(props) {
   const { nodes, materials } = useGLTF("/Model.gltf");
   return (
     <group {...props} dispose={null}>
-      <group rotation={[Math.PI / 2, 0, 0]} scale={0.0015}>
+      <group
+        position={[-0.62, 0, 0.278]}
+        rotation={[Math.PI / 2, 0, 0]}
+        scale={0.0015}
+      >
         <mesh
           geometry={nodes.final_map001_1.geometry}
           material={materials["Custom (5)"]}

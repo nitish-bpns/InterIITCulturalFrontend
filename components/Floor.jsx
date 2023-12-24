@@ -16,16 +16,9 @@ function Floor(props) {
     <mesh {...props} recieveshadow>
       <Canvas
         shadows={true}
-        // linear={true}
-        // flat={true}
-        // colorManagement={true}
-        // concurrect={true}
-        // frameloop="always"
-        // concurrent
-        // draggable={true}
         camera={{
           fov: 30,
-          position: [0, 2, 4],
+          position: [-0.3, 0.17, 0.2],
         }}
       >
         <ambientLight color={"white"} intensity={0.2} shadow={true} />
@@ -33,11 +26,11 @@ function Floor(props) {
         {/* Main gate arrow */}
         <Arrow
           scale={0.25}
-          position={[0.68, 0.02, -0.8]}
+          position={[0.06, 0.02, -0.55]}
           rotation={[0, -2, 0]}
         />
         <Text
-          position={[0.68, 0.04, -0.8]}
+          position={[0.06, 0.04, -0.51]}
           rotation={[0, -2, 0]}
           scale={0.02}
           color="black"
@@ -48,13 +41,9 @@ function Floor(props) {
         </Text>
 
         {/* Main Building location */}
-        <Map
-          scale={0.01}
-          position={[0.62, 0.125, -0.278]}
-          rotation={[0, -1.5, 0]}
-        />
+        <Map scale={0.01} position={[0, 0.13, 0]} rotation={[0, -1.5, 0]} />
         <Text
-          position={[0.62, 0.15, -0.278]}
+          position={[0, 0.16, 0]}
           rotation={[0, -1.5, 0]}
           scale={0.02}
           color="black"
@@ -67,11 +56,11 @@ function Floor(props) {
         {/* TOAT location */}
         <Map
           scale={0.01}
-          position={[0.43, 0.04, -0.08]}
+          position={[-0.19, 0.04, 0.198]}
           rotation={[0, -1.5, 0]}
         />
         <Text
-          position={[0.43, 0.071, -0.08]}
+          position={[-0.19, 0.071, 0.198]}
           rotation={[0, -1.5, 0]}
           scale={0.02}
           color="black"
@@ -84,11 +73,11 @@ function Floor(props) {
         {/* Netaji Auditorium location */}
         <Map
           scale={0.01}
-          position={[0.58, 0.04, -0.13]}
+          position={[-0.04, 0.04, 0.148]}
           rotation={[0, -1.5, 0]}
         />
         <Text
-          position={[0.58, 0.07, -0.13]}
+          position={[-0.04, 0.07, 0.148]}
           rotation={[0, -1.5, 0]}
           scale={0.02}
           color="black"
@@ -98,10 +87,14 @@ function Floor(props) {
           Netaji Auditorium
         </Text>
 
-        {/* TOAT location */}
-        <Map scale={0.01} position={[0.34, 0.03, 0]} rotation={[0, -1.5, 0]} />
+        {/* Arena location */}
+        <Map
+          scale={0.01}
+          position={[-0.28, 0.03, 0.278]}
+          rotation={[0, -1.5, 0]}
+        />
         <Text
-          position={[0.34, 0.06, 0]}
+          position={[-0.28, 0.06, 0.278]}
           rotation={[0, -1.5, 0]}
           scale={0.02}
           color="black"
@@ -112,9 +105,13 @@ function Floor(props) {
         </Text>
 
         {/* Jnan ghosh Stadium Location */}
-        <Map scale={0.01} position={[-0.18, 0.02, 0]} rotation={[0, -1.5, 0]} />
+        <Map
+          scale={0.01}
+          position={[-0.8, 0.02, 0.278]}
+          rotation={[0, -1.5, 0]}
+        />
         <Text
-          position={[-0.18, 0.05, 0]}
+          position={[-0.8, 0.05, 0.278]}
           rotation={[0, -1.5, 0]}
           scale={0.02}
           color="black"
@@ -127,11 +124,11 @@ function Floor(props) {
         {/* Vikramshila location */}
         <Map
           scale={0.01}
-          position={[0.85, 0.03, 0.26]}
+          position={[0.23, 0.03, 0.538]}
           rotation={[0, -1.5, 0]}
         />
         <Text
-          position={[0.85, 0.06, 0.26]}
+          position={[0.23, 0.06, 0.538]}
           rotation={[0, -1.5, 0]}
           scale={0.02}
           color="black"
@@ -144,11 +141,11 @@ function Floor(props) {
         {/* Nehru Museum */}
         <Map
           scale={0.01}
-          position={[1.45, 0.11, -0.24]}
+          position={[0.83, 0.11, 0.038]}
           rotation={[0, -1.5, 0]}
         />
         <Text
-          position={[1.45, 0.14, -0.24]}
+          position={[0.83, 0.14, 0.038]}
           rotation={[0, -1.5, 0]}
           scale={0.02}
           color="black"
@@ -161,11 +158,11 @@ function Floor(props) {
         {/* Nalanda Classroom Complex */}
         <Map
           scale={0.01}
-          position={[1.69, 0.05, 0.16]}
+          position={[1.07, 0.05, 0.438]}
           rotation={[0, -1.5, 0]}
         />
         <Text
-          position={[1.69, 0.08, 0.16]}
+          position={[1.07, 0.08, 0.438]}
           rotation={[0, -1.5, 0]}
           scale={0.02}
           color="black"
@@ -178,11 +175,11 @@ function Floor(props) {
         {/* Gymkhana location */}
         <Map
           scale={0.01}
-          position={[-0.55, 0.03, -0.065]}
+          position={[-1.17, 0.03, 0.213]}
           rotation={[0, -1.5, 0]}
         />
         <Text
-          position={[-0.55, 0.06, -0.065]}
+          position={[-1.17, 0.06, 0.213]}
           rotation={[0, -1.5, 0]}
           scale={0.02}
           color="black"
@@ -196,11 +193,11 @@ function Floor(props) {
         {/* Swimming Pool location */}
         <Map
           scale={0.01}
-          position={[-0.72, 0.025, 0.1]}
+          position={[-1.34, 0.025, 0.378]}
           rotation={[0, -1.5, 0]}
         />
         <Text
-          position={[-0.72, 0.055, 0.1]}
+          position={[-1.34, 0.055, 0.378]}
           rotation={[0, -1.5, 0]}
           scale={0.02}
           color="black"
@@ -214,7 +211,7 @@ function Floor(props) {
         <directionalLight
           color="white"
           intensity={1.7}
-          position={[-1, 0.5, -1]}
+          position={[-1.5, 0.5, -1.5]}
           shadow={true}
         />
         {/* <fog attach="fog" color="white" near={1} far={15} /> */}
