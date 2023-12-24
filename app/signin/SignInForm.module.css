@@ -1,37 +1,50 @@
 .input-container {
-  text-align: left; /* Align label and input to the left */
-  margin-bottom: 20px;
+	text-align: left; /* Align label and input to the left */
+	margin-bottom: 20px;
 }
 
 .input-container label {
-  display: block;
-  margin-bottom: 5px;
-  color: #fff;
+	display: block;
+	margin-bottom: 5px;
+	color: #fff;
+	font-size: 2rem;
 }
 
 .input-container input {
-  width: 100%;
-  padding: 15px; /* Increased padding */
-  margin-top: 5px; /* Added space between label and input */
-  box-sizing: border-box;
-  border: 2px solid #fff; /* Increased border thickness */
-  border-radius: 10px; /* Increased border-radius */
-  font-size: 16px; /* Increased font-size */
+	width: 100%;
+	padding: 15px; /* Increased padding */
+	margin-top: 5px; /* Added space between label and input */
+	box-sizing: border-box;
+	border: 2px solid #fff; /* Increased border thickness */
+	border-radius: 10px; /* Increased border-radius */
+	font-size: 16px; /* Increased font-size */
 }
 
 .form button {
-  width: 100%;
-  padding: 15px; /* Increased padding */
-  box-sizing: border-box;
-  border: none;
-  border-radius: 10px; /* Increased border-radius */
-  background: #4285f4;
-  color: #fff;
-  cursor: pointer;
-  font-size: 18px; /* Increased font-size */
-  transition: background 0.3s ease; /* Added hover effect */
+	width: 100%;
+	padding: 15px; /* Increased padding */
+	box-sizing: border-box;
+	border: none;
+	border-radius: 10px; /* Increased border-radius */
+	background: #4285f4;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px; /* Increased font-size */
+	transition: background 0.3s ease; /* Added hover effect */
 }
 
 .form button:hover {
-  background: #3367d6; /* Darker color on hover */
+	background: #3367d6; /* Darker color on hover */
+}
+
+@media (max-width: 768px) {
+	.input-container label {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.input-container label {
+		font-size: 1.5rem;
+	}
 }

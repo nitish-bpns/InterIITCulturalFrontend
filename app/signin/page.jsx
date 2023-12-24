@@ -1,10 +1,11 @@
 import SignInForm from "./SignInForm";
 import Styles from "./Signin.module.css";
 
-import localFont from "next/font/local";
+import { Handlee } from "next/font/google";
 
-const myFont = localFont({
-	src: "../../public/assets/fonts/Dreaming.woff2",
+const handlee = Handlee({
+	weight: "400",
+	subsets: ["latin"],
 });
 
 export const metadata = {
@@ -15,7 +16,7 @@ export default async function SignIn() {
 	return (
 		<div className={Styles["signin-container"]}>
 			<div className={Styles["signin-box"]}>
-				<h1 className={`${myFont.className} ${Styles["heading"]}`}>
+				<h1 className={`${handlee.className} ${Styles["heading"]}`}>
 					Sign In
 				</h1>
 				<SignInForm />

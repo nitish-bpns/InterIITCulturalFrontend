@@ -4,11 +4,12 @@ import { useState, useEffect } from "react";
 import { toast, toastDict } from "@/lib/toastify";
 import { useRouter } from "next/navigation";
 
-import localFont from "next/font/local";
+import { Handlee } from "next/font/google";
 import Styles from "./SignInForm.module.css";
 
-const myFont = localFont({
-	src: "../../public/assets/fonts/Dreaming.woff2",
+const handlee = Handlee({
+	weight: "400",
+	subsets: ["latin"],
 });
 
 export default function SignInForm() {
@@ -58,7 +59,7 @@ export default function SignInForm() {
 	return (
 		<form onSubmit={handleSubmit} className={Styles["form"]}>
 			<div className={Styles["input-container"]}>
-				<label className={myFont.className}>Email:</label>
+				<label className={handlee.className}>Email</label>
 				<input
 					name="email"
 					type="email"
@@ -70,7 +71,7 @@ export default function SignInForm() {
 			</div>
 
 			<div className={Styles["input-container"]}>
-				<label className={myFont.className}>
+				<label className={handlee.className}>
 					Regsitered Phone Number
 				</label>
 				<input
@@ -82,7 +83,7 @@ export default function SignInForm() {
 					onChange={handleChange}
 				/>
 			</div>
-			<button type="submit" className={myFont.className}>
+			<button type="submit" className={handlee.className}>
 				Login
 			</button>
 		</form>
