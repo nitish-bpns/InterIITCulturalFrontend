@@ -114,7 +114,11 @@ export default function DataTable(props) {
 							<th
 								key={index}
 								onClick={() => {
-									if (sortField == val)
+									if (
+										sortField == val ||
+										(val == "insti" &&
+											sortField == "instituteID")
+									)
 										setTableControls({
 											...props.tableControls,
 											sortDir: -sortDir,
@@ -123,7 +127,10 @@ export default function DataTable(props) {
 										setTableControls({
 											...props.tableControls,
 											page: 1,
-											sortField: val,
+											sortField:
+												val == "insti"
+													? "instituteID"
+													: val,
 											sortDir: 1,
 										});
 									}
@@ -133,7 +140,9 @@ export default function DataTable(props) {
 								}}
 							>
 								{columns[val] + " "}
-								{sortField == val &&
+								{(sortField == val ||
+									(val == "insti" &&
+										sortField == "instituteID")) &&
 									(sortDir > 0 ? (
 										<i
 											className="fa fa-caret-up"
