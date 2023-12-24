@@ -1,16 +1,17 @@
 "use client";
 
-import React, { useRef } from "react";
-// import { Model } from "./model";
+import { useState } from "react";
 import { OrbitControls, Text, Image } from "@react-three/drei";
-import { useFrame } from "@react-three/fiber";
 import { Model } from "./Model";
 import { Map } from "./Map";
 import { Canvas } from "@react-three/fiber";
-import { PointLight } from "three";
 import { Arrow } from "./Arrow";
 
+import Styles from "./ModelView.module.css";
+
 function Floor(props) {
+  const [rotation, setRotation] = useState(true);
+
   return (
     <mesh {...props} recieveshadow>
       <Canvas
@@ -187,6 +188,7 @@ function Floor(props) {
           color="black"
           anchorX="center"
           anchorY="middle"
+          direction=""
         >
           Gymkhana
         </Text>
@@ -219,7 +221,7 @@ function Floor(props) {
 
         <OrbitControls
           enablePan={true}
-          autoRotate={true}
+          autoRotate={rotation}
           autoRotateSpeed={1}
           enableZoom={true}
           maxDistance={6}
@@ -230,6 +232,30 @@ function Floor(props) {
         />
         <Model />
       </Canvas>
+
+      <div className={Styles["toggle-button"]}>
+        <h4>Auto Rotation</h4>
+        <input
+          type="checkbox"
+          id="toggle"
+          className={Styles["disabledCheck"]}
+          checked={rotation}
+          onClick={() => {
+            setRotation(!rotation);
+          }}
+        />
+        <>
+          <label
+            for="toggle"
+            className={Styles["toggle"] + " " + Styles["off"]}
+          >
+            OFF
+          </label>
+          <label for="toggle" className={Styles["toggle"] + " " + Styles["on"]}>
+            ON
+          </label>
+        </>
+      </div>
       {/* </OrbitControls> */}
     </mesh>
   );

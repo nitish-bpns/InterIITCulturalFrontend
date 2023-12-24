@@ -7,7 +7,7 @@ import PageStyles from "./page.module.css";
 const satisfy = Satisfy({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
-	title: "Campus Map",
+  title: "Campus Map",
 };
 
 export default function CampusMap() {
@@ -24,6 +24,7 @@ export default function CampusMap() {
       <Image
         height={1000}
         width={1000}
+        alt="2D Map"
         className={PageStyles.map}
         src="/assets/images/map.jpg"
       />
