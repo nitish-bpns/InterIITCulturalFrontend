@@ -31,6 +31,11 @@ export default function RegisterUser() {
 			const json = await res.json();
 			if (res.ok) {
 				toast.success(json.message, toastDict);
+				setFormData({
+					...formData,
+					instituteID: "",
+					emails: [],
+				});
 			} else {
 				toast.error(json.message, toastDict);
 				if (res.status === 401) router.push("/");
@@ -48,10 +53,11 @@ export default function RegisterUser() {
 	};
 
 	return (
-		<div>
-			<h1>Register for Event (Enter Team Details)</h1>
+		<center>
+			<h1>Register Participating Teams for Event (Enter Team Details)</h1>
+			<br />
 			<form onSubmit={handleSubmit}>
-				<label htmlFor="eventCode">Event </label>
+				<label htmlFor="eventCode">Event</label>{" "}
 				<select
 					name="eventCode"
 					value={formData.eventCode}
@@ -72,7 +78,8 @@ export default function RegisterUser() {
 					})}
 				</select>
 				<br />
-				<label htmlFor="instituteID">Institute </label>
+				<br />
+				<label htmlFor="instituteID">Institute</label>{" "}
 				<select
 					name="instituteID"
 					value={formData.instituteID}
@@ -89,21 +96,17 @@ export default function RegisterUser() {
 					})}
 				</select>
 				<br />
-				<label htmlFor="emails">Emails </label>
-				<button
-					onClick={(e) => {
-						e.preventDefault();
-						setFormData({
-							...formData,
-							emails: [...formData.emails, ""],
-						});
-					}}
-				>
-					Add Email
-				</button>
+				<br />
+				<label htmlFor="emails">
+					Add Participants Emails (members of same team, add only 1
+					email if individual)
+				</label>
+				<br />
+				<br />
 				{formData.emails.map((email, index) => {
 					return (
 						<div key={index}>
+							{index + 1 + ". "}
 							<input
 								type="text"
 								value={email}
@@ -116,8 +119,11 @@ export default function RegisterUser() {
 									});
 								}}
 								required
-							/>
+							/>{" "}
 							<button
+								style={{
+									padding: "0px 5px",
+								}}
 								onClick={(e) => {
 									e.preventDefault();
 									const newEmails = formData.emails;
@@ -130,12 +136,28 @@ export default function RegisterUser() {
 							>
 								X
 							</button>
+							<br />
+							<br />
 						</div>
 					);
 				})}
 				<br />
-				<button>Register</button>
+				<button
+					style={{ padding: "0px 5px" }}
+					onClick={(e) => {
+						e.preventDefault();
+						setFormData({
+							...formData,
+							emails: [...formData.emails, ""],
+						});
+					}}
+				>
+					Add Email
+				</button>
+				<br />
+				<br />
+				<button style={{ padding: "0px 5px" }}>Register</button>
 			</form>
-		</div>
+		</center>
 	);
 }
