@@ -186,7 +186,35 @@ export default function DataTable(props) {
 																}
 															>
 																{email}
-															</Link>
+															</Link>{" "}
+															<a
+																style={{
+																	cursor: "pointer",
+																	color: "blue",
+																}}
+																onClick={(
+																	e
+																) => {
+																	navigator.clipboard.writeText(
+																		email
+																	);
+																	e.target.innerHTML =
+																		"Copied!";
+																	e.target.style.color =
+																		"green";
+																	setTimeout(
+																		() => {
+																			e.target.innerHTML =
+																				"Copy Email";
+																			e.target.style.color =
+																				"blue";
+																		},
+																		1000
+																	);
+																}}
+															>
+																Copy Email
+															</a>
 															<br />
 														</>
 													))}

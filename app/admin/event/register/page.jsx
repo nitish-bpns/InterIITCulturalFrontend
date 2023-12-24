@@ -102,6 +102,20 @@ export default function RegisterUser() {
 				</label>
 				<br />
 				<br />
+				<button
+					style={{ padding: "0px 5px" }}
+					onClick={(e) => {
+						e.preventDefault();
+						setFormData({
+							...formData,
+							emails: [...formData.emails, ""],
+						});
+					}}
+				>
+					Add Email
+				</button>
+				<br />
+				<br />
 				{formData.emails.map((email, index) => {
 					return (
 						<div key={index}>
@@ -140,20 +154,6 @@ export default function RegisterUser() {
 						</div>
 					);
 				})}
-				<br />
-				<button
-					style={{ padding: "0px 5px" }}
-					onClick={(e) => {
-						e.preventDefault();
-						setFormData({
-							...formData,
-							emails: [...formData.emails, ""],
-						});
-					}}
-				>
-					Add Email
-				</button>
-				<br />
 				<br />
 				<button style={{ padding: "0px 5px" }}>Register</button>
 			</form>
