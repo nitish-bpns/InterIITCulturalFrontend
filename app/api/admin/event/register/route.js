@@ -25,18 +25,18 @@ export async function POST(req) {
 		}
 
 		for (let i = 0; i < emails.length; i++) {
-			let email = emails[i];
-			if (!validator.isEmail(email)) {
+			emails[i] = emails[i].trim().toLowerCase();
+
+			if (!validator.isEmail(emails[i])) {
 				return NextResponse.json(
 					{
-						message: "Invalid email! - " + email,
+						message: "Invalid email! - " + emails[i],
 					},
 					{
 						status: 406,
 					}
 				);
 			}
-			emails[i] = email.toLowerCase();
 		}
 
 		// check duplicate emails

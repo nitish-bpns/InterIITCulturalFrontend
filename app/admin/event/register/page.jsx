@@ -33,7 +33,6 @@ export default function RegisterUser() {
 				toast.success(json.message, toastDict);
 				setFormData({
 					...formData,
-					instituteID: "",
 					emails: [],
 				});
 			} else {
