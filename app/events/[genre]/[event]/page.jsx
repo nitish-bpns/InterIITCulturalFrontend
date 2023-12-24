@@ -53,7 +53,7 @@ import Sandeep from "@/public/assets/images/events/judges/Sandeep.jpg";
 import Kaushik from "@/public/assets/images/events/judges/Kaushik.jpg";
 import Saatvik from "@/public/assets/images/events/judges/Saatvik.jpg";
 import Shashwat from "@/public/assets/images/events/judges/Shashwat.jpg";
-import Manika from "@/public/assets/images/events/judges/Manika.jpg";
+import Pratham from "@/public/assets/images/events/judges/Pratham.jpg";
 
 // Auditorium Images
 import Kalidas from "@/public/assets/images/events/kalidas.png";
