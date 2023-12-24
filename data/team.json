@@ -109,6 +109,13 @@
 		],
 		"heads": [
 			{
+				"name": "Anurag Saha",
+				"portfolio": "Core-Ops",
+				"mail": "sahaanuragabash@gmail.com",
+				"fblink": "https://www.facebook.com/profile.php?id=100076368730138",
+				"linkedin": "www.linkedin.com"
+			},
+			{
 				"name": "Anmol Kumar Mishra",
 				"portfolio": "Core-Ops",
 				"mail": "anmolmishra.iitkgp@gmail.com",
@@ -156,13 +163,6 @@
 				"mail": "pranav.bhadane.iitkgp@gmail,com",
 				"fblink": "https://www.facebook.com/profile.php?id=100075640234375",
 				"linkedin": "https://www.linkedin.com/in/pranav-bhadane-iitkgp/"
-			},
-			{
-				"name": "Anurag Saha",
-				"portfolio": "Core-Ops",
-				"mail": "sahaanuragabash@gmail.com",
-				"fblink": "https://www.facebook.com/profile.php?id=100076368730138",
-				"linkedin": "www.linkedin.com"
 			},
 			{
 				"name": "Ashutosh Patwariya",

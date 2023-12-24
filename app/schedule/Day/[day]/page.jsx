@@ -29,42 +29,44 @@ export default function Page({ params }) {
 			<BackButton href={`/schedule`} />
 			<section className={Styles["main"]}>
 				<h1 className={Styles["heading"]}>Day {day}</h1>
-				<Table
-					data={{
-						cols: [
-							{
-								name: "Event",
-								width: "50%",
-							},
-							{
-								name: "Venue",
-								width: "30%",
-							},
-							{
-								name: "Time",
-								width: "20%",
-							},
-						],
-						rows: data[day].map((row) => {
-							return {
-								...row,
-								Venue: (
-									<a
-										href={row.Location}
-										target="_blank"
-										style={{
-											color: "#000",
-											textDecoration: "none",
-										}}
-									>
-										<i class="fa-solid fa-map-location-dot"></i>{" "}
-										{row.Venue}
-									</a>
-								),
-							};
-						}),
-					}}
-				/>
+				<div className={Styles["table"]}>
+					<Table
+						data={{
+							cols: [
+								{
+									name: "Event",
+									width: "50%",
+								},
+								{
+									name: "Venue",
+									width: "30%",
+								},
+								{
+									name: "Time",
+									width: "20%",
+								},
+							],
+							rows: data[day].map((row) => {
+								return {
+									...row,
+									Venue: (
+										<a
+											href={row.Location}
+											target="_blank"
+											style={{
+												color: "#000",
+												textDecoration: "none",
+											}}
+										>
+											<i class="fa-solid fa-map-location-dot"></i>{" "}
+											{row.Venue}
+										</a>
+									),
+								};
+							}),
+						}}
+					/>
+				</div>
 			</section>
 		</main>
 	);
