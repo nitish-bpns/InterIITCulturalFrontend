@@ -314,6 +314,10 @@
 	padding: 20px 0;
 }
 
+.event-table {
+	width: 80%;
+}
+
 .event-details h1 {
 	font-family: "Handlee", cursive;
 	font-size: 4vw;

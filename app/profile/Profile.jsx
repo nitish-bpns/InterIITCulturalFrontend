@@ -179,35 +179,38 @@ export default function Profile() {
 			<main className={montserrat.className + Styles["main"]}>
 				<section className={Styles["event-details"]}>
 					<h1>Registered Event Details</h1>
-					<Table
-						data={{
-							cols: [
-								{
-									name: "Event",
-									width: "70%",
-								},
-								{
-									name: "Score",
-									width: "30%",
-								},
-							],
-							rows: user.events.map((event) => {
-								event = {
-									...event,
-									...findEventByCode(event.eventCode),
-								};
-								return {
-									Event: (
-										<Link href={event.link}>
-											{event.name}
-										</Link>
-									),
-									Institute: institutes[event.instituteID],
-									Score: event.score,
-								};
-							}),
-						}}
-					/>
+					<div className={Styles["event-table"]}>
+						<Table
+							data={{
+								cols: [
+									{
+										name: "Event",
+										width: "70%",
+									},
+									{
+										name: "Score",
+										width: "30%",
+									},
+								],
+								rows: user.events.map((event) => {
+									event = {
+										...event,
+										...findEventByCode(event.eventCode),
+									};
+									return {
+										Event: (
+											<Link href={event.link}>
+												{event.name}
+											</Link>
+										),
+										Institute:
+											institutes[event.instituteID],
+										Score: event.score,
+									};
+								}),
+							}}
+						/>
+					</div>
 				</section>
 			</main>
 		);

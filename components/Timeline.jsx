@@ -33,14 +33,14 @@ const busRoute = [
 	},
 	{
 		code: "LLR",
-		name: "Lala Lajpat Roy",
+		name: "Lala Lajpat Rai",
 		additional: "Hall of Residence",
 		image: "/assets/images/halls/LLR.jpg",
 		location: "https://maps.app.goo.gl/cKmUKwWH5oBeQW6w6",
 	},
 	{
 		code: "LBS",
-		name: "Lal Bahadur Shashtri",
+		name: "Lal Bahadur Shastri",
 		additional: "Hall of Residence",
 		image: "/assets/images/halls/LBS.jpg",
 		location: "https://maps.app.goo.gl/k4SgeJUsmAKXxDvk8",
