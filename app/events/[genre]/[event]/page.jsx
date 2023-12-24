@@ -45,6 +45,15 @@ import Samanway from "@/public/assets/images/events/judges/samanway.jpg";
 import Debanjan from "@/public/assets/images/events/judges/debanjan.jpg";
 import Partha from "@/public/assets/images/events/judges/partha.jpg";
 import Major from "@/public/assets/images/events/judges/major.jpg";
+import Monirul from "@/public/assets/images/events/judges/Monirul.jpg";
+import Pallavi from "@/public/assets/images/events/judges/Pallavi.jpg";
+import Purna from "@/public/assets/images/events/judges/Purna.jpg";
+import Pritam from "@/public/assets/images/events/judges/Pritam.jpg";
+import Sandeep from "@/public/assets/images/events/judges/Sandeep.jpg";
+import Kaushik from "@/public/assets/images/events/judges/Kaushik.jpg";
+import Saatvik from "@/public/assets/images/events/judges/Saatvik.jpg";
+import Shashwat from "@/public/assets/images/events/judges/Shashwat.jpg";
+import Manika from "@/public/assets/images/events/judges/Manika.jpg";
 
 // Auditorium Images
 import Kalidas from "@/public/assets/images/events/kalidas.png";
@@ -227,27 +236,69 @@ export default function Event({ params }) {
 		},
 		{
 			code: "S1",
-			images: [],
+			images: [
+				{
+					name: "Sandeep Dwivedi",
+					image: Sandeep,
+				},
+			],
 		},
 		{
 			code: "S2",
-			images: [],
+			images: [
+				{
+					name: "Md. Monirul Islam",
+					image: Monirul,
+				},
+			],
 		},
 		{
 			code: "S3",
-			images: [],
+			images: [
+				{
+					name: "Shashwat Dash",
+					image: Shashwat,
+				},
+				{
+					name: "Kaushik Das",
+					image: Kaushik,
+				},
+				{
+					name: "Saatvik Dabral",
+					image: Saatvik,
+				},
+				{
+					name: "Pratham Dikshit",
+					image: Pratham,
+				},
+			],
 		},
 		{
 			code: "S4",
-			images: [],
+			images: [
+				{
+					name: "Purna Banerjee",
+					image: Purna,
+				},
+			],
 		},
 		{
 			code: "S5",
-			images: [],
+			images: [
+				{
+					name: "Pritam Goswami",
+					image: Pritam,
+				},
+			],
 		},
 		{
 			code: "S6",
-			images: [],
+			images: [
+				{
+					name: "Pallavi Joshi",
+					image: Pallavi,
+				},
+			],
 		},
 		{
 			code: "D1",
@@ -503,7 +554,16 @@ export default function Event({ params }) {
 		},
 		{
 			code: "G4",
-			images: [],
+			images: [
+				{
+					name: "Ankit Mukherjee",
+					image: Ankit,
+				},
+				{
+					name: "Hiba Khan",
+					image: Hiba,
+				},
+			],
 		},
 		{
 			code: "G5",
