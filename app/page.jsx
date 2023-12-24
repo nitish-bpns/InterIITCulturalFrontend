@@ -11,6 +11,7 @@ import PageStyles from "./Home.module.css";
 import LeaderboardComponent from "@/components/LeaderboardComponent";
 
 import HomeCarousel from "@/components/HomeCarousel";
+import ModelView from "@/components/ModelView";
 
 const myFont = localFont({ src: "../public/assets/fonts/Dreaming.woff2" });
 const neucha = Neucha({ weight: "400", subsets: ["latin"] });
@@ -100,15 +101,7 @@ export default function Home() {
 				<h1 data-aos="fade-up" className={Styles["heading"]}>
 					360 Degrees View of Campus
 				</h1>
-				<div
-					data-aos="fade-up"
-					style={{
-						width: "80%",
-						minHeight: "40vh",
-						borderRadius: 15,
-						background: "rgba(0, 0, 0, 0.55)",
-					}}
-				></div>
+				<ModelView />
 				<h1 className={Styles["heading"]}>Overall Leaderboard</h1>
 				<LeaderboardComponent allowChange={false} />
 			</section>
