@@ -8,7 +8,7 @@ import Nikhil_Vishwakarma from "@/public/assets/images/images_heads_temp/Nikhil 
 import Vaibhav_Joshi from "@/public/assets/images/images_heads_temp/DSC_9019.jpg";
 import Sahil_Tawar from "@/public/assets/images/images_heads_temp/Sahil Tawar.png";
 import Anurag_Saha from "@/public/assets/images/images_heads_temp/Anurag Saha.png";
-import Ankesh_Kumar from "@/public/assets/images/images_heads_temp/Ankesh Kumar.png";
+import Ankesh_Kumar from "@/public/assets/images/images_heads_temp/Ankesh.jpg";
 import Ashutosh_Patwariya from "@/public/assets/images/images_heads_temp/ashu.png";
 import Yuvraj_Singh from "@/public/assets/images/images_heads_temp/Yuvraj Singh.png";
 import Ruhul_Amin from "@/public/assets/images/images_heads_temp/Ruhul Amin.png";
