@@ -25,7 +25,7 @@ export async function POST(req) {
 		}
 
 		for (let i = 0; i < emails.length; i++) {
-			emails[i] = emails[i].trim().toLowerCase();
+			emails[i] = emails[i].trim();
 
 			if (!validator.isEmail(emails[i])) {
 				return NextResponse.json(

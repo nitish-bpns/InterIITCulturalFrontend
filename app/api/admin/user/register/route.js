@@ -11,7 +11,7 @@ export async function POST(req) {
 			await req.json();
 
 		name = sanitize(name).trim();
-		email = sanitize(email).trim().toLowerCase();
+		email = sanitize(email).trim();
 		phone = sanitize(phone).trim();
 		gender = sanitize(gender).trim();
 		instituteID = sanitize(instituteID).trim();

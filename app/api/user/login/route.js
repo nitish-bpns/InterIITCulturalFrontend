@@ -22,7 +22,7 @@ export async function POST(req) {
 			);
 		}
 
-		email = sanitize(email).trim().toLowerCase();
+		email = sanitize(email).trim();
 		phone = sanitize(phone).trim();
 
 		await connectToDatabase();
