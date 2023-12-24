@@ -226,58 +226,60 @@ export default function Profile() {
 			<main className={montserrat.className + Styles["main"]}>
 				<section className={Styles["personal-info-wrapper"]}>
 					<h1>Accomodation</h1>
-					<div className={Styles["acco-info"]}>
-						{hallName && (
-							<div className={Styles["acco-img"]}>
-								<Image
-									src={halls[hallName].img}
-									width={1000}
-									height={1000}
-									alt="Accomodation Hall"
-								/>
+					{hallName && (
+						<div className={Styles["acco-info"]}>
+							{hallName && (
+								<div className={Styles["acco-img"]}>
+									<Image
+										src={halls[hallName].img}
+										width={1000}
+										height={1000}
+										alt="Accomodation Hall"
+									/>
+								</div>
+							)}
+							<div className={Styles["acco-text"]}>
+								<p>
+									<span>Lodging :</span>
+								</p>
+								<p>
+									{hallName && halls[hallName].name}{" "}
+									{hallName && (
+										<a
+											style={{
+												color: "#6bb2ff",
+												textDecoration: "none",
+											}}
+											href={halls[hallName].location}
+											target="_blank"
+										>
+											<i class="fa-solid fa-map-location-dot"></i>
+										</a>
+									)}
+								</p>
+								<p>
+									<span>Room No. :</span>
+								</p>
+								<p>{roomNo}</p>
+								<p>
+									<span>Mess : </span>
+									{user.mess && halls[user.mess].name}{" "}
+									{user.mess && (
+										<a
+											style={{
+												color: "#6bb2ff",
+												textDecoration: "none",
+											}}
+											href={halls[user.mess].location}
+											target="_blank"
+										>
+											<i class="fa-solid fa-map-location-dot"></i>
+										</a>
+									)}
+								</p>
 							</div>
-						)}
-						<div className={Styles["acco-text"]}>
-							<p>
-								<span>Lodging :</span>
-							</p>
-							<p>
-								{hallName && halls[hallName].name}{" "}
-								{hallName && (
-									<a
-										style={{
-											color: "#6bb2ff",
-											textDecoration: "none",
-										}}
-										href={halls[hallName].location}
-										target="_blank"
-									>
-										<i class="fa-solid fa-map-location-dot"></i>
-									</a>
-								)}
-							</p>
-							<p>
-								<span>Room No. :</span>
-							</p>
-							<p>{roomNo}</p>
-							<p>
-								<span>Mess : </span>
-								{user.mess && halls[user.mess].name}{" "}
-								{user.mess && (
-									<a
-										style={{
-											color: "#6bb2ff",
-											textDecoration: "none",
-										}}
-										href={halls[user.mess].location}
-										target="_blank"
-									>
-										<i class="fa-solid fa-map-location-dot"></i>
-									</a>
-								)}
-							</p>
 						</div>
-					</div>
+					)}
 				</section>
 			</main>
 		);
