@@ -87,12 +87,6 @@
 	],
 	"1": [
 		{
-			"Event": "Biz Quiz",
-			"Venue": "Bhatnagar",
-			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
-			"Time": "8 AM"
-		},
-		{
 			"Event": "English Slam Poetry",
 			"Venue": "F244",
 			"Location": "https://maps.app.goo.gl/YrLpfoEtE8pFTvG89",
@@ -115,6 +109,12 @@
 			"Venue": "Multipurpose Room",
 			"Location": "https://maps.app.goo.gl/3rZ45SCX8sJgUGST6",
 			"Time": "8 AM"
+		},
+		{
+			"Event": "Biz Quiz",
+			"Venue": "Bhatnagar",
+			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
+			"Time": "9 AM"
 		},
 		{
 			"Event": "Pair on Stage",
@@ -153,6 +153,12 @@
 			"Time": "10 AM"
 		},
 		{
+			"Event": "Sacred Word Games",
+			"Venue": "Raman",
+			"Location": "https://maps.app.goo.gl/ZV4D2NKFB445uKWW6",
+			"Time": "3 PM"
+		},
+		{
 			"Event": "Vocals Solo",
 			"Venue": "SN Bose",
 			"Location": "https://maps.app.goo.gl/5FVP2p2JgDxHqPGX9",
@@ -162,18 +168,6 @@
 			"Event": "Canvas Painting",
 			"Venue": "Multipurpose Room",
 			"Location": "https://maps.app.goo.gl/3rZ45SCX8sJgUGST6",
-			"Time": "3 PM"
-		},
-		{
-			"Event": "MELA Quiz",
-			"Venue": "Bhatnagar",
-			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
-			"Time": "4 PM"
-		},
-		{
-			"Event": "Sacred Word Games",
-			"Venue": "F244",
-			"Location": "https://maps.app.goo.gl/YrLpfoEtE8pFTvG89",
 			"Time": "4 PM"
 		},
 		{
@@ -181,15 +175,15 @@
 			"Venue": "LBS Mess",
 			"Location": "https://maps.app.goo.gl/PhuHCzq9rPGzkq9J8",
 			"Time": "4 PM"
+		},
+		{
+			"Event": "MELA Quiz",
+			"Venue": "Bhatnagar",
+			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
+			"Time": "5 PM"
 		}
 	],
 	"2": [
-		{
-			"Event": "India Quiz",
-			"Venue": "Bhatnagar",
-			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
-			"Time": "8 AM"
-		},
 		{
 			"Event": "English Poetry Writing",
 			"Venue": "Raman",
@@ -219,6 +213,12 @@
 			"Venue": "-",
 			"Location": "",
 			"Time": "8 AM"
+		},
+		{
+			"Event": "India Quiz",
+			"Venue": "Bhatnagar",
+			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
+			"Time": "9 AM"
 		},
 		{
 			"Event": "Band Competition",
@@ -251,9 +251,9 @@
 			"Time": "2 PM"
 		},
 		{
-			"Event": "Sports Quiz",
-			"Venue": "Bhatnagar",
-			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
+			"Event": "JAM",
+			"Venue": "F244",
+			"Location": "https://maps.app.goo.gl/YrLpfoEtE8pFTvG89",
 			"Time": "4 PM"
 		},
 		{
@@ -263,9 +263,9 @@
 			"Time": "4 PM"
 		},
 		{
-			"Event": "JAM",
-			"Venue": "F244",
-			"Location": "https://maps.app.goo.gl/YrLpfoEtE8pFTvG89",
+			"Event": "Sports Quiz",
+			"Venue": "Bhatnagar",
+			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
 			"Time": "5 PM"
 		},
 		{
@@ -289,18 +289,6 @@
 	],
 	"3": [
 		{
-			"Event": "General Quiz",
-			"Venue": "Bhatnagar",
-			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
-			"Time": "8 AM"
-		},
-		{
-			"Event": "Fashion Show",
-			"Venue": "Kalidas",
-			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
-			"Time": "8 AM"
-		},
-		{
 			"Event": "51 Hour Film Screening",
 			"Venue": "Netaji",
 			"Location": "https://maps.app.goo.gl/6tj2khz4dnypX1gk8",
@@ -319,9 +307,21 @@
 			"Time": "8 AM"
 		},
 		{
+			"Event": "General Quiz",
+			"Venue": "Bhatnagar",
+			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
+			"Time": "9 AM"
+		},
+		{
 			"Event": "JAM",
 			"Venue": "F244",
 			"Location": "https://maps.app.goo.gl/YrLpfoEtE8pFTvG89",
+			"Time": "9 AM"
+		},
+		{
+			"Event": "Fashion Show",
+			"Venue": "Kalidas",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
 			"Time": "9 AM"
 		},
 		{
