@@ -20,7 +20,7 @@ export default function Food() {
 		<main className={montserrat.className}>
 			<BackButton href="/services" />
 			<section className={Styles["main"]}>
-				<h1 className={Styles["heading"]}>Restraunts/Eateries</h1>
+				<h1 className={Styles["heading"]}>Restaurants/Eateries</h1>
 				<p className={Styles["description"]}>
 					The following are the{" "}
 					<strong>Restaurants and Eateries</strong> available in the
