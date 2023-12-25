@@ -41,7 +41,7 @@ export default function Footer() {
 				</a>
 				<a
 					target="_blank"
-					href="https://www.youtube.com/@interiitculturalmeet1758"
+					href="https://www.youtube.com/@InterIITCulturalMeet6.0"
 				>
 					<i className="fab fa-youtube"></i>
 				</a>
