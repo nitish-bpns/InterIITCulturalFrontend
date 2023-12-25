@@ -1,6 +1,18 @@
 {
 	"0": [
 		{
+			"Event": "Stage Play Lights Practice",
+			"Venue": "Kalidas",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
+			"Time": "8 AM"
+		},
+		{
+			"Event": "Dance Lights Practice",
+			"Venue": "Netaji",
+			"Location": "https://maps.app.goo.gl/6tj2khz4dnypX1gk8",
+			"Time": "8 AM"
+		},
+		{
 			"Event": "Sci Tech Quiz",
 			"Venue": "Bhatnagar",
 			"Location": "https://maps.app.goo.gl/BnZTkUUtsnLrZ7uL7",
@@ -31,22 +43,16 @@
 			"Time": "11 AM"
 		},
 		{
-			"Event": "Stage Play Lights Practice",
-			"Venue": "Kalidas",
-			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
-			"Time": "11 AM"
-		},
-		{
-			"Event": "Dance Lights Practice",
-			"Venue": "Netaji",
-			"Location": "https://maps.app.goo.gl/6tj2khz4dnypX1gk8",
-			"Time": "11 AM"
-		},
-		{
 			"Event": "Design Marathon",
 			"Venue": "Nalanda",
 			"Location": "https://maps.app.goo.gl/riH6edSc36adPj896",
 			"Time": "12 PM"
+		},
+		{
+			"Event": "Welcome Ceremony",
+			"Venue": "Kalidas",
+			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
+			"Time": "3 PM"
 		},
 		{
 			"Event": "Band Sound Check",
@@ -55,28 +61,28 @@
 			"Time": "3 PM"
 		},
 		{
-			"Event": "Welcome Ceremony",
-			"Venue": "Kalidas",
-			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
-			"Time": "4 PM"
-		},
-		{
 			"Event": "Cryptic Crosword",
 			"Venue": "Raman",
 			"Location": "https://maps.app.goo.gl/ZV4D2NKFB445uKWW6",
 			"Time": "6 PM"
 		},
 		{
+			"Event": "Dance Lights Practice",
+			"Venue": "Netaji",
+			"Location": "https://maps.app.goo.gl/6tj2khz4dnypX1gk8",
+			"Time": "6 PM"
+		},
+		{
 			"Event": "Mime Lights Practice",
 			"Venue": "Kalidas",
 			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
-			"Time": "11 PM"
+			"Time": "9 PM"
 		},
 		{
 			"Event": "Fashion Lights Practice",
 			"Venue": "Kalidas",
 			"Location": "https://maps.app.goo.gl/azKuhgdDzFPHerwTA",
-			"Time": "1 AM"
+			"Time": "12 AM"
 		}
 	],
 	"1": [
