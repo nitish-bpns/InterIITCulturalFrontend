@@ -10,7 +10,92 @@ import Styles from "@/components/LeaderboardComponent.module.css";
 
 export default function LeaderboardComponent({ allowChange }) {
 	const [eventCode, setEventCode] = useState("all");
-	const [data, setData] = useState([]);
+	const [data, setData] = useState([
+		{
+			institute: "IITKGP",
+			score: 0,
+		},
+		{
+			institute: "IITB",
+			score: 0,
+		},
+		{
+			institute: "IITM",
+			score: 0,
+		},
+		{
+			institute: "IITK",
+			score: 0,
+		},
+		{
+			institute: "IITD",
+			score: 0,
+		},
+		{
+			institute: "IITG",
+			score: 0,
+		},
+		{
+			institute: "IITR",
+			score: 0,
+		},
+		{
+			institute: "IITRPR",
+			score: 0,
+		},
+		{
+			institute: "IITBBS",
+			score: 0,
+		},
+		{
+			institute: "IITH",
+			score: 0,
+		},
+		{
+			institute: "IITJ",
+			score: 0,
+		},
+		{
+			institute: "IITP",
+			score: 0,
+		},
+		{
+			institute: "IITI",
+			score: 0,
+		},
+		{
+			institute: "IITMD",
+			score: 0,
+		},
+		{
+			institute: "IITBHU",
+			score: 0,
+		},
+		{
+			institute: "IITPKD",
+			score: 0,
+		},
+		{
+			institute: "IITT",
+			score: 0,
+		},
+		{
+			institute: "IITDHN",
+			score: 0,
+		},
+		{
+			institute: "IITBH",
+			score: 0,
+		},
+		{
+			institute: "IITDH",
+			score: 0,
+		},
+		{
+			institute: "IITJMU",
+			score: 0,
+		},
+	]);
 
 	useEffect(() => {
 		const getData = async () => {
@@ -23,7 +108,7 @@ export default function LeaderboardComponent({ allowChange }) {
 			const data = await res.json();
 			setData(data);
 		};
-		getData();
+		// getData();
 	}, [eventCode]);
 
 	return (

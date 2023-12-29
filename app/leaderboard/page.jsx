@@ -13,7 +13,7 @@ export default function Leaderboard() {
 		<main className={handlee.className}>
 			<section className={Styles["main"]}>
 				<h1 className={Styles["heading"]}>Leaderboard</h1>
-				<LeaderboardComponent allowChange={true} />
+				<LeaderboardComponent allowChange={false} />
 			</section>
 		</main>
 	);
