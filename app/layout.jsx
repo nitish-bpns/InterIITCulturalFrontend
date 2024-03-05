@@ -23,7 +23,7 @@ export const metadata = {
 		"competition",
 		"championship",
 	],
-	metadataBase: new URL("https://interiitculturals.org"),
+	metadataBase: new URL("https://inter-iit-cultural-frontend.vercel.app"),
 };
 
 export default function RootLayout({ children }) {
